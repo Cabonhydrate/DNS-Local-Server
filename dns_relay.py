@@ -2,10 +2,11 @@ import socket
 import struct
 
 class DNSRelay:
-    def __init__(self, local_ip, local_port, upstream_server):
+    def __init__(self, local_ip, local_port, upstream_server, logger):
         self.local_ip = local_ip
         self.local_port = local_port
         self.upstream_server = upstream_server
+        self.logger = logger
 
     def forward_query(self, query_data):
         try:
@@ -16,10 +17,10 @@ class DNSRelay:
             try:
                 response, _ = sock.recvfrom(512)
             except socket.timeout:
-                print("Upstream DNS server timeout")
+                self.logger.warning("Upstream DNS server timeout")
                 return None
             sock.close()
             return response
         except Exception as e:
-            print(f"Error forwarding query: {e}")
+            self.logger.error(f"Error forwarding query: {e}")
             return None

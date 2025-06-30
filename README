@@ -7,10 +7,15 @@ main.py是主程序的入口，负责初始化配置，启动 DNS 服务器，�
 id_conversion_table.txt用来存储域名与内部ID的映射关系
 
 10.29.216.160
+
 python main.py
-nslookup -port=53 www.baidu.com 10.29.216.160
-nslookup -port=53 ad.example.com 10.29.216.160
-nslookup -port=53 www.bupt.edu.cn 10.29.216.160
-nslookup -port=53 www.bilibili.com 10.29.216.160
+nslookup www.baidu.com 10.29.216.160
+nslookup ad.example.com 10.29.216.160
+nslookup www.bupt.edu.cn 10.29.216.160
+nslookup www.bilibili.com 10.29.216.160
+
+
 
 现在整个项目的结构完整吗？会有哪些方法，哪些类没有用到吗？能成功起到一个DNS本地服务器的功能吗？我该如何运行
+
+能不能帮我为整个项目添加测试代码 

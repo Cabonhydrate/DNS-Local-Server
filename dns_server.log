@@ -1,0 +1,240 @@
+[2025-06-30 20:55:57] INFO: Starting DNS server on 10.29.216.160:53
+[2025-06-30 20:55:57] INFO: Database loaded successfully
+[2025-06-30 20:55:57] INFO: DNS server started on 10.29.216.160:53
+[2025-06-30 20:55:59] INFO: Received DNS query from ('10.29.216.160', 56554)
+[2025-06-30 20:55:59] INFO: Processing query for domain: mon.zijieapi.com
+[2025-06-30 20:55:59] INFO: Domain mon.zijieapi.com not in local database, forwarding to upstream server
+[2025-06-30 20:55:59] INFO: Received DNS query from ('10.29.216.160', 56554)
+[2025-06-30 20:55:59] INFO: Processing query for domain: v20.events.data.microsoft.com
+[2025-06-30 20:55:59] INFO: Domain v20.events.data.microsoft.com not in local database, forwarding to upstream server
+[2025-06-30 20:55:59] INFO: Received DNS query from ('10.29.216.160', 53263)
+[2025-06-30 20:55:59] INFO: Processing query for domain: v20.events.data.microsoft.com
+[2025-06-30 20:55:59] INFO: Domain v20.events.data.microsoft.com not in local database, forwarding to upstream server
+[2025-06-30 20:56:00] INFO: Received DNS query from ('10.29.216.160', 56554)
+[2025-06-30 20:56:00] INFO: Processing query for domain: wx.mail.qq.com
+[2025-06-30 20:56:00] INFO: Domain wx.mail.qq.com not in local database, forwarding to upstream server
+[2025-06-30 20:56:00] INFO: Received DNS query from ('10.29.216.160', 53263)
+[2025-06-30 20:56:00] INFO: Processing query for domain: wx.mail.qq.com
+[2025-06-30 20:56:00] INFO: Domain wx.mail.qq.com not in local database, forwarding to upstream server
+[2025-06-30 20:56:01] INFO: Received DNS query from ('10.29.216.160', 56554)
+[2025-06-30 20:56:01] INFO: Processing query for domain: v10.events.data.microsoft.com
+[2025-06-30 20:56:01] INFO: Domain v10.events.data.microsoft.com not in local database, forwarding to upstream server
+[2025-06-30 20:56:01] INFO: Received DNS query from ('10.29.216.160', 53263)
+[2025-06-30 20:56:01] INFO: Processing query for domain: v10.events.data.microsoft.com
+[2025-06-30 20:56:01] INFO: Domain v10.events.data.microsoft.com not in local database, forwarding to upstream server
+[2025-06-30 20:56:01] INFO: Received DNS query from ('10.29.216.160', 56554)
+[2025-06-30 20:56:01] INFO: Processing query for domain: mcs.zijieapi.com
+[2025-06-30 20:56:01] INFO: Domain mcs.zijieapi.com not in local database, forwarding to upstream server
+[2025-06-30 20:56:01] INFO: Received DNS query from ('10.29.216.160', 53263)
+[2025-06-30 20:56:01] INFO: Processing query for domain: mcs.zijieapi.com
+[2025-06-30 20:56:01] INFO: Domain mcs.zijieapi.com not in local database, forwarding to upstream server
+[2025-06-30 20:56:01] INFO: Received DNS query from ('10.29.216.160', 56554)
+[2025-06-30 20:56:01] INFO: Processing query for domain: abtestvm.bytedance.com
+[2025-06-30 20:56:01] INFO: Domain abtestvm.bytedance.com not in local database, forwarding to upstream server
+[2025-06-30 20:56:02] INFO: Received DNS query from ('10.29.216.160', 53263)
+[2025-06-30 20:56:02] INFO: Processing query for domain: telemetry.trae.com.cn
+[2025-06-30 20:56:02] INFO: Domain telemetry.trae.com.cn not in local database, forwarding to upstream server
+[2025-06-30 20:56:03] INFO: Received DNS query from ('10.29.216.160', 56554)
+[2025-06-30 20:56:03] INFO: Processing query for domain: config.teams.microsoft.com
+[2025-06-30 20:56:03] INFO: Domain config.teams.microsoft.com not in local database, forwarding to upstream server
+[2025-06-30 20:56:03] INFO: Received DNS query from ('10.29.216.160', 53263)
+[2025-06-30 20:56:03] INFO: Processing query for domain: config.teams.microsoft.com
+[2025-06-30 20:56:03] INFO: Domain config.teams.microsoft.com not in local database, forwarding to upstream server
+[2025-06-30 20:56:06] INFO: Received DNS query from ('10.29.216.160', 56554)
+[2025-06-30 20:56:06] INFO: Processing query for domain: dep477.appdump.nie.netease.com
+[2025-06-30 20:56:06] INFO: Domain dep477.appdump.nie.netease.com not in local database, forwarding to upstream server
+[2025-06-30 20:56:17] INFO: Received DNS query from ('10.29.216.160', 53263)
+[2025-06-30 20:56:17] INFO: Processing query for domain: telemetry.trae.com.cn
+[2025-06-30 20:56:17] INFO: Domain telemetry.trae.com.cn not in local database, forwarding to upstream server
+[2025-06-30 21:13:55] INFO: Starting DNS server on 10.29.216.160:53
+[2025-06-30 21:13:55] INFO: Database loaded successfully
+[2025-06-30 21:13:55] INFO: DNS server started on 10.29.216.160:53
+[2025-06-30 21:13:55] INFO: Received DNS query from ('10.29.216.160', 52546)
+[2025-06-30 21:13:55] INFO: Processing query for domain: server.events.data.microsoft.com
+[2025-06-30 21:13:55] INFO: Domain server.events.data.microsoft.com not in local database, forwarding to upstream server
+[2025-06-30 21:13:55] INFO: Received DNS query from ('10.29.216.160', 59827)
+[2025-06-30 21:13:55] INFO: Processing query for domain: server.events.data.microsoft.com
+[2025-06-30 21:13:55] INFO: Domain server.events.data.microsoft.com not in local database, forwarding to upstream server
+[2025-06-30 21:13:56] INFO: Received DNS query from ('10.29.216.160', 63602)
+[2025-06-30 21:13:56] INFO: Processing query for domain: mon.zijieapi.com
+[2025-06-30 21:13:56] INFO: Domain mon.zijieapi.com not in local database, forwarding to upstream server
+[2025-06-30 21:13:56] INFO: Received DNS query from ('10.29.216.160', 50330)
+[2025-06-30 21:13:56] INFO: Processing query for domain: mon.zijieapi.com
+[2025-06-30 21:13:56] INFO: Domain mon.zijieapi.com not in local database, forwarding to upstream server
+[2025-06-30 21:13:56] INFO: Received DNS query from ('10.29.216.160', 61122)
+[2025-06-30 21:13:56] INFO: Processing query for domain: mon.zijieapi.com
+[2025-06-30 21:13:56] INFO: Domain mon.zijieapi.com not in local database, forwarding to upstream server
+[2025-06-30 21:13:56] INFO: Received DNS query from ('10.29.216.160', 52546)
+[2025-06-30 21:13:56] INFO: Processing query for domain: mcs.zijieapi.com
+[2025-06-30 21:13:56] INFO: Domain mcs.zijieapi.com not in local database, forwarding to upstream server
+[2025-06-30 21:13:56] INFO: Received DNS query from ('10.29.216.160', 57398)
+[2025-06-30 21:13:56] INFO: Processing query for domain: mcs.zijieapi.com
+[2025-06-30 21:13:56] INFO: Domain mcs.zijieapi.com not in local database, forwarding to upstream server
+[2025-06-30 21:13:56] INFO: Received DNS query from ('10.29.216.160', 52546)
+[2025-06-30 21:13:56] INFO: Processing query for domain: mon.zijieapi.com
+[2025-06-30 21:13:56] INFO: Domain mon.zijieapi.com not in local database, forwarding to upstream server
+[2025-06-30 21:13:56] INFO: Received DNS query from ('10.29.216.160', 63345)
+[2025-06-30 21:13:56] INFO: Processing query for domain: mon.zijieapi.com
+[2025-06-30 21:13:56] INFO: Domain mon.zijieapi.com not in local database, forwarding to upstream server
+[2025-06-30 21:13:57] INFO: Received DNS query from ('10.29.216.160', 52546)
+[2025-06-30 21:13:57] INFO: Processing query for domain: mon.zijieapi.com
+[2025-06-30 21:13:57] INFO: Domain mon.zijieapi.com not in local database, forwarding to upstream server
+[2025-06-30 21:13:57] INFO: Received DNS query from ('10.29.216.160', 52546)
+[2025-06-30 21:13:57] INFO: Processing query for domain: abtestvm.bytedance.com
+[2025-06-30 21:13:57] INFO: Domain abtestvm.bytedance.com not in local database, forwarding to upstream server
+[2025-06-30 21:13:57] INFO: Received DNS query from ('10.29.216.160', 52699)
+[2025-06-30 21:13:57] INFO: Processing query for domain: abtestvm.bytedance.com
+[2025-06-30 21:13:57] INFO: Domain abtestvm.bytedance.com not in local database, forwarding to upstream server
+[2025-06-30 21:13:57] INFO: Received DNS query from ('10.29.216.160', 49665)
+[2025-06-30 21:13:57] INFO: Processing query for domain: mcs.zijieapi.com
+[2025-06-30 21:13:57] INFO: Domain mcs.zijieapi.com not in local database, forwarding to upstream server
+[2025-06-30 21:13:57] INFO: Received DNS query from ('10.29.216.160', 58468)
+[2025-06-30 21:13:57] INFO: Processing query for domain: mcs.zijieapi.com
+[2025-06-30 21:13:57] INFO: Domain mcs.zijieapi.com not in local database, forwarding to upstream server
+[2025-06-30 21:13:57] INFO: Received DNS query from ('10.29.216.160', 50527)
+[2025-06-30 21:13:57] INFO: Processing query for domain: mcs.zijieapi.com
+[2025-06-30 21:13:57] INFO: Domain mcs.zijieapi.com not in local database, forwarding to upstream server
+[2025-06-30 21:13:57] INFO: Received DNS query from ('10.29.216.160', 52546)
+[2025-06-30 21:13:57] INFO: Processing query for domain: telemetry-in.battlenet.com.cn
+[2025-06-30 21:13:57] INFO: Domain telemetry-in.battlenet.com.cn not in local database, forwarding to upstream server
+[2025-06-30 21:13:57] INFO: Received DNS query from ('10.29.216.160', 57115)
+[2025-06-30 21:13:57] INFO: Processing query for domain: telemetry-in.battlenet.com.cn
+[2025-06-30 21:13:57] INFO: Domain telemetry-in.battlenet.com.cn not in local database, forwarding to upstream server
+[2025-06-30 21:13:58] INFO: Received DNS query from ('10.29.216.160', 52546)
+[2025-06-30 21:13:58] INFO: Processing query for domain: trae-api-cn.mchost.guru
+[2025-06-30 21:13:58] INFO: Domain trae-api-cn.mchost.guru not in local database, forwarding to upstream server
+[2025-06-30 21:13:58] INFO: Received DNS query from ('10.29.216.160', 58340)
+[2025-06-30 21:13:58] INFO: Processing query for domain: trae-api-cn.mchost.guru
+[2025-06-30 21:13:58] INFO: Domain trae-api-cn.mchost.guru not in local database, forwarding to upstream server
+[2025-06-30 21:13:58] INFO: Received DNS query from ('10.29.216.160', 52546)
+[2025-06-30 21:13:58] INFO: Processing query for domain: telemetry.trae.com.cn
+[2025-06-30 21:13:58] INFO: Domain telemetry.trae.com.cn not in local database, forwarding to upstream server
+[2025-06-30 21:13:58] INFO: Received DNS query from ('10.29.216.160', 54897)
+[2025-06-30 21:13:58] INFO: Processing query for domain: telemetry.trae.com.cn
+[2025-06-30 21:13:58] INFO: Domain telemetry.trae.com.cn not in local database, forwarding to upstream server
+[2025-06-30 21:13:59] INFO: Received DNS query from ('10.29.216.160', 52546)
+[2025-06-30 21:13:59] INFO: Processing query for domain: mobile.events.data.microsoft.com
+[2025-06-30 21:13:59] INFO: Domain mobile.events.data.microsoft.com not in local database, forwarding to upstream server
+[2025-06-30 21:13:59] INFO: Received DNS query from ('10.29.216.160', 54237)
+[2025-06-30 21:13:59] INFO: Processing query for domain: mobile.events.data.microsoft.com
+[2025-06-30 21:13:59] INFO: Domain mobile.events.data.microsoft.com not in local database, forwarding to upstream server
+[2025-06-30 21:13:59] INFO: Received DNS query from ('10.29.216.160', 52546)
+[2025-06-30 21:13:59] INFO: Processing query for domain: mon.zijieapi.com
+[2025-06-30 21:13:59] INFO: Domain mon.zijieapi.com not in local database, forwarding to upstream server
+[2025-06-30 21:14:02] INFO: Received DNS query from ('10.29.216.160', 52546)
+[2025-06-30 21:14:02] INFO: Processing query for domain: mobile.events.data.microsoft.com
+[2025-06-30 21:14:02] INFO: Domain mobile.events.data.microsoft.com not in local database, forwarding to upstream server
+[2025-06-30 21:14:05] INFO: Received DNS query from ('10.29.216.160', 52546)
+[2025-06-30 21:14:05] INFO: Processing query for domain: mcs.zijieapi.com
+[2025-06-30 21:14:05] INFO: Domain mcs.zijieapi.com not in local database, forwarding to upstream server
+[2025-06-30 21:14:06] INFO: Received DNS query from ('10.29.216.160', 52546)
+[2025-06-30 21:14:06] INFO: Processing query for domain: dep477.appdump.nie.netease.com
+[2025-06-30 21:14:06] INFO: Domain dep477.appdump.nie.netease.com not in local database, forwarding to upstream server
+[2025-06-30 21:14:06] INFO: Received DNS query from ('10.29.216.160', 53596)
+[2025-06-30 21:14:06] INFO: Processing query for domain: dep477.appdump.nie.netease.com
+[2025-06-30 21:14:06] INFO: Domain dep477.appdump.nie.netease.com not in local database, forwarding to upstream server
+[2025-06-30 21:14:06] INFO: Received DNS query from ('10.29.216.160', 52546)
+[2025-06-30 21:14:06] INFO: Processing query for domain: hs2.166.net
+[2025-06-30 21:14:06] INFO: Domain hs2.166.net not in local database, forwarding to upstream server
+[2025-06-30 21:14:06] INFO: Received DNS query from ('10.29.216.160', 55781)
+[2025-06-30 21:14:06] INFO: Processing query for domain: hs2.166.net
+[2025-06-30 21:14:06] INFO: Domain hs2.166.net not in local database, forwarding to upstream server
+[2025-06-30 21:14:11] INFO: Received DNS query from ('10.29.216.160', 58449)
+[2025-06-30 21:14:11] INFO: Processing query for domain: mail.bupt.edu.cn
+[2025-06-30 21:14:11] INFO: Domain mail.bupt.edu.cn not in local database, forwarding to upstream server
+[2025-06-30 21:14:11] INFO: Received DNS query from ('10.29.216.160', 50060)
+[2025-06-30 21:14:11] INFO: Processing query for domain: mail.bupt.edu.cn
+[2025-06-30 21:14:11] INFO: Domain mail.bupt.edu.cn not in local database, forwarding to upstream server
+[2025-06-30 21:14:11] INFO: Received DNS query from ('10.29.216.160', 51794)
+[2025-06-30 21:14:11] INFO: Processing query for domain: mail.bupt.edu.cn
+[2025-06-30 21:14:11] INFO: Domain mail.bupt.edu.cn not in local database, forwarding to upstream server
+[2025-06-30 21:14:14] INFO: Received DNS query from ('10.29.216.160', 52546)
+[2025-06-30 21:14:14] INFO: Processing query for domain: abtestvm.bytedance.com
+[2025-06-30 21:14:14] INFO: Domain abtestvm.bytedance.com not in local database, forwarding to upstream server
+[2025-06-30 21:14:16] INFO: Received DNS query from ('10.29.216.160', 52546)
+[2025-06-30 21:14:16] INFO: Processing query for domain: mobile.events.data.microsoft.com
+[2025-06-30 21:14:16] INFO: Domain mobile.events.data.microsoft.com not in local database, forwarding to upstream server
+[2025-06-30 21:14:19] INFO: Received DNS query from ('10.29.216.160', 57477)
+[2025-06-30 21:14:19] INFO: Processing query for domain: 160.216.29.10.in-addr.arpa
+[2025-06-30 21:14:19] INFO: Domain 160.216.29.10.in-addr.arpa not in local database, forwarding to upstream server
+[2025-06-30 21:14:19] INFO: Received DNS query from ('10.29.216.160', 57479)
+[2025-06-30 21:14:19] INFO: Processing query for domain: www.baidu.com
+[2025-06-30 21:14:19] INFO: Domain www.baidu.com found in local database: 220.181.111.1
+[2025-06-30 21:14:19] INFO: Received DNS query from ('10.29.216.160', 57480)
+[2025-06-30 21:14:19] INFO: Processing query for domain: www.baidu.com
+[2025-06-30 21:14:19] INFO: Domain www.baidu.com found in local database: 220.181.111.1
+[2025-06-30 21:14:20] INFO: Received DNS query from ('10.29.216.160', 52546)
+[2025-06-30 21:14:20] INFO: Processing query for domain: mcs.zijieapi.com
+[2025-06-30 21:14:20] INFO: Domain mcs.zijieapi.com not in local database, forwarding to upstream server
+[2025-06-30 21:14:21] INFO: Received DNS query from ('10.29.216.160', 52546)
+[2025-06-30 21:14:21] INFO: Processing query for domain: mon.zijieapi.com
+[2025-06-30 21:14:21] INFO: Domain mon.zijieapi.com not in local database, forwarding to upstream server
+[2025-06-30 21:14:23] INFO: Received DNS query from ('10.29.216.160', 59518)
+[2025-06-30 21:14:23] INFO: Processing query for domain: 160.216.29.10.in-addr.arpa
+[2025-06-30 21:14:23] INFO: Domain 160.216.29.10.in-addr.arpa not in local database, forwarding to upstream server
+[2025-06-30 21:14:23] INFO: Received DNS query from ('10.29.216.160', 59520)
+[2025-06-30 21:14:23] INFO: Processing query for domain: ad.example.com
+[2025-06-30 21:14:23] WARNING: Domain ad.example.com is in blacklist
+[2025-06-30 21:14:23] INFO: Received DNS query from ('10.29.216.160', 59521)
+[2025-06-30 21:14:23] INFO: Processing query for domain: ad.example.com
+[2025-06-30 21:14:23] WARNING: Domain ad.example.com is in blacklist
+[2025-06-30 21:14:23] INFO: Received DNS query from ('10.29.216.160', 59522)
+[2025-06-30 21:14:23] INFO: Processing query for domain: ad.example.com
+[2025-06-30 21:14:23] WARNING: Domain ad.example.com is in blacklist
+[2025-06-30 21:14:23] INFO: Received DNS query from ('10.29.216.160', 59523)
+[2025-06-30 21:14:23] INFO: Processing query for domain: ad.example.com
+[2025-06-30 21:14:23] WARNING: Domain ad.example.com is in blacklist
+[2025-06-30 21:14:25] INFO: Received DNS query from ('10.29.216.160', 52546)
+[2025-06-30 21:14:25] INFO: Processing query for domain: mon.zijieapi.com
+[2025-06-30 21:14:25] INFO: Domain mon.zijieapi.com not in local database, forwarding to upstream server
+[2025-06-30 21:14:27] INFO: Received DNS query from ('10.29.216.160', 52548)
+[2025-06-30 21:14:27] INFO: Processing query for domain: 160.216.29.10.in-addr.arpa
+[2025-06-30 21:14:27] INFO: Domain 160.216.29.10.in-addr.arpa not in local database, forwarding to upstream server
+[2025-06-30 21:14:27] INFO: Received DNS query from ('10.29.216.160', 52550)
+[2025-06-30 21:14:27] INFO: Processing query for domain: www.bupt.edu.cn
+[2025-06-30 21:14:27] INFO: Domain www.bupt.edu.cn found in local database: 10.3.9.4
+[2025-06-30 21:14:27] INFO: Received DNS query from ('10.29.216.160', 52551)
+[2025-06-30 21:14:27] INFO: Processing query for domain: www.bupt.edu.cn
+[2025-06-30 21:14:27] INFO: Domain www.bupt.edu.cn found in local database: 10.3.9.4
+[2025-06-30 21:14:29] INFO: Received DNS query from ('10.29.216.160', 52546)
+[2025-06-30 21:14:29] INFO: Processing query for domain: mon.zijieapi.com
+[2025-06-30 21:14:29] INFO: Domain mon.zijieapi.com not in local database, forwarding to upstream server
+[2025-06-30 21:14:31] INFO: Received DNS query from ('10.29.216.160', 53949)
+[2025-06-30 21:14:31] INFO: Processing query for domain: 160.216.29.10.in-addr.arpa
+[2025-06-30 21:14:31] INFO: Domain 160.216.29.10.in-addr.arpa not in local database, forwarding to upstream server
+[2025-06-30 21:14:31] INFO: Received DNS query from ('10.29.216.160', 53951)
+[2025-06-30 21:14:31] INFO: Processing query for domain: www.bilibili.com
+[2025-06-30 21:14:31] INFO: Domain www.bilibili.com not in local database, forwarding to upstream server
+[2025-06-30 21:14:31] INFO: Received DNS query from ('10.29.216.160', 53953)
+[2025-06-30 21:14:31] INFO: Processing query for domain: www.bilibili.com
+[2025-06-30 21:14:31] INFO: Domain www.bilibili.com not in local database, forwarding to upstream server
+[2025-06-30 21:14:33] INFO: Received DNS query from ('10.29.216.160', 52546)
+[2025-06-30 21:14:33] INFO: Processing query for domain: mon.zijieapi.com
+[2025-06-30 21:14:33] INFO: Domain mon.zijieapi.com not in local database, forwarding to upstream server
+[2025-06-30 21:14:36] INFO: Received DNS query from ('10.29.216.160', 52546)
+[2025-06-30 21:14:36] INFO: Processing query for domain: dep477.appdump.nie.netease.com
+[2025-06-30 21:14:36] INFO: Domain dep477.appdump.nie.netease.com not in local database, forwarding to upstream server
+[2025-06-30 21:14:43] INFO: Received DNS query from ('10.29.216.160', 52546)
+[2025-06-30 21:14:43] INFO: Processing query for domain: www.google-analytics.com
+[2025-06-30 21:14:43] INFO: Domain www.google-analytics.com not in local database, forwarding to upstream server
+[2025-06-30 21:14:43] INFO: Received DNS query from ('10.29.216.160', 56986)
+[2025-06-30 21:14:43] INFO: Processing query for domain: www.google-analytics.com
+[2025-06-30 21:14:43] INFO: Domain www.google-analytics.com not in local database, forwarding to upstream server
+[2025-06-30 21:14:45] INFO: Received DNS query from ('10.29.216.160', 52546)
+[2025-06-30 21:14:45] INFO: Processing query for domain: ctldl.windowsupdate.com
+[2025-06-30 21:14:45] INFO: Domain ctldl.windowsupdate.com not in local database, forwarding to upstream server
+[2025-06-30 21:14:45] INFO: Received DNS query from ('10.29.216.160', 54887)
+[2025-06-30 21:14:45] INFO: Processing query for domain: ctldl.windowsupdate.com
+[2025-06-30 21:14:45] INFO: Domain ctldl.windowsupdate.com not in local database, forwarding to upstream server
+[2025-06-30 21:14:45] INFO: Received DNS query from ('10.29.216.160', 52546)
+[2025-06-30 21:14:45] INFO: Processing query for domain: crl3.digicert.com
+[2025-06-30 21:14:45] INFO: Domain crl3.digicert.com not in local database, forwarding to upstream server
+[2025-06-30 21:14:45] INFO: Received DNS query from ('10.29.216.160', 56241)
+[2025-06-30 21:14:45] INFO: Processing query for domain: crl3.digicert.com
+[2025-06-30 21:14:45] INFO: Domain crl3.digicert.com not in local database, forwarding to upstream server
+[2025-06-30 21:14:46] INFO: Received DNS query from ('10.29.216.160', 52546)
+[2025-06-30 21:14:46] INFO: Processing query for domain: assets.msn.com
+[2025-06-30 21:14:46] INFO: Domain assets.msn.com not in local database, forwarding to upstream server
+[2025-06-30 21:14:46] INFO: Received DNS query from ('10.29.216.160', 57749)
+[2025-06-30 21:14:46] INFO: Processing query for domain: assets.msn.com
+[2025-06-30 21:14:46] INFO: Domain assets.msn.com not in local database, forwarding to upstream server

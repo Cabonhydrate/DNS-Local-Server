@@ -4,43 +4,81 @@ from dns_db import LocalDNSDatabase
 from dns_relay import DNSRelay
 
 class DNSServer:
-    def __init__(self, local_ip, local_port, upstream_server, db_file):
+    def __init__(self, local_ip, local_port, upstream_server, db_file, logger):
         self.local_ip = local_ip
         self.local_port = local_port
         self.upstream_server = upstream_server
         self.db = LocalDNSDatabase(db_file)
-        self.relay = DNSRelay(local_ip, local_port, upstream_server)
+        self.logger = logger
+        self.relay = DNSRelay(local_ip, local_port, upstream_server, logger)
 
     def start(self):
         self.db.load()
         sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
         sock.bind((self.local_ip, self.local_port))
-        print(f"DNS server started on {self.local_ip}:{self.local_port}")
+        sock.settimeout(5)  # 添加超时设置
+        self.logger.info(f"DNS server started on {self.local_ip}:{self.local_port}")
         while True:
-            data, addr = sock.recvfrom(512)
-            self.handle_query(data, addr, sock)
+            try:
+                data, addr = sock.recvfrom(512)
+                self.handle_query(data, addr, sock)
+            except ConnectionResetError:
+                self.logger.warning("客户端连接被重置")
+            except socket.timeout:
+                continue  # 超时不处理，继续等待新请求
+            except Exception as e:
+                self.logger.error(f"发生错误: {e}")
 
     def handle_query(self, data, addr, sock):
-        dns_msg = DNSMessage.parse(data)
-        domain = self.extract_domain(dns_msg)  # 需要实现提取域名的逻辑
+        try:
+            self.logger.info(f"Received DNS query from {addr}")
+            dns_msg = DNSMessage.parse(data)
+            domain = self.extract_domain(dns_msg)  # 需要实现提取域名的逻辑
+            self.logger.info(f"Processing query for domain: {domain}")
+        except Exception as e:
+            self.logger.error(f"Failed to parse DNS query: {e}")
+            return
 
         if self.db.is_in_blacklist(domain):
+            self.logger.warning(f"Domain {domain} is in blacklist")
             response = self.build_blacklist_response(dns_msg)
-            sock.sendto(response, addr)
+            try:
+                sock.sendto(response, addr)
+            except ConnectionResetError:
+                self.logger.warning(f"发送黑名单响应到 {addr} 时连接被重置")
+            except Exception as e:
+                self.logger.error(f"发送黑名单响应错误: {e}")
         else:
             ip = self.db.get_ip(domain)
             if ip:
+                self.logger.info(f"Domain {domain} found in local database: {ip}")
                 response = self.build_whitelist_response(dns_msg, ip, domain)
-                sock.sendto(response, addr)
+                try:
+                    sock.sendto(response, addr)
+                except ConnectionResetError:
+                    self.logger.warning(f"发送白名单响应到 {addr} 时连接被重置")
+                except Exception as e:
+                    self.logger.error(f"发送白名单响应错误: {e}")
             else:
+                self.logger.info(f"Domain {domain} not in local database, forwarding to upstream server")
                 # 转发查询并获取上游服务器响应
                 response_data = self.relay.forward_query(data)
                 if response_data:
-                    sock.sendto(response_data, addr)
+                    try:
+                        sock.sendto(response_data, addr)
+                    except ConnectionResetError:
+                        self.logger.warning(f"发送上游响应到 {addr} 时连接被重置")
+                    except Exception as e:
+                        self.logger.error(f"发送上游响应错误: {e}")
                 else:
                     # 上游服务器无响应，返回服务器错误
                     error_response = self.build_error_response(dns_msg, rcode=2)
-                    sock.sendto(error_response, addr)
+                    try:
+                        sock.sendto(error_response, addr)
+                    except ConnectionResetError:
+                        self.logger.warning(f"发送错误响应到 {addr} 时连接被重置")
+                    except Exception as e:
+                        self.logger.error(f"发送错误响应错误: {e}")
 
     def extract_domain(self, dns_msg):
         """从DNS消息中提取第一个问题的域名

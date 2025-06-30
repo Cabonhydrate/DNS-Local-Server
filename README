@@ -1,0 +1,16 @@
+dns_db.py用于处理和DNS本地数据库有关的逻辑（白名单，黑名单，不在本地数据库）
+dns_message.py用于处理和DNS消息有关的逻辑（解析，构造）
+dns_relay.py用于处理和DNS中继，转发有关的逻辑（接收，发送）
+dns_server.py用于负责协调和管理 DNS 服务器的各个功能模块，处理客户端的 DNS 查询请求，并根据请求的内容和本地配置决定如何响应
+main.py是主程序的入口，负责初始化配置，启动 DNS 服务器，并处理命令行参数。
+
+id_conversion_table.txt用来存储域名与内部ID的映射关系
+
+10.29.216.160
+python main.py
+nslookup -port=53 www.baidu.com 10.29.216.160
+nslookup -port=53 ad.example.com 10.29.216.160
+nslookup -port=53 www.bupt.edu.cn 10.29.216.160
+nslookup -port=53 www.bilibili.com 10.29.216.160
+
+现在整个项目的结构完整吗？会有哪些方法，哪些类没有用到吗？能成功起到一个DNS本地服务器的功能吗？我该如何运行

@@ -1,1357 +1,616 @@
-[2025-06-30 21:42:00] INFO: Starting DNS server on 10.29.216.160:53
-[2025-06-30 21:42:00] INFO: Database loaded successfully
-[2025-06-30 21:42:00] ERROR: Failed to start DNS server: [WinError 10048] 通常每个套接字地址(协议/网络地址/端口)只允许使用一次。
-[2025-06-30 21:48:31] INFO: Starting DNS server on 10.29.216.160:53
-[2025-06-30 21:48:31] INFO: Database loaded successfully
-[2025-06-30 21:48:31] ERROR: Failed to start DNS server: [WinError 10048] 通常每个套接字地址(协议/网络地址/端口)只允许使用一次。
-[2025-06-30 21:56:36] INFO: Starting DNS server on 10.29.216.160:53
-[2025-06-30 21:56:36] INFO: Database loaded successfully
-[2025-06-30 21:56:36] ERROR: Failed to start DNS server: [WinError 10048] 通常每个套接字地址(协议/网络地址/端口)只允许使用一次。
-[2025-06-30 21:56:57] INFO: Starting DNS server on 10.29.216.160:53
-[2025-06-30 21:56:57] INFO: Database loaded successfully
-[2025-06-30 21:56:57] INFO: DNS server started on 10.29.216.160:53
-[2025-06-30 21:56:57] INFO: Received DNS query from ('10.29.216.160', 52092)
-[2025-06-30 21:56:57] INFO: Processing query for domain: telemetry.trae.com.cn
-[2025-06-30 21:56:57] INFO: Domain telemetry.trae.com.cn not in local database, forwarding to upstream server
-[2025-06-30 21:56:57] INFO: Received DNS query from ('10.29.216.160', 61204)
-[2025-06-30 21:56:57] INFO: Processing query for domain: telemetry.trae.com.cn
-[2025-06-30 21:56:57] INFO: Domain telemetry.trae.com.cn not in local database, forwarding to upstream server
-[2025-06-30 21:56:57] WARNING: 客户端连接被重置
-[2025-06-30 21:56:57] WARNING: 客户端连接被重置
-[2025-06-30 21:56:57] INFO: Received DNS query from ('10.29.216.160', 60050)
-[2025-06-30 21:56:57] INFO: Processing query for domain: mon.zijieapi.com
-[2025-06-30 21:56:57] INFO: Domain mon.zijieapi.com not in local database, forwarding to upstream server
-[2025-06-30 21:56:57] INFO: Received DNS query from ('10.29.216.160', 50755)
-[2025-06-30 21:56:57] INFO: Processing query for domain: mon.zijieapi.com
-[2025-06-30 21:56:57] INFO: Domain mon.zijieapi.com not in local database, forwarding to upstream server
-[2025-06-30 21:56:57] WARNING: 客户端连接被重置
-[2025-06-30 21:56:57] WARNING: 客户端连接被重置
-[2025-06-30 21:56:59] INFO: Received DNS query from ('10.29.216.160', 63545)
-[2025-06-30 21:56:59] INFO: Processing query for domain: mon.zijieapi.com
-[2025-06-30 21:56:59] INFO: Domain mon.zijieapi.com not in local database, forwarding to upstream server
-[2025-06-30 21:56:59] INFO: Received DNS query from ('10.29.216.160', 60531)
-[2025-06-30 21:56:59] INFO: Processing query for domain: mon.zijieapi.com
-[2025-06-30 21:56:59] INFO: Domain mon.zijieapi.com not in local database, forwarding to upstream server
-[2025-06-30 21:56:59] WARNING: 客户端连接被重置
-[2025-06-30 21:56:59] WARNING: 客户端连接被重置
-[2025-06-30 21:57:02] INFO: Received DNS query from ('10.29.216.160', 65446)
-[2025-06-30 21:57:02] INFO: Processing query for domain: abtestvm.bytedance.com
-[2025-06-30 21:57:02] INFO: Domain abtestvm.bytedance.com not in local database, forwarding to upstream server
-[2025-06-30 21:57:02] INFO: Received DNS query from ('10.29.216.160', 53212)
-[2025-06-30 21:57:02] INFO: Processing query for domain: abtestvm.bytedance.com
-[2025-06-30 21:57:02] INFO: Domain abtestvm.bytedance.com not in local database, forwarding to upstream server
-[2025-06-30 21:57:02] WARNING: 客户端连接被重置
-[2025-06-30 21:57:02] WARNING: 客户端连接被重置
-[2025-06-30 21:57:02] INFO: Received DNS query from ('10.29.216.160', 56478)
-[2025-06-30 21:57:02] INFO: Processing query for domain: telemetry.trae.com.cn
-[2025-06-30 21:57:02] INFO: Domain telemetry.trae.com.cn not in local database, forwarding to upstream server
-[2025-06-30 21:57:02] INFO: Received DNS query from ('10.29.216.160', 58475)
-[2025-06-30 21:57:02] INFO: Processing query for domain: telemetry.trae.com.cn
-[2025-06-30 21:57:02] INFO: Domain telemetry.trae.com.cn not in local database, forwarding to upstream server
-[2025-06-30 21:57:02] WARNING: 客户端连接被重置
-[2025-06-30 21:57:02] WARNING: 客户端连接被重置
-[2025-06-30 21:57:03] INFO: Received DNS query from ('10.29.216.160', 56537)
-[2025-06-30 21:57:03] INFO: Processing query for domain: mcs.zijieapi.com
-[2025-06-30 21:57:03] INFO: Domain mcs.zijieapi.com not in local database, forwarding to upstream server
-[2025-06-30 21:57:03] WARNING: 客户端连接被重置
-[2025-06-30 21:57:03] INFO: Received DNS query from ('10.29.216.160', 60635)
-[2025-06-30 21:57:03] INFO: Processing query for domain: trae-api-cn.mchost.guru
-[2025-06-30 21:57:03] INFO: Domain trae-api-cn.mchost.guru not in local database, forwarding to upstream server
-[2025-06-30 21:57:03] WARNING: 客户端连接被重置
-[2025-06-30 21:57:07] INFO: Received DNS query from ('10.29.216.160', 60266)
-[2025-06-30 21:57:07] INFO: Processing query for domain: telemetry.trae.com.cn
-[2025-06-30 21:57:07] INFO: Domain telemetry.trae.com.cn not in local database, forwarding to upstream server
-[2025-06-30 21:57:07] INFO: Received DNS query from ('10.29.216.160', 60441)
-[2025-06-30 21:57:07] INFO: Processing query for domain: telemetry.trae.com.cn
-[2025-06-30 21:57:07] INFO: Domain telemetry.trae.com.cn not in local database, forwarding to upstream server
-[2025-06-30 21:57:07] WARNING: 客户端连接被重置
-[2025-06-30 21:57:07] WARNING: 客户端连接被重置
-[2025-06-30 21:57:08] INFO: Received DNS query from ('10.29.216.160', 60444)
-[2025-06-30 21:57:08] INFO: Processing query for domain: 160.216.29.10.in-addr.arpa
-[2025-06-30 21:57:08] INFO: Domain 160.216.29.10.in-addr.arpa not in local database, forwarding to upstream server
-[2025-06-30 21:57:08] INFO: Received DNS query from ('10.29.216.160', 60446)
-[2025-06-30 21:57:08] INFO: Processing query for domain: www.baidu.com
-[2025-06-30 21:57:08] INFO: Domain www.baidu.com found in local database: 220.181.111.1
-[2025-06-30 21:57:08] INFO: Received DNS query from ('10.29.216.160', 60447)
-[2025-06-30 21:57:08] INFO: Processing query for domain: www.baidu.com
-[2025-06-30 21:57:08] INFO: Domain www.baidu.com found in local database: 220.181.111.1
-[2025-06-30 21:57:08] INFO: Received DNS query from ('10.29.216.160', 65155)
-[2025-06-30 21:57:08] INFO: Processing query for domain: mon.zijieapi.com
-[2025-06-30 21:57:08] INFO: Domain mon.zijieapi.com not in local database, forwarding to upstream server
-[2025-06-30 21:57:08] INFO: Received DNS query from ('10.29.216.160', 58803)
-[2025-06-30 21:57:08] INFO: Processing query for domain: mon.zijieapi.com
-[2025-06-30 21:57:08] INFO: Domain mon.zijieapi.com not in local database, forwarding to upstream server
-[2025-06-30 21:57:08] WARNING: 客户端连接被重置
-[2025-06-30 21:57:08] WARNING: 客户端连接被重置
-[2025-06-30 21:57:10] INFO: Received DNS query from ('10.29.216.160', 63104)
-[2025-06-30 21:57:10] INFO: Processing query for domain: mon.zijieapi.com
-[2025-06-30 21:57:10] INFO: Domain mon.zijieapi.com not in local database, forwarding to upstream server
-[2025-06-30 21:57:10] INFO: Received DNS query from ('10.29.216.160', 49352)
-[2025-06-30 21:57:10] INFO: Processing query for domain: mon.zijieapi.com
-[2025-06-30 21:57:10] INFO: Domain mon.zijieapi.com not in local database, forwarding to upstream server
-[2025-06-30 21:57:10] WARNING: 客户端连接被重置
-[2025-06-30 21:57:10] WARNING: 客户端连接被重置
-[2025-06-30 21:57:11] INFO: Received DNS query from ('10.29.216.160', 61742)
-[2025-06-30 21:57:11] INFO: Processing query for domain: abtestvm.bytedance.com
-[2025-06-30 21:57:11] INFO: Domain abtestvm.bytedance.com not in local database, forwarding to upstream server
-[2025-06-30 21:57:11] WARNING: 客户端连接被重置
-[2025-06-30 21:57:12] INFO: Received DNS query from ('10.29.216.160', 58056)
-[2025-06-30 21:57:12] INFO: Processing query for domain: telemetry.trae.com.cn
-[2025-06-30 21:57:12] INFO: Domain telemetry.trae.com.cn not in local database, forwarding to upstream server
-[2025-06-30 21:57:12] INFO: Received DNS query from ('10.29.216.160', 53549)
-[2025-06-30 21:57:12] INFO: Processing query for domain: telemetry.trae.com.cn
-[2025-06-30 21:57:12] INFO: Domain telemetry.trae.com.cn not in local database, forwarding to upstream server
-[2025-06-30 21:57:12] WARNING: 客户端连接被重置
-[2025-06-30 21:57:12] WARNING: 客户端连接被重置
-[2025-06-30 21:57:14] INFO: Received DNS query from ('10.29.216.160', 61617)
-[2025-06-30 21:57:14] INFO: Processing query for domain: mon.zijieapi.com
-[2025-06-30 21:57:14] INFO: Domain mon.zijieapi.com not in local database, forwarding to upstream server
-[2025-06-30 21:57:14] WARNING: 客户端连接被重置
-[2025-06-30 21:57:16] INFO: Received DNS query from ('10.29.216.160', 64527)
-[2025-06-30 21:57:16] INFO: Processing query for domain: mcs.zijieapi.com
-[2025-06-30 21:57:16] INFO: Domain mcs.zijieapi.com not in local database, forwarding to upstream server
-[2025-06-30 21:57:16] INFO: Received DNS query from ('10.29.216.160', 54459)
-[2025-06-30 21:57:16] INFO: Processing query for domain: mcs.zijieapi.com
-[2025-06-30 21:57:16] INFO: Domain mcs.zijieapi.com not in local database, forwarding to upstream server
-[2025-06-30 21:57:16] WARNING: 客户端连接被重置
-[2025-06-30 21:57:16] WARNING: 客户端连接被重置
-[2025-06-30 21:57:17] INFO: Received DNS query from ('10.29.216.160', 64444)
-[2025-06-30 21:57:17] INFO: Processing query for domain: trae-api-cn.mchost.guru
-[2025-06-30 21:57:17] INFO: Domain trae-api-cn.mchost.guru not in local database, forwarding to upstream server
-[2025-06-30 21:57:17] INFO: Received DNS query from ('10.29.216.160', 56692)
-[2025-06-30 21:57:17] INFO: Processing query for domain: trae-api-cn.mchost.guru
-[2025-06-30 21:57:17] INFO: Domain trae-api-cn.mchost.guru not in local database, forwarding to upstream server
-[2025-06-30 21:57:17] INFO: Received DNS query from ('10.29.216.160', 63724)
-[2025-06-30 21:57:17] INFO: Processing query for domain: telemetry.trae.com.cn
-[2025-06-30 21:57:17] INFO: Domain telemetry.trae.com.cn not in local database, forwarding to upstream server
-[2025-06-30 21:57:17] INFO: Received DNS query from ('10.29.216.160', 59053)
-[2025-06-30 21:57:17] INFO: Processing query for domain: telemetry.trae.com.cn
-[2025-06-30 21:57:17] INFO: Domain telemetry.trae.com.cn not in local database, forwarding to upstream server
-[2025-06-30 21:57:17] WARNING: 客户端连接被重置
-[2025-06-30 21:57:17] WARNING: 客户端连接被重置
-[2025-06-30 21:57:18] INFO: Received DNS query from ('10.29.216.160', 52130)
-[2025-06-30 21:57:18] INFO: Processing query for domain: abtestvm.bytedance.com
-[2025-06-30 21:57:18] INFO: Domain abtestvm.bytedance.com not in local database, forwarding to upstream server
-[2025-06-30 21:57:18] INFO: Received DNS query from ('10.29.216.160', 58380)
-[2025-06-30 21:57:18] INFO: Processing query for domain: abtestvm.bytedance.com
-[2025-06-30 21:57:18] INFO: Domain abtestvm.bytedance.com not in local database, forwarding to upstream server
-[2025-06-30 21:57:18] WARNING: 客户端连接被重置
-[2025-06-30 21:57:18] WARNING: 客户端连接被重置
-[2025-06-30 21:57:22] INFO: Received DNS query from ('10.29.216.160', 64654)
-[2025-06-30 21:57:22] INFO: Processing query for domain: trae-api-cn.mchost.guru
-[2025-06-30 21:57:22] INFO: Domain trae-api-cn.mchost.guru not in local database, forwarding to upstream server
-[2025-06-30 21:57:22] INFO: Received DNS query from ('10.29.216.160', 64655)
-[2025-06-30 21:57:22] INFO: Processing query for domain: trae-api-cn.mchost.guru
-[2025-06-30 21:57:22] INFO: Domain trae-api-cn.mchost.guru not in local database, forwarding to upstream server
-[2025-06-30 21:57:22] WARNING: 客户端连接被重置
-[2025-06-30 21:57:22] WARNING: 客户端连接被重置
-[2025-06-30 21:57:22] INFO: Received DNS query from ('10.29.216.160', 62834)
-[2025-06-30 21:57:22] INFO: Processing query for domain: telemetry.trae.com.cn
-[2025-06-30 21:57:22] INFO: Domain telemetry.trae.com.cn not in local database, forwarding to upstream server
-[2025-06-30 21:57:22] INFO: Received DNS query from ('10.29.216.160', 60311)
-[2025-06-30 21:57:22] INFO: Processing query for domain: telemetry.trae.com.cn
-[2025-06-30 21:57:22] INFO: Domain telemetry.trae.com.cn not in local database, forwarding to upstream server
-[2025-06-30 21:57:22] WARNING: 客户端连接被重置
-[2025-06-30 21:57:22] WARNING: 客户端连接被重置
-[2025-06-30 21:57:27] INFO: Received DNS query from ('10.29.216.160', 53915)
-[2025-06-30 21:57:27] INFO: Processing query for domain: telemetry.trae.com.cn
-[2025-06-30 21:57:27] INFO: Domain telemetry.trae.com.cn not in local database, forwarding to upstream server
-[2025-06-30 21:57:27] INFO: Received DNS query from ('10.29.216.160', 64998)
-[2025-06-30 21:57:27] INFO: Processing query for domain: telemetry.trae.com.cn
-[2025-06-30 21:57:27] INFO: Domain telemetry.trae.com.cn not in local database, forwarding to upstream server
-[2025-06-30 21:57:27] WARNING: 客户端连接被重置
-[2025-06-30 21:57:27] WARNING: 客户端连接被重置
-[2025-06-30 21:57:32] INFO: Received DNS query from ('10.29.216.160', 65409)
-[2025-06-30 21:57:32] INFO: Processing query for domain: telemetry.trae.com.cn
-[2025-06-30 21:57:32] INFO: Domain telemetry.trae.com.cn not in local database, forwarding to upstream server
-[2025-06-30 21:57:32] INFO: Received DNS query from ('10.29.216.160', 60175)
-[2025-06-30 21:57:32] INFO: Processing query for domain: telemetry.trae.com.cn
-[2025-06-30 21:57:32] INFO: Domain telemetry.trae.com.cn not in local database, forwarding to upstream server
-[2025-06-30 21:57:32] WARNING: 客户端连接被重置
-[2025-06-30 21:57:32] WARNING: 客户端连接被重置
-[2025-06-30 21:57:34] INFO: Received DNS query from ('10.29.216.160', 56357)
-[2025-06-30 21:57:34] INFO: Processing query for domain: mcs.zijieapi.com
-[2025-06-30 21:57:34] INFO: Domain mcs.zijieapi.com not in local database, forwarding to upstream server
-[2025-06-30 21:57:34] INFO: Received DNS query from ('10.29.216.160', 58956)
-[2025-06-30 21:57:34] INFO: Processing query for domain: mcs.zijieapi.com
-[2025-06-30 21:57:34] INFO: Domain mcs.zijieapi.com not in local database, forwarding to upstream server
-[2025-06-30 21:57:34] WARNING: 客户端连接被重置
-[2025-06-30 21:57:34] WARNING: 客户端连接被重置
-[2025-06-30 21:57:40] INFO: Received DNS query from ('10.29.216.160', 61675)
-[2025-06-30 21:57:40] INFO: Processing query for domain: tconf.f.360.cn
-[2025-06-30 21:57:40] INFO: Domain tconf.f.360.cn not in local database, forwarding to upstream server
-[2025-06-30 21:57:40] WARNING: 客户端连接被重置
-[2025-06-30 21:57:44] INFO: Received DNS query from ('10.29.216.160', 58192)
-[2025-06-30 21:57:44] INFO: Processing query for domain: tpstelemetry.tencent.com
-[2025-06-30 21:57:44] INFO: Domain tpstelemetry.tencent.com not in local database, forwarding to upstream server
-[2025-06-30 21:57:44] WARNING: 客户端连接被重置
-[2025-06-30 21:57:44] INFO: Received DNS query from ('10.29.216.160', 62940)
-[2025-06-30 21:57:44] INFO: Processing query for domain: tconf.f.360.cn
-[2025-06-30 21:57:44] INFO: Domain tconf.f.360.cn not in local database, forwarding to upstream server
-[2025-06-30 21:57:44] WARNING: 客户端连接被重置
-[2025-06-30 21:57:45] INFO: Received DNS query from ('10.29.216.160', 62497)
-[2025-06-30 21:57:45] INFO: Processing query for domain: tconf.f.360.cn
-[2025-06-30 21:57:45] INFO: Domain tconf.f.360.cn not in local database, forwarding to upstream server
-[2025-06-30 21:57:45] WARNING: 客户端连接被重置
-[2025-06-30 21:57:47] INFO: Received DNS query from ('10.29.216.160', 59961)
-[2025-06-30 21:57:47] INFO: Processing query for domain: 197.38.55.114.in-addr.arpa
-[2025-06-30 21:57:47] INFO: Domain 197.38.55.114.in-addr.arpa not in local database, forwarding to upstream server
-[2025-06-30 21:57:50] INFO: Received DNS query from ('10.29.216.160', 59961)
-[2025-06-30 21:57:50] INFO: Processing query for domain: tconf2.f.360.cn
-[2025-06-30 21:57:50] INFO: Domain tconf2.f.360.cn not in local database, forwarding to upstream server
-[2025-06-30 21:57:50] WARNING: 客户端连接被重置
-[2025-06-30 21:57:54] INFO: Received DNS query from ('10.29.216.160', 63155)
-[2025-06-30 21:57:54] INFO: Processing query for domain: tconf2.f.360.cn
-[2025-06-30 21:57:54] INFO: Domain tconf2.f.360.cn not in local database, forwarding to upstream server
-[2025-06-30 21:58:07] INFO: Received DNS query from ('10.29.216.160', 49912)
-[2025-06-30 21:58:07] INFO: Processing query for domain: telemetry.trae.com.cn
-[2025-06-30 21:58:07] INFO: Domain telemetry.trae.com.cn not in local database, forwarding to upstream server
-[2025-06-30 21:58:07] WARNING: 客户端连接被重置
-[2025-06-30 21:58:22] INFO: Received DNS query from ('10.29.216.160', 57540)
-[2025-06-30 21:58:22] INFO: Processing query for domain: mcs.zijieapi.com
-[2025-06-30 21:58:22] INFO: Domain mcs.zijieapi.com not in local database, forwarding to upstream server
-[2025-06-30 21:58:22] WARNING: 客户端连接被重置
-[2025-06-30 21:58:32] INFO: Received DNS query from ('10.29.216.160', 60880)
-[2025-06-30 21:58:32] INFO: Processing query for domain: mon.zijieapi.com
-[2025-06-30 21:58:32] INFO: Domain mon.zijieapi.com not in local database, forwarding to upstream server
-[2025-06-30 21:58:32] WARNING: 客户端连接被重置
-[2025-06-30 21:58:33] INFO: Received DNS query from ('10.29.216.160', 52218)
-[2025-06-30 21:58:33] INFO: Processing query for domain: mon.zijieapi.com
-[2025-06-30 21:58:33] INFO: Domain mon.zijieapi.com not in local database, forwarding to upstream server
-[2025-06-30 21:58:33] WARNING: 客户端连接被重置
-[2025-06-30 21:58:33] INFO: Received DNS query from ('10.29.216.160', 64232)
-[2025-06-30 21:58:33] INFO: Processing query for domain: mon.zijieapi.com
-[2025-06-30 21:58:33] INFO: Domain mon.zijieapi.com not in local database, forwarding to upstream server
-[2025-06-30 21:58:33] INFO: Received DNS query from ('10.29.216.160', 56078)
-[2025-06-30 21:58:33] INFO: Processing query for domain: mon.zijieapi.com
-[2025-06-30 21:58:33] INFO: Domain mon.zijieapi.com not in local database, forwarding to upstream server
-[2025-06-30 21:58:33] INFO: Received DNS query from ('10.29.216.160', 54224)
-[2025-06-30 21:58:33] INFO: Processing query for domain: mon.zijieapi.com
-[2025-06-30 21:58:33] INFO: Domain mon.zijieapi.com not in local database, forwarding to upstream server
-[2025-06-30 21:58:33] WARNING: 客户端连接被重置
-[2025-06-30 21:58:33] WARNING: 客户端连接被重置
-[2025-06-30 21:58:33] WARNING: 客户端连接被重置
-[2025-06-30 21:58:33] INFO: Received DNS query from ('10.29.216.160', 52317)
-[2025-06-30 21:58:33] INFO: Processing query for domain: mon.zijieapi.com
-[2025-06-30 21:58:33] INFO: Domain mon.zijieapi.com not in local database, forwarding to upstream server
-[2025-06-30 21:58:33] WARNING: 客户端连接被重置
-[2025-06-30 21:58:33] INFO: Received DNS query from ('10.29.216.160', 63406)
-[2025-06-30 21:58:33] INFO: Processing query for domain: mon.zijieapi.com
-[2025-06-30 21:58:33] INFO: Domain mon.zijieapi.com not in local database, forwarding to upstream server
-[2025-06-30 21:58:33] INFO: Received DNS query from ('10.29.216.160', 65116)
-[2025-06-30 21:58:33] INFO: Processing query for domain: mon.zijieapi.com
-[2025-06-30 21:58:33] INFO: Domain mon.zijieapi.com not in local database, forwarding to upstream server
-[2025-06-30 21:58:33] INFO: Received DNS query from ('10.29.216.160', 52546)
-[2025-06-30 21:58:33] INFO: Processing query for domain: mon.zijieapi.com
-[2025-06-30 21:58:33] INFO: Domain mon.zijieapi.com not in local database, forwarding to upstream server
-[2025-06-30 21:58:33] WARNING: 客户端连接被重置
-[2025-06-30 21:58:33] WARNING: 客户端连接被重置
-[2025-06-30 21:58:33] INFO: Received DNS query from ('10.29.216.160', 53297)
-[2025-06-30 21:58:33] INFO: Processing query for domain: mon.zijieapi.com
-[2025-06-30 21:58:33] INFO: Domain mon.zijieapi.com not in local database, forwarding to upstream server
-[2025-06-30 21:58:33] WARNING: 客户端连接被重置
-[2025-06-30 21:58:33] INFO: Received DNS query from ('10.29.216.160', 54049)
-[2025-06-30 21:58:33] INFO: Processing query for domain: mon.zijieapi.com
-[2025-06-30 21:58:33] INFO: Domain mon.zijieapi.com not in local database, forwarding to upstream server
-[2025-06-30 21:58:33] WARNING: 客户端连接被重置
-[2025-06-30 21:58:33] INFO: Received DNS query from ('10.29.216.160', 55851)
-[2025-06-30 21:58:33] INFO: Processing query for domain: mon.zijieapi.com
-[2025-06-30 21:58:33] INFO: Domain mon.zijieapi.com not in local database, forwarding to upstream server
-[2025-06-30 21:58:33] INFO: Received DNS query from ('10.29.216.160', 52260)
-[2025-06-30 21:58:33] INFO: Processing query for domain: mon.zijieapi.com
-[2025-06-30 21:58:33] INFO: Domain mon.zijieapi.com not in local database, forwarding to upstream server
-[2025-06-30 21:58:33] WARNING: 客户端连接被重置
-[2025-06-30 21:58:33] WARNING: 客户端连接被重置
-[2025-06-30 21:58:33] INFO: Received DNS query from ('10.29.216.160', 55482)
-[2025-06-30 21:58:33] INFO: Processing query for domain: mon.zijieapi.com
-[2025-06-30 21:58:33] INFO: Domain mon.zijieapi.com not in local database, forwarding to upstream server
-[2025-06-30 21:58:33] INFO: Received DNS query from ('10.29.216.160', 56643)
-[2025-06-30 21:58:33] INFO: Processing query for domain: mon.zijieapi.com
-[2025-06-30 21:58:33] INFO: Domain mon.zijieapi.com not in local database, forwarding to upstream server
-[2025-06-30 21:58:33] WARNING: 客户端连接被重置
-[2025-06-30 21:58:33] WARNING: 客户端连接被重置
-[2025-06-30 21:58:33] WARNING: 客户端连接被重置
-[2025-06-30 21:58:37] INFO: Received DNS query from ('10.29.216.160', 52775)
-[2025-06-30 21:58:37] INFO: Processing query for domain: telemetry.trae.com.cn
-[2025-06-30 21:58:37] INFO: Domain telemetry.trae.com.cn not in local database, forwarding to upstream server
-[2025-06-30 21:58:37] INFO: Received DNS query from ('10.29.216.160', 59297)
-[2025-06-30 21:58:37] INFO: Processing query for domain: telemetry.trae.com.cn
-[2025-06-30 21:58:37] INFO: Domain telemetry.trae.com.cn not in local database, forwarding to upstream server
-[2025-06-30 21:58:37] WARNING: 客户端连接被重置
-[2025-06-30 21:58:37] WARNING: 客户端连接被重置
-[2025-06-30 21:58:52] INFO: Received DNS query from ('10.29.216.160', 62858)
-[2025-06-30 21:58:52] INFO: Processing query for domain: tconf.f.360.cn
-[2025-06-30 21:58:52] INFO: Domain tconf.f.360.cn not in local database, forwarding to upstream server
-[2025-06-30 21:58:52] WARNING: 客户端连接被重置
-[2025-06-30 21:58:57] INFO: Received DNS query from ('10.29.216.160', 53511)
-[2025-06-30 21:58:57] INFO: Processing query for domain: tconf.f.360.cn
-[2025-06-30 21:58:57] INFO: Domain tconf.f.360.cn not in local database, forwarding to upstream server
-[2025-06-30 21:58:57] WARNING: 客户端连接被重置
-[2025-06-30 21:59:02] INFO: Received DNS query from ('10.29.216.160', 57962)
-[2025-06-30 21:59:02] INFO: Processing query for domain: tconf2.f.360.cn
-[2025-06-30 21:59:02] INFO: Domain tconf2.f.360.cn not in local database, forwarding to upstream server
-[2025-06-30 21:59:02] WARNING: 客户端连接被重置
-[2025-06-30 21:59:07] INFO: Received DNS query from ('10.29.216.160', 50439)
-[2025-06-30 21:59:07] INFO: Processing query for domain: tconf2.f.360.cn
-[2025-06-30 21:59:07] INFO: Domain tconf2.f.360.cn not in local database, forwarding to upstream server
-[2025-06-30 21:59:07] WARNING: 客户端连接被重置
-[2025-06-30 21:59:07] INFO: Received DNS query from ('10.29.216.160', 55731)
-[2025-06-30 21:59:07] INFO: Processing query for domain: mon.zijieapi.com
-[2025-06-30 21:59:07] INFO: Domain mon.zijieapi.com not in local database, forwarding to upstream server
-[2025-06-30 21:59:07] INFO: Received DNS query from ('10.29.216.160', 56388)
-[2025-06-30 21:59:07] INFO: Processing query for domain: mon.zijieapi.com
-[2025-06-30 21:59:07] INFO: Domain mon.zijieapi.com not in local database, forwarding to upstream server
-[2025-06-30 21:59:07] WARNING: 客户端连接被重置
-[2025-06-30 21:59:07] WARNING: 客户端连接被重置
-[2025-06-30 21:59:12] INFO: Received DNS query from ('10.29.216.160', 59000)
-[2025-06-30 21:59:12] INFO: Processing query for domain: mon.zijieapi.com
-[2025-06-30 21:59:12] INFO: Domain mon.zijieapi.com not in local database, forwarding to upstream server
-[2025-06-30 21:59:12] INFO: Received DNS query from ('10.29.216.160', 49664)
-[2025-06-30 21:59:12] INFO: Processing query for domain: mon.zijieapi.com
-[2025-06-30 21:59:12] INFO: Domain mon.zijieapi.com not in local database, forwarding to upstream server
-[2025-06-30 21:59:12] INFO: Received DNS query from ('10.29.216.160', 59000)
-[2025-06-30 21:59:12] INFO: Processing query for domain: mon.zijieapi.com
-[2025-06-30 21:59:12] INFO: Domain mon.zijieapi.com not in local database, forwarding to upstream server
-[2025-06-30 21:59:12] INFO: Received DNS query from ('10.29.216.160', 61434)
-[2025-06-30 21:59:12] INFO: Processing query for domain: mon.zijieapi.com
-[2025-06-30 21:59:12] INFO: Domain mon.zijieapi.com not in local database, forwarding to upstream server
-[2025-06-30 21:59:12] WARNING: 客户端连接被重置
-[2025-06-30 21:59:12] WARNING: 客户端连接被重置
-[2025-06-30 21:59:12] WARNING: 客户端连接被重置
-[2025-06-30 21:59:12] INFO: Received DNS query from ('10.29.216.160', 53233)
-[2025-06-30 21:59:12] INFO: Processing query for domain: mon.zijieapi.com
-[2025-06-30 21:59:12] INFO: Domain mon.zijieapi.com not in local database, forwarding to upstream server
-[2025-06-30 21:59:12] INFO: Received DNS query from ('10.29.216.160', 53344)
-[2025-06-30 21:59:12] INFO: Processing query for domain: mon.zijieapi.com
-[2025-06-30 21:59:12] INFO: Domain mon.zijieapi.com not in local database, forwarding to upstream server
-[2025-06-30 21:59:12] WARNING: 客户端连接被重置
-[2025-06-30 21:59:12] WARNING: 客户端连接被重置
-[2025-06-30 21:59:44] INFO: Received DNS query from ('10.29.216.160', 55225)
-[2025-06-30 21:59:44] INFO: Processing query for domain: tpstelemetry.tencent.com
-[2025-06-30 21:59:44] INFO: Domain tpstelemetry.tencent.com not in local database, forwarding to upstream server
-[2025-06-30 21:59:44] WARNING: 客户端连接被重置
-[2025-06-30 21:59:47] INFO: Received DNS query from ('10.29.216.160', 62100)
-[2025-06-30 21:59:47] INFO: Processing query for domain: mon.zijieapi.com
-[2025-06-30 21:59:47] INFO: Domain mon.zijieapi.com not in local database, forwarding to upstream server
-[2025-06-30 21:59:47] WARNING: 客户端连接被重置
-[2025-06-30 21:59:47] INFO: Received DNS query from ('10.29.216.160', 57698)
-[2025-06-30 21:59:47] INFO: Processing query for domain: mon.zijieapi.com
-[2025-06-30 21:59:47] INFO: Domain mon.zijieapi.com not in local database, forwarding to upstream server
-[2025-06-30 21:59:47] WARNING: 客户端连接被重置
-[2025-06-30 21:59:47] INFO: Received DNS query from ('10.29.216.160', 56710)
-[2025-06-30 21:59:47] INFO: Processing query for domain: mon.zijieapi.com
-[2025-06-30 21:59:47] INFO: Domain mon.zijieapi.com not in local database, forwarding to upstream server
-[2025-06-30 21:59:47] WARNING: 客户端连接被重置
-[2025-06-30 21:59:47] INFO: Received DNS query from ('10.29.216.160', 56752)
-[2025-06-30 21:59:47] INFO: Processing query for domain: mon.zijieapi.com
-[2025-06-30 21:59:47] INFO: Domain mon.zijieapi.com not in local database, forwarding to upstream server
-[2025-06-30 21:59:47] WARNING: 客户端连接被重置
-[2025-06-30 21:59:57] INFO: Received DNS query from ('10.29.216.160', 59530)
-[2025-06-30 21:59:57] INFO: Processing query for domain: telemetry.trae.com.cn
-[2025-06-30 21:59:57] INFO: Domain telemetry.trae.com.cn not in local database, forwarding to upstream server
-[2025-06-30 21:59:57] INFO: Received DNS query from ('10.29.216.160', 57089)
-[2025-06-30 21:59:57] INFO: Processing query for domain: telemetry.trae.com.cn
-[2025-06-30 21:59:57] INFO: Domain telemetry.trae.com.cn not in local database, forwarding to upstream server
-[2025-06-30 21:59:57] WARNING: 客户端连接被重置
-[2025-06-30 21:59:57] WARNING: 客户端连接被重置
-[2025-06-30 22:00:02] INFO: Received DNS query from ('10.29.216.160', 50707)
-[2025-06-30 22:00:02] INFO: Processing query for domain: catalog.gamepass.com
-[2025-06-30 22:00:02] INFO: Domain catalog.gamepass.com not in local database, forwarding to upstream server
-[2025-06-30 22:00:02] WARNING: 客户端连接被重置
-[2025-06-30 22:00:05] INFO: Received DNS query from ('10.29.216.160', 62329)
-[2025-06-30 22:00:05] INFO: Processing query for domain: catalog.gamepass.com
-[2025-06-30 22:00:05] INFO: Domain catalog.gamepass.com not in local database, forwarding to upstream server
-[2025-06-30 22:00:05] WARNING: 客户端连接被重置
-[2025-06-30 22:00:18] INFO: Received DNS query from ('10.29.216.160', 51380)
-[2025-06-30 22:00:18] INFO: Processing query for domain: cn.version.battlenet.com.cn
-[2025-06-30 22:00:18] INFO: Domain cn.version.battlenet.com.cn not in local database, forwarding to upstream server
-[2025-06-30 22:00:18] WARNING: 客户端连接被重置
-[2025-06-30 22:00:20] INFO: Received DNS query from ('10.29.216.160', 57127)
-[2025-06-30 22:00:20] INFO: Processing query for domain: cn.version.battlenet.com.cn
-[2025-06-30 22:00:20] INFO: Domain cn.version.battlenet.com.cn not in local database, forwarding to upstream server
-[2025-06-30 22:00:20] WARNING: 客户端连接被重置
-[2025-06-30 22:00:21] INFO: Received DNS query from ('10.29.216.160', 51273)
-[2025-06-30 22:00:21] INFO: Processing query for domain: telemetry-in.battlenet.com.cn
-[2025-06-30 22:00:21] INFO: Domain telemetry-in.battlenet.com.cn not in local database, forwarding to upstream server
-[2025-06-30 22:00:21] WARNING: 客户端连接被重置
-[2025-06-30 22:00:25] INFO: Received DNS query from ('10.29.216.160', 59784)
-[2025-06-30 22:00:25] INFO: Processing query for domain: telemetry-in.battlenet.com.cn
-[2025-06-30 22:00:25] INFO: Domain telemetry-in.battlenet.com.cn not in local database, forwarding to upstream server
-[2025-06-30 22:00:25] WARNING: 客户端连接被重置
-[2025-06-30 22:00:32] INFO: Received DNS query from ('10.29.216.160', 59643)
-[2025-06-30 22:00:32] INFO: Processing query for domain: bytegate.zijieapi.com
-[2025-06-30 22:00:32] INFO: Domain bytegate.zijieapi.com not in local database, forwarding to upstream server
-[2025-06-30 22:00:32] WARNING: 客户端连接被重置
-[2025-06-30 22:00:32] INFO: Received DNS query from ('10.29.216.160', 50486)
-[2025-06-30 22:00:32] INFO: Processing query for domain: mon.zijieapi.com
-[2025-06-30 22:00:32] INFO: Domain mon.zijieapi.com not in local database, forwarding to upstream server
-[2025-06-30 22:00:32] INFO: Received DNS query from ('10.29.216.160', 61509)
-[2025-06-30 22:00:32] INFO: Processing query for domain: mon.zijieapi.com
-[2025-06-30 22:00:32] INFO: Domain mon.zijieapi.com not in local database, forwarding to upstream server
-[2025-06-30 22:00:32] WARNING: 客户端连接被重置
-[2025-06-30 22:00:32] WARNING: 客户端连接被重置
-[2025-06-30 22:00:35] INFO: Received DNS query from ('10.29.216.160', 52323)
-[2025-06-30 22:00:35] INFO: Processing query for domain: bytegate.zijieapi.com
-[2025-06-30 22:00:35] INFO: Domain bytegate.zijieapi.com not in local database, forwarding to upstream server
-[2025-06-30 22:00:35] WARNING: 客户端连接被重置
-[2025-06-30 22:00:57] INFO: Received DNS query from ('10.29.216.160', 53016)
-[2025-06-30 22:00:57] INFO: Processing query for domain: mcs.zijieapi.com
-[2025-06-30 22:00:57] INFO: Domain mcs.zijieapi.com not in local database, forwarding to upstream server
-[2025-06-30 22:00:57] INFO: Received DNS query from ('10.29.216.160', 54873)
-[2025-06-30 22:00:57] INFO: Processing query for domain: mcs.zijieapi.com
-[2025-06-30 22:00:57] INFO: Domain mcs.zijieapi.com not in local database, forwarding to upstream server
-[2025-06-30 22:00:57] WARNING: 客户端连接被重置
-[2025-06-30 22:00:57] WARNING: 客户端连接被重置
-[2025-06-30 22:01:08] INFO: Received DNS query from ('10.29.216.160', 56012)
-[2025-06-30 22:01:08] INFO: Processing query for domain: trae-api-cn.mchost.guru
-[2025-06-30 22:01:08] INFO: Domain trae-api-cn.mchost.guru not in local database, forwarding to upstream server
-[2025-06-30 22:01:08] WARNING: 客户端连接被重置
-[2025-06-30 22:01:11] INFO: Received DNS query from ('10.29.216.160', 59784)
-[2025-06-30 22:01:11] INFO: Processing query for domain: mon.zijieapi.com
-[2025-06-30 22:01:11] INFO: Domain mon.zijieapi.com not in local database, forwarding to upstream server
-[2025-06-30 22:01:11] INFO: Received DNS query from ('10.29.216.160', 52546)
-[2025-06-30 22:01:11] INFO: Processing query for domain: mon.zijieapi.com
-[2025-06-30 22:01:11] INFO: Domain mon.zijieapi.com not in local database, forwarding to upstream server
-[2025-06-30 22:01:11] WARNING: 客户端连接被重置
-[2025-06-30 22:01:11] WARNING: 客户端连接被重置
-[2025-06-30 22:01:27] INFO: Received DNS query from ('10.29.216.160', 63275)
-[2025-06-30 22:01:27] INFO: Processing query for domain: tconf.f.360.cn
-[2025-06-30 22:01:27] INFO: Domain tconf.f.360.cn not in local database, forwarding to upstream server
-[2025-06-30 22:01:27] WARNING: 客户端连接被重置
-[2025-06-30 22:01:29] INFO: Received DNS query from ('10.29.216.160', 54918)
-[2025-06-30 22:01:29] INFO: Processing query for domain: baoku.360.cn
-[2025-06-30 22:01:29] INFO: Domain baoku.360.cn not in local database, forwarding to upstream server
-[2025-06-30 22:01:29] INFO: Received DNS query from ('10.29.216.160', 62726)
-[2025-06-30 22:01:29] INFO: Processing query for domain: soft.360.cn
-[2025-06-30 22:01:29] INFO: Domain soft.360.cn not in local database, forwarding to upstream server
-[2025-06-30 22:01:29] WARNING: 客户端连接被重置
-[2025-06-30 22:01:29] INFO: Received DNS query from ('10.29.216.160', 62168)
-[2025-06-30 22:01:29] INFO: Processing query for domain: q.soft.360.cn
-[2025-06-30 22:01:29] INFO: Domain q.soft.360.cn not in local database, forwarding to upstream server
-[2025-06-30 22:01:29] WARNING: 客户端连接被重置
-[2025-06-30 22:01:29] INFO: Received DNS query from ('10.29.216.160', 62946)
-[2025-06-30 22:01:29] INFO: Processing query for domain: cx.soft.360.cn
-[2025-06-30 22:01:29] INFO: Domain cx.soft.360.cn not in local database, forwarding to upstream server
-[2025-06-30 22:01:29] WARNING: 客户端连接被重置
-[2025-06-30 22:01:29] INFO: Received DNS query from ('10.29.216.160', 54479)
-[2025-06-30 22:01:29] INFO: Processing query for domain: mgr.soft.360.cn
-[2025-06-30 22:01:29] INFO: Domain mgr.soft.360.cn not in local database, forwarding to upstream server
-[2025-06-30 22:01:29] WARNING: 客户端连接被重置
-[2025-06-30 22:01:29] WARNING: 客户端连接被重置
-[2025-06-30 22:01:30] INFO: Received DNS query from ('10.29.216.160', 58964)
-[2025-06-30 22:01:30] INFO: Processing query for domain: mgr.soft.360.cn
-[2025-06-30 22:01:30] INFO: Domain mgr.soft.360.cn not in local database, forwarding to upstream server
-[2025-06-30 22:01:30] WARNING: 客户端连接被重置
-[2025-06-30 22:01:30] INFO: Received DNS query from ('10.29.216.160', 62381)
-[2025-06-30 22:01:30] INFO: Processing query for domain: q.soft.360.cn
-[2025-06-30 22:01:30] INFO: Domain q.soft.360.cn not in local database, forwarding to upstream server
-[2025-06-30 22:01:30] WARNING: 客户端连接被重置
-[2025-06-30 22:01:30] INFO: Received DNS query from ('10.29.216.160', 51570)
-[2025-06-30 22:01:30] INFO: Processing query for domain: soft.360.cn
-[2025-06-30 22:01:30] INFO: Domain soft.360.cn not in local database, forwarding to upstream server
-[2025-06-30 22:01:30] WARNING: 客户端连接被重置
-[2025-06-30 22:01:30] INFO: Received DNS query from ('10.29.216.160', 52156)
-[2025-06-30 22:01:30] INFO: Processing query for domain: baoku.360.cn
-[2025-06-30 22:01:30] INFO: Domain baoku.360.cn not in local database, forwarding to upstream server
-[2025-06-30 22:01:30] WARNING: 客户端连接被重置
-[2025-06-30 22:01:30] INFO: Received DNS query from ('10.29.216.160', 51575)
-[2025-06-30 22:01:30] INFO: Processing query for domain: cx.soft.360.cn
-[2025-06-30 22:01:30] INFO: Domain cx.soft.360.cn not in local database, forwarding to upstream server
-[2025-06-30 22:01:30] WARNING: 客户端连接被重置
-[2025-06-30 22:01:33] INFO: Received DNS query from ('10.29.216.160', 63405)
-[2025-06-30 22:01:33] INFO: Processing query for domain: tconf.f.360.cn
-[2025-06-30 22:01:33] INFO: Domain tconf.f.360.cn not in local database, forwarding to upstream server
-[2025-06-30 22:01:33] WARNING: 客户端连接被重置
-[2025-06-30 22:01:34] INFO: Received DNS query from ('10.29.216.160', 61528)
-[2025-06-30 22:01:34] INFO: Processing query for domain: mon.zijieapi.com
-[2025-06-30 22:01:34] INFO: Domain mon.zijieapi.com not in local database, forwarding to upstream server
-[2025-06-30 22:01:34] INFO: Received DNS query from ('10.29.216.160', 57419)
-[2025-06-30 22:01:34] INFO: Processing query for domain: mon.zijieapi.com
-[2025-06-30 22:01:34] INFO: Domain mon.zijieapi.com not in local database, forwarding to upstream server
-[2025-06-30 22:01:34] WARNING: 客户端连接被重置
-[2025-06-30 22:01:34] WARNING: 客户端连接被重置
-[2025-06-30 22:01:40] INFO: Received DNS query from ('10.29.216.160', 53819)
-[2025-06-30 22:01:40] INFO: Processing query for domain: mon.zijieapi.com
-[2025-06-30 22:01:40] INFO: Domain mon.zijieapi.com not in local database, forwarding to upstream server
-[2025-06-30 22:01:40] WARNING: 客户端连接被重置
-[2025-06-30 22:01:40] INFO: Received DNS query from ('10.29.216.160', 55440)
-[2025-06-30 22:01:40] INFO: Processing query for domain: mon.zijieapi.com
-[2025-06-30 22:01:40] INFO: Domain mon.zijieapi.com not in local database, forwarding to upstream server
-[2025-06-30 22:01:40] INFO: Received DNS query from ('10.29.216.160', 58422)
-[2025-06-30 22:01:40] INFO: Processing query for domain: mon.zijieapi.com
-[2025-06-30 22:01:40] INFO: Domain mon.zijieapi.com not in local database, forwarding to upstream server
-[2025-06-30 22:01:40] WARNING: 客户端连接被重置
-[2025-06-30 22:01:40] WARNING: 客户端连接被重置
-[2025-06-30 22:01:40] INFO: Received DNS query from ('10.29.216.160', 50060)
-[2025-06-30 22:01:40] INFO: Processing query for domain: mon.zijieapi.com
-[2025-06-30 22:01:40] INFO: Domain mon.zijieapi.com not in local database, forwarding to upstream server
-[2025-06-30 22:01:40] INFO: Received DNS query from ('10.29.216.160', 53220)
-[2025-06-30 22:01:40] INFO: Processing query for domain: mon.zijieapi.com
-[2025-06-30 22:01:40] INFO: Domain mon.zijieapi.com not in local database, forwarding to upstream server
-[2025-06-30 22:01:40] WARNING: 客户端连接被重置
-[2025-06-30 22:01:40] INFO: Received DNS query from ('10.29.216.160', 58338)
-[2025-06-30 22:01:40] INFO: Processing query for domain: mon.zijieapi.com
-[2025-06-30 22:01:40] INFO: Domain mon.zijieapi.com not in local database, forwarding to upstream server
-[2025-06-30 22:01:40] WARNING: 客户端连接被重置
-[2025-06-30 22:01:40] WARNING: 客户端连接被重置
-[2025-06-30 22:01:40] INFO: Received DNS query from ('10.29.216.160', 62855)
-[2025-06-30 22:01:40] INFO: Processing query for domain: mon.zijieapi.com
-[2025-06-30 22:01:40] INFO: Domain mon.zijieapi.com not in local database, forwarding to upstream server
-[2025-06-30 22:01:40] INFO: Received DNS query from ('10.29.216.160', 61692)
-[2025-06-30 22:01:40] INFO: Processing query for domain: mon.zijieapi.com
-[2025-06-30 22:01:40] INFO: Domain mon.zijieapi.com not in local database, forwarding to upstream server
-[2025-06-30 22:01:40] INFO: Received DNS query from ('10.29.216.160', 54388)
-[2025-06-30 22:01:40] INFO: Processing query for domain: mon.zijieapi.com
-[2025-06-30 22:01:40] INFO: Domain mon.zijieapi.com not in local database, forwarding to upstream server
-[2025-06-30 22:01:40] WARNING: 客户端连接被重置
-[2025-06-30 22:01:40] INFO: Received DNS query from ('10.29.216.160', 60794)
-[2025-06-30 22:01:40] INFO: Processing query for domain: mon.zijieapi.com
-[2025-06-30 22:01:40] INFO: Domain mon.zijieapi.com not in local database, forwarding to upstream server
-[2025-06-30 22:01:40] WARNING: 客户端连接被重置
-[2025-06-30 22:01:40] WARNING: 客户端连接被重置
-[2025-06-30 22:01:40] INFO: Received DNS query from ('10.29.216.160', 64868)
-[2025-06-30 22:01:40] INFO: Processing query for domain: mon.zijieapi.com
-[2025-06-30 22:01:40] INFO: Domain mon.zijieapi.com not in local database, forwarding to upstream server
-[2025-06-30 22:01:40] WARNING: 客户端连接被重置
-[2025-06-30 22:01:40] WARNING: 客户端连接被重置
-[2025-06-30 22:01:40] INFO: Received DNS query from ('10.29.216.160', 55245)
-[2025-06-30 22:01:40] INFO: Processing query for domain: mon.zijieapi.com
-[2025-06-30 22:01:40] INFO: Domain mon.zijieapi.com not in local database, forwarding to upstream server
-[2025-06-30 22:01:40] WARNING: 客户端连接被重置
-[2025-06-30 22:01:44] INFO: Received DNS query from ('10.29.216.160', 50456)
-[2025-06-30 22:01:44] INFO: Processing query for domain: tpstelemetry.tencent.com
-[2025-06-30 22:01:44] INFO: Domain tpstelemetry.tencent.com not in local database, forwarding to upstream server
-[2025-06-30 22:01:44] WARNING: 客户端连接被重置
-[2025-06-30 22:01:50] INFO: Received DNS query from ('10.29.216.160', 49365)
-[2025-06-30 22:01:50] INFO: Processing query for domain: mon.zijieapi.com
-[2025-06-30 22:01:50] INFO: Domain mon.zijieapi.com not in local database, forwarding to upstream server
-[2025-06-30 22:01:50] INFO: Received DNS query from ('10.29.216.160', 57197)
-[2025-06-30 22:01:50] INFO: Processing query for domain: mon.zijieapi.com
-[2025-06-30 22:01:50] INFO: Domain mon.zijieapi.com not in local database, forwarding to upstream server
-[2025-06-30 22:01:50] WARNING: 客户端连接被重置
-[2025-06-30 22:01:50] WARNING: 客户端连接被重置
-[2025-06-30 22:02:12] INFO: Received DNS query from ('10.29.216.160', 49664)
-[2025-06-30 22:02:12] INFO: Processing query for domain: tconf.f.360.cn
-[2025-06-30 22:02:12] INFO: Domain tconf.f.360.cn not in local database, forwarding to upstream server
-[2025-06-30 22:02:12] WARNING: 客户端连接被重置
-[2025-06-30 22:02:17] INFO: Received DNS query from ('10.29.216.160', 55788)
-[2025-06-30 22:02:17] INFO: Processing query for domain: tconf.f.360.cn
-[2025-06-30 22:02:17] INFO: Domain tconf.f.360.cn not in local database, forwarding to upstream server
-[2025-06-30 22:02:17] WARNING: 客户端连接被重置
-[2025-06-30 22:02:22] INFO: Received DNS query from ('10.29.216.160', 53001)
-[2025-06-30 22:02:22] INFO: Processing query for domain: tconf2.f.360.cn
-[2025-06-30 22:02:22] INFO: Domain tconf2.f.360.cn not in local database, forwarding to upstream server
-[2025-06-30 22:02:22] WARNING: 客户端连接被重置
-[2025-06-30 22:02:24] INFO: Received DNS query from ('10.29.216.160', 51107)
-[2025-06-30 22:02:24] INFO: Processing query for domain: mon.zijieapi.com
-[2025-06-30 22:02:24] INFO: Domain mon.zijieapi.com not in local database, forwarding to upstream server
-[2025-06-30 22:02:24] INFO: Received DNS query from ('10.29.216.160', 49664)
-[2025-06-30 22:02:24] INFO: Processing query for domain: mon.zijieapi.com
-[2025-06-30 22:02:24] INFO: Domain mon.zijieapi.com not in local database, forwarding to upstream server
-[2025-06-30 22:02:24] WARNING: 客户端连接被重置
-[2025-06-30 22:02:24] WARNING: 客户端连接被重置
-[2025-06-30 22:02:27] INFO: Received DNS query from ('10.29.216.160', 56861)
-[2025-06-30 22:02:27] INFO: Processing query for domain: tconf2.f.360.cn
-[2025-06-30 22:02:27] INFO: Domain tconf2.f.360.cn not in local database, forwarding to upstream server
-[2025-06-30 22:02:27] WARNING: 客户端连接被重置
-[2025-06-30 22:02:37] INFO: Received DNS query from ('10.29.216.160', 60086)
-[2025-06-30 22:02:37] INFO: Processing query for domain: mcs.zijieapi.com
-[2025-06-30 22:02:37] INFO: Domain mcs.zijieapi.com not in local database, forwarding to upstream server
-[2025-06-30 22:02:37] WARNING: 客户端连接被重置
-[2025-06-30 22:03:01] INFO: Received DNS query from ('10.29.216.160', 65416)
-[2025-06-30 22:03:01] INFO: Processing query for domain: mon.zijieapi.com
-[2025-06-30 22:03:01] INFO: Domain mon.zijieapi.com not in local database, forwarding to upstream server
-[2025-06-30 22:03:01] INFO: Received DNS query from ('10.29.216.160', 61890)
-[2025-06-30 22:03:01] INFO: Processing query for domain: mon.zijieapi.com
-[2025-06-30 22:03:01] INFO: Domain mon.zijieapi.com not in local database, forwarding to upstream server
-[2025-06-30 22:03:01] WARNING: 客户端连接被重置
-[2025-06-30 22:03:01] WARNING: 客户端连接被重置
-[2025-06-30 22:03:11] INFO: Received DNS query from ('10.29.216.160', 57290)
-[2025-06-30 22:03:11] INFO: Processing query for domain: github.com
-[2025-06-30 22:03:11] INFO: Domain github.com not in local database, forwarding to upstream server
-[2025-06-30 22:03:11] WARNING: 客户端连接被重置
-[2025-06-30 22:03:13] INFO: Received DNS query from ('10.29.216.160', 52738)
-[2025-06-30 22:03:13] INFO: Processing query for domain: telemetry.trae.com.cn
-[2025-06-30 22:03:13] INFO: Domain telemetry.trae.com.cn not in local database, forwarding to upstream server
-[2025-06-30 22:03:13] WARNING: 客户端连接被重置
-[2025-06-30 22:03:14] INFO: Received DNS query from ('10.29.216.160', 54250)
-[2025-06-30 22:03:14] INFO: Processing query for domain: tconf.f.360.cn
-[2025-06-30 22:03:14] INFO: Domain tconf.f.360.cn not in local database, forwarding to upstream server
-[2025-06-30 22:03:14] WARNING: 客户端连接被重置
-[2025-06-30 22:03:15] INFO: Received DNS query from ('10.29.216.160', 52725)
-[2025-06-30 22:03:15] INFO: Processing query for domain: baoku.360.cn
-[2025-06-30 22:03:15] INFO: Domain baoku.360.cn not in local database, forwarding to upstream server
-[2025-06-30 22:03:15] INFO: Received DNS query from ('10.29.216.160', 56360)
-[2025-06-30 22:03:15] INFO: Processing query for domain: soft.360.cn
-[2025-06-30 22:03:15] INFO: Domain soft.360.cn not in local database, forwarding to upstream server
-[2025-06-30 22:03:15] WARNING: 客户端连接被重置
-[2025-06-30 22:03:15] INFO: Received DNS query from ('10.29.216.160', 63535)
-[2025-06-30 22:03:15] INFO: Processing query for domain: q.soft.360.cn
-[2025-06-30 22:03:15] INFO: Domain q.soft.360.cn not in local database, forwarding to upstream server
-[2025-06-30 22:03:15] WARNING: 客户端连接被重置
-[2025-06-30 22:03:15] INFO: Received DNS query from ('10.29.216.160', 58724)
-[2025-06-30 22:03:15] INFO: Processing query for domain: cx.soft.360.cn
-[2025-06-30 22:03:15] INFO: Domain cx.soft.360.cn not in local database, forwarding to upstream server
-[2025-06-30 22:03:15] WARNING: 客户端连接被重置
-[2025-06-30 22:03:15] INFO: Received DNS query from ('10.29.216.160', 64128)
-[2025-06-30 22:03:15] INFO: Processing query for domain: mgr.soft.360.cn
-[2025-06-30 22:03:15] INFO: Domain mgr.soft.360.cn not in local database, forwarding to upstream server
-[2025-06-30 22:03:15] WARNING: 客户端连接被重置
-[2025-06-30 22:03:15] WARNING: 客户端连接被重置
-[2025-06-30 22:03:15] INFO: Received DNS query from ('10.29.216.160', 59412)
-[2025-06-30 22:03:15] INFO: Processing query for domain: mon.zijieapi.com
-[2025-06-30 22:03:15] INFO: Domain mon.zijieapi.com not in local database, forwarding to upstream server
-[2025-06-30 22:03:15] INFO: Received DNS query from ('10.29.216.160', 61987)
-[2025-06-30 22:03:15] INFO: Processing query for domain: mon.zijieapi.com
-[2025-06-30 22:03:15] INFO: Domain mon.zijieapi.com not in local database, forwarding to upstream server
-[2025-06-30 22:03:15] INFO: Received DNS query from ('10.29.216.160', 59412)
-[2025-06-30 22:03:15] INFO: Processing query for domain: github.com
-[2025-06-30 22:03:15] INFO: Domain github.com not in local database, forwarding to upstream server
-[2025-06-30 22:03:15] WARNING: 客户端连接被重置
-[2025-06-30 22:03:16] INFO: Received DNS query from ('10.29.216.160', 53034)
-[2025-06-30 22:03:16] INFO: Processing query for domain: mon.zijieapi.com
-[2025-06-30 22:03:16] INFO: Domain mon.zijieapi.com not in local database, forwarding to upstream server
-[2025-06-30 22:03:16] INFO: Received DNS query from ('10.29.216.160', 60960)
-[2025-06-30 22:03:16] INFO: Processing query for domain: mon.zijieapi.com
-[2025-06-30 22:03:16] INFO: Domain mon.zijieapi.com not in local database, forwarding to upstream server
-[2025-06-30 22:03:16] WARNING: 客户端连接被重置
-[2025-06-30 22:03:16] WARNING: 客户端连接被重置
-[2025-06-30 22:03:18] INFO: Received DNS query from ('10.29.216.160', 57796)
-[2025-06-30 22:03:18] INFO: Processing query for domain: telemetry.trae.com.cn
-[2025-06-30 22:03:18] INFO: Domain telemetry.trae.com.cn not in local database, forwarding to upstream server
-[2025-06-30 22:03:18] WARNING: 客户端连接被重置
-[2025-06-30 22:03:19] INFO: Received DNS query from ('10.29.216.160', 64931)
-[2025-06-30 22:03:19] INFO: Processing query for domain: tconf.f.360.cn
-[2025-06-30 22:03:19] INFO: Domain tconf.f.360.cn not in local database, forwarding to upstream server
-[2025-06-30 22:03:19] WARNING: 客户端连接被重置
-[2025-06-30 22:03:23] INFO: Received DNS query from ('10.29.216.160', 50295)
-[2025-06-30 22:03:23] INFO: Processing query for domain: 31.183.97.47.in-addr.arpa
-[2025-06-30 22:03:23] INFO: Domain 31.183.97.47.in-addr.arpa not in local database, forwarding to upstream server
-[2025-06-30 22:03:23] INFO: Received DNS query from ('10.29.216.160', 50295)
-[2025-06-30 22:03:23] INFO: Processing query for domain: 31.183.97.47.in-addr.arpa
-[2025-06-30 22:03:23] INFO: Domain 31.183.97.47.in-addr.arpa not in local database, forwarding to upstream server
-[2025-06-30 22:03:23] WARNING: 客户端连接被重置
-[2025-06-30 22:03:28] INFO: Received DNS query from ('10.29.216.160', 59918)
-[2025-06-30 22:03:28] INFO: Processing query for domain: telemetry.trae.com.cn
-[2025-06-30 22:03:28] INFO: Domain telemetry.trae.com.cn not in local database, forwarding to upstream server
-[2025-06-30 22:03:28] WARNING: 客户端连接被重置
-[2025-06-30 22:03:37] INFO: Received DNS query from ('10.29.216.160', 61727)
-[2025-06-30 22:03:37] INFO: Processing query for domain: mon.zijieapi.com
-[2025-06-30 22:03:37] INFO: Domain mon.zijieapi.com not in local database, forwarding to upstream server
-[2025-06-30 22:03:37] INFO: Received DNS query from ('10.29.216.160', 59485)
-[2025-06-30 22:03:37] INFO: Processing query for domain: mon.zijieapi.com
-[2025-06-30 22:03:37] INFO: Domain mon.zijieapi.com not in local database, forwarding to upstream server
-[2025-06-30 22:03:37] WARNING: 客户端连接被重置
-[2025-06-30 22:03:37] WARNING: 客户端连接被重置
-[2025-06-30 22:03:44] INFO: Received DNS query from ('10.29.216.160', 61580)
-[2025-06-30 22:03:44] INFO: Processing query for domain: tpstelemetry.tencent.com
-[2025-06-30 22:03:44] INFO: Domain tpstelemetry.tencent.com not in local database, forwarding to upstream server
-[2025-06-30 22:03:44] WARNING: 客户端连接被重置
-[2025-06-30 22:04:03] INFO: Received DNS query from ('10.29.216.160', 61916)
-[2025-06-30 22:04:03] INFO: Processing query for domain: mon.zijieapi.com
-[2025-06-30 22:04:03] INFO: Domain mon.zijieapi.com not in local database, forwarding to upstream server
-[2025-06-30 22:04:03] WARNING: 客户端连接被重置
-[2025-06-30 22:04:03] INFO: Received DNS query from ('10.29.216.160', 63757)
-[2025-06-30 22:04:03] INFO: Processing query for domain: telemetry.trae.com.cn
-[2025-06-30 22:04:03] INFO: Domain telemetry.trae.com.cn not in local database, forwarding to upstream server
-[2025-06-30 22:04:03] WARNING: 客户端连接被重置
-[2025-06-30 22:04:08] INFO: Received DNS query from ('10.29.216.160', 54377)
-[2025-06-30 22:04:08] INFO: Processing query for domain: telemetry.trae.com.cn
-[2025-06-30 22:04:08] INFO: Domain telemetry.trae.com.cn not in local database, forwarding to upstream server
-[2025-06-30 22:04:08] WARNING: 客户端连接被重置
-[2025-06-30 22:04:09] INFO: Received DNS query from ('10.29.216.160', 61879)
-[2025-06-30 22:04:09] INFO: Processing query for domain: mon.zijieapi.com
-[2025-06-30 22:04:09] INFO: Domain mon.zijieapi.com not in local database, forwarding to upstream server
-[2025-06-30 22:04:09] INFO: Received DNS query from ('10.29.216.160', 55105)
-[2025-06-30 22:04:09] INFO: Processing query for domain: mon.zijieapi.com
-[2025-06-30 22:04:09] INFO: Domain mon.zijieapi.com not in local database, forwarding to upstream server
-[2025-06-30 22:04:09] WARNING: 客户端连接被重置
-[2025-06-30 22:04:09] WARNING: 客户端连接被重置
-[2025-06-30 22:04:09] INFO: Received DNS query from ('10.29.216.160', 60508)
-[2025-06-30 22:04:09] INFO: Processing query for domain: mon.zijieapi.com
-[2025-06-30 22:04:09] INFO: Domain mon.zijieapi.com not in local database, forwarding to upstream server
-[2025-06-30 22:04:09] INFO: Received DNS query from ('10.29.216.160', 51429)
-[2025-06-30 22:04:09] INFO: Processing query for domain: mon.zijieapi.com
-[2025-06-30 22:04:09] INFO: Domain mon.zijieapi.com not in local database, forwarding to upstream server
-[2025-06-30 22:04:09] WARNING: 客户端连接被重置
-[2025-06-30 22:04:09] INFO: Received DNS query from ('10.29.216.160', 65507)
-[2025-06-30 22:04:09] INFO: Processing query for domain: mon.zijieapi.com
-[2025-06-30 22:04:09] INFO: Domain mon.zijieapi.com not in local database, forwarding to upstream server
-[2025-06-30 22:04:09] INFO: Received DNS query from ('10.29.216.160', 56582)
-[2025-06-30 22:04:09] INFO: Processing query for domain: mon.zijieapi.com
-[2025-06-30 22:04:09] INFO: Domain mon.zijieapi.com not in local database, forwarding to upstream server
-[2025-06-30 22:04:09] WARNING: 客户端连接被重置
-[2025-06-30 22:04:09] INFO: Received DNS query from ('10.29.216.160', 49664)
-[2025-06-30 22:04:09] INFO: Processing query for domain: mon.zijieapi.com
-[2025-06-30 22:04:09] INFO: Domain mon.zijieapi.com not in local database, forwarding to upstream server
-[2025-06-30 22:04:09] INFO: Received DNS query from ('10.29.216.160', 51021)
-[2025-06-30 22:04:09] INFO: Processing query for domain: mon.zijieapi.com
-[2025-06-30 22:04:09] INFO: Domain mon.zijieapi.com not in local database, forwarding to upstream server
-[2025-06-30 22:04:09] INFO: Received DNS query from ('10.29.216.160', 52793)
-[2025-06-30 22:04:09] INFO: Processing query for domain: mon.zijieapi.com
-[2025-06-30 22:04:09] INFO: Domain mon.zijieapi.com not in local database, forwarding to upstream server
-[2025-06-30 22:04:09] WARNING: 客户端连接被重置
-[2025-06-30 22:04:09] WARNING: 客户端连接被重置
-[2025-06-30 22:04:09] WARNING: 客户端连接被重置
-[2025-06-30 22:04:09] WARNING: 客户端连接被重置
-[2025-06-30 22:04:09] INFO: Received DNS query from ('10.29.216.160', 61618)
-[2025-06-30 22:04:09] INFO: Processing query for domain: mon.zijieapi.com
-[2025-06-30 22:04:09] INFO: Domain mon.zijieapi.com not in local database, forwarding to upstream server
-[2025-06-30 22:04:09] WARNING: 客户端连接被重置
-[2025-06-30 22:04:09] WARNING: 客户端连接被重置
-[2025-06-30 22:04:13] INFO: Received DNS query from ('10.29.216.160', 60242)
-[2025-06-30 22:04:13] INFO: Processing query for domain: telemetry.trae.com.cn
-[2025-06-30 22:04:13] INFO: Domain telemetry.trae.com.cn not in local database, forwarding to upstream server
-[2025-06-30 22:04:13] WARNING: 客户端连接被重置
-[2025-06-30 22:04:24] INFO: Received DNS query from ('10.29.216.160', 51311)
-[2025-06-30 22:04:24] INFO: Processing query for domain: tconf.f.360.cn
-[2025-06-30 22:04:24] INFO: Domain tconf.f.360.cn not in local database, forwarding to upstream server
-[2025-06-30 22:04:24] WARNING: 客户端连接被重置
-[2025-06-30 22:04:29] INFO: Received DNS query from ('10.29.216.160', 57844)
-[2025-06-30 22:04:29] INFO: Processing query for domain: tconf.f.360.cn
-[2025-06-30 22:04:29] INFO: Domain tconf.f.360.cn not in local database, forwarding to upstream server
-[2025-06-30 22:04:29] WARNING: 客户端连接被重置
-[2025-06-30 22:04:34] INFO: Received DNS query from ('10.29.216.160', 55943)
-[2025-06-30 22:04:34] INFO: Processing query for domain: tconf2.f.360.cn
-[2025-06-30 22:04:34] INFO: Domain tconf2.f.360.cn not in local database, forwarding to upstream server
-[2025-06-30 22:04:34] WARNING: 客户端连接被重置
-[2025-06-30 22:04:37] INFO: Received DNS query from ('10.29.216.160', 63232)
-[2025-06-30 22:04:37] INFO: Processing query for domain: mon.zijieapi.com
-[2025-06-30 22:04:37] INFO: Domain mon.zijieapi.com not in local database, forwarding to upstream server
-[2025-06-30 22:04:37] INFO: Received DNS query from ('10.29.216.160', 61058)
-[2025-06-30 22:04:37] INFO: Processing query for domain: mon.zijieapi.com
-[2025-06-30 22:04:37] INFO: Domain mon.zijieapi.com not in local database, forwarding to upstream server
-[2025-06-30 22:04:37] WARNING: 客户端连接被重置
-[2025-06-30 22:04:37] WARNING: 客户端连接被重置
-[2025-06-30 22:04:39] INFO: Received DNS query from ('10.29.216.160', 64351)
-[2025-06-30 22:04:39] INFO: Processing query for domain: tconf2.f.360.cn
-[2025-06-30 22:04:39] INFO: Domain tconf2.f.360.cn not in local database, forwarding to upstream server
-[2025-06-30 22:04:39] WARNING: 客户端连接被重置
-[2025-06-30 22:04:40] INFO: Received DNS query from ('10.29.216.160', 61973)
-[2025-06-30 22:04:40] INFO: Processing query for domain: mon.zijieapi.com
-[2025-06-30 22:04:40] INFO: Domain mon.zijieapi.com not in local database, forwarding to upstream server
-[2025-06-30 22:04:40] INFO: Received DNS query from ('10.29.216.160', 59784)
-[2025-06-30 22:04:40] INFO: Processing query for domain: mon.zijieapi.com
-[2025-06-30 22:04:40] INFO: Domain mon.zijieapi.com not in local database, forwarding to upstream server
-[2025-06-30 22:04:40] WARNING: 客户端连接被重置
-[2025-06-30 22:04:40] WARNING: 客户端连接被重置
-[2025-06-30 22:04:40] INFO: Received DNS query from ('10.29.216.160', 63745)
-[2025-06-30 22:04:40] INFO: Processing query for domain: mon.zijieapi.com
-[2025-06-30 22:04:40] INFO: Domain mon.zijieapi.com not in local database, forwarding to upstream server
-[2025-06-30 22:04:40] WARNING: 客户端连接被重置
-[2025-06-30 22:04:40] INFO: Received DNS query from ('10.29.216.160', 58326)
-[2025-06-30 22:04:40] INFO: Processing query for domain: mon.zijieapi.com
-[2025-06-30 22:04:40] INFO: Domain mon.zijieapi.com not in local database, forwarding to upstream server
-[2025-06-30 22:04:40] INFO: Received DNS query from ('10.29.216.160', 63328)
-[2025-06-30 22:04:40] INFO: Processing query for domain: mon.zijieapi.com
-[2025-06-30 22:04:40] INFO: Domain mon.zijieapi.com not in local database, forwarding to upstream server
-[2025-06-30 22:04:40] INFO: Received DNS query from ('10.29.216.160', 63054)
-[2025-06-30 22:04:40] INFO: Processing query for domain: mon.zijieapi.com
-[2025-06-30 22:04:40] INFO: Domain mon.zijieapi.com not in local database, forwarding to upstream server
-[2025-06-30 22:04:40] WARNING: 客户端连接被重置
-[2025-06-30 22:04:40] WARNING: 客户端连接被重置
-[2025-06-30 22:04:40] WARNING: 客户端连接被重置
-[2025-06-30 22:04:40] INFO: Received DNS query from ('10.29.216.160', 51302)
-[2025-06-30 22:04:40] INFO: Processing query for domain: mon.zijieapi.com
-[2025-06-30 22:04:40] INFO: Domain mon.zijieapi.com not in local database, forwarding to upstream server
-[2025-06-30 22:04:40] INFO: Received DNS query from ('10.29.216.160', 53272)
-[2025-06-30 22:04:40] INFO: Processing query for domain: mon.zijieapi.com
-[2025-06-30 22:04:40] INFO: Domain mon.zijieapi.com not in local database, forwarding to upstream server
-[2025-06-30 22:04:40] WARNING: 客户端连接被重置
-[2025-06-30 22:04:40] INFO: Received DNS query from ('10.29.216.160', 56159)
-[2025-06-30 22:04:40] INFO: Processing query for domain: mon.zijieapi.com
-[2025-06-30 22:04:40] INFO: Domain mon.zijieapi.com not in local database, forwarding to upstream server
-[2025-06-30 22:04:40] INFO: Received DNS query from ('10.29.216.160', 54512)
-[2025-06-30 22:04:40] INFO: Processing query for domain: mon.zijieapi.com
-[2025-06-30 22:04:40] INFO: Domain mon.zijieapi.com not in local database, forwarding to upstream server
-[2025-06-30 22:04:40] WARNING: 客户端连接被重置
-[2025-06-30 22:04:40] INFO: Received DNS query from ('10.29.216.160', 59646)
-[2025-06-30 22:04:40] INFO: Processing query for domain: mon.zijieapi.com
-[2025-06-30 22:04:40] INFO: Domain mon.zijieapi.com not in local database, forwarding to upstream server
-[2025-06-30 22:04:40] WARNING: 客户端连接被重置
-[2025-06-30 22:04:40] INFO: Received DNS query from ('10.29.216.160', 59161)
-[2025-06-30 22:04:40] INFO: Processing query for domain: mon.zijieapi.com
-[2025-06-30 22:04:40] INFO: Domain mon.zijieapi.com not in local database, forwarding to upstream server
-[2025-06-30 22:04:40] INFO: Received DNS query from ('10.29.216.160', 59341)
-[2025-06-30 22:04:40] INFO: Processing query for domain: mon.zijieapi.com
-[2025-06-30 22:04:40] INFO: Domain mon.zijieapi.com not in local database, forwarding to upstream server
-[2025-06-30 22:04:40] WARNING: 客户端连接被重置
-[2025-06-30 22:04:40] WARNING: 客户端连接被重置
-[2025-06-30 22:04:40] WARNING: 客户端连接被重置
-[2025-06-30 22:04:40] INFO: Received DNS query from ('10.29.216.160', 57785)
-[2025-06-30 22:04:40] INFO: Processing query for domain: mon.zijieapi.com
-[2025-06-30 22:04:40] INFO: Domain mon.zijieapi.com not in local database, forwarding to upstream server
-[2025-06-30 22:04:40] WARNING: 客户端连接被重置
-[2025-06-30 22:04:40] WARNING: 客户端连接被重置
-[2025-06-30 22:04:56] INFO: Received DNS query from ('10.29.216.160', 56469)
-[2025-06-30 22:04:56] INFO: Processing query for domain: mcs.ctobsnssdk.com
-[2025-06-30 22:04:56] INFO: Domain mcs.ctobsnssdk.com not in local database, forwarding to upstream server
-[2025-06-30 22:04:56] WARNING: 客户端连接被重置
-[2025-06-30 22:04:58] INFO: Received DNS query from ('10.29.216.160', 54380)
-[2025-06-30 22:04:58] INFO: Processing query for domain: telemetry.trae.com.cn
-[2025-06-30 22:04:58] INFO: Domain telemetry.trae.com.cn not in local database, forwarding to upstream server
-[2025-06-30 22:04:58] WARNING: 客户端连接被重置
-[2025-06-30 22:05:02] INFO: Received DNS query from ('10.29.216.160', 64705)
-[2025-06-30 22:05:02] INFO: Processing query for domain: catalog.gamepass.com
-[2025-06-30 22:05:02] INFO: Domain catalog.gamepass.com not in local database, forwarding to upstream server
-[2025-06-30 22:05:02] INFO: Received DNS query from ('10.29.216.160', 64011)
-[2025-06-30 22:05:02] INFO: Processing query for domain: catalog.gamepass.com
-[2025-06-30 22:05:02] INFO: Domain catalog.gamepass.com not in local database, forwarding to upstream server
-[2025-06-30 22:05:02] WARNING: 客户端连接被重置
-[2025-06-30 22:05:02] WARNING: 客户端连接被重置
-[2025-06-30 22:05:08] INFO: Received DNS query from ('10.29.216.160', 50440)
-[2025-06-30 22:05:08] INFO: Processing query for domain: telemetry.trae.com.cn
-[2025-06-30 22:05:08] INFO: Domain telemetry.trae.com.cn not in local database, forwarding to upstream server
-[2025-06-30 22:05:08] WARNING: 客户端连接被重置
-[2025-06-30 22:05:18] INFO: Received DNS query from ('10.29.216.160', 57956)
-[2025-06-30 22:05:18] INFO: Processing query for domain: cn.version.battlenet.com.cn
-[2025-06-30 22:05:18] INFO: Domain cn.version.battlenet.com.cn not in local database, forwarding to upstream server
-[2025-06-30 22:05:18] WARNING: 客户端连接被重置
-[2025-06-30 22:05:19] INFO: Received DNS query from ('10.29.216.160', 55994)
-[2025-06-30 22:05:19] INFO: Processing query for domain: telemetry-in.battlenet.com.cn
-[2025-06-30 22:05:19] INFO: Domain telemetry-in.battlenet.com.cn not in local database, forwarding to upstream server
-[2025-06-30 22:05:19] INFO: Received DNS query from ('10.29.216.160', 58471)
-[2025-06-30 22:05:19] INFO: Processing query for domain: telemetry-in.battlenet.com.cn
-[2025-06-30 22:05:19] INFO: Domain telemetry-in.battlenet.com.cn not in local database, forwarding to upstream server
-[2025-06-30 22:05:19] WARNING: 客户端连接被重置
-[2025-06-30 22:05:19] WARNING: 客户端连接被重置
-[2025-06-30 22:05:22] INFO: Received DNS query from ('10.29.216.160', 53266)
-[2025-06-30 22:05:22] INFO: Processing query for domain: mon.zijieapi.com
-[2025-06-30 22:05:22] INFO: Domain mon.zijieapi.com not in local database, forwarding to upstream server
-[2025-06-30 22:05:22] WARNING: 客户端连接被重置
-[2025-06-30 22:05:27] INFO: Received DNS query from ('10.29.216.160', 56659)
-[2025-06-30 22:05:27] INFO: Processing query for domain: mon.zijieapi.com
-[2025-06-30 22:05:27] INFO: Domain mon.zijieapi.com not in local database, forwarding to upstream server
-[2025-06-30 22:05:27] WARNING: 客户端连接被重置
-[2025-06-30 22:05:35] INFO: Received DNS query from ('10.29.216.160', 56332)
-[2025-06-30 22:05:35] INFO: Processing query for domain: bytegate.zijieapi.com
-[2025-06-30 22:05:35] INFO: Domain bytegate.zijieapi.com not in local database, forwarding to upstream server
-[2025-06-30 22:05:35] INFO: Received DNS query from ('10.29.216.160', 59153)
-[2025-06-30 22:05:35] INFO: Processing query for domain: trae-api-cn.mchost.guru
-[2025-06-30 22:05:35] INFO: Domain trae-api-cn.mchost.guru not in local database, forwarding to upstream server
-[2025-06-30 22:05:35] WARNING: 客户端连接被重置
-[2025-06-30 22:05:35] WARNING: 客户端连接被重置
-[2025-06-30 22:05:36] INFO: Received DNS query from ('10.29.216.160', 55680)
-[2025-06-30 22:05:36] INFO: Processing query for domain: bytegate.zijieapi.com
-[2025-06-30 22:05:36] INFO: Domain bytegate.zijieapi.com not in local database, forwarding to upstream server
-[2025-06-30 22:05:36] WARNING: 客户端连接被重置
-[2025-06-30 22:05:36] INFO: Received DNS query from ('10.29.216.160', 63543)
-[2025-06-30 22:05:36] INFO: Processing query for domain: abtestvm.bytedance.com
-[2025-06-30 22:05:36] INFO: Domain abtestvm.bytedance.com not in local database, forwarding to upstream server
-[2025-06-30 22:05:36] WARNING: 客户端连接被重置
-[2025-06-30 22:05:53] INFO: Received DNS query from ('10.29.216.160', 54960)
-[2025-06-30 22:05:53] INFO: Processing query for domain: mon.zijieapi.com
-[2025-06-30 22:05:53] INFO: Domain mon.zijieapi.com not in local database, forwarding to upstream server
-[2025-06-30 22:05:53] INFO: Received DNS query from ('10.29.216.160', 50060)
-[2025-06-30 22:05:53] INFO: Processing query for domain: mon.zijieapi.com
-[2025-06-30 22:05:53] INFO: Domain mon.zijieapi.com not in local database, forwarding to upstream server
-[2025-06-30 22:05:53] WARNING: 客户端连接被重置
-[2025-06-30 22:05:53] WARNING: 客户端连接被重置
-[2025-06-30 22:06:02] INFO: Received DNS query from ('10.29.216.160', 52105)
-[2025-06-30 22:06:02] INFO: Processing query for domain: mon.zijieapi.com
-[2025-06-30 22:06:02] INFO: Domain mon.zijieapi.com not in local database, forwarding to upstream server
-[2025-06-30 22:06:02] WARNING: 客户端连接被重置
-[2025-06-30 22:06:02] INFO: Received DNS query from ('10.29.216.160', 59530)
-[2025-06-30 22:06:02] INFO: Processing query for domain: mon.zijieapi.com
-[2025-06-30 22:06:02] INFO: Domain mon.zijieapi.com not in local database, forwarding to upstream server
-[2025-06-30 22:06:02] WARNING: 客户端连接被重置
-[2025-06-30 22:06:02] INFO: Received DNS query from ('10.29.216.160', 54154)
-[2025-06-30 22:06:02] INFO: Processing query for domain: mcs.zijieapi.com
-[2025-06-30 22:06:02] INFO: Domain mcs.zijieapi.com not in local database, forwarding to upstream server
-[2025-06-30 22:06:02] WARNING: 客户端连接被重置
-[2025-06-30 22:06:02] INFO: Received DNS query from ('10.29.216.160', 52546)
-[2025-06-30 22:06:02] INFO: Processing query for domain: mon.zijieapi.com
-[2025-06-30 22:06:02] INFO: Domain mon.zijieapi.com not in local database, forwarding to upstream server
-[2025-06-30 22:06:02] WARNING: 客户端连接被重置
-[2025-06-30 22:06:02] INFO: Received DNS query from ('10.29.216.160', 51591)
-[2025-06-30 22:06:02] INFO: Processing query for domain: mon.zijieapi.com
-[2025-06-30 22:06:02] INFO: Domain mon.zijieapi.com not in local database, forwarding to upstream server
-[2025-06-30 22:06:02] INFO: Received DNS query from ('10.29.216.160', 58569)
-[2025-06-30 22:06:02] INFO: Processing query for domain: mon.zijieapi.com
-[2025-06-30 22:06:02] INFO: Domain mon.zijieapi.com not in local database, forwarding to upstream server
-[2025-06-30 22:06:02] INFO: Received DNS query from ('10.29.216.160', 58693)
-[2025-06-30 22:06:02] INFO: Processing query for domain: mon.zijieapi.com
-[2025-06-30 22:06:02] INFO: Domain mon.zijieapi.com not in local database, forwarding to upstream server
-[2025-06-30 22:06:02] WARNING: 客户端连接被重置
-[2025-06-30 22:06:02] WARNING: 客户端连接被重置
-[2025-06-30 22:06:02] INFO: Received DNS query from ('10.29.216.160', 56796)
-[2025-06-30 22:06:02] INFO: Processing query for domain: mon.zijieapi.com
-[2025-06-30 22:06:02] INFO: Domain mon.zijieapi.com not in local database, forwarding to upstream server
-[2025-06-30 22:06:02] WARNING: 客户端连接被重置
-[2025-06-30 22:06:02] WARNING: 客户端连接被重置
-[2025-06-30 22:06:02] INFO: Received DNS query from ('10.29.216.160', 62095)
-[2025-06-30 22:06:02] INFO: Processing query for domain: mon.zijieapi.com
-[2025-06-30 22:06:02] INFO: Domain mon.zijieapi.com not in local database, forwarding to upstream server
-[2025-06-30 22:06:02] WARNING: 客户端连接被重置
-[2025-06-30 22:06:02] INFO: Received DNS query from ('10.29.216.160', 60737)
-[2025-06-30 22:06:02] INFO: Processing query for domain: abtestvm.bytedance.com
-[2025-06-30 22:06:02] INFO: Domain abtestvm.bytedance.com not in local database, forwarding to upstream server
-[2025-06-30 22:06:02] WARNING: 客户端连接被重置
-[2025-06-30 22:06:03] INFO: Received DNS query from ('10.29.216.160', 54677)
-[2025-06-30 22:06:03] INFO: Processing query for domain: telemetry.trae.com.cn
-[2025-06-30 22:06:03] INFO: Domain telemetry.trae.com.cn not in local database, forwarding to upstream server
-[2025-06-30 22:06:03] WARNING: 客户端连接被重置
-[2025-06-30 22:06:05] INFO: Received DNS query from ('10.29.216.160', 52737)
-[2025-06-30 22:06:05] INFO: Processing query for domain: data-ai.microsoft.com
-[2025-06-30 22:06:05] INFO: Domain data-ai.microsoft.com not in local database, forwarding to upstream server
-[2025-06-30 22:06:05] WARNING: 客户端连接被重置
-[2025-06-30 22:06:08] INFO: Received DNS query from ('10.29.216.160', 60649)
-[2025-06-30 22:06:08] INFO: Processing query for domain: bytegate.zijieapi.com
-[2025-06-30 22:06:08] INFO: Domain bytegate.zijieapi.com not in local database, forwarding to upstream server
-[2025-06-30 22:06:08] WARNING: 客户端连接被重置
-[2025-06-30 22:06:08] INFO: Received DNS query from ('10.29.216.160', 60755)
-[2025-06-30 22:06:08] INFO: Processing query for domain: trae-api-cn.mchost.guru
-[2025-06-30 22:06:08] INFO: Domain trae-api-cn.mchost.guru not in local database, forwarding to upstream server
-[2025-06-30 22:06:08] WARNING: 客户端连接被重置
-[2025-06-30 22:06:09] INFO: Received DNS query from ('10.29.216.160', 51628)
-[2025-06-30 22:06:09] INFO: Processing query for domain: mon.zijieapi.com
-[2025-06-30 22:06:09] INFO: Domain mon.zijieapi.com not in local database, forwarding to upstream server
-[2025-06-30 22:06:09] INFO: Received DNS query from ('10.29.216.160', 59654)
-[2025-06-30 22:06:09] INFO: Processing query for domain: mon.zijieapi.com
-[2025-06-30 22:06:09] INFO: Domain mon.zijieapi.com not in local database, forwarding to upstream server
-[2025-06-30 22:06:09] WARNING: 客户端连接被重置
-[2025-06-30 22:06:09] WARNING: 客户端连接被重置
-[2025-06-30 22:06:23] INFO: Received DNS query from ('10.29.216.160', 50649)
-[2025-06-30 22:06:23] INFO: Processing query for domain: tconf.f.360.cn
-[2025-06-30 22:06:23] INFO: Domain tconf.f.360.cn not in local database, forwarding to upstream server
-[2025-06-30 22:06:23] WARNING: 客户端连接被重置
-[2025-06-30 22:06:28] INFO: Received DNS query from ('10.29.216.160', 64192)
-[2025-06-30 22:06:28] INFO: Processing query for domain: tconf.f.360.cn
-[2025-06-30 22:06:28] INFO: Domain tconf.f.360.cn not in local database, forwarding to upstream server
-[2025-06-30 22:06:28] WARNING: 客户端连接被重置
-[2025-06-30 22:06:33] INFO: Received DNS query from ('10.29.216.160', 59258)
-[2025-06-30 22:06:33] INFO: Processing query for domain: tconf2.f.360.cn
-[2025-06-30 22:06:33] INFO: Domain tconf2.f.360.cn not in local database, forwarding to upstream server
-[2025-06-30 22:06:33] WARNING: 客户端连接被重置
-[2025-06-30 22:06:38] INFO: Received DNS query from ('10.29.216.160', 62137)
-[2025-06-30 22:06:38] INFO: Processing query for domain: tconf2.f.360.cn
-[2025-06-30 22:06:38] INFO: Domain tconf2.f.360.cn not in local database, forwarding to upstream server
-[2025-06-30 22:06:38] WARNING: 客户端连接被重置
-[2025-06-30 22:06:41] INFO: Received DNS query from ('10.29.216.160', 56258)
-[2025-06-30 22:06:41] INFO: Processing query for domain: mcs.zijieapi.com
-[2025-06-30 22:06:41] INFO: Domain mcs.zijieapi.com not in local database, forwarding to upstream server
-[2025-06-30 22:06:41] WARNING: 客户端连接被重置
-[2025-06-30 22:06:43] INFO: Received DNS query from ('10.29.216.160', 63278)
-[2025-06-30 22:06:43] INFO: Processing query for domain: mon.zijieapi.com
-[2025-06-30 22:06:43] INFO: Domain mon.zijieapi.com not in local database, forwarding to upstream server
-[2025-06-30 22:06:43] INFO: Received DNS query from ('10.29.216.160', 51737)
-[2025-06-30 22:06:43] INFO: Processing query for domain: mon.zijieapi.com
-[2025-06-30 22:06:43] INFO: Domain mon.zijieapi.com not in local database, forwarding to upstream server
-[2025-06-30 22:06:43] WARNING: 客户端连接被重置
-[2025-06-30 22:06:43] WARNING: 客户端连接被重置
-[2025-06-30 22:07:16] INFO: Received DNS query from ('10.29.216.160', 63687)
-[2025-06-30 22:07:16] INFO: Processing query for domain: mon.zijieapi.com
-[2025-06-30 22:07:16] INFO: Domain mon.zijieapi.com not in local database, forwarding to upstream server
-[2025-06-30 22:07:16] INFO: Received DNS query from ('10.29.216.160', 51840)
-[2025-06-30 22:07:16] INFO: Processing query for domain: mon.zijieapi.com
-[2025-06-30 22:07:16] INFO: Domain mon.zijieapi.com not in local database, forwarding to upstream server
-[2025-06-30 22:07:16] WARNING: 客户端连接被重置
-[2025-06-30 22:07:16] WARNING: 客户端连接被重置
-[2025-06-30 22:07:39] INFO: Received DNS query from ('10.29.216.160', 52284)
-[2025-06-30 22:07:39] INFO: Processing query for domain: mon.zijieapi.com
-[2025-06-30 22:07:39] INFO: Domain mon.zijieapi.com not in local database, forwarding to upstream server
-[2025-06-30 22:07:39] WARNING: 客户端连接被重置
-[2025-06-30 22:07:40] INFO: Received DNS query from ('10.29.216.160', 61968)
-[2025-06-30 22:07:40] INFO: Processing query for domain: mon.zijieapi.com
-[2025-06-30 22:07:40] INFO: Domain mon.zijieapi.com not in local database, forwarding to upstream server
-[2025-06-30 22:07:40] WARNING: 客户端连接被重置
-[2025-06-30 22:08:03] INFO: Received DNS query from ('10.29.216.160', 62599)
-[2025-06-30 22:08:03] INFO: Processing query for domain: mon.zijieapi.com
-[2025-06-30 22:08:03] INFO: Domain mon.zijieapi.com not in local database, forwarding to upstream server
-[2025-06-30 22:08:03] INFO: Received DNS query from ('10.29.216.160', 56185)
-[2025-06-30 22:08:03] INFO: Processing query for domain: mon.zijieapi.com
-[2025-06-30 22:08:03] INFO: Domain mon.zijieapi.com not in local database, forwarding to upstream server
-[2025-06-30 22:08:03] WARNING: 客户端连接被重置
-[2025-06-30 22:08:03] WARNING: 客户端连接被重置
-[2025-06-30 22:08:42] INFO: Received DNS query from ('10.29.216.160', 52142)
-[2025-06-30 22:08:42] INFO: Processing query for domain: mon.zijieapi.com
-[2025-06-30 22:08:42] INFO: Domain mon.zijieapi.com not in local database, forwarding to upstream server
-[2025-06-30 22:08:42] INFO: Received DNS query from ('10.29.216.160', 54340)
-[2025-06-30 22:08:42] INFO: Processing query for domain: mon.zijieapi.com
-[2025-06-30 22:08:42] INFO: Domain mon.zijieapi.com not in local database, forwarding to upstream server
-[2025-06-30 22:08:42] WARNING: 客户端连接被重置
-[2025-06-30 22:08:42] WARNING: 客户端连接被重置
-[2025-06-30 22:08:44] INFO: Received DNS query from ('10.29.216.160', 57314)
-[2025-06-30 22:08:44] INFO: Processing query for domain: tpstelemetry.tencent.com
-[2025-06-30 22:08:44] INFO: Domain tpstelemetry.tencent.com not in local database, forwarding to upstream server
-[2025-06-30 22:08:44] WARNING: 客户端连接被重置
-[2025-06-30 22:08:55] INFO: Received DNS query from ('10.29.216.160', 65209)
-[2025-06-30 22:08:55] INFO: Processing query for domain: github.com
-[2025-06-30 22:08:55] INFO: Domain github.com not in local database, forwarding to upstream server
-[2025-06-30 22:08:55] WARNING: 客户端连接被重置
-[2025-06-30 22:08:56] INFO: Received DNS query from ('10.29.216.160', 60231)
-[2025-06-30 22:08:56] INFO: Processing query for domain: mcs.zijieapi.com
-[2025-06-30 22:08:56] INFO: Domain mcs.zijieapi.com not in local database, forwarding to upstream server
-[2025-06-30 22:08:56] INFO: Received DNS query from ('10.29.216.160', 60871)
-[2025-06-30 22:08:56] INFO: Processing query for domain: mcs.zijieapi.com
-[2025-06-30 22:08:56] INFO: Domain mcs.zijieapi.com not in local database, forwarding to upstream server
-[2025-06-30 22:08:56] WARNING: 客户端连接被重置
-[2025-06-30 22:08:56] WARNING: 客户端连接被重置
-[2025-06-30 22:08:57] INFO: Received DNS query from ('10.29.216.160', 52924)
-[2025-06-30 22:08:57] INFO: Processing query for domain: trae-api-cn.mchost.guru
-[2025-06-30 22:08:57] INFO: Domain trae-api-cn.mchost.guru not in local database, forwarding to upstream server
-[2025-06-30 22:08:57] WARNING: 客户端连接被重置
-[2025-06-30 22:08:57] INFO: Received DNS query from ('10.29.216.160', 56594)
-[2025-06-30 22:08:57] INFO: Processing query for domain: abtestvm.bytedance.com
-[2025-06-30 22:08:57] INFO: Domain abtestvm.bytedance.com not in local database, forwarding to upstream server
-[2025-06-30 22:08:57] INFO: Received DNS query from ('10.29.216.160', 63768)
-[2025-06-30 22:08:57] INFO: Processing query for domain: abtestvm.bytedance.com
-[2025-06-30 22:08:57] INFO: Domain abtestvm.bytedance.com not in local database, forwarding to upstream server
-[2025-06-30 22:08:57] WARNING: 客户端连接被重置
-[2025-06-30 22:08:57] WARNING: 客户端连接被重置
-[2025-06-30 22:08:57] INFO: Received DNS query from ('10.29.216.160', 63073)
-[2025-06-30 22:08:57] INFO: Processing query for domain: mon.zijieapi.com
-[2025-06-30 22:08:57] INFO: Domain mon.zijieapi.com not in local database, forwarding to upstream server
-[2025-06-30 22:08:57] WARNING: 客户端连接被重置
-[2025-06-30 22:08:58] INFO: Received DNS query from ('10.29.216.160', 59315)
-[2025-06-30 22:08:58] INFO: Processing query for domain: telemetry.trae.com.cn
-[2025-06-30 22:08:58] INFO: Domain telemetry.trae.com.cn not in local database, forwarding to upstream server
-[2025-06-30 22:08:58] WARNING: 客户端连接被重置
-[2025-06-30 22:08:59] INFO: Received DNS query from ('10.29.216.160', 61894)
-[2025-06-30 22:08:59] INFO: Processing query for domain: mon.zijieapi.com
-[2025-06-30 22:08:59] INFO: Domain mon.zijieapi.com not in local database, forwarding to upstream server
-[2025-06-30 22:08:59] WARNING: 客户端连接被重置
-[2025-06-30 22:08:59] INFO: Received DNS query from ('10.29.216.160', 55343)
-[2025-06-30 22:08:59] INFO: Processing query for domain: mon.zijieapi.com
-[2025-06-30 22:08:59] INFO: Domain mon.zijieapi.com not in local database, forwarding to upstream server
-[2025-06-30 22:08:59] INFO: Received DNS query from ('10.29.216.160', 56879)
-[2025-06-30 22:08:59] INFO: Processing query for domain: mon.zijieapi.com
-[2025-06-30 22:08:59] INFO: Domain mon.zijieapi.com not in local database, forwarding to upstream server
-[2025-06-30 22:08:59] WARNING: 客户端连接被重置
-[2025-06-30 22:08:59] WARNING: 客户端连接被重置
-[2025-06-30 22:09:03] INFO: Received DNS query from ('10.29.216.160', 53921)
-[2025-06-30 22:09:03] INFO: Processing query for domain: telemetry.trae.com.cn
-[2025-06-30 22:09:03] INFO: Domain telemetry.trae.com.cn not in local database, forwarding to upstream server
-[2025-06-30 22:09:03] WARNING: 客户端连接被重置
-[2025-06-30 22:09:08] INFO: Received DNS query from ('10.29.216.160', 55064)
-[2025-06-30 22:09:08] INFO: Processing query for domain: telemetry.trae.com.cn
-[2025-06-30 22:09:08] INFO: Domain telemetry.trae.com.cn not in local database, forwarding to upstream server
-[2025-06-30 22:09:08] WARNING: 客户端连接被重置
-[2025-06-30 22:09:19] INFO: Received DNS query from ('10.29.216.160', 57032)
-[2025-06-30 22:09:19] INFO: Processing query for domain: mon.zijieapi.com
-[2025-06-30 22:09:19] INFO: Domain mon.zijieapi.com not in local database, forwarding to upstream server
-[2025-06-30 22:09:19] INFO: Received DNS query from ('10.29.216.160', 53948)
-[2025-06-30 22:09:19] INFO: Processing query for domain: mon.zijieapi.com
-[2025-06-30 22:09:19] INFO: Domain mon.zijieapi.com not in local database, forwarding to upstream server
-[2025-06-30 22:09:19] WARNING: 客户端连接被重置
-[2025-06-30 22:09:19] WARNING: 客户端连接被重置
-[2025-06-30 22:09:31] INFO: Received DNS query from ('10.29.216.160', 53148)
-[2025-06-30 22:09:31] INFO: Processing query for domain: mon.zijieapi.com
-[2025-06-30 22:09:31] INFO: Domain mon.zijieapi.com not in local database, forwarding to upstream server
-[2025-06-30 22:09:31] WARNING: 客户端连接被重置
-[2025-06-30 22:09:31] INFO: Received DNS query from ('10.29.216.160', 64854)
-[2025-06-30 22:09:31] INFO: Processing query for domain: mon.zijieapi.com
-[2025-06-30 22:09:31] INFO: Domain mon.zijieapi.com not in local database, forwarding to upstream server
-[2025-06-30 22:09:31] WARNING: 客户端连接被重置
-[2025-06-30 22:09:32] INFO: Received DNS query from ('10.29.216.160', 57487)
-[2025-06-30 22:09:32] INFO: Processing query for domain: mon.zijieapi.com
-[2025-06-30 22:09:32] INFO: Domain mon.zijieapi.com not in local database, forwarding to upstream server
-[2025-06-30 22:09:32] INFO: Received DNS query from ('10.29.216.160', 49204)
-[2025-06-30 22:09:32] INFO: Processing query for domain: mon.zijieapi.com
-[2025-06-30 22:09:32] INFO: Domain mon.zijieapi.com not in local database, forwarding to upstream server
-[2025-06-30 22:09:32] WARNING: 客户端连接被重置
-[2025-06-30 22:09:32] WARNING: 客户端连接被重置
-[2025-06-30 22:09:32] INFO: Received DNS query from ('10.29.216.160', 60192)
-[2025-06-30 22:09:32] INFO: Processing query for domain: mon.zijieapi.com
-[2025-06-30 22:09:32] INFO: Domain mon.zijieapi.com not in local database, forwarding to upstream server
-[2025-06-30 22:09:32] WARNING: 客户端连接被重置
-[2025-06-30 22:09:32] INFO: Received DNS query from ('10.29.216.160', 61825)
-[2025-06-30 22:09:32] INFO: Processing query for domain: mon.zijieapi.com
-[2025-06-30 22:09:32] INFO: Domain mon.zijieapi.com not in local database, forwarding to upstream server
-[2025-06-30 22:09:32] INFO: Received DNS query from ('10.29.216.160', 55836)
-[2025-06-30 22:09:32] INFO: Processing query for domain: mon.zijieapi.com
-[2025-06-30 22:09:32] INFO: Domain mon.zijieapi.com not in local database, forwarding to upstream server
-[2025-06-30 22:09:32] WARNING: 客户端连接被重置
-[2025-06-30 22:09:32] INFO: Received DNS query from ('10.29.216.160', 64854)
-[2025-06-30 22:09:32] INFO: Processing query for domain: mon.zijieapi.com
-[2025-06-30 22:09:32] INFO: Domain mon.zijieapi.com not in local database, forwarding to upstream server
-[2025-06-30 22:09:32] INFO: Received DNS query from ('10.29.216.160', 56684)
-[2025-06-30 22:09:32] INFO: Processing query for domain: mon.zijieapi.com
-[2025-06-30 22:09:32] INFO: Domain mon.zijieapi.com not in local database, forwarding to upstream server
-[2025-06-30 22:09:32] WARNING: 客户端连接被重置
-[2025-06-30 22:09:32] WARNING: 客户端连接被重置
-[2025-06-30 22:09:32] INFO: Received DNS query from ('10.29.216.160', 54057)
-[2025-06-30 22:09:32] INFO: Processing query for domain: mon.zijieapi.com
-[2025-06-30 22:09:32] INFO: Domain mon.zijieapi.com not in local database, forwarding to upstream server
-[2025-06-30 22:09:32] WARNING: 客户端连接被重置
-[2025-06-30 22:09:32] INFO: Received DNS query from ('10.29.216.160', 63933)
-[2025-06-30 22:09:32] INFO: Processing query for domain: mon.zijieapi.com
-[2025-06-30 22:09:32] INFO: Domain mon.zijieapi.com not in local database, forwarding to upstream server
-[2025-06-30 22:09:32] WARNING: 客户端连接被重置
-[2025-06-30 22:09:32] WARNING: 客户端连接被重置
-[2025-06-30 22:09:33] INFO: Received DNS query from ('10.29.216.160', 52021)
-[2025-06-30 22:09:33] INFO: Processing query for domain: telemetry.trae.com.cn
-[2025-06-30 22:09:33] INFO: Domain telemetry.trae.com.cn not in local database, forwarding to upstream server
-[2025-06-30 22:09:33] WARNING: 客户端连接被重置
-[2025-06-30 22:09:36] INFO: Received DNS query from ('10.29.216.160', 61193)
-[2025-06-30 22:09:36] INFO: Processing query for domain: tconf.f.360.cn
-[2025-06-30 22:09:36] INFO: Domain tconf.f.360.cn not in local database, forwarding to upstream server
-[2025-06-30 22:09:36] WARNING: 客户端连接被重置
-[2025-06-30 22:09:41] INFO: Received DNS query from ('10.29.216.160', 56823)
-[2025-06-30 22:09:41] INFO: Processing query for domain: tconf.f.360.cn
-[2025-06-30 22:09:41] INFO: Domain tconf.f.360.cn not in local database, forwarding to upstream server
-[2025-06-30 22:09:41] WARNING: 客户端连接被重置
-[2025-06-30 22:09:46] INFO: Received DNS query from ('10.29.216.160', 58399)
-[2025-06-30 22:09:46] INFO: Processing query for domain: tconf2.f.360.cn
-[2025-06-30 22:09:46] INFO: Domain tconf2.f.360.cn not in local database, forwarding to upstream server
-[2025-06-30 22:09:46] WARNING: 客户端连接被重置
-[2025-06-30 22:09:50] INFO: Received DNS query from ('10.29.216.160', 54246)
-[2025-06-30 22:09:50] INFO: Processing query for domain: tconf.f.360.cn
-[2025-06-30 22:09:50] INFO: Domain tconf.f.360.cn not in local database, forwarding to upstream server
-[2025-06-30 22:09:50] WARNING: 客户端连接被重置
-[2025-06-30 22:09:51] INFO: Received DNS query from ('10.29.216.160', 57710)
-[2025-06-30 22:09:51] INFO: Processing query for domain: tconf2.f.360.cn
-[2025-06-30 22:09:51] INFO: Domain tconf2.f.360.cn not in local database, forwarding to upstream server
-[2025-06-30 22:09:51] WARNING: 客户端连接被重置
-[2025-06-30 22:09:55] INFO: Received DNS query from ('10.29.216.160', 55549)
-[2025-06-30 22:09:55] INFO: Processing query for domain: tconf.f.360.cn
-[2025-06-30 22:09:55] INFO: Domain tconf.f.360.cn not in local database, forwarding to upstream server
-[2025-06-30 22:09:55] WARNING: 客户端连接被重置
-[2025-06-30 22:09:57] INFO: Received DNS query from ('10.29.216.160', 54601)
-[2025-06-30 22:09:57] INFO: Processing query for domain: mon.zijieapi.com
-[2025-06-30 22:09:57] INFO: Domain mon.zijieapi.com not in local database, forwarding to upstream server
-[2025-06-30 22:09:57] INFO: Received DNS query from ('10.29.216.160', 51430)
-[2025-06-30 22:09:57] INFO: Processing query for domain: mon.zijieapi.com
-[2025-06-30 22:09:57] INFO: Domain mon.zijieapi.com not in local database, forwarding to upstream server
-[2025-06-30 22:09:57] WARNING: 客户端连接被重置
-[2025-06-30 22:09:57] INFO: Received DNS query from ('10.29.216.160', 54601)
-[2025-06-30 22:09:57] INFO: Processing query for domain: mon.zijieapi.com
-[2025-06-30 22:09:57] INFO: Domain mon.zijieapi.com not in local database, forwarding to upstream server
-[2025-06-30 22:09:57] INFO: Received DNS query from ('10.29.216.160', 59433)
-[2025-06-30 22:09:57] INFO: Processing query for domain: mon.zijieapi.com
-[2025-06-30 22:09:57] INFO: Domain mon.zijieapi.com not in local database, forwarding to upstream server
-[2025-06-30 22:09:57] WARNING: 客户端连接被重置
-[2025-06-30 22:09:57] WARNING: 客户端连接被重置
-[2025-06-30 22:09:57] INFO: Received DNS query from ('10.29.216.160', 60130)
-[2025-06-30 22:09:57] INFO: Processing query for domain: mon.zijieapi.com
-[2025-06-30 22:09:57] INFO: Domain mon.zijieapi.com not in local database, forwarding to upstream server
-[2025-06-30 22:09:57] WARNING: 客户端连接被重置
-[2025-06-30 22:09:58] INFO: Received DNS query from ('10.29.216.160', 52070)
-[2025-06-30 22:09:58] INFO: Processing query for domain: telemetry.trae.com.cn
-[2025-06-30 22:09:58] INFO: Domain telemetry.trae.com.cn not in local database, forwarding to upstream server
-[2025-06-30 22:09:58] WARNING: 客户端连接被重置
-[2025-06-30 22:10:00] INFO: Received DNS query from ('10.29.216.160', 54170)
-[2025-06-30 22:10:00] INFO: Processing query for domain: tconf2.f.360.cn
-[2025-06-30 22:10:00] INFO: Domain tconf2.f.360.cn not in local database, forwarding to upstream server
-[2025-06-30 22:10:00] WARNING: 客户端连接被重置
-[2025-06-30 22:10:02] INFO: Received DNS query from ('10.29.216.160', 60441)
-[2025-06-30 22:10:02] INFO: Processing query for domain: catalog.gamepass.com
-[2025-06-30 22:10:02] INFO: Domain catalog.gamepass.com not in local database, forwarding to upstream server
-[2025-06-30 22:10:02] WARNING: 客户端连接被重置
-[2025-06-30 22:10:05] INFO: Received DNS query from ('10.29.216.160', 60857)
-[2025-06-30 22:10:05] INFO: Processing query for domain: tconf2.f.360.cn
-[2025-06-30 22:10:05] INFO: Domain tconf2.f.360.cn not in local database, forwarding to upstream server
-[2025-06-30 22:10:05] WARNING: 客户端连接被重置
-[2025-06-30 22:10:18] INFO: Received DNS query from ('10.29.216.160', 56069)
-[2025-06-30 22:10:18] INFO: Processing query for domain: cn.version.battlenet.com.cn
-[2025-06-30 22:10:18] INFO: Domain cn.version.battlenet.com.cn not in local database, forwarding to upstream server
-[2025-06-30 22:10:18] WARNING: 客户端连接被重置
-[2025-06-30 22:10:20] INFO: Received DNS query from ('10.29.216.160', 49721)
-[2025-06-30 22:10:20] INFO: Processing query for domain: telemetry-in.battlenet.com.cn
-[2025-06-30 22:10:20] INFO: Domain telemetry-in.battlenet.com.cn not in local database, forwarding to upstream server
-[2025-06-30 22:10:20] WARNING: 客户端连接被重置
-[2025-06-30 22:10:27] INFO: Received DNS query from ('10.29.216.160', 63199)
-[2025-06-30 22:10:27] INFO: Processing query for domain: mon.zijieapi.com
-[2025-06-30 22:10:27] INFO: Domain mon.zijieapi.com not in local database, forwarding to upstream server
-[2025-06-30 22:10:27] INFO: Received DNS query from ('10.29.216.160', 49664)
-[2025-06-30 22:10:27] INFO: Processing query for domain: mon.zijieapi.com
-[2025-06-30 22:10:27] INFO: Domain mon.zijieapi.com not in local database, forwarding to upstream server
-[2025-06-30 22:10:27] WARNING: 客户端连接被重置
-[2025-06-30 22:10:27] WARNING: 客户端连接被重置
-[2025-06-30 22:10:32] INFO: Received DNS query from ('10.29.216.160', 64654)
-[2025-06-30 22:10:32] INFO: Processing query for domain: mon.zijieapi.com
-[2025-06-30 22:10:32] INFO: Domain mon.zijieapi.com not in local database, forwarding to upstream server
-[2025-06-30 22:10:32] WARNING: 客户端连接被重置
-[2025-06-30 22:10:32] INFO: Received DNS query from ('10.29.216.160', 58354)
-[2025-06-30 22:10:32] INFO: Processing query for domain: mon.zijieapi.com
-[2025-06-30 22:10:32] INFO: Domain mon.zijieapi.com not in local database, forwarding to upstream server
-[2025-06-30 22:10:32] INFO: Received DNS query from ('10.29.216.160', 63421)
-[2025-06-30 22:10:32] INFO: Processing query for domain: mon.zijieapi.com
-[2025-06-30 22:10:32] INFO: Domain mon.zijieapi.com not in local database, forwarding to upstream server
-[2025-06-30 22:10:32] INFO: Received DNS query from ('10.29.216.160', 64481)
-[2025-06-30 22:10:32] INFO: Processing query for domain: mon.zijieapi.com
-[2025-06-30 22:10:32] INFO: Domain mon.zijieapi.com not in local database, forwarding to upstream server
-[2025-06-30 22:10:32] WARNING: 客户端连接被重置
-[2025-06-30 22:10:32] WARNING: 客户端连接被重置
-[2025-06-30 22:10:32] WARNING: 客户端连接被重置
-[2025-06-30 22:10:32] INFO: Received DNS query from ('10.29.216.160', 53142)
-[2025-06-30 22:10:32] INFO: Processing query for domain: mon.zijieapi.com
-[2025-06-30 22:10:32] INFO: Domain mon.zijieapi.com not in local database, forwarding to upstream server
-[2025-06-30 22:10:32] WARNING: 客户端连接被重置
-[2025-06-30 22:10:32] INFO: Received DNS query from ('10.29.216.160', 53978)
-[2025-06-30 22:10:32] INFO: Processing query for domain: mon.zijieapi.com
-[2025-06-30 22:10:32] INFO: Domain mon.zijieapi.com not in local database, forwarding to upstream server
-[2025-06-30 22:10:32] INFO: Received DNS query from ('10.29.216.160', 52587)
-[2025-06-30 22:10:32] INFO: Processing query for domain: mon.zijieapi.com
-[2025-06-30 22:10:32] INFO: Domain mon.zijieapi.com not in local database, forwarding to upstream server
-[2025-06-30 22:10:32] INFO: Received DNS query from ('10.29.216.160', 52124)
-[2025-06-30 22:10:32] INFO: Processing query for domain: mon.zijieapi.com
-[2025-06-30 22:10:32] INFO: Domain mon.zijieapi.com not in local database, forwarding to upstream server
-[2025-06-30 22:10:32] INFO: Received DNS query from ('10.29.216.160', 63704)
-[2025-06-30 22:10:32] INFO: Processing query for domain: mon.zijieapi.com
-[2025-06-30 22:10:32] INFO: Domain mon.zijieapi.com not in local database, forwarding to upstream server
-[2025-06-30 22:10:32] WARNING: 客户端连接被重置
-[2025-06-30 22:10:32] INFO: Received DNS query from ('10.29.216.160', 58850)
-[2025-06-30 22:10:32] INFO: Processing query for domain: mon.zijieapi.com
-[2025-06-30 22:10:32] INFO: Domain mon.zijieapi.com not in local database, forwarding to upstream server
-[2025-06-30 22:10:32] WARNING: 客户端连接被重置
-[2025-06-30 22:10:32] INFO: Received DNS query from ('10.29.216.160', 55159)
-[2025-06-30 22:10:32] INFO: Processing query for domain: mon.zijieapi.com
-[2025-06-30 22:10:32] INFO: Domain mon.zijieapi.com not in local database, forwarding to upstream server
-[2025-06-30 22:10:32] WARNING: 客户端连接被重置
-[2025-06-30 22:10:32] WARNING: 客户端连接被重置
-[2025-06-30 22:10:32] WARNING: 客户端连接被重置
-[2025-06-30 22:10:32] WARNING: 客户端连接被重置
-[2025-06-30 22:10:40] INFO: Received DNS query from ('10.29.216.160', 64085)
-[2025-06-30 22:10:40] INFO: Processing query for domain: mcs.zijieapi.com
-[2025-06-30 22:10:40] INFO: Domain mcs.zijieapi.com not in local database, forwarding to upstream server
-[2025-06-30 22:10:40] WARNING: 客户端连接被重置
-[2025-06-30 22:11:05] INFO: Received DNS query from ('10.29.216.160', 63018)
-[2025-06-30 22:11:05] INFO: Processing query for domain: wx.mail.qq.com
-[2025-06-30 22:11:05] INFO: Domain wx.mail.qq.com not in local database, forwarding to upstream server
-[2025-06-30 22:11:05] WARNING: 客户端连接被重置
-[2025-06-30 22:11:06] INFO: Received DNS query from ('10.29.216.160', 56464)
-[2025-06-30 22:11:06] INFO: Processing query for domain: wx.mail.qq.com
-[2025-06-30 22:11:06] INFO: Domain wx.mail.qq.com not in local database, forwarding to upstream server
-[2025-06-30 22:11:06] WARNING: 客户端连接被重置
-[2025-06-30 22:11:11] INFO: Received DNS query from ('10.29.216.160', 59460)
-[2025-06-30 22:11:11] INFO: Processing query for domain: bytegate.zijieapi.com
-[2025-06-30 22:11:11] INFO: Domain bytegate.zijieapi.com not in local database, forwarding to upstream server
-[2025-06-30 22:11:11] WARNING: 客户端连接被重置
-[2025-06-30 22:11:11] INFO: Received DNS query from ('10.29.216.160', 50479)
-[2025-06-30 22:11:11] INFO: Processing query for domain: mon.zijieapi.com
-[2025-06-30 22:11:11] INFO: Domain mon.zijieapi.com not in local database, forwarding to upstream server
-[2025-06-30 22:11:11] INFO: Received DNS query from ('10.29.216.160', 54852)
-[2025-06-30 22:11:11] INFO: Processing query for domain: mon.zijieapi.com
-[2025-06-30 22:11:11] INFO: Domain mon.zijieapi.com not in local database, forwarding to upstream server
-[2025-06-30 22:11:11] WARNING: 客户端连接被重置
-[2025-06-30 22:11:11] WARNING: 客户端连接被重置
-[2025-06-30 22:11:13] INFO: Received DNS query from ('10.29.216.160', 58597)
-[2025-06-30 22:11:13] INFO: Processing query for domain: trae-api-cn.mchost.guru
-[2025-06-30 22:11:13] INFO: Domain trae-api-cn.mchost.guru not in local database, forwarding to upstream server
-[2025-06-30 22:11:13] WARNING: 客户端连接被重置
-[2025-06-30 22:11:16] INFO: Received DNS query from ('10.29.216.160', 56215)
-[2025-06-30 22:11:16] INFO: Processing query for domain: mon.zijieapi.com
-[2025-06-30 22:11:16] INFO: Domain mon.zijieapi.com not in local database, forwarding to upstream server
-[2025-06-30 22:11:16] INFO: Received DNS query from ('10.29.216.160', 60745)
-[2025-06-30 22:11:16] INFO: Processing query for domain: mon.zijieapi.com
-[2025-06-30 22:11:16] INFO: Domain mon.zijieapi.com not in local database, forwarding to upstream server
-[2025-06-30 22:11:16] WARNING: 客户端连接被重置
-[2025-06-30 22:11:16] WARNING: 客户端连接被重置
-[2025-06-30 22:11:39] INFO: Received DNS query from ('10.29.216.160', 62392)
-[2025-06-30 22:11:39] INFO: Processing query for domain: telemetry.trae.com.cn
-[2025-06-30 22:11:39] INFO: Domain telemetry.trae.com.cn not in local database, forwarding to upstream server
-[2025-06-30 22:11:39] WARNING: 客户端连接被重置
-[2025-06-30 22:11:44] INFO: Received DNS query from ('10.29.216.160', 51864)
-[2025-06-30 22:11:44] INFO: Processing query for domain: tpstelemetry.tencent.com
-[2025-06-30 22:11:44] INFO: Domain tpstelemetry.tencent.com not in local database, forwarding to upstream server
-[2025-06-30 22:11:44] WARNING: 客户端连接被重置
-[2025-06-30 22:11:49] INFO: Received DNS query from ('10.29.216.160', 53824)
-[2025-06-30 22:11:49] INFO: Processing query for domain: telemetry.trae.com.cn
-[2025-06-30 22:11:49] INFO: Domain telemetry.trae.com.cn not in local database, forwarding to upstream server
-[2025-06-30 22:11:49] WARNING: 客户端连接被重置
-[2025-06-30 22:11:50] INFO: Received DNS query from ('10.29.216.160', 50985)
-[2025-06-30 22:11:50] INFO: Processing query for domain: mon.zijieapi.com
-[2025-06-30 22:11:50] INFO: Domain mon.zijieapi.com not in local database, forwarding to upstream server
-[2025-06-30 22:11:50] INFO: Received DNS query from ('10.29.216.160', 63118)
-[2025-06-30 22:11:50] INFO: Processing query for domain: mon.zijieapi.com
-[2025-06-30 22:11:50] INFO: Domain mon.zijieapi.com not in local database, forwarding to upstream server
-[2025-06-30 22:11:50] WARNING: 客户端连接被重置
-[2025-06-30 22:11:50] WARNING: 客户端连接被重置
-[2025-06-30 22:11:53] INFO: Received DNS query from ('10.29.216.160', 49159)
-[2025-06-30 22:11:53] INFO: Processing query for domain: acs.m.taobao.com
-[2025-06-30 22:11:53] INFO: Domain acs.m.taobao.com not in local database, forwarding to upstream server
-[2025-06-30 22:11:53] INFO: Received DNS query from ('10.29.216.160', 61817)
-[2025-06-30 22:11:53] INFO: Processing query for domain: audid-api.taobao.com
-[2025-06-30 22:11:53] INFO: Domain audid-api.taobao.com not in local database, forwarding to upstream server
-[2025-06-30 22:11:53] WARNING: 客户端连接被重置
-[2025-06-30 22:11:53] WARNING: 客户端连接被重置
-[2025-06-30 22:11:54] INFO: Received DNS query from ('10.29.216.160', 50088)
-[2025-06-30 22:11:54] INFO: Processing query for domain: telemetry.trae.com.cn
-[2025-06-30 22:11:54] INFO: Domain telemetry.trae.com.cn not in local database, forwarding to upstream server
-[2025-06-30 22:11:54] WARNING: 客户端连接被重置
-[2025-06-30 22:11:54] INFO: Received DNS query from ('10.29.216.160', 56001)
-[2025-06-30 22:11:54] INFO: Processing query for domain: acs.m.taobao.com
-[2025-06-30 22:11:54] INFO: Domain acs.m.taobao.com not in local database, forwarding to upstream server
-[2025-06-30 22:11:54] INFO: Received DNS query from ('10.29.216.160', 49190)
-[2025-06-30 22:11:54] INFO: Processing query for domain: audid-api.taobao.com
-[2025-06-30 22:11:54] INFO: Domain audid-api.taobao.com not in local database, forwarding to upstream server
-[2025-06-30 22:11:54] WARNING: 客户端连接被重置
-[2025-06-30 22:11:54] WARNING: 客户端连接被重置
-[2025-06-30 22:11:56] INFO: Received DNS query from ('10.29.216.160', 59806)
-[2025-06-30 22:11:56] INFO: Processing query for domain: audid-api.taobao.com
-[2025-06-30 22:11:56] INFO: Domain audid-api.taobao.com not in local database, forwarding to upstream server
-[2025-06-30 22:11:56] INFO: Received DNS query from ('10.29.216.160', 59338)
-[2025-06-30 22:11:56] INFO: Processing query for domain: acs.m.taobao.com
-[2025-06-30 22:11:56] INFO: Domain acs.m.taobao.com not in local database, forwarding to upstream server
-[2025-06-30 22:11:56] WARNING: 客户端连接被重置
-[2025-06-30 22:11:56] WARNING: 客户端连接被重置
-[2025-06-30 22:12:06] INFO: Starting DNS server on 10.29.216.160:53
-[2025-06-30 22:12:06] INFO: Database loaded successfully
-[2025-06-30 22:12:06] INFO: DNS server started on 10.29.216.160:53
-[2025-06-30 22:12:07] INFO: Received DNS query from ('10.29.216.160', 58004)
-[2025-06-30 22:12:07] INFO: Processing query for domain: mon.zijieapi.com
-[2025-06-30 22:12:07] INFO: Domain mon.zijieapi.com not in local database, forwarding to upstream server
-[2025-06-30 22:12:07] INFO: Received DNS query from ('10.29.216.160', 51777)
-[2025-06-30 22:12:07] INFO: Processing query for domain: mon.zijieapi.com
-[2025-06-30 22:12:07] INFO: Domain mon.zijieapi.com not in local database, forwarding to upstream server
-[2025-06-30 22:12:07] WARNING: 客户端连接被重置
-[2025-06-30 22:12:07] WARNING: 客户端连接被重置
-[2025-06-30 22:12:07] INFO: Received DNS query from ('10.29.216.160', 56209)
-[2025-06-30 22:12:07] INFO: Processing query for domain: mon.zijieapi.com
-[2025-06-30 22:12:07] INFO: Domain mon.zijieapi.com not in local database, forwarding to upstream server
-[2025-06-30 22:12:07] WARNING: 客户端连接被重置
-[2025-06-30 22:12:08] INFO: Received DNS query from ('10.29.216.160', 54915)
-[2025-06-30 22:12:08] INFO: Processing query for domain: mon.zijieapi.com
-[2025-06-30 22:12:08] INFO: Domain mon.zijieapi.com not in local database, forwarding to upstream server
-[2025-06-30 22:12:08] WARNING: 客户端连接被重置
-[2025-06-30 22:12:09] INFO: Received DNS query from ('10.29.216.160', 50882)
-[2025-06-30 22:12:09] INFO: Processing query for domain: telemetry.trae.com.cn
-[2025-06-30 22:12:09] INFO: Domain telemetry.trae.com.cn not in local database, forwarding to upstream server
-[2025-06-30 22:12:09] WARNING: 客户端连接被重置
-[2025-06-30 22:12:12] INFO: Received DNS query from ('10.29.216.160', 55612)
-[2025-06-30 22:12:12] INFO: Processing query for domain: 160.216.29.10.in-addr.arpa
-[2025-06-30 22:12:12] INFO: Domain 160.216.29.10.in-addr.arpa not in local database, forwarding to upstream server
-[2025-06-30 22:12:12] INFO: Received DNS query from ('10.29.216.160', 55614)
-[2025-06-30 22:12:12] INFO: Processing query for domain: www.baidu.com
-[2025-06-30 22:12:12] INFO: Domain www.baidu.com found in local database: 220.181.111.1
-[2025-06-30 22:12:12] INFO: Received DNS query from ('10.29.216.160', 55615)
-[2025-06-30 22:12:12] INFO: Processing query for domain: www.baidu.com
-[2025-06-30 22:12:12] INFO: Domain www.baidu.com found in local database: 220.181.111.1
-[2025-06-30 22:12:14] INFO: Received DNS query from ('10.29.216.160', 56491)
-[2025-06-30 22:12:14] INFO: Processing query for domain: telemetry.trae.com.cn
-[2025-06-30 22:12:14] INFO: Domain telemetry.trae.com.cn not in local database, forwarding to upstream server
-[2025-06-30 22:12:14] WARNING: 客户端连接被重置
-[2025-06-30 22:12:14] INFO: Received DNS query from ('10.29.216.160', 65413)
-[2025-06-30 22:12:14] INFO: Processing query for domain: mon.zijieapi.com
-[2025-06-30 22:12:14] INFO: Domain mon.zijieapi.com not in local database, forwarding to upstream server
-[2025-06-30 22:12:14] WARNING: 客户端连接被重置
-[2025-06-30 22:12:19] INFO: Received DNS query from ('10.29.216.160', 60262)
-[2025-06-30 22:12:19] INFO: Processing query for domain: 160.216.29.10.in-addr.arpa
-[2025-06-30 22:12:19] INFO: Domain 160.216.29.10.in-addr.arpa not in local database, forwarding to upstream server
-[2025-06-30 22:12:19] INFO: Received DNS query from ('10.29.216.160', 60264)
-[2025-06-30 22:12:19] INFO: Processing query for domain: www.bilibili.com
-[2025-06-30 22:12:19] INFO: Domain www.bilibili.com not in local database, forwarding to upstream server
-[2025-06-30 22:12:19] INFO: Received DNS query from ('10.29.216.160', 60266)
-[2025-06-30 22:12:19] INFO: Processing query for domain: www.bilibili.com
-[2025-06-30 22:12:19] INFO: Domain www.bilibili.com not in local database, forwarding to upstream server
-[2025-06-30 22:12:19] INFO: Received DNS query from ('10.29.216.160', 50095)
-[2025-06-30 22:12:19] INFO: Received DNS query from ('10.29.216.160', 57313)
-[2025-06-30 22:12:19] INFO: Processing query for domain: telemetry.trae.com.cn
-[2025-06-30 22:12:19] INFO: Processing query for domain: telemetry.trae.com.cn
-[2025-06-30 22:12:19] INFO: Domain telemetry.trae.com.cn not in local database, forwarding to upstream server
-[2025-06-30 22:12:19] INFO: Domain telemetry.trae.com.cn not in local database, forwarding to upstream server
-[2025-06-30 22:12:19] WARNING: 客户端连接被重置
-[2025-06-30 22:12:19] WARNING: 客户端连接被重置
-[2025-06-30 22:12:21] INFO: Received DNS query from ('10.29.216.160', 60209)
-[2025-06-30 22:12:21] INFO: Processing query for domain: mon.zijieapi.com
-[2025-06-30 22:12:21] INFO: Domain mon.zijieapi.com not in local database, forwarding to upstream server
-[2025-06-30 22:12:21] WARNING: 客户端连接被重置
-[2025-06-30 22:12:24] INFO: Received DNS query from ('10.29.216.160', 54719)
-[2025-06-30 22:12:24] INFO: Received DNS query from ('10.29.216.160', 49664)
-[2025-06-30 22:12:24] INFO: Processing query for domain: mon.zijieapi.com
-[2025-06-30 22:12:24] INFO: Processing query for domain: mon.zijieapi.com
-[2025-06-30 22:12:24] INFO: Domain mon.zijieapi.com not in local database, forwarding to upstream server
-[2025-06-30 22:12:24] INFO: Domain mon.zijieapi.com not in local database, forwarding to upstream server
-[2025-06-30 22:12:24] WARNING: 客户端连接被重置
-[2025-06-30 22:12:24] WARNING: 客户端连接被重置
+[2025-06-30 22:37:59] INFO: DNS server started on 10.29.216.160:53
+[2025-06-30 22:37:59] INFO: Received DNS query from ('10.29.216.160', 59784)
+[2025-06-30 22:37:59] INFO: Processing query for domain: mon.zijieapi.com
+[2025-06-30 22:37:59] INFO: Domain mon.zijieapi.com not in local database or cache, forwarding to upstream server
+[2025-06-30 22:37:59] INFO: Received DNS query from ('10.29.216.160', 59212)
+[2025-06-30 22:37:59] INFO: Processing query for domain: mon.zijieapi.com
+[2025-06-30 22:37:59] INFO: Domain mon.zijieapi.com not in local database or cache, forwarding to upstream server
+[2025-06-30 22:37:59] INFO: Added mon.zijieapi.com -> 220.181.136.252 to cache with TTL 36s
+[2025-06-30 22:37:59] INFO: Received DNS query from ('10.29.216.160', 63679)
+[2025-06-30 22:37:59] INFO: Received DNS query from ('10.29.216.160', 50597)
+[2025-06-30 22:37:59] INFO: Processing query for domain: mcs.zijieapi.com
+[2025-06-30 22:37:59] INFO: Processing query for domain: mcs.zijieapi.com
+[2025-06-30 22:37:59] INFO: Received DNS query from ('10.29.216.160', 60679)
+[2025-06-30 22:37:59] INFO: Domain mcs.zijieapi.com not in local database or cache, forwarding to upstream server
+[2025-06-30 22:37:59] INFO: Domain mcs.zijieapi.com not in local database or cache, forwarding to upstream server
+[2025-06-30 22:37:59] INFO: Processing query for domain: mcs.zijieapi.com
+[2025-06-30 22:37:59] INFO: Domain mcs.zijieapi.com not in local database or cache, forwarding to upstream server
+[2025-06-30 22:37:59] INFO: Added mcs.zijieapi.com -> 144.7.92.168 to cache with TTL 395s
+[2025-06-30 22:38:00] INFO: Received DNS query from ('10.29.216.160', 59212)
+[2025-06-30 22:38:00] INFO: Processing query for domain: mon.zijieapi.com
+[2025-06-30 22:38:00] INFO: Domain mon.zijieapi.com found in cache: 220.181.136.252
+[2025-06-30 22:38:01] INFO: Received DNS query from ('10.29.216.160', 59784)
+[2025-06-30 22:38:01] INFO: Processing query for domain: mon.zijieapi.com
+[2025-06-30 22:38:01] INFO: Domain mon.zijieapi.com found in cache: 220.181.136.252
+[2025-06-30 22:38:01] INFO: Received DNS query from ('10.29.216.160', 59212)
+[2025-06-30 22:38:01] INFO: Processing query for domain: mon.zijieapi.com
+[2025-06-30 22:38:01] INFO: Domain mon.zijieapi.com found in cache: 220.181.136.252
+[2025-06-30 22:38:01] INFO: Received DNS query from ('10.29.216.160', 59784)
+[2025-06-30 22:38:01] INFO: Received DNS query from ('10.29.216.160', 59212)
+[2025-06-30 22:38:01] INFO: Processing query for domain: mcs.ctobsnssdk.com
+[2025-06-30 22:38:01] INFO: Processing query for domain: mcs.ctobsnssdk.com
+[2025-06-30 22:38:01] INFO: Domain mcs.ctobsnssdk.com not in local database or cache, forwarding to upstream server
+[2025-06-30 22:38:01] INFO: Domain mcs.ctobsnssdk.com not in local database or cache, forwarding to upstream server
+[2025-06-30 22:38:01] INFO: Added mcs.ctobsnssdk.com -> 27.128.209.201 to cache with TTL 496s
+[2025-06-30 22:38:01] INFO: Received DNS query from ('10.29.216.160', 59212)
+[2025-06-30 22:38:01] INFO: Received DNS query from ('10.29.216.160', 59784)
+[2025-06-30 22:38:01] INFO: Processing query for domain: telemetry.trae.com.cn
+[2025-06-30 22:38:01] INFO: Processing query for domain: telemetry.trae.com.cn
+[2025-06-30 22:38:01] INFO: Domain telemetry.trae.com.cn not in local database or cache, forwarding to upstream server
+[2025-06-30 22:38:01] INFO: Domain telemetry.trae.com.cn not in local database or cache, forwarding to upstream server
+[2025-06-30 22:38:01] INFO: Added telemetry.trae.com.cn -> 220.181.141.68 to cache with TTL 514s
+[2025-06-30 22:38:02] INFO: Received DNS query from ('10.29.216.160', 53163)
+[2025-06-30 22:38:02] INFO: Processing query for domain: mon.zijieapi.com
+[2025-06-30 22:38:02] INFO: Received DNS query from ('10.29.216.160', 51572)
+[2025-06-30 22:38:02] INFO: Received DNS query from ('10.29.216.160', 49664)
+[2025-06-30 22:38:02] INFO: Domain mon.zijieapi.com found in cache: 220.181.136.252
+[2025-06-30 22:38:02] INFO: Processing query for domain: mon.zijieapi.com
+[2025-06-30 22:38:02] INFO: Processing query for domain: mon.zijieapi.com
+[2025-06-30 22:38:02] INFO: Domain mon.zijieapi.com found in cache: 220.181.136.252
+[2025-06-30 22:38:02] INFO: Domain mon.zijieapi.com found in cache: 220.181.136.252
+[2025-06-30 22:38:02] INFO: Received DNS query from ('10.29.216.160', 59784)
+[2025-06-30 22:38:02] INFO: Processing query for domain: mon.zijieapi.com
+[2025-06-30 22:38:02] INFO: Domain mon.zijieapi.com found in cache: 220.181.136.252
+[2025-06-30 22:38:03] INFO: Received DNS query from ('10.29.216.160', 61804)
+[2025-06-30 22:38:03] INFO: Processing query for domain: 160.216.29.10.in-addr.arpa
+[2025-06-30 22:38:03] INFO: Domain 160.216.29.10.in-addr.arpa not in local database or cache, forwarding to upstream server
+[2025-06-30 22:38:03] WARNING: 客户端连接被重置
+[2025-06-30 22:38:03] INFO: Received DNS query from ('10.29.216.160', 61806)
+[2025-06-30 22:38:03] INFO: Processing query for domain: www.baidu.com
+[2025-06-30 22:38:03] INFO: Domain www.baidu.com found in local database: 220.181.111.1
+[2025-06-30 22:38:03] INFO: Domain www.baidu.com not in local database or cache, forwarding to upstream server
+[2025-06-30 22:38:03] INFO: Received DNS query from ('10.29.216.160', 61808)
+[2025-06-30 22:38:03] INFO: Processing query for domain: www.baidu.com
+[2025-06-30 22:38:03] INFO: Domain www.baidu.com found in local database: 220.181.111.1
+[2025-06-30 22:38:03] INFO: Domain www.baidu.com not in local database or cache, forwarding to upstream server
+[2025-06-30 22:38:03] INFO: Added www.baidu.com -> 220.181.111.232 to cache with TTL 120s
+[2025-06-30 22:38:03] WARNING: 客户端连接被重置
+[2025-06-30 22:38:03] WARNING: 客户端连接被重置
+[2025-06-30 22:38:03] WARNING: 客户端连接被重置
+[2025-06-30 22:38:03] WARNING: 客户端连接被重置
+[2025-06-30 22:38:04] INFO: Received DNS query from ('10.29.216.160', 59212)
+[2025-06-30 22:38:04] INFO: Processing query for domain: mon.zijieapi.com
+[2025-06-30 22:38:04] INFO: Domain mon.zijieapi.com found in cache: 220.181.136.252
+[2025-06-30 22:38:05] INFO: Received DNS query from ('10.29.216.160', 59784)
+[2025-06-30 22:38:05] INFO: Processing query for domain: mon.zijieapi.com
+[2025-06-30 22:38:05] INFO: Domain mon.zijieapi.com found in cache: 220.181.136.252
+[2025-06-30 22:38:06] INFO: Received DNS query from ('10.29.216.160', 59212)
+[2025-06-30 22:38:06] INFO: Processing query for domain: telemetry.trae.com.cn
+[2025-06-30 22:38:06] INFO: Received DNS query from ('10.29.216.160', 59784)
+[2025-06-30 22:38:06] INFO: Processing query for domain: telemetry.trae.com.cn
+[2025-06-30 22:38:06] INFO: Domain telemetry.trae.com.cn found in cache: 220.181.141.68
+[2025-06-30 22:38:06] INFO: Domain telemetry.trae.com.cn found in cache: 220.181.141.68
+[2025-06-30 22:38:06] INFO: Received DNS query from ('10.29.216.160', 53728)
+[2025-06-30 22:38:06] INFO: Processing query for domain: my.microsoftpersonalcontent.com
+[2025-06-30 22:38:06] INFO: Received DNS query from ('10.29.216.160', 59212)
+[2025-06-30 22:38:06] INFO: Domain my.microsoftpersonalcontent.com not in local database or cache, forwarding to upstream server
+[2025-06-30 22:38:06] INFO: Processing query for domain: my.microsoftpersonalcontent.com
+[2025-06-30 22:38:06] INFO: Domain my.microsoftpersonalcontent.com not in local database or cache, forwarding to upstream server
+[2025-06-30 22:38:06] INFO: Added my.microsoftpersonalcontent.com -> 13.107.139.11 to cache with TTL 123s
+[2025-06-30 22:38:07] INFO: Received DNS query from ('10.29.216.160', 59784)
+[2025-06-30 22:38:07] INFO: Processing query for domain: mon.zijieapi.com
+[2025-06-30 22:38:07] INFO: Domain mon.zijieapi.com found in cache: 220.181.136.252
+[2025-06-30 22:38:07] INFO: Received DNS query from ('10.29.216.160', 62822)
+[2025-06-30 22:38:07] INFO: Processing query for domain: 160.216.29.10.in-addr.arpa
+[2025-06-30 22:38:07] INFO: Domain 160.216.29.10.in-addr.arpa not in local database or cache, forwarding to upstream server
+[2025-06-30 22:38:07] WARNING: 客户端连接被重置
+[2025-06-30 22:38:07] INFO: Received DNS query from ('10.29.216.160', 62824)
+[2025-06-30 22:38:07] INFO: Processing query for domain: www.bilibili.com
+[2025-06-30 22:38:07] INFO: Domain www.bilibili.com not in local database or cache, forwarding to upstream server
+[2025-06-30 22:38:07] INFO: Added www.bilibili.com -> 121.194.11.72 to cache with TTL 59s
+[2025-06-30 22:38:07] WARNING: 客户端连接被重置
+[2025-06-30 22:38:07] INFO: Received DNS query from ('10.29.216.160', 62826)
+[2025-06-30 22:38:07] INFO: Processing query for domain: www.bilibili.com
+[2025-06-30 22:38:07] INFO: Domain www.bilibili.com found in cache: 121.194.11.72
+[2025-06-30 22:38:07] INFO: Received DNS query from ('10.29.216.160', 53728)
+[2025-06-30 22:38:07] INFO: Processing query for domain: mcs.zijieapi.com
+[2025-06-30 22:38:07] INFO: Received DNS query from ('10.29.216.160', 59212)
+[2025-06-30 22:38:07] INFO: Processing query for domain: mcs.zijieapi.com
+[2025-06-30 22:38:07] INFO: Domain mcs.zijieapi.com found in cache: 144.7.92.168
+[2025-06-30 22:38:07] INFO: Domain mcs.zijieapi.com found in cache: 144.7.92.168
+[2025-06-30 22:38:08] INFO: Received DNS query from ('10.29.216.160', 59784)
+[2025-06-30 22:38:08] INFO: Processing query for domain: mcs.zijieapi.com
+[2025-06-30 22:38:08] INFO: Received DNS query from ('10.29.216.160', 53728)
+[2025-06-30 22:38:08] INFO: Processing query for domain: mcs.zijieapi.com
+[2025-06-30 22:38:08] INFO: Domain mcs.zijieapi.com found in cache: 144.7.92.168
+[2025-06-30 22:38:08] INFO: Domain mcs.zijieapi.com found in cache: 144.7.92.168
+[2025-06-30 22:38:09] INFO: Received DNS query from ('10.29.216.160', 59212)
+[2025-06-30 22:38:09] INFO: Processing query for domain: mcs.zijieapi.com
+[2025-06-30 22:38:09] INFO: Domain mcs.zijieapi.com found in cache: 144.7.92.168
+[2025-06-30 22:38:09] INFO: Received DNS query from ('10.29.216.160', 59784)
+[2025-06-30 22:38:09] INFO: Processing query for domain: mon.zijieapi.com
+[2025-06-30 22:38:09] INFO: Domain mon.zijieapi.com found in cache: 220.181.136.252
+[2025-06-30 22:38:11] INFO: Received DNS query from ('10.29.216.160', 53728)
+[2025-06-30 22:38:11] INFO: Processing query for domain: telemetry.trae.com.cn
+[2025-06-30 22:38:11] INFO: Domain telemetry.trae.com.cn found in cache: 220.181.141.68
+[2025-06-30 22:38:11] INFO: Received DNS query from ('10.29.216.160', 59212)
+[2025-06-30 22:38:11] INFO: Processing query for domain: mon.zijieapi.com
+[2025-06-30 22:38:11] INFO: Domain mon.zijieapi.com found in cache: 220.181.136.252
+[2025-06-30 22:38:13] INFO: Received DNS query from ('10.29.216.160', 59784)
+[2025-06-30 22:38:13] INFO: Processing query for domain: mon.zijieapi.com
+[2025-06-30 22:38:13] INFO: Domain mon.zijieapi.com found in cache: 220.181.136.252
+[2025-06-30 22:38:14] INFO: Received DNS query from ('10.29.216.160', 53728)
+[2025-06-30 22:38:14] INFO: Processing query for domain: mon.zijieapi.com
+[2025-06-30 22:38:14] INFO: Domain mon.zijieapi.com found in cache: 220.181.136.252
+[2025-06-30 22:38:15] INFO: Received DNS query from ('10.29.216.160', 59212)
+[2025-06-30 22:38:15] INFO: Processing query for domain: y.gtimg.cn
+[2025-06-30 22:38:15] INFO: Domain y.gtimg.cn not in local database or cache, forwarding to upstream server
+[2025-06-30 22:38:15] INFO: Added y.gtimg.cn -> 42.202.165.135 to cache with TTL 180s
+[2025-06-30 22:38:15] INFO: Received DNS query from ('10.29.216.160', 59784)
+[2025-06-30 22:38:15] INFO: Processing query for domain: u6.y.qq.com
+[2025-06-30 22:38:15] INFO: Domain u6.y.qq.com not in local database or cache, forwarding to upstream server
+[2025-06-30 22:38:15] INFO: Added u6.y.qq.com -> 221.238.41.90 to cache with TTL 333s
+[2025-06-30 22:38:15] INFO: Received DNS query from ('10.29.216.160', 53728)
+[2025-06-30 22:38:15] INFO: Processing query for domain: stat6.y.qq.com
+[2025-06-30 22:38:15] INFO: Domain stat6.y.qq.com not in local database or cache, forwarding to upstream server
+[2025-06-30 22:38:15] INFO: Added stat6.y.qq.com -> 101.226.150.224 to cache with TTL 235s
+[2025-06-30 22:38:15] INFO: Received DNS query from ('10.29.216.160', 59212)
+[2025-06-30 22:38:15] INFO: Processing query for domain: mon.zijieapi.com
+[2025-06-30 22:38:15] INFO: Domain mon.zijieapi.com found in cache: 220.181.136.252
+[2025-06-30 22:38:17] INFO: Received DNS query from ('10.29.216.160', 59784)
+[2025-06-30 22:38:17] INFO: Processing query for domain: mon.zijieapi.com
+[2025-06-30 22:38:17] INFO: Domain mon.zijieapi.com found in cache: 220.181.136.252
+[2025-06-30 22:38:18] INFO: Received DNS query from ('10.29.216.160', 53728)
+[2025-06-30 22:38:18] INFO: Processing query for domain: mcs.zijieapi.com
+[2025-06-30 22:38:18] INFO: Domain mcs.zijieapi.com found in cache: 144.7.92.168
+[2025-06-30 22:38:18] INFO: Received DNS query from ('10.29.216.160', 59212)
+[2025-06-30 22:38:18] INFO: Processing query for domain: mcs.zijieapi.com
+[2025-06-30 22:38:18] INFO: Domain mcs.zijieapi.com found in cache: 144.7.92.168
+[2025-06-30 22:38:19] INFO: Received DNS query from ('10.29.216.160', 59784)
+[2025-06-30 22:38:19] INFO: Processing query for domain: mon.zijieapi.com
+[2025-06-30 22:38:19] INFO: Domain mon.zijieapi.com found in cache: 220.181.136.252
+[2025-06-30 22:38:19] INFO: Received DNS query from ('10.29.216.160', 53728)
+[2025-06-30 22:38:19] INFO: Processing query for domain: mcs.zijieapi.com
+[2025-06-30 22:38:19] INFO: Domain mcs.zijieapi.com found in cache: 144.7.92.168
+[2025-06-30 22:38:20] INFO: Received DNS query from ('10.29.216.160', 59212)
+[2025-06-30 22:38:20] INFO: Processing query for domain: mon.zijieapi.com
+[2025-06-30 22:38:20] INFO: Domain mon.zijieapi.com found in cache: 220.181.136.252
+[2025-06-30 22:38:21] INFO: Received DNS query from ('10.29.216.160', 59784)
+[2025-06-30 22:38:21] INFO: Processing query for domain: mon.zijieapi.com
+[2025-06-30 22:38:21] INFO: Domain mon.zijieapi.com found in cache: 220.181.136.252
+[2025-06-30 22:38:23] INFO: Received DNS query from ('10.29.216.160', 53728)
+[2025-06-30 22:38:23] INFO: Processing query for domain: mon.zijieapi.com
+[2025-06-30 22:38:23] INFO: Domain mon.zijieapi.com found in cache: 220.181.136.252
+[2025-06-30 22:38:25] INFO: Received DNS query from ('10.29.216.160', 59212)
+[2025-06-30 22:38:25] INFO: Processing query for domain: mon.zijieapi.com
+[2025-06-30 22:38:25] INFO: Domain mon.zijieapi.com found in cache: 220.181.136.252
+[2025-06-30 22:38:26] INFO: Received DNS query from ('10.29.216.160', 59784)
+[2025-06-30 22:38:26] INFO: Processing query for domain: mon.zijieapi.com
+[2025-06-30 22:38:26] INFO: Domain mon.zijieapi.com found in cache: 220.181.136.252
+[2025-06-30 22:38:27] INFO: Received DNS query from ('10.29.216.160', 53728)
+[2025-06-30 22:38:27] INFO: Received DNS query from ('10.29.216.160', 59212)
+[2025-06-30 22:38:27] INFO: Processing query for domain: trae-api-cn.mchost.guru
+[2025-06-30 22:38:27] INFO: Processing query for domain: trae-api-cn.mchost.guru
+[2025-06-30 22:38:27] INFO: Domain trae-api-cn.mchost.guru not in local database or cache, forwarding to upstream server
+[2025-06-30 22:38:27] INFO: Domain trae-api-cn.mchost.guru not in local database or cache, forwarding to upstream server
+[2025-06-30 22:38:27] INFO: Added trae-api-cn.mchost.guru -> 220.181.136.252 to cache with TTL 509s
+[2025-06-30 22:38:27] INFO: Received DNS query from ('10.29.216.160', 59784)
+[2025-06-30 22:38:27] INFO: Processing query for domain: mon.zijieapi.com
+[2025-06-30 22:38:27] INFO: Domain mon.zijieapi.com found in cache: 220.181.136.252
+[2025-06-30 22:38:28] INFO: Received DNS query from ('10.29.216.160', 53728)
+[2025-06-30 22:38:28] INFO: Processing query for domain: mon.zijieapi.com
+[2025-06-30 22:38:28] INFO: Domain mon.zijieapi.com found in cache: 220.181.136.252
+[2025-06-30 22:38:28] INFO: Received DNS query from ('10.29.216.160', 59212)
+[2025-06-30 22:38:28] INFO: Processing query for domain: mon.zijieapi.com
+[2025-06-30 22:38:28] INFO: Domain mon.zijieapi.com found in cache: 220.181.136.252
+[2025-06-30 22:38:28] INFO: Received DNS query from ('10.29.216.160', 59784)
+[2025-06-30 22:38:28] INFO: Processing query for domain: abtestvm.bytedance.com
+[2025-06-30 22:38:28] INFO: Domain abtestvm.bytedance.com not in local database or cache, forwarding to upstream server
+[2025-06-30 22:38:28] INFO: Received DNS query from ('10.29.216.160', 53728)
+[2025-06-30 22:38:28] INFO: Processing query for domain: abtestvm.bytedance.com
+[2025-06-30 22:38:28] INFO: Domain abtestvm.bytedance.com not in local database or cache, forwarding to upstream server
+[2025-06-30 22:38:28] INFO: Added abtestvm.bytedance.com -> 106.38.254.76 to cache with TTL 130s
+[2025-06-30 22:38:28] INFO: Received DNS query from ('10.29.216.160', 59212)
+[2025-06-30 22:38:28] INFO: Processing query for domain: mon.zijieapi.com
+[2025-06-30 22:38:28] INFO: Domain mon.zijieapi.com found in cache: 220.181.136.252
+[2025-06-30 22:38:29] INFO: Received DNS query from ('10.29.216.160', 53728)
+[2025-06-30 22:38:29] INFO: Processing query for domain: mon.zijieapi.com
+[2025-06-30 22:38:29] INFO: Domain mon.zijieapi.com found in cache: 220.181.136.252
+[2025-06-30 22:38:29] INFO: Received DNS query from ('10.29.216.160', 59784)
+[2025-06-30 22:38:29] INFO: Processing query for domain: mon.zijieapi.com
+[2025-06-30 22:38:29] INFO: Domain mon.zijieapi.com found in cache: 220.181.136.252
+[2025-06-30 22:38:29] INFO: Received DNS query from ('10.29.216.160', 59212)
+[2025-06-30 22:38:29] INFO: Processing query for domain: mon.zijieapi.com
+[2025-06-30 22:38:29] INFO: Domain mon.zijieapi.com found in cache: 220.181.136.252
+[2025-06-30 22:38:29] INFO: Received DNS query from ('10.29.216.160', 53728)
+[2025-06-30 22:38:29] INFO: Processing query for domain: mon.zijieapi.com
+[2025-06-30 22:38:29] INFO: Domain mon.zijieapi.com found in cache: 220.181.136.252
+[2025-06-30 22:38:30] INFO: Received DNS query from ('10.29.216.160', 59784)
+[2025-06-30 22:38:30] INFO: Processing query for domain: mon.zijieapi.com
+[2025-06-30 22:38:30] INFO: Domain mon.zijieapi.com found in cache: 220.181.136.252
+[2025-06-30 22:38:30] INFO: Received DNS query from ('10.29.216.160', 59212)
+[2025-06-30 22:38:30] INFO: Received DNS query from ('10.29.216.160', 53728)
+[2025-06-30 22:38:30] INFO: Processing query for domain: telemetry-in.battlenet.com.cn
+[2025-06-30 22:38:30] INFO: Processing query for domain: telemetry-in.battlenet.com.cn
+[2025-06-30 22:38:30] INFO: Domain telemetry-in.battlenet.com.cn not in local database or cache, forwarding to upstream server
+[2025-06-30 22:38:30] INFO: Domain telemetry-in.battlenet.com.cn not in local database or cache, forwarding to upstream server
+[2025-06-30 22:38:30] INFO: Added telemetry-in.battlenet.com.cn -> 116.62.150.48 to cache with TTL 1094s
+[2025-06-30 22:38:31] INFO: Received DNS query from ('10.29.216.160', 59784)
+[2025-06-30 22:38:31] INFO: Processing query for domain: telemetry.trae.com.cn
+[2025-06-30 22:38:31] INFO: Domain telemetry.trae.com.cn found in cache: 220.181.141.68
+[2025-06-30 22:38:32] INFO: Received DNS query from ('10.29.216.160', 53728)
+[2025-06-30 22:38:32] INFO: Processing query for domain: mon.zijieapi.com
+[2025-06-30 22:38:32] INFO: Domain mon.zijieapi.com found in cache: 220.181.136.252
+[2025-06-30 22:38:34] INFO: Received DNS query from ('10.29.216.160', 64539)
+[2025-06-30 22:38:34] INFO: Processing query for domain: mon.zijieapi.com
+[2025-06-30 22:38:34] INFO: Domain mon.zijieapi.com found in cache: 220.181.136.252
+[2025-06-30 22:38:34] INFO: Received DNS query from ('10.29.216.160', 64539)
+[2025-06-30 22:38:34] INFO: Processing query for domain: mon.zijieapi.com
+[2025-06-30 22:38:34] INFO: Domain mon.zijieapi.com found in cache: 220.181.136.252
+[2025-06-30 22:38:36] INFO: Received DNS query from ('10.29.216.160', 64539)
+[2025-06-30 22:38:36] INFO: Processing query for domain: mon.zijieapi.com
+[2025-06-30 22:38:36] INFO: Domain mon.zijieapi.com not in local database or cache, forwarding to upstream server
+[2025-06-30 22:38:36] INFO: Received DNS query from ('10.29.216.160', 65289)
+[2025-06-30 22:38:36] INFO: Processing query for domain: mon.zijieapi.com
+[2025-06-30 22:38:36] INFO: Domain mon.zijieapi.com not in local database or cache, forwarding to upstream server
+[2025-06-30 22:38:36] INFO: Added mon.zijieapi.com -> 220.181.136.251 to cache with TTL 500s
+[2025-06-30 22:38:36] INFO: Received DNS query from ('10.29.216.160', 65289)
+[2025-06-30 22:38:36] INFO: Processing query for domain: telemetry.trae.com.cn
+[2025-06-30 22:38:36] INFO: Domain telemetry.trae.com.cn found in cache: 220.181.141.68
+[2025-06-30 22:38:38] INFO: Received DNS query from ('10.29.216.160', 64539)
+[2025-06-30 22:38:38] INFO: Processing query for domain: mcs.zijieapi.com
+[2025-06-30 22:38:38] INFO: Domain mcs.zijieapi.com found in cache: 144.7.92.168
+[2025-06-30 22:38:38] INFO: Received DNS query from ('10.29.216.160', 65289)
+[2025-06-30 22:38:38] INFO: Processing query for domain: mcs.zijieapi.com
+[2025-06-30 22:38:38] INFO: Domain mcs.zijieapi.com found in cache: 144.7.92.168
+[2025-06-30 22:38:39] INFO: Received DNS query from ('10.29.216.160', 64539)
+[2025-06-30 22:38:39] INFO: Processing query for domain: mcs.zijieapi.com
+[2025-06-30 22:38:39] INFO: Domain mcs.zijieapi.com found in cache: 144.7.92.168
+[2025-06-30 22:38:41] INFO: Received DNS query from ('10.29.216.160', 65289)
+[2025-06-30 22:38:41] INFO: Processing query for domain: telemetry.trae.com.cn
+[2025-06-30 22:38:41] INFO: Domain telemetry.trae.com.cn found in cache: 220.181.141.68
+[2025-06-30 22:38:44] INFO: Received DNS query from ('10.29.216.160', 64539)
+[2025-06-30 22:38:44] INFO: Processing query for domain: mon.zijieapi.com
+[2025-06-30 22:38:44] INFO: Domain mon.zijieapi.com found in cache: 220.181.136.251
+[2025-06-30 22:38:46] INFO: Received DNS query from ('10.29.216.160', 65289)
+[2025-06-30 22:38:46] INFO: Processing query for domain: telemetry.trae.com.cn
+[2025-06-30 22:38:46] INFO: Domain telemetry.trae.com.cn found in cache: 220.181.141.68
+[2025-06-30 22:38:49] INFO: Received DNS query from ('10.29.216.160', 64539)
+[2025-06-30 22:38:49] INFO: Processing query for domain: mon.zijieapi.com
+[2025-06-30 22:38:49] INFO: Domain mon.zijieapi.com found in cache: 220.181.136.251
+[2025-06-30 22:38:50] INFO: Received DNS query from ('10.29.216.160', 65289)
+[2025-06-30 22:38:50] INFO: Processing query for domain: abtestvm.bytedance.com
+[2025-06-30 22:38:50] INFO: Domain abtestvm.bytedance.com found in cache: 106.38.254.76
+[2025-06-30 22:38:50] INFO: Received DNS query from ('10.29.216.160', 64539)
+[2025-06-30 22:38:50] INFO: Processing query for domain: abtestvm.bytedance.com
+[2025-06-30 22:38:50] INFO: Domain abtestvm.bytedance.com found in cache: 106.38.254.76
+[2025-06-30 22:38:50] INFO: Received DNS query from ('10.29.216.160', 65289)
+[2025-06-30 22:38:50] INFO: Processing query for domain: mon.zijieapi.com
+[2025-06-30 22:38:50] INFO: Domain mon.zijieapi.com found in cache: 220.181.136.251
+[2025-06-30 22:38:51] INFO: Received DNS query from ('10.29.216.160', 64539)
+[2025-06-30 22:38:51] INFO: Processing query for domain: telemetry.trae.com.cn
+[2025-06-30 22:38:51] INFO: Domain telemetry.trae.com.cn found in cache: 220.181.141.68
+[2025-06-30 22:38:52] INFO: Received DNS query from ('10.29.216.160', 65289)
+[2025-06-30 22:38:52] INFO: Processing query for domain: mon.zijieapi.com
+[2025-06-30 22:38:52] INFO: Domain mon.zijieapi.com found in cache: 220.181.136.251
+[2025-06-30 22:38:53] INFO: Received DNS query from ('10.29.216.160', 61440)
+[2025-06-30 22:38:53] INFO: Processing query for domain: 160.216.29.10.in-addr.arpa
+[2025-06-30 22:38:53] INFO: Domain 160.216.29.10.in-addr.arpa not in local database or cache, forwarding to upstream server
+[2025-06-30 22:38:53] WARNING: 客户端连接被重置
+[2025-06-30 22:38:53] INFO: Received DNS query from ('10.29.216.160', 61442)
+[2025-06-30 22:38:53] INFO: Processing query for domain: ad.example.com
+[2025-06-30 22:38:53] WARNING: Domain ad.example.com is in blacklist
+[2025-06-30 22:38:53] INFO: Received DNS query from ('10.29.216.160', 61443)
+[2025-06-30 22:38:53] INFO: Processing query for domain: ad.example.com
+[2025-06-30 22:38:53] WARNING: Domain ad.example.com is in blacklist
+[2025-06-30 22:38:53] INFO: Received DNS query from ('10.29.216.160', 61444)
+[2025-06-30 22:38:53] INFO: Processing query for domain: ad.example.com
+[2025-06-30 22:38:53] WARNING: Domain ad.example.com is in blacklist
+[2025-06-30 22:38:53] INFO: Received DNS query from ('10.29.216.160', 61445)
+[2025-06-30 22:38:53] INFO: Processing query for domain: ad.example.com
+[2025-06-30 22:38:53] WARNING: Domain ad.example.com is in blacklist
+[2025-06-30 22:38:54] INFO: Received DNS query from ('10.29.216.160', 64539)
+[2025-06-30 22:38:54] INFO: Processing query for domain: mcs.zijieapi.com
+[2025-06-30 22:38:54] INFO: Domain mcs.zijieapi.com found in cache: 144.7.92.168
+[2025-06-30 22:38:55] INFO: Received DNS query from ('10.29.216.160', 65289)
+[2025-06-30 22:38:55] INFO: Processing query for domain: mon.zijieapi.com
+[2025-06-30 22:38:55] INFO: Domain mon.zijieapi.com found in cache: 220.181.136.251
+[2025-06-30 22:38:55] INFO: Received DNS query from ('10.29.216.160', 64539)
+[2025-06-30 22:38:55] INFO: Processing query for domain: mcs.zijieapi.com
+[2025-06-30 22:38:55] INFO: Domain mcs.zijieapi.com found in cache: 144.7.92.168
+[2025-06-30 22:38:55] INFO: Received DNS query from ('10.29.216.160', 65289)
+[2025-06-30 22:38:55] INFO: Processing query for domain: mon.zijieapi.com
+[2025-06-30 22:38:55] INFO: Domain mon.zijieapi.com found in cache: 220.181.136.251
+[2025-06-30 22:38:56] INFO: Received DNS query from ('10.29.216.160', 64539)
+[2025-06-30 22:38:56] INFO: Processing query for domain: mcs.zijieapi.com
+[2025-06-30 22:38:56] INFO: Domain mcs.zijieapi.com found in cache: 144.7.92.168
+[2025-06-30 22:38:56] INFO: Received DNS query from ('10.29.216.160', 65289)
+[2025-06-30 22:38:56] INFO: Processing query for domain: telemetry.trae.com.cn
+[2025-06-30 22:38:56] INFO: Domain telemetry.trae.com.cn found in cache: 220.181.141.68
+[2025-06-30 22:38:56] INFO: Received DNS query from ('10.29.216.160', 64539)
+[2025-06-30 22:38:56] INFO: Processing query for domain: mcs.zijieapi.com
+[2025-06-30 22:38:56] INFO: Domain mcs.zijieapi.com found in cache: 144.7.92.168
+[2025-06-30 22:38:57] INFO: Received DNS query from ('10.29.216.160', 65289)
+[2025-06-30 22:38:57] INFO: Processing query for domain: abtestvm.bytedance.com
+[2025-06-30 22:38:57] INFO: Domain abtestvm.bytedance.com found in cache: 106.38.254.76
+[2025-06-30 22:38:57] INFO: Received DNS query from ('10.29.216.160', 64539)
+[2025-06-30 22:38:57] INFO: Processing query for domain: abtestvm.bytedance.com
+[2025-06-30 22:38:57] INFO: Domain abtestvm.bytedance.com found in cache: 106.38.254.76
+[2025-06-30 22:38:57] INFO: Received DNS query from ('10.29.216.160', 65289)
+[2025-06-30 22:38:57] INFO: Processing query for domain: mon.zijieapi.com
+[2025-06-30 22:38:57] INFO: Domain mon.zijieapi.com found in cache: 220.181.136.251
+[2025-06-30 22:38:57] INFO: Received DNS query from ('10.29.216.160', 64539)
+[2025-06-30 22:38:57] INFO: Processing query for domain: mcs.zijieapi.com
+[2025-06-30 22:38:57] INFO: Domain mcs.zijieapi.com found in cache: 144.7.92.168
+[2025-06-30 22:38:57] INFO: Received DNS query from ('10.29.216.160', 65289)
+[2025-06-30 22:38:57] INFO: Processing query for domain: mon.zijieapi.com
+[2025-06-30 22:38:57] INFO: Domain mon.zijieapi.com found in cache: 220.181.136.251
+[2025-06-30 22:38:58] INFO: Received DNS query from ('10.29.216.160', 56374)
+[2025-06-30 22:38:58] INFO: Processing query for domain: abtestvm.bytedance.com
+[2025-06-30 22:38:58] INFO: Domain abtestvm.bytedance.com found in cache: 106.38.254.76
+[2025-06-30 22:38:58] INFO: Received DNS query from ('10.29.216.160', 56374)
+[2025-06-30 22:38:58] INFO: Processing query for domain: abtestvm.bytedance.com
+[2025-06-30 22:38:58] INFO: Domain abtestvm.bytedance.com found in cache: 106.38.254.76
+[2025-06-30 22:38:58] INFO: Received DNS query from ('10.29.216.160', 56374)
+[2025-06-30 22:38:58] INFO: Processing query for domain: mon.zijieapi.com
+[2025-06-30 22:38:58] INFO: Domain mon.zijieapi.com found in cache: 220.181.136.251
+[2025-06-30 22:38:58] INFO: Received DNS query from ('10.29.216.160', 56374)
+[2025-06-30 22:38:58] INFO: Processing query for domain: mcs.zijieapi.com
+[2025-06-30 22:38:58] INFO: Domain mcs.zijieapi.com found in cache: 144.7.92.168
+[2025-06-30 22:38:59] INFO: Received DNS query from ('10.29.216.160', 56374)
+[2025-06-30 22:38:59] INFO: Processing query for domain: mon.zijieapi.com
+[2025-06-30 22:38:59] INFO: Domain mon.zijieapi.com found in cache: 220.181.136.251
+[2025-06-30 22:39:01] INFO: Received DNS query from ('10.29.216.160', 56374)
+[2025-06-30 22:39:01] INFO: Processing query for domain: mon.zijieapi.com
+[2025-06-30 22:39:01] INFO: Domain mon.zijieapi.com found in cache: 220.181.136.251
+[2025-06-30 22:39:01] INFO: Received DNS query from ('10.29.216.160', 51812)
+[2025-06-30 22:39:01] INFO: Processing query for domain: telemetry.trae.com.cn
+[2025-06-30 22:39:01] INFO: Domain telemetry.trae.com.cn found in cache: 220.181.141.68
+[2025-06-30 22:39:01] INFO: Received DNS query from ('10.29.216.160', 56374)
+[2025-06-30 22:39:01] INFO: Processing query for domain: mon.zijieapi.com
+[2025-06-30 22:39:01] INFO: Domain mon.zijieapi.com found in cache: 220.181.136.251
+[2025-06-30 22:39:03] INFO: Received DNS query from ('10.29.216.160', 51812)
+[2025-06-30 22:39:03] INFO: Processing query for domain: mon.zijieapi.com
+[2025-06-30 22:39:03] INFO: Domain mon.zijieapi.com found in cache: 220.181.136.251
+[2025-06-30 22:39:04] INFO: Received DNS query from ('10.29.216.160', 56374)
+[2025-06-30 22:39:04] INFO: Processing query for domain: mon.zijieapi.com
+[2025-06-30 22:39:04] INFO: Domain mon.zijieapi.com found in cache: 220.181.136.251
+[2025-06-30 22:39:05] INFO: Received DNS query from ('10.29.216.160', 51812)
+[2025-06-30 22:39:05] INFO: Processing query for domain: mon.zijieapi.com
+[2025-06-30 22:39:05] INFO: Domain mon.zijieapi.com found in cache: 220.181.136.251
+[2025-06-30 22:39:06] INFO: Received DNS query from ('10.29.216.160', 56374)
+[2025-06-30 22:39:06] INFO: Processing query for domain: telemetry.trae.com.cn
+[2025-06-30 22:39:06] INFO: Domain telemetry.trae.com.cn found in cache: 220.181.141.68
+[2025-06-30 22:39:07] INFO: Received DNS query from ('10.29.216.160', 51812)
+[2025-06-30 22:39:07] INFO: Processing query for domain: mon.zijieapi.com
+[2025-06-30 22:39:07] INFO: Domain mon.zijieapi.com found in cache: 220.181.136.251
+[2025-06-30 22:39:09] INFO: Received DNS query from ('10.29.216.160', 56374)
+[2025-06-30 22:39:09] INFO: Processing query for domain: mon.zijieapi.com
+[2025-06-30 22:39:09] INFO: Domain mon.zijieapi.com found in cache: 220.181.136.251
+[2025-06-30 22:39:10] INFO: Received DNS query from ('10.29.216.160', 51812)
+[2025-06-30 22:39:10] INFO: Processing query for domain: abtestvm.bytedance.com
+[2025-06-30 22:39:10] INFO: Domain abtestvm.bytedance.com found in cache: 106.38.254.76
+[2025-06-30 22:39:10] INFO: Received DNS query from ('10.29.216.160', 56374)
+[2025-06-30 22:39:10] INFO: Processing query for domain: abtestvm.bytedance.com
+[2025-06-30 22:39:10] INFO: Domain abtestvm.bytedance.com found in cache: 106.38.254.76
+[2025-06-30 22:39:10] INFO: Received DNS query from ('10.29.216.160', 51812)
+[2025-06-30 22:39:10] INFO: Processing query for domain: mon.zijieapi.com
+[2025-06-30 22:39:10] INFO: Domain mon.zijieapi.com found in cache: 220.181.136.251
+[2025-06-30 22:39:11] INFO: Received DNS query from ('10.29.216.160', 56374)
+[2025-06-30 22:39:11] INFO: Processing query for domain: abtestvm.bytedance.com
+[2025-06-30 22:39:11] INFO: Domain abtestvm.bytedance.com found in cache: 106.38.254.76
+[2025-06-30 22:39:11] INFO: Received DNS query from ('10.29.216.160', 51812)
+[2025-06-30 22:39:11] INFO: Processing query for domain: abtestvm.bytedance.com
+[2025-06-30 22:39:11] INFO: Domain abtestvm.bytedance.com found in cache: 106.38.254.76
+[2025-06-30 22:39:11] INFO: Received DNS query from ('10.29.216.160', 56374)
+[2025-06-30 22:39:11] INFO: Processing query for domain: telemetry.trae.com.cn
+[2025-06-30 22:39:11] INFO: Domain telemetry.trae.com.cn found in cache: 220.181.141.68
+[2025-06-30 22:39:11] INFO: Received DNS query from ('10.29.216.160', 51812)
+[2025-06-30 22:39:11] INFO: Processing query for domain: mon.zijieapi.com
+[2025-06-30 22:39:11] INFO: Domain mon.zijieapi.com found in cache: 220.181.136.251
+[2025-06-30 22:39:11] INFO: Received DNS query from ('10.29.216.160', 56374)
+[2025-06-30 22:39:11] INFO: Processing query for domain: mon.zijieapi.com
+[2025-06-30 22:39:11] INFO: Domain mon.zijieapi.com found in cache: 220.181.136.251
+[2025-06-30 22:39:13] INFO: Received DNS query from ('10.29.216.160', 51812)
+[2025-06-30 22:39:13] INFO: Processing query for domain: mon.zijieapi.com
+[2025-06-30 22:39:13] INFO: Domain mon.zijieapi.com found in cache: 220.181.136.251
+[2025-06-30 22:39:13] INFO: Received DNS query from ('10.29.216.160', 56374)
+[2025-06-30 22:39:13] INFO: Processing query for domain: mon.zijieapi.com
+[2025-06-30 22:39:13] INFO: Domain mon.zijieapi.com found in cache: 220.181.136.251
+[2025-06-30 22:39:13] INFO: Received DNS query from ('10.29.216.160', 51812)
+[2025-06-30 22:39:13] INFO: Processing query for domain: mon.zijieapi.com
+[2025-06-30 22:39:13] INFO: Domain mon.zijieapi.com found in cache: 220.181.136.251
+[2025-06-30 22:39:15] INFO: Received DNS query from ('10.29.216.160', 56374)
+[2025-06-30 22:39:15] INFO: Processing query for domain: mon.zijieapi.com
+[2025-06-30 22:39:15] INFO: Domain mon.zijieapi.com found in cache: 220.181.136.251
+[2025-06-30 22:39:16] INFO: Received DNS query from ('10.29.216.160', 51812)
+[2025-06-30 22:39:16] INFO: Processing query for domain: telemetry.trae.com.cn
+[2025-06-30 22:39:16] INFO: Domain telemetry.trae.com.cn found in cache: 220.181.141.68
+[2025-06-30 22:39:17] INFO: Received DNS query from ('10.29.216.160', 56374)
+[2025-06-30 22:39:17] INFO: Processing query for domain: mon.zijieapi.com
+[2025-06-30 22:39:17] INFO: Domain mon.zijieapi.com found in cache: 220.181.136.251
+[2025-06-30 22:39:17] INFO: Received DNS query from ('10.29.216.160', 51812)
+[2025-06-30 22:39:17] INFO: Processing query for domain: mon.zijieapi.com
+[2025-06-30 22:39:17] INFO: Domain mon.zijieapi.com found in cache: 220.181.136.251
+[2025-06-30 22:39:18] INFO: Received DNS query from ('10.29.216.160', 56374)
+[2025-06-30 22:39:18] INFO: Processing query for domain: mon.zijieapi.com
+[2025-06-30 22:39:18] INFO: Domain mon.zijieapi.com found in cache: 220.181.136.251
+[2025-06-30 22:39:18] INFO: Received DNS query from ('10.29.216.160', 51812)
+[2025-06-30 22:39:18] INFO: Processing query for domain: abtestvm.bytedance.com
+[2025-06-30 22:39:18] INFO: Domain abtestvm.bytedance.com found in cache: 106.38.254.76
+[2025-06-30 22:39:18] INFO: Received DNS query from ('10.29.216.160', 56374)
+[2025-06-30 22:39:18] INFO: Processing query for domain: abtestvm.bytedance.com
+[2025-06-30 22:39:18] INFO: Domain abtestvm.bytedance.com found in cache: 106.38.254.76
+[2025-06-30 22:39:18] INFO: Received DNS query from ('10.29.216.160', 51812)
+[2025-06-30 22:39:18] INFO: Processing query for domain: mon.zijieapi.com
+[2025-06-30 22:39:18] INFO: Domain mon.zijieapi.com found in cache: 220.181.136.251
+[2025-06-30 22:39:18] INFO: Received DNS query from ('10.29.216.160', 56374)
+[2025-06-30 22:39:18] INFO: Processing query for domain: mon.zijieapi.com
+[2025-06-30 22:39:18] INFO: Domain mon.zijieapi.com found in cache: 220.181.136.251
+[2025-06-30 22:39:19] INFO: Received DNS query from ('10.29.216.160', 51812)
+[2025-06-30 22:39:19] INFO: Processing query for domain: abtestvm.bytedance.com
+[2025-06-30 22:39:19] INFO: Domain abtestvm.bytedance.com found in cache: 106.38.254.76
+[2025-06-30 22:39:19] INFO: Received DNS query from ('10.29.216.160', 56374)
+[2025-06-30 22:39:19] INFO: Processing query for domain: abtestvm.bytedance.com
+[2025-06-30 22:39:19] INFO: Domain abtestvm.bytedance.com found in cache: 106.38.254.76
+[2025-06-30 22:39:19] INFO: Received DNS query from ('10.29.216.160', 51812)
+[2025-06-30 22:39:19] INFO: Processing query for domain: mon.zijieapi.com
+[2025-06-30 22:39:19] INFO: Domain mon.zijieapi.com found in cache: 220.181.136.251
+[2025-06-30 22:39:20] INFO: Received DNS query from ('10.29.216.160', 56374)
+[2025-06-30 22:39:20] INFO: Processing query for domain: mon.zijieapi.com
+[2025-06-30 22:39:20] INFO: Domain mon.zijieapi.com found in cache: 220.181.136.251
+[2025-06-30 22:39:21] INFO: Received DNS query from ('10.29.216.160', 51812)
+[2025-06-30 22:39:21] INFO: Processing query for domain: telemetry.trae.com.cn
+[2025-06-30 22:39:21] INFO: Domain telemetry.trae.com.cn found in cache: 220.181.141.68
+[2025-06-30 22:39:22] INFO: Received DNS query from ('10.29.216.160', 56374)
+[2025-06-30 22:39:22] INFO: Processing query for domain: mon.zijieapi.com
+[2025-06-30 22:39:22] INFO: Domain mon.zijieapi.com found in cache: 220.181.136.251
+[2025-06-30 22:39:22] INFO: Received DNS query from ('10.29.216.160', 51812)
+[2025-06-30 22:39:22] INFO: Processing query for domain: mon.zijieapi.com
+[2025-06-30 22:39:22] INFO: Domain mon.zijieapi.com found in cache: 220.181.136.251
+[2025-06-30 22:39:24] INFO: Received DNS query from ('10.29.216.160', 56374)
+[2025-06-30 22:39:24] INFO: Processing query for domain: mon.zijieapi.com
+[2025-06-30 22:39:24] INFO: Domain mon.zijieapi.com found in cache: 220.181.136.251
+[2025-06-30 22:39:25] INFO: Received DNS query from ('10.29.216.160', 51812)
+[2025-06-30 22:39:25] INFO: Processing query for domain: mon.zijieapi.com
+[2025-06-30 22:39:25] INFO: Domain mon.zijieapi.com found in cache: 220.181.136.251
+[2025-06-30 22:39:26] INFO: Received DNS query from ('10.29.216.160', 56374)
+[2025-06-30 22:39:26] INFO: Processing query for domain: mon.zijieapi.com
+[2025-06-30 22:39:26] INFO: Domain mon.zijieapi.com found in cache: 220.181.136.251
+[2025-06-30 22:39:26] INFO: Received DNS query from ('10.29.216.160', 51812)
+[2025-06-30 22:39:26] INFO: Processing query for domain: telemetry.trae.com.cn
+[2025-06-30 22:39:26] INFO: Domain telemetry.trae.com.cn found in cache: 220.181.141.68
+[2025-06-30 22:39:28] INFO: Received DNS query from ('10.29.216.160', 56374)
+[2025-06-30 22:39:28] INFO: Processing query for domain: mon.zijieapi.com
+[2025-06-30 22:39:28] INFO: Domain mon.zijieapi.com found in cache: 220.181.136.251
+[2025-06-30 22:39:30] INFO: Received DNS query from ('10.29.216.160', 51812)
+[2025-06-30 22:39:30] INFO: Processing query for domain: mon.zijieapi.com
+[2025-06-30 22:39:30] INFO: Domain mon.zijieapi.com found in cache: 220.181.136.251
+[2025-06-30 22:39:30] INFO: Received DNS query from ('10.29.216.160', 56374)
+[2025-06-30 22:39:30] INFO: Processing query for domain: telemetry-in.battlenet.com.cn
+[2025-06-30 22:39:30] INFO: Domain telemetry-in.battlenet.com.cn found in cache: 116.62.150.48
+[2025-06-30 22:39:31] INFO: Received DNS query from ('10.29.216.160', 51812)
+[2025-06-30 22:39:31] INFO: Processing query for domain: telemetry.trae.com.cn
+[2025-06-30 22:39:31] INFO: Domain telemetry.trae.com.cn found in cache: 220.181.141.68
+[2025-06-30 22:39:32] INFO: Received DNS query from ('10.29.216.160', 56374)
+[2025-06-30 22:39:32] INFO: Processing query for domain: mon.zijieapi.com
+[2025-06-30 22:39:32] INFO: Domain mon.zijieapi.com found in cache: 220.181.136.251
+[2025-06-30 22:39:33] INFO: Received DNS query from ('10.29.216.160', 51812)
+[2025-06-30 22:39:33] INFO: Processing query for domain: mon.zijieapi.com
+[2025-06-30 22:39:33] INFO: Domain mon.zijieapi.com found in cache: 220.181.136.251
+[2025-06-30 22:39:34] INFO: Received DNS query from ('10.29.216.160', 56374)
+[2025-06-30 22:39:34] INFO: Processing query for domain: mon.zijieapi.com
+[2025-06-30 22:39:34] INFO: Domain mon.zijieapi.com found in cache: 220.181.136.251
+[2025-06-30 22:39:35] INFO: Received DNS query from ('10.29.216.160', 51812)
+[2025-06-30 22:39:35] INFO: Received DNS query from ('10.29.216.160', 56374)
+[2025-06-30 22:39:35] INFO: Processing query for domain: eqrcode.horizon.hp.com.cn
+[2025-06-30 22:39:35] INFO: Processing query for domain: eqrcode.horizon.hp.com.cn
+[2025-06-30 22:39:35] INFO: Domain eqrcode.horizon.hp.com.cn not in local database or cache, forwarding to upstream server
+[2025-06-30 22:39:35] INFO: Domain eqrcode.horizon.hp.com.cn not in local database or cache, forwarding to upstream server
+[2025-06-30 22:39:35] INFO: Added eqrcode.horizon.hp.com.cn -> 69.230.215.58 to cache with TTL 600s
+[2025-06-30 22:39:36] INFO: Received DNS query from ('10.29.216.160', 51812)
+[2025-06-30 22:39:36] INFO: Processing query for domain: mon.zijieapi.com
+[2025-06-30 22:39:36] INFO: Domain mon.zijieapi.com found in cache: 220.181.136.251
+[2025-06-30 22:39:36] INFO: Received DNS query from ('10.29.216.160', 51812)
+[2025-06-30 22:39:36] INFO: Processing query for domain: telemetry.trae.com.cn
+[2025-06-30 22:39:36] INFO: Domain telemetry.trae.com.cn found in cache: 220.181.141.68
+[2025-06-30 22:39:36] INFO: Received DNS query from ('10.29.216.160', 56374)
+[2025-06-30 22:39:36] INFO: Processing query for domain: eqrcode.horizon.hp.com.cn
+[2025-06-30 22:39:36] INFO: Domain eqrcode.horizon.hp.com.cn found in cache: 69.230.215.58
+[2025-06-30 22:39:38] INFO: Received DNS query from ('10.29.216.160', 51812)
+[2025-06-30 22:39:38] INFO: Processing query for domain: mon.zijieapi.com
+[2025-06-30 22:39:38] INFO: Domain mon.zijieapi.com found in cache: 220.181.136.251
+[2025-06-30 22:39:38] INFO: Received DNS query from ('10.29.216.160', 51812)
+[2025-06-30 22:39:38] INFO: Processing query for domain: mcs.zijieapi.com
+[2025-06-30 22:39:38] INFO: Domain mcs.zijieapi.com found in cache: 144.7.92.168
+[2025-06-30 22:39:38] INFO: Received DNS query from ('10.29.216.160', 51812)
+[2025-06-30 22:39:38] INFO: Processing query for domain: mcs.zijieapi.com
+[2025-06-30 22:39:38] INFO: Domain mcs.zijieapi.com found in cache: 144.7.92.168
+[2025-06-30 22:39:38] INFO: Received DNS query from ('10.29.216.160', 51812)
+[2025-06-30 22:39:38] INFO: Processing query for domain: mon.zijieapi.com
+[2025-06-30 22:39:38] INFO: Domain mon.zijieapi.com found in cache: 220.181.136.251
+[2025-06-30 22:39:39] INFO: Received DNS query from ('10.29.216.160', 51812)
+[2025-06-30 22:39:39] INFO: Processing query for domain: s.f.360.cn
+[2025-06-30 22:39:39] INFO: Domain s.f.360.cn not in local database or cache, forwarding to upstream server
+[2025-06-30 22:39:39] INFO: Added s.f.360.cn -> 36.99.172.87 to cache with TTL 103s
+[2025-06-30 22:39:39] INFO: Received DNS query from ('10.29.216.160', 51812)
+[2025-06-30 22:39:39] INFO: Processing query for domain: mcs.zijieapi.com
+[2025-06-30 22:39:39] INFO: Domain mcs.zijieapi.com found in cache: 144.7.92.168
+[2025-06-30 22:39:40] INFO: Received DNS query from ('10.29.216.160', 51812)
+[2025-06-30 22:39:40] INFO: Processing query for domain: mon.zijieapi.com
+[2025-06-30 22:39:40] INFO: Domain mon.zijieapi.com found in cache: 220.181.136.251
+[2025-06-30 22:39:40] WARNING: Upstream DNS server timeout
+[2025-06-30 22:39:41] INFO: Received DNS query from ('10.29.216.160', 51812)
+[2025-06-30 22:39:41] INFO: Processing query for domain: telemetry.trae.com.cn
+[2025-06-30 22:39:41] INFO: Domain telemetry.trae.com.cn found in cache: 220.181.141.68
+[2025-06-30 22:39:42] INFO: Received DNS query from ('10.29.216.160', 51812)
+[2025-06-30 22:39:42] INFO: Processing query for domain: mon.zijieapi.com
+[2025-06-30 22:39:42] INFO: Domain mon.zijieapi.com found in cache: 220.181.136.251
+[2025-06-30 22:39:44] INFO: Received DNS query from ('10.29.216.160', 51812)
+[2025-06-30 22:39:44] INFO: Processing query for domain: mon.zijieapi.com
+[2025-06-30 22:39:44] INFO: Domain mon.zijieapi.com found in cache: 220.181.136.251
+[2025-06-30 22:39:44] INFO: Received DNS query from ('10.29.216.160', 51812)
+[2025-06-30 22:39:44] INFO: Processing query for domain: abtestvm.bytedance.com
+[2025-06-30 22:39:44] INFO: Domain abtestvm.bytedance.com found in cache: 106.38.254.76
+[2025-06-30 22:39:44] INFO: Received DNS query from ('10.29.216.160', 51812)
+[2025-06-30 22:39:44] INFO: Processing query for domain: abtestvm.bytedance.com
+[2025-06-30 22:39:44] INFO: Domain abtestvm.bytedance.com found in cache: 106.38.254.76
+[2025-06-30 22:39:44] INFO: Received DNS query from ('10.29.216.160', 51812)
+[2025-06-30 22:39:44] INFO: Processing query for domain: mon.zijieapi.com
+[2025-06-30 22:39:44] INFO: Domain mon.zijieapi.com found in cache: 220.181.136.251
+[2025-06-30 22:39:45] INFO: Received DNS query from ('10.29.216.160', 58909)
+[2025-06-30 22:39:45] INFO: Processing query for domain: mcs.zijieapi.com
+[2025-06-30 22:39:45] INFO: Received DNS query from ('10.29.216.160', 53492)
+[2025-06-30 22:39:45] INFO: Domain mcs.zijieapi.com found in cache: 144.7.92.168
+[2025-06-30 22:39:45] INFO: Received DNS query from ('10.29.216.160', 55957)
+[2025-06-30 22:39:45] INFO: Processing query for domain: mcs.zijieapi.com
+[2025-06-30 22:39:45] INFO: Processing query for domain: mcs.zijieapi.com
+[2025-06-30 22:39:45] INFO: Domain mcs.zijieapi.com found in cache: 144.7.92.168
+[2025-06-30 22:39:45] INFO: Domain mcs.zijieapi.com found in cache: 144.7.92.168
+[2025-06-30 22:39:46] INFO: Received DNS query from ('10.29.216.160', 51812)
+[2025-06-30 22:39:46] INFO: Processing query for domain: mon.zijieapi.com
+[2025-06-30 22:39:46] INFO: Domain mon.zijieapi.com found in cache: 220.181.136.251
+[2025-06-30 22:39:46] INFO: Received DNS query from ('10.29.216.160', 51812)
+[2025-06-30 22:39:46] INFO: Processing query for domain: mon.zijieapi.com
+[2025-06-30 22:39:46] INFO: Domain mon.zijieapi.com found in cache: 220.181.136.251
+[2025-06-30 22:39:46] INFO: Received DNS query from ('10.29.216.160', 51812)
+[2025-06-30 22:39:46] INFO: Processing query for domain: telemetry.trae.com.cn
+[2025-06-30 22:39:46] INFO: Domain telemetry.trae.com.cn found in cache: 220.181.141.68
+[2025-06-30 22:39:47] INFO: Received DNS query from ('10.29.216.160', 51812)
+[2025-06-30 22:39:47] INFO: Processing query for domain: mon.zijieapi.com
+[2025-06-30 22:39:47] INFO: Domain mon.zijieapi.com found in cache: 220.181.136.251
+[2025-06-30 22:39:48] INFO: Received DNS query from ('10.29.216.160', 51812)
+[2025-06-30 22:39:48] INFO: Processing query for domain: mon.zijieapi.com
+[2025-06-30 22:39:48] INFO: Domain mon.zijieapi.com found in cache: 220.181.136.251
+[2025-06-30 22:39:50] INFO: Received DNS query from ('10.29.216.160', 51812)
+[2025-06-30 22:39:50] INFO: Processing query for domain: mon.zijieapi.com
+[2025-06-30 22:39:50] INFO: Domain mon.zijieapi.com found in cache: 220.181.136.251
+[2025-06-30 22:39:51] INFO: Received DNS query from ('10.29.216.160', 62575)
+[2025-06-30 22:39:51] INFO: Processing query for domain: 160.216.29.10.in-addr.arpa
+[2025-06-30 22:39:51] INFO: Domain 160.216.29.10.in-addr.arpa not in local database or cache, forwarding to upstream server
+[2025-06-30 22:39:51] WARNING: 客户端连接被重置
+[2025-06-30 22:39:51] INFO: Received DNS query from ('10.29.216.160', 62577)
+[2025-06-30 22:39:51] INFO: Processing query for domain: www.bupt.edu.cn
+[2025-06-30 22:39:51] INFO: Domain www.bupt.edu.cn found in local database: 10.3.9.4
+[2025-06-30 22:39:51] INFO: Domain www.bupt.edu.cn not in local database or cache, forwarding to upstream server
+[2025-06-30 22:39:51] INFO: Received DNS query from ('10.29.216.160', 51812)
+[2025-06-30 22:39:51] INFO: Processing query for domain: telemetry.trae.com.cn
+[2025-06-30 22:39:51] INFO: Domain telemetry.trae.com.cn found in cache: 220.181.141.68
+[2025-06-30 22:39:51] INFO: Received DNS query from ('10.29.216.160', 62578)
+[2025-06-30 22:39:51] INFO: Processing query for domain: www.bupt.edu.cn
+[2025-06-30 22:39:51] INFO: Domain www.bupt.edu.cn found in local database: 10.3.9.4
+[2025-06-30 22:39:51] INFO: Domain www.bupt.edu.cn not in local database or cache, forwarding to upstream server
+[2025-06-30 22:39:51] INFO: Added www.bupt.edu.cn -> 10.3.19.2 to cache with TTL 2280s
+[2025-06-30 22:39:51] WARNING: 客户端连接被重置
+[2025-06-30 22:39:51] WARNING: 客户端连接被重置
+[2025-06-30 22:39:51] WARNING: 客户端连接被重置
+[2025-06-30 22:39:51] WARNING: 客户端连接被重置
+[2025-06-30 22:39:52] INFO: Received DNS query from ('10.29.216.160', 51812)
+[2025-06-30 22:39:52] INFO: Processing query for domain: mon.zijieapi.com
+[2025-06-30 22:39:52] INFO: Domain mon.zijieapi.com found in cache: 220.181.136.251
+[2025-06-30 22:39:53] INFO: Received DNS query from ('10.29.216.160', 51812)
+[2025-06-30 22:39:53] INFO: Processing query for domain: mon.zijieapi.com
+[2025-06-30 22:39:53] INFO: Domain mon.zijieapi.com found in cache: 220.181.136.251
+[2025-06-30 22:39:54] INFO: Received DNS query from ('10.29.216.160', 51812)
+[2025-06-30 22:39:54] INFO: Processing query for domain: mon.zijieapi.com
+[2025-06-30 22:39:54] INFO: Domain mon.zijieapi.com found in cache: 220.181.136.251
+[2025-06-30 22:39:55] INFO: Received DNS query from ('10.29.216.160', 54611)
+[2025-06-30 22:39:55] INFO: Processing query for domain: api.trae.com.cn
+[2025-06-30 22:39:55] INFO: Received DNS query from ('10.29.216.160', 50778)
+[2025-06-30 22:39:55] INFO: Domain api.trae.com.cn not in local database or cache, forwarding to upstream server
+[2025-06-30 22:39:55] INFO: Received DNS query from ('10.29.216.160', 62918)
+[2025-06-30 22:39:55] INFO: Processing query for domain: api.trae.com.cn
+[2025-06-30 22:39:55] INFO: Domain api.trae.com.cn not in local database or cache, forwarding to upstream server
+[2025-06-30 22:39:55] INFO: Processing query for domain: api.trae.com.cn
+[2025-06-30 22:39:55] INFO: Domain api.trae.com.cn not in local database or cache, forwarding to upstream server
+[2025-06-30 22:39:55] INFO: Added api.trae.com.cn -> 211.100.8.108 to cache with TTL 536s

@@ -3,6 +3,7 @@ from concurrent.futures import ThreadPoolExecutor
 from dns_message import DNSMessage, DNSHeader
 from dns_db import LocalDNSDatabase
 from dns_relay import DNSRelay
+from dns_cache import DNSCache
 
 class DNSServer:
     def __init__(self, local_ip, local_port, upstream_server, db_file, logger):
@@ -12,8 +13,13 @@ class DNSServer:
         self.db = LocalDNSDatabase(db_file)
         self.logger = logger
         self.relay = DNSRelay(local_ip, local_port, upstream_server, logger)
+        self.cache = DNSCache()
 
     def start(self):
+        # 清空日志文件
+        log_path = "c:\\Users\\26406\\OneDrive\\Desktop\\通网小学期\\DNS_Local_Server\\dns_server.log"
+        with open(log_path, 'w') as f:
+            pass  # 以写入模式打开文件会截断内容
         self.db.load()
         sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
         sock.bind((self.local_ip, self.local_port))
@@ -65,16 +71,42 @@ class DNSServer:
                 except Exception as e:
                     self.logger.error(f"发送白名单响应错误: {e}")
             else:
-                self.logger.info(f"Domain {domain} not in local database, forwarding to upstream server")
-                # 转发查询并获取上游服务器响应
-                response_data = self.relay.forward_query(data)
-                if response_data:
+                # 检查缓存
+                cached_ip = self.cache.get_record(domain)
+                if cached_ip:
+                    self.logger.info(f"Domain {domain} found in cache: {cached_ip}")
+                    response = self.build_whitelist_response(dns_msg, cached_ip, domain)
                     try:
-                        sock.sendto(response_data, addr)
+                        sock.sendto(response, addr)
                     except ConnectionResetError:
-                        self.logger.warning(f"发送上游响应到 {addr} 时连接被重置")
+                        self.logger.warning(f"发送缓存响应到 {addr} 时连接被重置")
                     except Exception as e:
-                        self.logger.error(f"发送上游响应错误: {e}")
+                        self.logger.error(f"发送缓存响应错误: {e}")
+                    return
+                # 缓存未命中，转发到上游服务器
+            self.logger.info(f"Domain {domain} not in local database or cache, forwarding to upstream server")
+            # 转发查询并获取上游服务器响应
+            response_data = self.relay.forward_query(data)
+            if response_data:
+                # 解析上游响应，提取IP和TTL存入缓存
+                try:
+                    upstream_response = DNSMessage.parse(response_data)
+                    # 遍历回答记录，查找A记录
+                    for answer in upstream_response.answers:
+                        if answer['type'] == 1:  # A记录
+                            ip = socket.inet_ntoa(answer['rdata'])
+                            ttl = answer['ttl']
+                            self.cache.add_record(domain, ip, ttl)
+                            self.logger.info(f"Added {domain} -> {ip} to cache with TTL {ttl}s")
+                            break  # 只取第一个A记录
+                except Exception as e:
+                    self.logger.error(f"Failed to parse upstream response for caching: {e}")
+                try:
+                    sock.sendto(response_data, addr)
+                except ConnectionResetError:
+                    self.logger.warning(f"发送上游响应到 {addr} 时连接被重置")
+                except Exception as e:
+                    self.logger.error(f"发送上游响应错误: {e}")
                 else:
                     # 上游服务器无响应，返回服务器错误
                     error_response = self.build_error_response(dns_msg, rcode=2)

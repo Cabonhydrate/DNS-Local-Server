@@ -1,4 +1,5 @@
 import socket
+from concurrent.futures import ThreadPoolExecutor
 from dns_message import DNSMessage, DNSHeader
 from dns_db import LocalDNSDatabase
 from dns_relay import DNSRelay
@@ -18,16 +19,20 @@ class DNSServer:
         sock.bind((self.local_ip, self.local_port))
         sock.settimeout(5)  # 添加超时设置
         self.logger.info(f"DNS server started on {self.local_ip}:{self.local_port}")
-        while True:
-            try:
-                data, addr = sock.recvfrom(512)
-                self.handle_query(data, addr, sock)
-            except ConnectionResetError:
-                self.logger.warning("客户端连接被重置")
-            except socket.timeout:
-                continue  # 超时不处理，继续等待新请求
-            except Exception as e:
-                self.logger.error(f"发生错误: {e}")
+        
+        # 创建线程池，设置最大工作线程数为10
+        with ThreadPoolExecutor(max_workers=10) as executor:
+            while True:
+                try:
+                    data, addr = sock.recvfrom(512)
+                    # 提交请求处理任务到线程池
+                    executor.submit(self.handle_query, data, addr, sock)
+                except ConnectionResetError:
+                    self.logger.warning("客户端连接被重置")
+                except socket.timeout:
+                    continue  # 超时不处理，继续等待新请求
+                except Exception as e:
+                    self.logger.error(f"发生错误: {e}")
 
     def handle_query(self, data, addr, sock):
         try:

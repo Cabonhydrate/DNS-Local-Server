@@ -45,7 +45,8 @@ class DNSServer:
             self.logger.info(f"Received DNS query from {addr}")
             dns_msg = DNSMessage.parse(data)
             domain = self.extract_domain(dns_msg)  # 需要实现提取域名的逻辑
-            self.logger.info(f"Processing query for domain: {domain}")
+            qtype = dns_msg.questions[0][1] if dns_msg.questions else 1
+            self.logger.info(f"Processing query for domain: {domain}, type: {qtype}")
         except Exception as e:
             self.logger.error(f"Failed to parse DNS query: {e}")
             return
@@ -60,7 +61,11 @@ class DNSServer:
             except Exception as e:
                 self.logger.error(f"发送黑名单响应错误: {e}")
         else:
-            ips = self.db.get_ip(domain)
+            # 根据查询类型获取对应版本的IP地址
+            if qtype == 28:
+                ips = self.db.get_ipv6(domain)
+            else:
+                ips = self.db.get_ipv4(domain)
             if ips:
                 # 如果是单个IP字符串，转换为列表
                 if isinstance(ips, str):
@@ -75,7 +80,7 @@ class DNSServer:
                     self.logger.error(f"发送白名单响应错误: {e}")
             else:
                 # 检查缓存
-                cached_ips = self.cache.get_record(domain)
+                cached_ips = self.cache.get_record(domain, qtype)
                 if cached_ips:
                     self.logger.info(f"Domain {domain} found in cache: {cached_ips}")
                     response = self.build_whitelist_response(dns_msg, cached_ips, domain)
@@ -98,12 +103,18 @@ class DNSServer:
                     # 收集所有A记录
                     a_records = []
                     for answer in upstream_response.answers:
+                        # 处理A记录(IPv4)和AAAA记录(IPv6)
                         if answer['type'] == 1:  # A记录
                             ip = socket.inet_ntoa(answer['rdata'])
                             ttl = answer['ttl']
                             a_records.append((ip, ttl))
-                            self.cache.add_record(domain, ip, ttl)
-                            self.logger.info(f"Added {domain} -> {ip} to cache with TTL {ttl}s")
+                            self.cache.add_record(domain, ip, ttl, 1)
+                            self.logger.info(f"Added IPv4 {domain} -> {ip} to cache with TTL {ttl}s")
+                        elif answer['type'] == 28:  # AAAA记录
+                            ip = socket.inet_ntop(socket.AF_INET6, answer['rdata'])
+                            ttl = answer['ttl']
+                            self.cache.add_record(domain, ip, ttl, 28)
+                            self.logger.info(f"Added IPv6 {domain} -> {ip} to cache with TTL {ttl}s")
                     
                     # 如果没有A记录，记录警告
                     if not a_records:
@@ -223,17 +234,25 @@ class DNSServer:
         Returns:
             bytes: 构建好的DNS响应数据
         """
-        # 构建多个A记录资源记录
+        # 获取查询类型
+        qtype = dns_msg.questions[0][1] if dns_msg.questions else 1
         answers = []
         for ip in ips:
-            a_record = {
+            # 根据查询类型返回A记录(IPv4)或AAAA记录(IPv6)
+            if qtype == 28 and ':' in ip:  # AAAA记录且是IPv6地址
+                record_type = 28
+                rdata = socket.inet_pton(socket.AF_INET6, ip)
+            else:  # 默认A记录(IPv4)
+                record_type = 1
+                rdata = socket.inet_aton(ip)
+            record = {
                 'name': dns_msg.questions[0][0],  # 查询域名
-                'type': 1,                         # A记录类型
+                'type': record_type,              # 记录类型
                 'class': 1,                        # IN互联网类
                 'ttl': 300,                        # 5分钟缓存时间
-                'rdata': socket.inet_aton(ip)      # IP地址转换为网络字节序
+                'rdata': rdata                     # IP地址转换为网络字节序
             }
-            answers.append(a_record)
+            answers.append(record)
         
         # 添加内部ID的TXT记录
         internal_id = self.db.get_internal_id(domain)

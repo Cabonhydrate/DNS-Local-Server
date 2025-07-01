@@ -3,7 +3,8 @@ import os
 class LocalDNSDatabase:
     def __init__(self, db_file):
         self.db_file = db_file
-        self.whitelist = {}
+        self.whitelist_ipv4 = {}  # 存储IPv4地址
+        self.whitelist_ipv6 = {}  # 存储IPv6地址
         self.blacklist = {}
         self.id_mapping = {}  # 新增ID映射字典
 
@@ -27,17 +28,14 @@ class LocalDNSDatabase:
                     if '0.0.0.0' in ips:
                         self.blacklist[domain] = '0.0.0.0'
                     else:
-                        if domain in self.whitelist:
-                            # 合并已存在的IP
-                            existing_ips = self.whitelist[domain]
-                            if isinstance(existing_ips, str):
-                                existing_ips = [existing_ips]
-                            existing_ips.extend(ips)
-                            # 去重
-                            existing_ips = list(set(existing_ips))
-                            self.whitelist[domain] = existing_ips
-                        else:
-                            self.whitelist[domain] = ips if len(ips) > 1 else ips[0] if ips else None
+                        # 分离IPv4和IPv6地址
+                        ipv4_ips = [ip for ip in ips if ':' not in ip]
+                        ipv6_ips = [ip for ip in ips if ':' in ip]
+                        
+                        if ipv4_ips:
+                            self.whitelist_ipv4[domain] = ipv4_ips if len(ipv4_ips) > 1 else ipv4_ips[0]
+                        if ipv6_ips:
+                            self.whitelist_ipv6[domain] = ipv6_ips if len(ipv6_ips) > 1 else ipv6_ips[0]
         # 新增ID转换表加载
         self.load_id_conversion()
 
@@ -67,12 +65,31 @@ class LocalDNSDatabase:
         return domain in self.blacklist
 
     def get_ip(self, domain):
-        """获取域名对应的IP地址列表
+        """获取域名对应的IP地址列表(兼容旧接口，IPv4优先)
         
         Returns:
             list or str or None: IP地址列表、单个IP字符串或None
         """
-        return self.whitelist.get(domain)
+        ipv4 = self.whitelist_ipv4.get(domain)
+        if ipv4:
+            return ipv4
+        return self.whitelist_ipv6.get(domain)
+    
+    def get_ipv4(self, domain):
+        """获取域名对应的IPv4地址列表
+        
+        Returns:
+            list or str or None: IPv4地址列表、单个IP字符串或None
+        """
+        return self.whitelist_ipv4.get(domain)
+    
+    def get_ipv6(self, domain):
+        """获取域名对应的IPv6地址列表
+        
+        Returns:
+            list or str or None: IPv6地址列表、单个IP字符串或None
+        """        
+        return self.whitelist_ipv6.get(domain)
 
     # 新增获取内部ID的方法
     def get_internal_id(self, domain):

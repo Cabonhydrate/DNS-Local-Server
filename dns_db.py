@@ -1,4 +1,5 @@
 import os
+from logger import Logger
 
 class LocalDNSDatabase:
     def __init__(self, db_file):
@@ -7,6 +8,7 @@ class LocalDNSDatabase:
         self.whitelist_ipv6 = {}  # 存储IPv6地址
         self.blacklist = {}
         self.id_mapping = {}  # 新增ID映射字典
+        self.logger = Logger()
 
     def load(self):
         with open(self.db_file, 'r') as f:
@@ -57,9 +59,10 @@ class LocalDNSDatabase:
                         try:
                             self.id_mapping[domain] = int(internal_id)
                         except ValueError:
-                            print(f"警告: {domain} 的ID {internal_id} 不是有效的整数")
+                            self.logger.warning(f"警告: {domain} 的ID {internal_id} 不是有效的整数")
         except FileNotFoundError:
-            print("警告: ID转换表文件 id_conversion_table.txt 未找到")
+            self.logger.error("ID转换表文件 id_conversion_table.txt 未找到，无法加载ID映射")
+            raise
 
     def is_in_blacklist(self, domain):
         return domain in self.blacklist

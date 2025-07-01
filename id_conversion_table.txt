@@ -1,5 +1,2 @@
 # ID Conversion Table
 # Format: domain_name internal_id
-www.example.com 1001
-api.example.com 1002
-localhost 1003

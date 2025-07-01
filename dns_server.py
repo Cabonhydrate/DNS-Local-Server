@@ -14,10 +14,19 @@ class DNSServer:
         self.logger = logger
         self.relay = DNSRelay(local_ip, local_port, upstream_server, logger)
         self.cache = DNSCache()
+        # 启动缓存清理线程
+        def start_cache_cleaner():
+            import time
+            while True:
+                self.cache.clear_expired()
+                time.sleep(60)  # 每60秒清理一次过期缓存
+        import threading
+        cleaner_thread = threading.Thread(target=start_cache_cleaner, daemon=True)
+        cleaner_thread.start()
 
     def start(self):
         # 清空日志文件
-        log_path = "c:\\Users\\26406\\OneDrive\\Desktop\\通网小学期\\DNS_Local_Server\\dns_server.log"
+        log_path = "./dns_server.log"
         with open(log_path, 'w') as f:
             pass  # 以写入模式打开文件会截断内容
         self.db.load()
@@ -45,6 +54,9 @@ class DNSServer:
             self.logger.info(f"Received DNS query from {addr}")
             dns_msg = DNSMessage.parse(data)
             domain = self.extract_domain(dns_msg)  # 需要实现提取域名的逻辑
+            if not domain:
+                self.logger.error("Received DNS query with empty domain")
+                return
             qtype = dns_msg.questions[0][1] if dns_msg.questions else 1
             self.logger.info(f"Processing query for domain: {domain}, type: {qtype}")
         except Exception as e:
@@ -127,15 +139,15 @@ class DNSServer:
                     self.logger.warning(f"发送上游响应到 {addr} 时连接被重置")
                 except Exception as e:
                     self.logger.error(f"发送上游响应错误: {e}")
-                else:
-                    # 上游服务器无响应，返回服务器错误
-                    error_response = self.build_error_response(dns_msg, rcode=2)
-                    try:
-                        sock.sendto(error_response, addr)
-                    except ConnectionResetError:
-                        self.logger.warning(f"发送错误响应到 {addr} 时连接被重置")
-                    except Exception as e:
-                        self.logger.error(f"发送错误响应错误: {e}")
+            else:
+                # 上游服务器无响应，返回服务器错误
+                error_response = self.build_error_response(dns_msg, rcode=2)
+                try:
+                    sock.sendto(error_response, addr)
+                except ConnectionResetError:
+                    self.logger.warning(f"发送错误响应到 {addr} 时连接被重置")
+                except Exception as e:
+                    self.logger.error(f"发送错误响应错误: {e}")
 
     def extract_domain(self, dns_msg):
         """从DNS消息中提取第一个问题的域名

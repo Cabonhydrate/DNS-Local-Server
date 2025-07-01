@@ -6,8 +6,10 @@ main.py是主程序的入口，负责初始化配置，启动 DNS 服务器，�
 
 id_conversion_table.txt用来存储域名与内部ID的映射关系
 
-2001:da8:215:3c02:3cf2:1454:3ebb:6fe2
+#mobile:
 10.29.216.160
+#portal:
+10.129.52.220
 
 python main.py
 
@@ -25,5 +27,7 @@ nslookup -type=A example.test
 nslookup -type=AAAA www.bilibili.com
 
 现在整个项目的结构完整吗？会有哪些方法，哪些类没有用到吗？能成功起到一个DNS本地服务器的功能吗？我该如何运行
+
+添加功能：通过-d和-dd参数启动程序,使用 nslookup命令测试程序能分别显示普通和详细两种日志
 
 能不能帮我为整个项目添加测试代码 

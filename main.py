@@ -24,9 +24,7 @@ if __name__ == "__main__":
     upstream_ip = config['upstream_dns']['ip']
     upstream_port = config['upstream_dns']['port']
     upstream_server = (upstream_ip, upstream_port)
-
-    # 获取本地IP地址
-    local_ip = socket.gethostbyname(socket.gethostname())
+    local_ip = config.get('local_ip', socket.gethostbyname(socket.gethostname()))
 
     # 初始化日志系统
     log_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), log_file)

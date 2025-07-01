@@ -60,10 +60,13 @@ class DNSServer:
             except Exception as e:
                 self.logger.error(f"发送黑名单响应错误: {e}")
         else:
-            ip = self.db.get_ip(domain)
-            if ip:
-                self.logger.info(f"Domain {domain} found in local database: {ip}")
-                response = self.build_whitelist_response(dns_msg, ip, domain)
+            ips = self.db.get_ip(domain)
+            if ips:
+                # 如果是单个IP字符串，转换为列表
+                if isinstance(ips, str):
+                    ips = [ips]
+                self.logger.info(f"Domain {domain} found in local database: {ips}")
+                response = self.build_whitelist_response(dns_msg, ips, domain)
                 try:
                     sock.sendto(response, addr)
                 except ConnectionResetError:
@@ -72,10 +75,10 @@ class DNSServer:
                     self.logger.error(f"发送白名单响应错误: {e}")
             else:
                 # 检查缓存
-                cached_ip = self.cache.get_record(domain)
-                if cached_ip:
-                    self.logger.info(f"Domain {domain} found in cache: {cached_ip}")
-                    response = self.build_whitelist_response(dns_msg, cached_ip, domain)
+                cached_ips = self.cache.get_record(domain)
+                if cached_ips:
+                    self.logger.info(f"Domain {domain} found in cache: {cached_ips}")
+                    response = self.build_whitelist_response(dns_msg, cached_ips, domain)
                     try:
                         sock.sendto(response, addr)
                     except ConnectionResetError:
@@ -92,13 +95,19 @@ class DNSServer:
                 try:
                     upstream_response = DNSMessage.parse(response_data)
                     # 遍历回答记录，查找A记录
+                    # 收集所有A记录
+                    a_records = []
                     for answer in upstream_response.answers:
                         if answer['type'] == 1:  # A记录
                             ip = socket.inet_ntoa(answer['rdata'])
                             ttl = answer['ttl']
+                            a_records.append((ip, ttl))
                             self.cache.add_record(domain, ip, ttl)
                             self.logger.info(f"Added {domain} -> {ip} to cache with TTL {ttl}s")
-                            break  # 只取第一个A记录
+                    
+                    # 如果没有A记录，记录警告
+                    if not a_records:
+                        self.logger.warning(f"No A records found for {domain} in upstream response")
                 except Exception as e:
                     self.logger.error(f"Failed to parse upstream response for caching: {e}")
                 try:
@@ -203,27 +212,28 @@ class DNSServer:
             answers=[]  # 黑名单响应无回答记录
         )
 
-    def build_whitelist_response(self, dns_msg, ip, domain):
-        """构建白名单响应(返回查询到的IP地址和内部ID)
+    def build_whitelist_response(self, dns_msg, ips, domain):
+        """构建白名单响应(返回查询到的IP地址列表和内部ID)
 
         Args:
             dns_msg (DNSMessage): 原始请求DNS消息对象
-            ip (str): 要返回的IP地址
+            ips (list): 要返回的IP地址列表
             domain (str): 查询的域名
 
         Returns:
             bytes: 构建好的DNS响应数据
         """
-        # 构建A记录资源记录
-        a_record = {
-            'name': dns_msg.questions[0][0],  # 查询域名
-            'type': 1,                         # A记录类型
-            'class': 1,                        # IN互联网类
-            'ttl': 300,                        # 5分钟缓存时间
-            'rdata': socket.inet_aton(ip)      # IP地址转换为网络字节序
-        }
-        
-        answers = [a_record]
+        # 构建多个A记录资源记录
+        answers = []
+        for ip in ips:
+            a_record = {
+                'name': dns_msg.questions[0][0],  # 查询域名
+                'type': 1,                         # A记录类型
+                'class': 1,                        # IN互联网类
+                'ttl': 300,                        # 5分钟缓存时间
+                'rdata': socket.inet_aton(ip)      # IP地址转换为网络字节序
+            }
+            answers.append(a_record)
         
         # 添加内部ID的TXT记录
         internal_id = self.db.get_internal_id(domain)

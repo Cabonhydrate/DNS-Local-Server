@@ -1,147 +1,196 @@
-[2025-07-01 02:09:41] INFO: DNS server started on 10.29.216.160:53
-[2025-07-01 02:09:45] INFO: Received DNS query from ('10.29.216.160', 61572)
-[2025-07-01 02:09:45] INFO: Processing query for domain: telemetry.trae.com.cn
-[2025-07-01 02:09:45] INFO: Domain telemetry.trae.com.cn not in local database or cache, forwarding to upstream server
-[2025-07-01 02:09:45] INFO: Added telemetry.trae.com.cn -> 198.18.0.69 to cache with TTL 1s
-[2025-07-01 02:09:45] WARNING: 客户端连接被重置
-[2025-07-01 02:09:45] WARNING: 客户端连接被重置
-[2025-07-01 02:09:46] INFO: Received DNS query from ('10.29.216.160', 49665)
-[2025-07-01 02:09:46] INFO: Processing query for domain: 160.216.29.10.in-addr.arpa
-[2025-07-01 02:09:46] INFO: Domain 160.216.29.10.in-addr.arpa not in local database or cache, forwarding to upstream server
-[2025-07-01 02:09:46] WARNING: 客户端连接被重置
-[2025-07-01 02:09:46] INFO: Received DNS query from ('10.29.216.160', 49667)
-[2025-07-01 02:09:46] INFO: Processing query for domain: www.baidu.com
-[2025-07-01 02:09:46] INFO: Domain www.baidu.com found in local database: 220.181.111.1
-[2025-07-01 02:09:46] INFO: Domain www.baidu.com not in local database or cache, forwarding to upstream server
-[2025-07-01 02:09:46] INFO: Added www.baidu.com -> 198.18.0.146 to cache with TTL 1s
-[2025-07-01 02:09:46] INFO: Received DNS query from ('10.29.216.160', 49669)
-[2025-07-01 02:09:46] INFO: Processing query for domain: www.baidu.com
-[2025-07-01 02:09:46] INFO: Domain www.baidu.com found in local database: 220.181.111.1
-[2025-07-01 02:09:46] WARNING: 客户端连接被重置
-[2025-07-01 02:09:46] WARNING: 客户端连接被重置
-[2025-07-01 02:09:46] INFO: Domain www.baidu.com not in local database or cache, forwarding to upstream server
-[2025-07-01 02:09:46] WARNING: 客户端连接被重置
-[2025-07-01 02:09:46] WARNING: 客户端连接被重置
-[2025-07-01 02:09:50] INFO: Received DNS query from ('10.29.216.160', 58997)
-[2025-07-01 02:09:50] INFO: Processing query for domain: telemetry.trae.com.cn
-[2025-07-01 02:09:50] INFO: Domain telemetry.trae.com.cn not in local database or cache, forwarding to upstream server
-[2025-07-01 02:09:50] INFO: Received DNS query from ('10.29.216.160', 64324)
-[2025-07-01 02:09:50] INFO: Processing query for domain: telemetry.trae.com.cn
-[2025-07-01 02:09:50] INFO: Domain telemetry.trae.com.cn not in local database or cache, forwarding to upstream server
-[2025-07-01 02:09:50] INFO: Added telemetry.trae.com.cn -> 198.18.0.69 to cache with TTL 1s
-[2025-07-01 02:09:50] WARNING: 客户端连接被重置
-[2025-07-01 02:09:50] WARNING: 客户端连接被重置
-[2025-07-01 02:09:50] WARNING: 客户端连接被重置
-[2025-07-01 02:09:50] WARNING: 客户端连接被重置
-[2025-07-01 02:09:50] INFO: Received DNS query from ('10.29.216.160', 63450)
-[2025-07-01 02:09:50] INFO: Processing query for domain: 160.216.29.10.in-addr.arpa
-[2025-07-01 02:09:50] INFO: Domain 160.216.29.10.in-addr.arpa not in local database or cache, forwarding to upstream server
-[2025-07-01 02:09:50] WARNING: 客户端连接被重置
-[2025-07-01 02:09:50] INFO: Received DNS query from ('10.29.216.160', 63452)
-[2025-07-01 02:09:50] INFO: Processing query for domain: ad.example.com
-[2025-07-01 02:09:50] WARNING: Domain ad.example.com is in blacklist
-[2025-07-01 02:09:50] INFO: Received DNS query from ('10.29.216.160', 63453)
-[2025-07-01 02:09:50] INFO: Processing query for domain: ad.example.com
-[2025-07-01 02:09:50] WARNING: Domain ad.example.com is in blacklist
-[2025-07-01 02:09:50] INFO: Received DNS query from ('10.29.216.160', 63454)
-[2025-07-01 02:09:50] INFO: Processing query for domain: ad.example.com
-[2025-07-01 02:09:50] WARNING: Domain ad.example.com is in blacklist
-[2025-07-01 02:09:50] INFO: Received DNS query from ('10.29.216.160', 63455)
-[2025-07-01 02:09:50] INFO: Processing query for domain: ad.example.com
-[2025-07-01 02:09:50] WARNING: Domain ad.example.com is in blacklist
-[2025-07-01 02:09:55] INFO: Received DNS query from ('10.29.216.160', 64234)
-[2025-07-01 02:09:55] INFO: Processing query for domain: 160.216.29.10.in-addr.arpa
-[2025-07-01 02:09:55] INFO: Domain 160.216.29.10.in-addr.arpa not in local database or cache, forwarding to upstream server
-[2025-07-01 02:09:55] WARNING: 客户端连接被重置
-[2025-07-01 02:09:55] INFO: Received DNS query from ('10.29.216.160', 64236)
-[2025-07-01 02:09:55] INFO: Processing query for domain: www.bupt.edu.cn
-[2025-07-01 02:09:55] INFO: Domain www.bupt.edu.cn found in local database: 10.3.9.4
-[2025-07-01 02:09:55] INFO: Domain www.bupt.edu.cn not in local database or cache, forwarding to upstream server
-[2025-07-01 02:09:55] INFO: Received DNS query from ('10.29.216.160', 64238)
-[2025-07-01 02:09:55] INFO: Processing query for domain: www.bupt.edu.cn
-[2025-07-01 02:09:55] INFO: Domain www.bupt.edu.cn found in local database: 10.3.9.4
-[2025-07-01 02:09:55] INFO: Added www.bupt.edu.cn -> 198.18.0.147 to cache with TTL 1s
-[2025-07-01 02:09:55] INFO: Domain www.bupt.edu.cn not in local database or cache, forwarding to upstream server
-[2025-07-01 02:09:55] WARNING: 客户端连接被重置
-[2025-07-01 02:09:55] WARNING: 客户端连接被重置
-[2025-07-01 02:09:55] WARNING: 客户端连接被重置
-[2025-07-01 02:09:55] WARNING: 客户端连接被重置
-[2025-07-01 02:09:55] INFO: Received DNS query from ('10.29.216.160', 59465)
-[2025-07-01 02:09:55] INFO: Processing query for domain: telemetry.trae.com.cn
-[2025-07-01 02:09:55] INFO: Domain telemetry.trae.com.cn not in local database or cache, forwarding to upstream server
-[2025-07-01 02:09:55] INFO: Received DNS query from ('10.29.216.160', 58027)
-[2025-07-01 02:09:55] INFO: Processing query for domain: telemetry.trae.com.cn
-[2025-07-01 02:09:55] INFO: Domain telemetry.trae.com.cn not in local database or cache, forwarding to upstream server
-[2025-07-01 02:09:55] INFO: Added telemetry.trae.com.cn -> 198.18.0.69 to cache with TTL 1s
-[2025-07-01 02:09:55] WARNING: 客户端连接被重置
-[2025-07-01 02:09:55] WARNING: 客户端连接被重置
-[2025-07-01 02:09:55] WARNING: 客户端连接被重置
-[2025-07-01 02:09:55] WARNING: 客户端连接被重置
-[2025-07-01 02:09:59] INFO: Received DNS query from ('10.29.216.160', 59593)
-[2025-07-01 02:09:59] INFO: Processing query for domain: 160.216.29.10.in-addr.arpa
-[2025-07-01 02:09:59] INFO: Domain 160.216.29.10.in-addr.arpa not in local database or cache, forwarding to upstream server
-[2025-07-01 02:09:59] WARNING: 客户端连接被重置
-[2025-07-01 02:09:59] INFO: Received DNS query from ('10.29.216.160', 59595)
-[2025-07-01 02:09:59] INFO: Processing query for domain: www.bilibili.com
-[2025-07-01 02:09:59] INFO: Domain www.bilibili.com not in local database or cache, forwarding to upstream server
-[2025-07-01 02:09:59] INFO: Added www.bilibili.com -> 198.18.0.148 to cache with TTL 1s
-[2025-07-01 02:09:59] WARNING: 客户端连接被重置
-[2025-07-01 02:09:59] INFO: Received DNS query from ('10.29.216.160', 59597)
-[2025-07-01 02:09:59] INFO: Processing query for domain: www.bilibili.com
-[2025-07-01 02:09:59] INFO: Domain www.bilibili.com found in cache: 198.18.0.148
-[2025-07-01 02:09:59] INFO: Received DNS query from ('10.29.216.160', 53923)
-[2025-07-01 02:09:59] INFO: Processing query for domain: skydrive.wns.windows.com
-[2025-07-01 02:09:59] INFO: Domain skydrive.wns.windows.com not in local database or cache, forwarding to upstream server
-[2025-07-01 02:09:59] INFO: Added skydrive.wns.windows.com -> 198.18.0.57 to cache with TTL 1s
-[2025-07-01 02:09:59] WARNING: 客户端连接被重置
-[2025-07-01 02:09:59] WARNING: 客户端连接被重置
-[2025-07-01 02:10:00] INFO: Received DNS query from ('10.29.216.160', 60745)
-[2025-07-01 02:10:00] INFO: Processing query for domain: telemetry.trae.com.cn
-[2025-07-01 02:10:00] INFO: Domain telemetry.trae.com.cn not in local database or cache, forwarding to upstream server
-[2025-07-01 02:10:00] INFO: Received DNS query from ('10.29.216.160', 51437)
-[2025-07-01 02:10:00] INFO: Processing query for domain: telemetry.trae.com.cn
-[2025-07-01 02:10:00] INFO: Domain telemetry.trae.com.cn not in local database or cache, forwarding to upstream server
-[2025-07-01 02:10:00] INFO: Added telemetry.trae.com.cn -> 198.18.0.69 to cache with TTL 1s
-[2025-07-01 02:10:00] WARNING: 客户端连接被重置
-[2025-07-01 02:10:00] WARNING: 客户端连接被重置
-[2025-07-01 02:10:00] WARNING: 客户端连接被重置
-[2025-07-01 02:10:00] WARNING: 客户端连接被重置
-[2025-07-01 02:10:05] INFO: Received DNS query from ('10.29.216.160', 57562)
-[2025-07-01 02:10:05] INFO: Processing query for domain: telemetry.trae.com.cn
-[2025-07-01 02:10:05] INFO: Domain telemetry.trae.com.cn not in local database or cache, forwarding to upstream server
-[2025-07-01 02:10:05] INFO: Received DNS query from ('10.29.216.160', 56061)
-[2025-07-01 02:10:05] INFO: Processing query for domain: telemetry.trae.com.cn
-[2025-07-01 02:10:05] INFO: Domain telemetry.trae.com.cn not in local database or cache, forwarding to upstream server
-[2025-07-01 02:10:05] INFO: Added telemetry.trae.com.cn -> 198.18.0.69 to cache with TTL 1s
-[2025-07-01 02:10:05] WARNING: 客户端连接被重置
-[2025-07-01 02:10:05] WARNING: 客户端连接被重置
-[2025-07-01 02:10:05] WARNING: 客户端连接被重置
-[2025-07-01 02:10:05] WARNING: 客户端连接被重置
-[2025-07-01 02:10:05] INFO: Received DNS query from ('10.29.216.160', 60104)
-[2025-07-01 02:10:05] INFO: Processing query for domain: dep477.appdump.nie.netease.com
-[2025-07-01 02:10:05] INFO: Domain dep477.appdump.nie.netease.com not in local database or cache, forwarding to upstream server
-[2025-07-01 02:10:05] INFO: Received DNS query from ('10.29.216.160', 63353)
-[2025-07-01 02:10:05] INFO: Processing query for domain: dep477.appdump.nie.netease.com
-[2025-07-01 02:10:05] INFO: Domain dep477.appdump.nie.netease.com not in local database or cache, forwarding to upstream server
-[2025-07-01 02:10:05] INFO: Added dep477.appdump.nie.netease.com -> 198.18.0.88 to cache with TTL 1s
-[2025-07-01 02:10:05] WARNING: 客户端连接被重置
-[2025-07-01 02:10:05] WARNING: 客户端连接被重置
-[2025-07-01 02:10:05] WARNING: 客户端连接被重置
-[2025-07-01 02:10:05] WARNING: 客户端连接被重置
-[2025-07-01 02:10:15] INFO: Received DNS query from ('10.29.216.160', 59061)
-[2025-07-01 02:10:15] INFO: Processing query for domain: telemetry.trae.com.cn
-[2025-07-01 02:10:15] INFO: Domain telemetry.trae.com.cn not in local database or cache, forwarding to upstream server
-[2025-07-01 02:10:15] INFO: Added telemetry.trae.com.cn -> 198.18.0.69 to cache with TTL 1s
-[2025-07-01 02:10:15] WARNING: 客户端连接被重置
-[2025-07-01 02:10:15] WARNING: 客户端连接被重置
-[2025-07-01 02:10:35] INFO: Received DNS query from ('10.29.216.160', 65155)
-[2025-07-01 02:10:35] INFO: Processing query for domain: dep477.appdump.nie.netease.com
-[2025-07-01 02:10:35] INFO: Received DNS query from ('10.29.216.160', 54207)
-[2025-07-01 02:10:35] INFO: Domain dep477.appdump.nie.netease.com not in local database or cache, forwarding to upstream server
-[2025-07-01 02:10:35] INFO: Processing query for domain: dep477.appdump.nie.netease.com
-[2025-07-01 02:10:35] INFO: Domain dep477.appdump.nie.netease.com not in local database or cache, forwarding to upstream server
-[2025-07-01 02:10:35] INFO: Added dep477.appdump.nie.netease.com -> 198.18.0.88 to cache with TTL 1s
-[2025-07-01 02:10:35] WARNING: 客户端连接被重置
-[2025-07-01 02:10:35] WARNING: 客户端连接被重置
-[2025-07-01 02:10:35] WARNING: 客户端连接被重置
-[2025-07-01 02:10:35] WARNING: 客户端连接被重置
+[2025-07-01 09:43:55] INFO: DNS server started on 10.29.216.160:53
+[2025-07-01 09:43:55] INFO: Received DNS query from ('10.29.216.160', 64952)
+[2025-07-01 09:43:55] INFO: Processing query for domain: mon.zijieapi.com
+[2025-07-01 09:43:55] INFO: Domain mon.zijieapi.com not in local database or cache, forwarding to upstream server
+[2025-07-01 09:43:55] INFO: Received DNS query from ('10.29.216.160', 63031)
+[2025-07-01 09:43:55] INFO: Processing query for domain: mon.zijieapi.com
+[2025-07-01 09:43:55] INFO: Domain mon.zijieapi.com not in local database or cache, forwarding to upstream server
+[2025-07-01 09:43:55] INFO: Added mon.zijieapi.com -> 220.181.136.251 to cache with TTL 369s
+[2025-07-01 09:43:55] WARNING: No A records found for mon.zijieapi.com in upstream response
+[2025-07-01 09:43:55] INFO: Added mon.zijieapi.com -> 220.181.136.248 to cache with TTL 369s
+[2025-07-01 09:43:55] INFO: Added mon.zijieapi.com -> 220.181.136.254 to cache with TTL 369s
+[2025-07-01 09:43:55] INFO: Added mon.zijieapi.com -> 220.181.136.250 to cache with TTL 369s
+[2025-07-01 09:43:55] INFO: Added mon.zijieapi.com -> 220.181.136.252 to cache with TTL 369s
+[2025-07-01 09:43:56] INFO: Received DNS query from ('10.29.216.160', 50713)
+[2025-07-01 09:43:56] INFO: Processing query for domain: functional.events.data.microsoft.com
+[2025-07-01 09:43:56] INFO: Domain functional.events.data.microsoft.com not in local database or cache, forwarding to upstream server
+[2025-07-01 09:43:56] INFO: Received DNS query from ('10.29.216.160', 56449)
+[2025-07-01 09:43:56] INFO: Processing query for domain: functional.events.data.microsoft.com
+[2025-07-01 09:43:56] INFO: Domain functional.events.data.microsoft.com not in local database or cache, forwarding to upstream server
+[2025-07-01 09:43:56] INFO: Received DNS query from ('10.29.216.160', 61663)
+[2025-07-01 09:43:56] INFO: Processing query for domain: functional.events.data.microsoft.com
+[2025-07-01 09:43:56] INFO: Domain functional.events.data.microsoft.com not in local database or cache, forwarding to upstream server
+[2025-07-01 09:43:56] WARNING: No A records found for functional.events.data.microsoft.com in upstream response
+[2025-07-01 09:43:56] INFO: Added functional.events.data.microsoft.com -> 51.116.246.106 to cache with TTL 511s
+[2025-07-01 09:43:56] WARNING: No A records found for functional.events.data.microsoft.com in upstream response
+[2025-07-01 09:43:56] INFO: Received DNS query from ('10.29.216.160', 63031)
+[2025-07-01 09:43:56] INFO: Processing query for domain: server.events.data.microsoft.com
+[2025-07-01 09:43:56] INFO: Received DNS query from ('10.29.216.160', 64952)
+[2025-07-01 09:43:56] INFO: Processing query for domain: server.events.data.microsoft.com
+[2025-07-01 09:43:56] INFO: Domain server.events.data.microsoft.com not in local database or cache, forwarding to upstream server
+[2025-07-01 09:43:56] INFO: Domain server.events.data.microsoft.com not in local database or cache, forwarding to upstream server
+[2025-07-01 09:43:56] WARNING: No A records found for server.events.data.microsoft.com in upstream response
+[2025-07-01 09:43:56] INFO: Added server.events.data.microsoft.com -> 20.42.72.131 to cache with TTL 78s
+[2025-07-01 09:43:56] INFO: Received DNS query from ('10.29.216.160', 60128)
+[2025-07-01 09:43:56] INFO: Received DNS query from ('10.29.216.160', 53526)
+[2025-07-01 09:43:56] INFO: Received DNS query from ('10.29.216.160', 54973)
+[2025-07-01 09:43:56] INFO: Processing query for domain: mcs.zijieapi.com
+[2025-07-01 09:43:56] INFO: Processing query for domain: mcs.zijieapi.com
+[2025-07-01 09:43:56] INFO: Processing query for domain: mcs.zijieapi.com
+[2025-07-01 09:43:56] INFO: Domain mcs.zijieapi.com not in local database or cache, forwarding to upstream server
+[2025-07-01 09:43:56] INFO: Domain mcs.zijieapi.com not in local database or cache, forwarding to upstream server
+[2025-07-01 09:43:56] INFO: Domain mcs.zijieapi.com not in local database or cache, forwarding to upstream server
+[2025-07-01 09:43:56] WARNING: No A records found for mcs.zijieapi.com in upstream response
+[2025-07-01 09:43:56] INFO: Added mcs.zijieapi.com -> 123.184.63.182 to cache with TTL 29s
+[2025-07-01 09:43:56] WARNING: No A records found for mcs.zijieapi.com in upstream response
+[2025-07-01 09:43:57] INFO: Received DNS query from ('10.29.216.160', 64952)
+[2025-07-01 09:43:57] INFO: Processing query for domain: telemetry.trae.com.cn
+[2025-07-01 09:43:57] INFO: Domain telemetry.trae.com.cn not in local database or cache, forwarding to upstream server
+[2025-07-01 09:43:57] INFO: Received DNS query from ('10.29.216.160', 63031)
+[2025-07-01 09:43:57] INFO: Processing query for domain: telemetry.trae.com.cn
+[2025-07-01 09:43:57] INFO: Domain telemetry.trae.com.cn not in local database or cache, forwarding to upstream server
+[2025-07-01 09:43:57] INFO: Added telemetry.trae.com.cn -> 220.181.136.252 to cache with TTL 353s
+[2025-07-01 09:43:57] WARNING: No A records found for telemetry.trae.com.cn in upstream response
+[2025-07-01 09:43:57] INFO: Added telemetry.trae.com.cn -> 220.181.136.248 to cache with TTL 353s
+[2025-07-01 09:43:57] INFO: Added telemetry.trae.com.cn -> 220.181.136.250 to cache with TTL 353s
+[2025-07-01 09:43:57] INFO: Added telemetry.trae.com.cn -> 220.181.136.254 to cache with TTL 353s
+[2025-07-01 09:43:57] INFO: Added telemetry.trae.com.cn -> 220.181.136.251 to cache with TTL 353s
+[2025-07-01 09:43:59] INFO: Received DNS query from ('10.29.216.160', 57833)
+[2025-07-01 09:43:59] INFO: Processing query for domain: 160.216.29.10.in-addr.arpa
+[2025-07-01 09:43:59] INFO: Domain 160.216.29.10.in-addr.arpa not in local database or cache, forwarding to upstream server
+[2025-07-01 09:43:59] WARNING: No A records found for 160.216.29.10.in-addr.arpa in upstream response
+[2025-07-01 09:43:59] WARNING: 客户端连接被重置
+[2025-07-01 09:43:59] INFO: Received DNS query from ('10.29.216.160', 57835)
+[2025-07-01 09:43:59] INFO: Processing query for domain: example.test
+[2025-07-01 09:43:59] INFO: Domain example.test found in local database: ['192.168.1.101', '192.168.1.100', '192.168.1.103', '192.168.1.102']
+[2025-07-01 09:43:59] INFO: Domain example.test not in local database or cache, forwarding to upstream server
+[2025-07-01 09:43:59] INFO: Received DNS query from ('10.29.216.160', 57837)
+[2025-07-01 09:43:59] INFO: Processing query for domain: example.test
+[2025-07-01 09:43:59] INFO: Domain example.test found in local database: ['192.168.1.101', '192.168.1.100', '192.168.1.103', '192.168.1.102']
+[2025-07-01 09:43:59] INFO: Domain example.test not in local database or cache, forwarding to upstream server
+[2025-07-01 09:43:59] WARNING: No A records found for example.test in upstream response
+[2025-07-01 09:43:59] WARNING: 客户端连接被重置
+[2025-07-01 09:43:59] WARNING: 客户端连接被重置
+[2025-07-01 09:44:00] INFO: Received DNS query from ('10.29.216.160', 49915)
+[2025-07-01 09:44:00] INFO: Processing query for domain: mon.zijieapi.com
+[2025-07-01 09:44:00] INFO: Domain mon.zijieapi.com found in cache: ['220.181.136.251', '220.181.136.248', '220.181.136.254', '220.181.136.250', '220.181.136.252']
+[2025-07-01 09:44:00] INFO: Received DNS query from ('10.29.216.160', 56061)
+[2025-07-01 09:44:00] INFO: Received DNS query from ('10.29.216.160', 54176)
+[2025-07-01 09:44:00] INFO: Processing query for domain: mon.zijieapi.com
+[2025-07-01 09:44:00] INFO: Processing query for domain: mon.zijieapi.com
+[2025-07-01 09:44:00] INFO: Domain mon.zijieapi.com found in cache: ['220.181.136.251', '220.181.136.248', '220.181.136.254', '220.181.136.250', '220.181.136.252']
+[2025-07-01 09:44:00] INFO: Domain mon.zijieapi.com found in cache: ['220.181.136.251', '220.181.136.248', '220.181.136.254', '220.181.136.250', '220.181.136.252']
+[2025-07-01 09:44:02] INFO: Received DNS query from ('10.29.216.160', 63031)
+[2025-07-01 09:44:02] INFO: Received DNS query from ('10.29.216.160', 64952)
+[2025-07-01 09:44:02] INFO: Processing query for domain: telemetry.trae.com.cn
+[2025-07-01 09:44:02] INFO: Processing query for domain: telemetry.trae.com.cn
+[2025-07-01 09:44:02] INFO: Domain telemetry.trae.com.cn found in cache: ['220.181.136.252', '220.181.136.248', '220.181.136.250', '220.181.136.254', '220.181.136.251']
+[2025-07-01 09:44:02] INFO: Domain telemetry.trae.com.cn found in cache: ['220.181.136.252', '220.181.136.248', '220.181.136.250', '220.181.136.254', '220.181.136.251']
+[2025-07-01 09:44:04] WARNING: Upstream DNS server timeout
+[2025-07-01 09:44:05] INFO: Received DNS query from ('10.29.216.160', 63031)
+[2025-07-01 09:44:05] INFO: Processing query for domain: mon.zijieapi.com
+[2025-07-01 09:44:05] INFO: Domain mon.zijieapi.com found in cache: ['220.181.136.251', '220.181.136.248', '220.181.136.254', '220.181.136.250', '220.181.136.252']
+[2025-07-01 09:44:06] INFO: Received DNS query from ('10.29.216.160', 64952)
+[2025-07-01 09:44:06] INFO: Processing query for domain: mon.zijieapi.com
+[2025-07-01 09:44:06] INFO: Domain mon.zijieapi.com found in cache: ['220.181.136.251', '220.181.136.248', '220.181.136.254', '220.181.136.250', '220.181.136.252']
+[2025-07-01 09:44:07] INFO: Received DNS query from ('10.29.216.160', 63031)
+[2025-07-01 09:44:07] INFO: Processing query for domain: telemetry.trae.com.cn
+[2025-07-01 09:44:07] INFO: Domain telemetry.trae.com.cn found in cache: ['220.181.136.252', '220.181.136.248', '220.181.136.250', '220.181.136.254', '220.181.136.251']
+[2025-07-01 09:44:07] INFO: Received DNS query from ('10.29.216.160', 64952)
+[2025-07-01 09:44:07] INFO: Processing query for domain: telemetry.trae.com.cn
+[2025-07-01 09:44:07] INFO: Domain telemetry.trae.com.cn found in cache: ['220.181.136.252', '220.181.136.248', '220.181.136.250', '220.181.136.254', '220.181.136.251']
+[2025-07-01 09:44:07] INFO: Received DNS query from ('10.29.216.160', 63031)
+[2025-07-01 09:44:07] INFO: Processing query for domain: p2p-lax1.discovery.steamserver.net
+[2025-07-01 09:44:07] INFO: Domain p2p-lax1.discovery.steamserver.net not in local database or cache, forwarding to upstream server
+[2025-07-01 09:44:07] INFO: Added p2p-lax1.discovery.steamserver.net -> 162.254.195.66 to cache with TTL 74s
+[2025-07-01 09:44:07] INFO: Added p2p-lax1.discovery.steamserver.net -> 162.254.195.71 to cache with TTL 74s
+[2025-07-01 09:44:08] INFO: Received DNS query from ('10.29.216.160', 64952)
+[2025-07-01 09:44:08] INFO: Received DNS query from ('10.29.216.160', 63031)
+[2025-07-01 09:44:08] INFO: Processing query for domain: mcs.zijieapi.com
+[2025-07-01 09:44:08] INFO: Processing query for domain: mcs.zijieapi.com
+[2025-07-01 09:44:08] INFO: Domain mcs.zijieapi.com found in cache: ['123.184.63.182']
+[2025-07-01 09:44:08] INFO: Domain mcs.zijieapi.com found in cache: ['123.184.63.182']
+[2025-07-01 09:44:08] INFO: Received DNS query from ('10.29.216.160', 63031)
+[2025-07-01 09:44:08] INFO: Processing query for domain: mcs.zijieapi.com
+[2025-07-01 09:44:08] INFO: Domain mcs.zijieapi.com found in cache: ['123.184.63.182']
+[2025-07-01 09:44:09] INFO: Received DNS query from ('10.29.216.160', 64952)
+[2025-07-01 09:44:09] INFO: Processing query for domain: mcs.zijieapi.com
+[2025-07-01 09:44:09] INFO: Domain mcs.zijieapi.com found in cache: ['123.184.63.182']
+[2025-07-01 09:44:10] INFO: Received DNS query from ('10.29.216.160', 63031)
+[2025-07-01 09:44:10] INFO: Processing query for domain: catalog.gamepass.com
+[2025-07-01 09:44:10] INFO: Domain catalog.gamepass.com not in local database or cache, forwarding to upstream server
+[2025-07-01 09:44:10] INFO: Received DNS query from ('10.29.216.160', 64952)
+[2025-07-01 09:44:10] INFO: Processing query for domain: catalog.gamepass.com
+[2025-07-01 09:44:10] INFO: Domain catalog.gamepass.com not in local database or cache, forwarding to upstream server
+[2025-07-01 09:44:10] INFO: Added catalog.gamepass.com -> 96.16.53.143 to cache with TTL 215s
+[2025-07-01 09:44:10] WARNING: No A records found for catalog.gamepass.com in upstream response
+[2025-07-01 09:44:10] INFO: Added catalog.gamepass.com -> 96.16.53.132 to cache with TTL 215s
+[2025-07-01 09:44:10] INFO: Received DNS query from ('10.29.216.160', 64952)
+[2025-07-01 09:44:10] INFO: Processing query for domain: mon.zijieapi.com
+[2025-07-01 09:44:10] INFO: Domain mon.zijieapi.com found in cache: ['220.181.136.251', '220.181.136.248', '220.181.136.254', '220.181.136.250', '220.181.136.252']
+[2025-07-01 09:44:11] INFO: Received DNS query from ('10.29.216.160', 52515)
+[2025-07-01 09:44:11] INFO: Processing query for domain: s.360.cn
+[2025-07-01 09:44:11] INFO: Domain s.360.cn not in local database or cache, forwarding to upstream server
+[2025-07-01 09:44:11] INFO: Received DNS query from ('10.29.216.160', 49664)
+[2025-07-01 09:44:11] INFO: Processing query for domain: s.360.cn
+[2025-07-01 09:44:11] INFO: Domain s.360.cn not in local database or cache, forwarding to upstream server
+[2025-07-01 09:44:11] INFO: Received DNS query from ('10.29.216.160', 58937)
+[2025-07-01 09:44:11] INFO: Processing query for domain: s.360.cn
+[2025-07-01 09:44:11] INFO: Domain s.360.cn not in local database or cache, forwarding to upstream server
+[2025-07-01 09:44:11] WARNING: No A records found for s.360.cn in upstream response
+[2025-07-01 09:44:11] WARNING: No A records found for s.360.cn in upstream response
+[2025-07-01 09:44:11] INFO: Added s.360.cn -> 171.13.14.66 to cache with TTL 190s
+[2025-07-01 09:44:11] INFO: Added s.360.cn -> 171.8.167.89 to cache with TTL 190s
+[2025-07-01 09:44:11] INFO: Added s.360.cn -> 101.198.2.147 to cache with TTL 190s
+[2025-07-01 09:44:11] INFO: Added s.360.cn -> 180.163.251.231 to cache with TTL 190s
+[2025-07-01 09:44:11] WARNING: 客户端连接被重置
+[2025-07-01 09:44:11] WARNING: 客户端连接被重置
+[2025-07-01 09:44:11] INFO: Received DNS query from ('10.29.216.160', 63031)
+[2025-07-01 09:44:11] INFO: Processing query for domain: mon.zijieapi.com
+[2025-07-01 09:44:11] INFO: Domain mon.zijieapi.com found in cache: ['220.181.136.251', '220.181.136.248', '220.181.136.254', '220.181.136.250', '220.181.136.252']
+[2025-07-01 09:44:12] INFO: Received DNS query from ('10.29.216.160', 64952)
+[2025-07-01 09:44:12] INFO: Processing query for domain: telemetry.trae.com.cn
+[2025-07-01 09:44:12] INFO: Domain telemetry.trae.com.cn found in cache: ['220.181.136.252', '220.181.136.248', '220.181.136.250', '220.181.136.254', '220.181.136.251']
+[2025-07-01 09:44:13] INFO: Received DNS query from ('10.29.216.160', 63031)
+[2025-07-01 09:44:13] INFO: Processing query for domain: items.kleientertainment.com
+[2025-07-01 09:44:13] INFO: Domain items.kleientertainment.com not in local database or cache, forwarding to upstream server
+[2025-07-01 09:44:13] INFO: Added items.kleientertainment.com -> 49.0.233.30 to cache with TTL 209s
+[2025-07-01 09:44:13] INFO: Received DNS query from ('10.29.216.160', 64801)
+[2025-07-01 09:44:13] INFO: Processing query for domain: 160.216.29.10.in-addr.arpa
+[2025-07-01 09:44:13] INFO: Domain 160.216.29.10.in-addr.arpa not in local database or cache, forwarding to upstream server
+[2025-07-01 09:44:13] WARNING: No A records found for 160.216.29.10.in-addr.arpa in upstream response
+[2025-07-01 09:44:13] WARNING: 客户端连接被重置
+[2025-07-01 09:44:13] INFO: Received DNS query from ('10.29.216.160', 64803)
+[2025-07-01 09:44:13] INFO: Processing query for domain: www.baidu.com
+[2025-07-01 09:44:13] INFO: Domain www.baidu.com found in local database: ['220.181.111.1']
+[2025-07-01 09:44:13] INFO: Domain www.baidu.com not in local database or cache, forwarding to upstream server
+[2025-07-01 09:44:13] INFO: Received DNS query from ('10.29.216.160', 64804)
+[2025-07-01 09:44:13] INFO: Processing query for domain: www.baidu.com
+[2025-07-01 09:44:13] INFO: Domain www.baidu.com found in local database: ['220.181.111.1']
+[2025-07-01 09:44:13] INFO: Domain www.baidu.com not in local database or cache, forwarding to upstream server
+[2025-07-01 09:44:13] INFO: Added www.baidu.com -> 220.181.111.1 to cache with TTL 147s
+[2025-07-01 09:44:13] WARNING: No A records found for www.baidu.com in upstream response
+[2025-07-01 09:44:13] INFO: Added www.baidu.com -> 220.181.111.232 to cache with TTL 147s
+[2025-07-01 09:44:13] WARNING: 客户端连接被重置
+[2025-07-01 09:44:13] WARNING: 客户端连接被重置
+[2025-07-01 09:44:13] WARNING: 客户端连接被重置
+[2025-07-01 09:44:13] WARNING: 客户端连接被重置
+[2025-07-01 09:44:15] INFO: Received DNS query from ('10.29.216.160', 64952)
+[2025-07-01 09:44:15] INFO: Processing query for domain: mon.zijieapi.com
+[2025-07-01 09:44:15] INFO: Domain mon.zijieapi.com found in cache: ['220.181.136.251', '220.181.136.248', '220.181.136.254', '220.181.136.250', '220.181.136.252']
+[2025-07-01 09:44:15] INFO: Received DNS query from ('10.29.216.160', 63031)
+[2025-07-01 09:44:15] INFO: Received DNS query from ('10.29.216.160', 64952)
+[2025-07-01 09:44:15] INFO: Processing query for domain: dep477.appdump.nie.netease.com
+[2025-07-01 09:44:15] INFO: Processing query for domain: dep477.appdump.nie.netease.com
+[2025-07-01 09:44:15] INFO: Domain dep477.appdump.nie.netease.com not in local database or cache, forwarding to upstream server
+[2025-07-01 09:44:15] INFO: Domain dep477.appdump.nie.netease.com not in local database or cache, forwarding to upstream server
+[2025-07-01 09:44:15] WARNING: No A records found for dep477.appdump.nie.netease.com in upstream response
+[2025-07-01 09:44:15] INFO: Added dep477.appdump.nie.netease.com -> 45.253.145.166 to cache with TTL 224s
+[2025-07-01 09:44:17] INFO: Received DNS query from ('10.29.216.160', 63031)
+[2025-07-01 09:44:17] INFO: Processing query for domain: telemetry.trae.com.cn
+[2025-07-01 09:44:17] INFO: Domain telemetry.trae.com.cn found in cache: ['220.181.136.252', '220.181.136.248', '220.181.136.250', '220.181.136.254', '220.181.136.251']
+[2025-07-01 09:44:21] INFO: Received DNS query from ('10.29.216.160', 64952)
+[2025-07-01 09:44:21] INFO: Processing query for domain: lobby-v2.klei.com
+[2025-07-01 09:44:21] INFO: Domain lobby-v2.klei.com not in local database or cache, forwarding to upstream server
+[2025-07-01 09:44:21] INFO: Added lobby-v2.klei.com -> 35.71.165.59 to cache with TTL 384s
+[2025-07-01 09:44:21] INFO: Added lobby-v2.klei.com -> 52.223.17.194 to cache with TTL 384s

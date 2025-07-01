@@ -1,5 +1,5 @@
 www.baidu.com 220.181.111.1
 www.bupt.edu.cn 10.3.9.4
-
-
+example.test 192.168.1.100,192.168.1.101,192.168.1.102
+example.test 192.168.1.103
 ad.example.com 0.0.0.0

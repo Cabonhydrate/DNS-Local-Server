@@ -13,6 +13,7 @@ nslookup www.baidu.com 10.29.216.160
 nslookup ad.example.com 10.29.216.160
 nslookup www.bupt.edu.cn 10.29.216.160
 nslookup www.bilibili.com 10.29.216.160
+nslookup example.test 10.29.216.160
 
 
 

@@ -10,14 +10,34 @@ class LocalDNSDatabase:
     def load(self):
         with open(self.db_file, 'r') as f:
             for line in f:
-                parts = line.strip().split()
+                line = line.strip()
+                if not line:
+                    continue
+                parts = line.split()
                 if len(parts) >= 2:
                     domain = parts[0]
-                    ip = parts[1]
-                    if ip == '0.0.0.0':
-                        self.blacklist[domain] = ip
+                    # 解析IP地址，支持逗号和空格分隔
+                    ips = []
+                    for part in parts[1:]:
+                        ips.extend(part.split(','))
+                    # 过滤空字符串并去重
+                    ips = list(filter(None, ips))
+                    ips = list(set(ips))
+                    
+                    if '0.0.0.0' in ips:
+                        self.blacklist[domain] = '0.0.0.0'
                     else:
-                        self.whitelist[domain] = ip
+                        if domain in self.whitelist:
+                            # 合并已存在的IP
+                            existing_ips = self.whitelist[domain]
+                            if isinstance(existing_ips, str):
+                                existing_ips = [existing_ips]
+                            existing_ips.extend(ips)
+                            # 去重
+                            existing_ips = list(set(existing_ips))
+                            self.whitelist[domain] = existing_ips
+                        else:
+                            self.whitelist[domain] = ips if len(ips) > 1 else ips[0] if ips else None
         # 新增ID转换表加载
         self.load_id_conversion()
 
@@ -47,6 +67,11 @@ class LocalDNSDatabase:
         return domain in self.blacklist
 
     def get_ip(self, domain):
+        """获取域名对应的IP地址列表
+        
+        Returns:
+            list or str or None: IP地址列表、单个IP字符串或None
+        """
         return self.whitelist.get(domain)
 
     # 新增获取内部ID的方法

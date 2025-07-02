@@ -17,9 +17,11 @@ class DNSRelay:
                 sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
                 sock.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
                 sock.settimeout(5)  # 添加5秒超时
+                self.logger.debug(f"Forwarding query to upstream server {self.upstream_server}")
                 sock.sendto(query_data, self.upstream_server)
                 try:
                     response, _ = sock.recvfrom(512)
+                    self.logger.debug(f"Received response from upstream server (size: {len(response)} bytes)")
                     sock.close()
                     return response
                 except socket.timeout:
@@ -27,6 +29,7 @@ class DNSRelay:
                     retries += 1
                     if retries <= max_retries:
                         time.sleep(retry_delay)
+                        self.logger.debug(f"Waiting {retry_delay}s before retry {retries}")
                     sock.close()
             except Exception as e:
                 self.logger.error(f"Error forwarding query: {e}")

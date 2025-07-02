@@ -1,0 +1,191 @@
+[2025-07-02 19:19:51] INFO: DNS server started on 10.29.216.160:53
+[2025-07-02 19:19:53] INFO: Received DNS query from ('10.29.216.160', 49159)
+[2025-07-02 19:19:53] DEBUG: Query data: dff701000001000000000000036d6f6e087a696a696561706903636f6d00001c0001
+[2025-07-02 19:19:53] DEBUG: No internal ID found for domain: mon.zijieapi.com
+[2025-07-02 19:19:53] DEBUG: Extracted domain: mon.zijieapi.com, query type: 28
+[2025-07-02 19:19:53] INFO: Processing query for domain: mon.zijieapi.com, type: 28
+[2025-07-02 19:19:53] DEBUG: Cache lookup for mon.zijieapi.com (type 28): miss
+[2025-07-02 19:19:53] INFO: Domain mon.zijieapi.com not in local database or cache, forwarding to upstream server
+[2025-07-02 19:19:53] DEBUG: Forwarding query to upstream server ('8.8.8.8', 53)
+[2025-07-02 19:19:53] DEBUG: Received response from upstream server (size: 164 bytes)
+[2025-07-02 19:19:53] WARNING: No A records found for mon.zijieapi.com in upstream response
+[2025-07-02 19:19:55] INFO: Received DNS query from ('10.29.216.160', 55414)
+[2025-07-02 19:19:55] DEBUG: Query data: 000101000001000000000000033136300332313602323902313007696e2d61646472046172706100000c0001
+[2025-07-02 19:19:55] DEBUG: No internal ID found for domain: 160.216.29.10.in-addr.arpa
+[2025-07-02 19:19:55] DEBUG: Extracted domain: 160.216.29.10.in-addr.arpa, query type: 12
+[2025-07-02 19:19:55] INFO: Processing query for domain: 160.216.29.10.in-addr.arpa, type: 12
+[2025-07-02 19:19:55] DEBUG: Cache lookup for 160.216.29.10.in-addr.arpa (type 12): miss
+[2025-07-02 19:19:55] INFO: Domain 160.216.29.10.in-addr.arpa not in local database or cache, forwarding to upstream server
+[2025-07-02 19:19:55] DEBUG: Forwarding query to upstream server ('8.8.8.8', 53)
+[2025-07-02 19:19:55] DEBUG: Received response from upstream server (size: 115 bytes)
+[2025-07-02 19:19:55] WARNING: No A records found for 160.216.29.10.in-addr.arpa in upstream response
+[2025-07-02 19:19:55] INFO: Received DNS query from ('10.29.216.160', 55416)
+[2025-07-02 19:19:55] DEBUG: Query data: 000201000001000000000000037777770862696c6962696c6903636f6d00001c0001
+[2025-07-02 19:19:55] DEBUG: No internal ID found for domain: www.bilibili.com
+[2025-07-02 19:19:55] DEBUG: Extracted domain: www.bilibili.com, query type: 28
+[2025-07-02 19:19:55] INFO: Processing query for domain: www.bilibili.com, type: 28
+[2025-07-02 19:19:55] DEBUG: Cache lookup for www.bilibili.com (type 28): miss
+[2025-07-02 19:19:55] INFO: Domain www.bilibili.com not in local database or cache, forwarding to upstream server
+[2025-07-02 19:19:55] DEBUG: Forwarding query to upstream server ('8.8.8.8', 53)
+[2025-07-02 19:19:55] DEBUG: Received response from upstream server (size: 92 bytes)
+[2025-07-02 19:19:55] INFO: Added IPv6 www.bilibili.com -> 240c:c0a9:100d::2 to cache with TTL 299s
+[2025-07-02 19:19:55] WARNING: No A records found for www.bilibili.com in upstream response
+[2025-07-02 19:19:55] INFO: Received DNS query from ('10.29.216.160', 49159)
+[2025-07-02 19:19:55] DEBUG: Query data: 9e0501000001000000000000036d6f6e087a696a696561706903636f6d00001c0001
+[2025-07-02 19:19:55] DEBUG: No internal ID found for domain: mon.zijieapi.com
+[2025-07-02 19:19:55] DEBUG: Extracted domain: mon.zijieapi.com, query type: 28
+[2025-07-02 19:19:55] INFO: Processing query for domain: mon.zijieapi.com, type: 28
+[2025-07-02 19:19:55] DEBUG: Cache lookup for mon.zijieapi.com (type 28): miss
+[2025-07-02 19:19:55] INFO: Domain mon.zijieapi.com not in local database or cache, forwarding to upstream server
+[2025-07-02 19:19:55] DEBUG: Forwarding query to upstream server ('8.8.8.8', 53)
+[2025-07-02 19:19:55] DEBUG: Received response from upstream server (size: 164 bytes)
+[2025-07-02 19:19:55] WARNING: No A records found for mon.zijieapi.com in upstream response
+[2025-07-02 19:19:55] INFO: Received DNS query from ('10.29.216.160', 49159)
+[2025-07-02 19:19:55] INFO: Received DNS query from ('10.29.216.160', 57704)
+[2025-07-02 19:19:55] DEBUG: Query data: 7b54010000010000000000000563746c646c0d77696e646f777375706461746503636f6d0000010001
+[2025-07-02 19:19:55] DEBUG: Query data: a30e010000010000000000000563746c646c0d77696e646f777375706461746503636f6d00001c0001
+[2025-07-02 19:19:55] DEBUG: No internal ID found for domain: ctldl.windowsupdate.com
+[2025-07-02 19:19:55] DEBUG: No internal ID found for domain: ctldl.windowsupdate.com
+[2025-07-02 19:19:55] DEBUG: Extracted domain: ctldl.windowsupdate.com, query type: 1
+[2025-07-02 19:19:55] DEBUG: Extracted domain: ctldl.windowsupdate.com, query type: 28
+[2025-07-02 19:19:55] INFO: Processing query for domain: ctldl.windowsupdate.com, type: 1
+[2025-07-02 19:19:55] INFO: Processing query for domain: ctldl.windowsupdate.com, type: 28
+[2025-07-02 19:19:55] DEBUG: Cache lookup for ctldl.windowsupdate.com (type 1): miss
+[2025-07-02 19:19:55] DEBUG: Cache lookup for ctldl.windowsupdate.com (type 28): miss
+[2025-07-02 19:19:55] INFO: Domain ctldl.windowsupdate.com not in local database or cache, forwarding to upstream server
+[2025-07-02 19:19:55] INFO: Domain ctldl.windowsupdate.com not in local database or cache, forwarding to upstream server
+[2025-07-02 19:19:55] DEBUG: Forwarding query to upstream server ('8.8.8.8', 53)
+[2025-07-02 19:19:55] DEBUG: Forwarding query to upstream server ('8.8.8.8', 53)
+[2025-07-02 19:19:55] DEBUG: Received response from upstream server (size: 278 bytes)
+[2025-07-02 19:19:55] DEBUG: Received response from upstream server (size: 318 bytes)
+[2025-07-02 19:19:55] DEBUG: Added cache record: ctldl.windowsupdate.com -> 36.110.220.113 (TTL: 548s)
+[2025-07-02 19:19:55] INFO: Added IPv6 ctldl.windowsupdate.com -> 240e:c2:1c00:3700::1d to cache with TTL 172s
+[2025-07-02 19:19:55] INFO: Added IPv4 ctldl.windowsupdate.com -> 36.110.220.113 to cache with TTL 548s
+[2025-07-02 19:19:55] INFO: Added IPv6 ctldl.windowsupdate.com -> 240e:93c:206:100::6a to cache with TTL 172s
+[2025-07-02 19:19:55] WARNING: No A records found for ctldl.windowsupdate.com in upstream response
+[2025-07-02 19:19:55] INFO: Received DNS query from ('10.29.216.160', 49159)
+[2025-07-02 19:19:55] DEBUG: Query data: 7e7001000001000000000000036d6f6e087a696a696561706903636f6d00001c0001
+[2025-07-02 19:19:55] DEBUG: No internal ID found for domain: mon.zijieapi.com
+[2025-07-02 19:19:55] DEBUG: Extracted domain: mon.zijieapi.com, query type: 28
+[2025-07-02 19:19:55] INFO: Processing query for domain: mon.zijieapi.com, type: 28
+[2025-07-02 19:19:55] DEBUG: Cache lookup for mon.zijieapi.com (type 28): miss
+[2025-07-02 19:19:55] INFO: Domain mon.zijieapi.com not in local database or cache, forwarding to upstream server
+[2025-07-02 19:19:55] DEBUG: Forwarding query to upstream server ('8.8.8.8', 53)
+[2025-07-02 19:19:55] DEBUG: Received response from upstream server (size: 164 bytes)
+[2025-07-02 19:19:55] WARNING: No A records found for mon.zijieapi.com in upstream response
+[2025-07-02 19:19:56] INFO: Received DNS query from ('10.29.216.160', 57708)
+[2025-07-02 19:19:56] DEBUG: Query data: 000101000001000000000000033136300332313602323902313007696e2d61646472046172706100000c0001
+[2025-07-02 19:19:56] DEBUG: No internal ID found for domain: 160.216.29.10.in-addr.arpa
+[2025-07-02 19:19:56] DEBUG: Extracted domain: 160.216.29.10.in-addr.arpa, query type: 12
+[2025-07-02 19:19:56] INFO: Processing query for domain: 160.216.29.10.in-addr.arpa, type: 12
+[2025-07-02 19:19:56] DEBUG: Cache lookup for 160.216.29.10.in-addr.arpa (type 12): miss
+[2025-07-02 19:19:56] INFO: Domain 160.216.29.10.in-addr.arpa not in local database or cache, forwarding to upstream server
+[2025-07-02 19:19:56] DEBUG: Forwarding query to upstream server ('8.8.8.8', 53)
+[2025-07-02 19:19:56] DEBUG: Received response from upstream server (size: 115 bytes)
+[2025-07-02 19:19:56] WARNING: No A records found for 160.216.29.10.in-addr.arpa in upstream response
+[2025-07-02 19:19:56] INFO: Received DNS query from ('10.29.216.160', 57710)
+[2025-07-02 19:19:56] DEBUG: Query data: 0002010000010000000000000377777705626169647503636f6d0000010001
+[2025-07-02 19:19:56] DEBUG: No internal ID found for domain: www.baidu.com
+[2025-07-02 19:19:56] DEBUG: Extracted domain: www.baidu.com, query type: 1
+[2025-07-02 19:19:56] INFO: Processing query for domain: www.baidu.com, type: 1
+[2025-07-02 19:19:56] WARNING: Domain www.baidu.com is in blacklist
+[2025-07-02 19:19:56] INFO: Received DNS query from ('10.29.216.160', 57711)
+[2025-07-02 19:19:56] DEBUG: Query data: 0003010000010000000000000377777705626169647503636f6d0000010001
+[2025-07-02 19:19:56] DEBUG: No internal ID found for domain: www.baidu.com
+[2025-07-02 19:19:56] DEBUG: Extracted domain: www.baidu.com, query type: 1
+[2025-07-02 19:19:56] INFO: Processing query for domain: www.baidu.com, type: 1
+[2025-07-02 19:19:56] WARNING: Domain www.baidu.com is in blacklist
+[2025-07-02 19:19:57] INFO: Received DNS query from ('10.29.216.160', 57704)
+[2025-07-02 19:19:57] DEBUG: Query data: 83970100000100000000000008616274657374766d096279746564616e636503636f6d00001c0001
+[2025-07-02 19:19:57] DEBUG: No internal ID found for domain: abtestvm.bytedance.com
+[2025-07-02 19:19:57] DEBUG: Extracted domain: abtestvm.bytedance.com, query type: 28
+[2025-07-02 19:19:57] INFO: Processing query for domain: abtestvm.bytedance.com, type: 28
+[2025-07-02 19:19:57] DEBUG: Cache lookup for abtestvm.bytedance.com (type 28): miss
+[2025-07-02 19:19:57] INFO: Domain abtestvm.bytedance.com not in local database or cache, forwarding to upstream server
+[2025-07-02 19:19:57] DEBUG: Forwarding query to upstream server ('8.8.8.8', 53)
+[2025-07-02 19:19:57] DEBUG: Received response from upstream server (size: 261 bytes)
+[2025-07-02 19:19:57] WARNING: No A records found for abtestvm.bytedance.com in upstream response
+[2025-07-02 19:19:57] INFO: Received DNS query from ('10.29.216.160', 49159)
+[2025-07-02 19:19:57] DEBUG: Query data: 161f0100000100000000000008616274657374766d096279746564616e636503636f6d00001c0001
+[2025-07-02 19:19:57] DEBUG: No internal ID found for domain: abtestvm.bytedance.com
+[2025-07-02 19:19:57] DEBUG: Extracted domain: abtestvm.bytedance.com, query type: 28
+[2025-07-02 19:19:57] INFO: Processing query for domain: abtestvm.bytedance.com, type: 28
+[2025-07-02 19:19:57] DEBUG: Cache lookup for abtestvm.bytedance.com (type 28): miss
+[2025-07-02 19:19:57] INFO: Domain abtestvm.bytedance.com not in local database or cache, forwarding to upstream server
+[2025-07-02 19:19:57] DEBUG: Forwarding query to upstream server ('8.8.8.8', 53)
+[2025-07-02 19:19:57] DEBUG: Received response from upstream server (size: 261 bytes)
+[2025-07-02 19:19:57] WARNING: No A records found for abtestvm.bytedance.com in upstream response
+[2025-07-02 19:19:58] INFO: Received DNS query from ('10.29.216.160', 57704)
+[2025-07-02 19:19:58] DEBUG: Query data: 0b3a01000001000000000000036d6f6e087a696a696561706903636f6d00001c0001
+[2025-07-02 19:19:58] DEBUG: No internal ID found for domain: mon.zijieapi.com
+[2025-07-02 19:19:58] DEBUG: Extracted domain: mon.zijieapi.com, query type: 28
+[2025-07-02 19:19:58] INFO: Processing query for domain: mon.zijieapi.com, type: 28
+[2025-07-02 19:19:58] DEBUG: Cache lookup for mon.zijieapi.com (type 28): miss
+[2025-07-02 19:19:58] INFO: Domain mon.zijieapi.com not in local database or cache, forwarding to upstream server
+[2025-07-02 19:19:58] DEBUG: Forwarding query to upstream server ('8.8.8.8', 53)
+[2025-07-02 19:19:58] DEBUG: Received response from upstream server (size: 164 bytes)
+[2025-07-02 19:19:58] WARNING: No A records found for mon.zijieapi.com in upstream response
+[2025-07-02 19:19:59] INFO: Received DNS query from ('10.29.216.160', 49159)
+[2025-07-02 19:19:59] DEBUG: Query data: 13a7010000010000000000000974656c656d65747279047472616503636f6d02636e00001c0001
+[2025-07-02 19:19:59] DEBUG: No internal ID found for domain: telemetry.trae.com.cn
+[2025-07-02 19:19:59] DEBUG: Extracted domain: telemetry.trae.com.cn, query type: 28
+[2025-07-02 19:19:59] INFO: Processing query for domain: telemetry.trae.com.cn, type: 28
+[2025-07-02 19:19:59] DEBUG: Cache lookup for telemetry.trae.com.cn (type 28): miss
+[2025-07-02 19:19:59] INFO: Domain telemetry.trae.com.cn not in local database or cache, forwarding to upstream server
+[2025-07-02 19:19:59] DEBUG: Forwarding query to upstream server ('8.8.8.8', 53)
+[2025-07-02 19:19:59] DEBUG: Received response from upstream server (size: 447 bytes)
+[2025-07-02 19:20:00] INFO: Added IPv6 telemetry.trae.com.cn -> 2409:8c3c:900:200:8000:0:b00:125 to cache with TTL 240s
+[2025-07-02 19:20:00] INFO: Added IPv6 telemetry.trae.com.cn -> 2409:8c70:3a04:5:8000:0:b00:112 to cache with TTL 240s
+[2025-07-02 19:20:00] INFO: Added IPv6 telemetry.trae.com.cn -> 240e:978:1226:0:8000:0:b00:119 to cache with TTL 240s
+[2025-07-02 19:20:00] INFO: Added IPv6 telemetry.trae.com.cn -> 2409:8c3c:900:110:8000:0:b00:118 to cache with TTL 240s
+[2025-07-02 19:20:00] INFO: Added IPv6 telemetry.trae.com.cn -> 240e:978:1208:0:8000:0:b00:132 to cache with TTL 240s
+[2025-07-02 19:20:00] INFO: Added IPv6 telemetry.trae.com.cn -> 2409:8c4d:5200:38:8000:0:b00:121 to cache with TTL 240s
+[2025-07-02 19:20:00] INFO: Added IPv6 telemetry.trae.com.cn -> 240e:95d:100b:10:8000:0:b00:115 to cache with TTL 240s
+[2025-07-02 19:20:00] INFO: Added IPv6 telemetry.trae.com.cn -> 2409:8c20:b281:1a:8000:0:b00:116 to cache with TTL 240s
+[2025-07-02 19:20:00] INFO: Added IPv6 telemetry.trae.com.cn -> 2408:8719:2100:6:8000:0:b00:133 to cache with TTL 240s
+[2025-07-02 19:20:00] WARNING: No A records found for telemetry.trae.com.cn in upstream response
+[2025-07-02 19:20:00] INFO: Received DNS query from ('10.29.216.160', 57704)
+[2025-07-02 19:20:00] INFO: Received DNS query from ('10.29.216.160', 49159)
+[2025-07-02 19:20:00] DEBUG: Query data: 2b740100000100000000000003777777086d7366746e63736903636f6d0000010001
+[2025-07-02 19:20:00] DEBUG: Query data: 51660100000100000000000003777777086d7366746e63736903636f6d00001c0001
+[2025-07-02 19:20:00] DEBUG: No internal ID found for domain: www.msftncsi.com
+[2025-07-02 19:20:00] DEBUG: No internal ID found for domain: www.msftncsi.com
+[2025-07-02 19:20:00] INFO: Received DNS query from ('10.29.216.160', 59833)
+[2025-07-02 19:20:00] DEBUG: Extracted domain: www.msftncsi.com, query type: 1
+[2025-07-02 19:20:00] INFO: Received DNS query from ('10.29.216.160', 55143)
+[2025-07-02 19:20:00] DEBUG: Extracted domain: www.msftncsi.com, query type: 28
+[2025-07-02 19:20:00] DEBUG: Query data: f531010000010000000000000469707636086d7366746e63736903636f6d0000010001
+[2025-07-02 19:20:00] INFO: Processing query for domain: www.msftncsi.com, type: 1
+[2025-07-02 19:20:00] DEBUG: Query data: 6456010000010000000000000469707636086d7366746e63736903636f6d00001c0001
+[2025-07-02 19:20:00] INFO: Processing query for domain: www.msftncsi.com, type: 28
+[2025-07-02 19:20:00] DEBUG: No internal ID found for domain: ipv6.msftncsi.com
+[2025-07-02 19:20:00] DEBUG: Cache lookup for www.msftncsi.com (type 1): miss
+[2025-07-02 19:20:00] DEBUG: No internal ID found for domain: ipv6.msftncsi.com
+[2025-07-02 19:20:00] DEBUG: Cache lookup for www.msftncsi.com (type 28): miss
+[2025-07-02 19:20:00] DEBUG: Extracted domain: ipv6.msftncsi.com, query type: 1
+[2025-07-02 19:20:00] INFO: Domain www.msftncsi.com not in local database or cache, forwarding to upstream server
+[2025-07-02 19:20:00] DEBUG: Extracted domain: ipv6.msftncsi.com, query type: 28
+[2025-07-02 19:20:00] INFO: Domain www.msftncsi.com not in local database or cache, forwarding to upstream server
+[2025-07-02 19:20:00] INFO: Processing query for domain: ipv6.msftncsi.com, type: 1
+[2025-07-02 19:20:00] DEBUG: Forwarding query to upstream server ('8.8.8.8', 53)
+[2025-07-02 19:20:00] INFO: Processing query for domain: ipv6.msftncsi.com, type: 28
+[2025-07-02 19:20:00] DEBUG: Forwarding query to upstream server ('8.8.8.8', 53)
+[2025-07-02 19:20:00] DEBUG: Cache lookup for ipv6.msftncsi.com (type 1): miss
+[2025-07-02 19:20:00] DEBUG: Cache lookup for ipv6.msftncsi.com (type 28): miss
+[2025-07-02 19:20:00] INFO: Domain ipv6.msftncsi.com not in local database or cache, forwarding to upstream server
+[2025-07-02 19:20:00] INFO: Domain ipv6.msftncsi.com not in local database or cache, forwarding to upstream server
+[2025-07-02 19:20:00] DEBUG: Received response from upstream server (size: 143 bytes)
+[2025-07-02 19:20:00] DEBUG: Received response from upstream server (size: 183 bytes)
+[2025-07-02 19:20:00] DEBUG: Forwarding query to upstream server ('8.8.8.8', 53)
+[2025-07-02 19:20:00] DEBUG: Forwarding query to upstream server ('8.8.8.8', 53)
+[2025-07-02 19:20:00] DEBUG: Added cache record: www.msftncsi.com -> 23.56.97.61 (TTL: 448s)
+[2025-07-02 19:20:00] WARNING: No A records found for www.msftncsi.com in upstream response
+[2025-07-02 19:20:00] INFO: Added IPv4 www.msftncsi.com -> 23.56.97.61 to cache with TTL 448s
+[2025-07-02 19:20:00] DEBUG: Received response from upstream server (size: 170 bytes)
+[2025-07-02 19:20:00] DEBUG: Received response from upstream server (size: 188 bytes)
+[2025-07-02 19:20:00] DEBUG: Added cache record: www.msftncsi.com -> 23.56.97.69 (TTL: 448s)
+[2025-07-02 19:20:00] INFO: Added IPv6 ipv6.msftncsi.com -> 2600:140b:1e00:9::1737:b317 to cache with TTL 444s
+[2025-07-02 19:20:00] WARNING: No A records found for ipv6.msftncsi.com in upstream response
+[2025-07-02 19:20:00] INFO: Added IPv4 www.msftncsi.com -> 23.56.97.69 to cache with TTL 448s
+[2025-07-02 19:20:00] INFO: Added IPv6 ipv6.msftncsi.com -> 2600:140b:1e00:9::1737:b30c to cache with TTL 444s
+[2025-07-02 19:20:00] WARNING: No A records found for ipv6.msftncsi.com in upstream response

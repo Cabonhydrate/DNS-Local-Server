@@ -1,0 +1,8 @@
+[2025-07-02 18:44:21] INFO: Starting DNS server on 10.29.216.160:53
+[2025-07-02 18:44:21] ERROR: Failed to start DNS server: expected str, bytes or os.PathLike object, not NoneType
+[2025-07-02 18:56:52] INFO: Starting DNS server on 10.29.216.160:53
+[2025-07-02 18:56:52] INFO: Database loaded successfully
+[2025-07-02 18:56:52] ERROR: Failed to start DNS server: LocalDNSDatabase.__init__() missing 1 required positional argument: 'logger'
+[2025-07-02 19:02:33] INFO: Starting DNS server on 10.29.216.160:53
+[2025-07-02 19:02:33] INFO: Database loaded successfully
+[2025-07-02 19:02:33] ERROR: Failed to start DNS server: LocalDNSDatabase.__init__() missing 1 required positional argument: 'logger'

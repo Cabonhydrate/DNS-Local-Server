@@ -10,7 +10,7 @@ class DNSServer:
         self.local_ip = local_ip
         self.local_port = local_port
         self.upstream_server = upstream_server
-        self.db = LocalDNSDatabase(db_file)
+        self.db = LocalDNSDatabase(db_file, logger)
         self.logger = logger
         self.relay = DNSRelay(local_ip, local_port, upstream_server, logger)
         self.cache = DNSCache()
@@ -26,7 +26,7 @@ class DNSServer:
 
     def start(self):
         # 清空日志文件
-        log_path = "./dns_server.log"
+        log_path = self.logger.log_file
         with open(log_path, 'w') as f:
             pass  # 以写入模式打开文件会截断内容
         self.db.load()
@@ -52,12 +52,20 @@ class DNSServer:
     def handle_query(self, data, addr, sock):
         try:
             self.logger.info(f"Received DNS query from {addr}")
+            self.logger.debug(f"Query data: {data.hex()}")
             dns_msg = DNSMessage.parse(data)
             domain = self.extract_domain(dns_msg)  # 需要实现提取域名的逻辑
             if not domain:
                 self.logger.error("Received DNS query with empty domain")
                 return
+            # 获取并记录域名内部ID
+            domain_id = self.db.get_internal_id(domain)
+            if domain_id:
+                self.logger.debug(f"Domain {domain} mapped to internal ID: {domain_id}")
+            else:
+                self.logger.debug(f"No internal ID found for domain: {domain}")
             qtype = dns_msg.questions[0][1] if dns_msg.questions else 1
+            self.logger.debug(f"Extracted domain: {domain}, query type: {qtype}")
             self.logger.info(f"Processing query for domain: {domain}, type: {qtype}")
         except Exception as e:
             self.logger.error(f"Failed to parse DNS query: {e}")
@@ -82,6 +90,7 @@ class DNSServer:
                 # 如果是单个IP字符串，转换为列表
                 if isinstance(ips, str):
                     ips = [ips]
+                self.logger.debug(f"Found {len(ips)} IPs for {domain} in local database")
                 self.logger.info(f"Domain {domain} found in local database: {ips}")
                 response = self.build_whitelist_response(dns_msg, ips, domain)
                 try:
@@ -93,7 +102,9 @@ class DNSServer:
             else:
                 # 检查缓存
                 cached_ips = self.cache.get_record(domain, qtype)
+                self.logger.debug(f"Cache lookup for {domain} (type {qtype}): {'hit' if cached_ips else 'miss'}")
                 if cached_ips:
+                    self.logger.debug(f"Cache hit for {domain}, type {qtype}: {cached_ips}")
                     self.logger.info(f"Domain {domain} found in cache: {cached_ips}")
                     response = self.build_whitelist_response(dns_msg, cached_ips, domain)
                     try:
@@ -121,6 +132,7 @@ class DNSServer:
                             ttl = answer['ttl']
                             a_records.append((ip, ttl))
                             self.cache.add_record(domain, ip, ttl, 1)
+                            self.logger.debug(f"Added cache record: {domain} -> {ip} (TTL: {ttl}s)")
                             self.logger.info(f"Added IPv4 {domain} -> {ip} to cache with TTL {ttl}s")
                         elif answer['type'] == 28:  # AAAA记录
                             ip = socket.inet_ntop(socket.AF_INET6, answer['rdata'])

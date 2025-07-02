@@ -64,10 +64,7 @@ if __name__ == "__main__":
 
         # 创建并启动DNS服务器
         server = DNSServer(
-            local_ip=local_ip,
-            local_port=local_port,
-            upstream_server=upstream_server,
-            db_file=database_file,
+            config=config,
             logger=logger
         )
         server.start()

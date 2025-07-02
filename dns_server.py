@@ -6,14 +6,22 @@ from dns_relay import DNSRelay
 from dns_cache import DNSCache
 
 class DNSServer:
-    def __init__(self, local_ip, local_port, upstream_server, db_file, logger):
-        self.local_ip = local_ip
-        self.local_port = local_port
-        self.upstream_server = upstream_server
-        self.db = LocalDNSDatabase(db_file, logger)
+    def __init__(self, config, logger):
+        # 配置参数验证
+        required_keys = ['local_ip', 'local_port', 'upstream_dns', 'database_file']
+        for key in required_keys:
+            if key not in config:
+                raise ValueError(f"Missing required configuration key: {key}")
+        if not isinstance(config['upstream_dns'], dict) or 'ip' not in config['upstream_dns'] or 'port' not in config['upstream_dns']:
+            raise ValueError("Upstream DNS configuration must be a dict with 'ip' and 'port'")
+        self.local_ip = config['local_ip']
+        self.local_port = config['local_port']
+        self.upstream_server = (config['upstream_dns']['ip'], config['upstream_dns']['port'])
+        self.default_ttl = config.get('default_ttl', 300)
+        self.db = LocalDNSDatabase(config['database_file'], logger)
         self.logger = logger
-        self.relay = DNSRelay(local_ip, local_port, upstream_server, logger)
-        self.cache = DNSCache()
+        self.relay = DNSRelay(self.local_ip, self.local_port, self.upstream_server, logger)
+        self.cache = DNSCache(max_size=config.get('cache_size', 1000))
         # 启动缓存清理线程
         def start_cache_cleaner():
             import time
@@ -27,8 +35,11 @@ class DNSServer:
     def start(self):
         # 清空日志文件
         log_path = self.logger.log_file
-        with open(log_path, 'w') as f:
-            pass  # 以写入模式打开文件会截断内容
+        try:
+            with open(log_path, 'w') as f:
+                pass  # 以写入模式打开文件会截断内容
+        except Exception as e:
+            self.logger.error(f"Failed to clear log file: {e}")
         self.db.load()
         sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
         sock.bind((self.local_ip, self.local_port))
@@ -69,6 +80,12 @@ class DNSServer:
             self.logger.info(f"Processing query for domain: {domain}, type: {qtype}")
         except Exception as e:
             self.logger.error(f"Failed to parse DNS query: {e}")
+            # 发送格式错误响应
+            error_response = self.build_error_response(dns_msg, rcode=1)
+            try:
+                sock.sendto(error_response, addr)
+            except Exception as send_err:
+                self.logger.error(f"Failed to send error response: {send_err}")
             return
 
         if self.db.is_in_blacklist(domain):
@@ -76,10 +93,12 @@ class DNSServer:
             response = self.build_blacklist_response(dns_msg)
             try:
                 sock.sendto(response, addr)
+                return  # 发送后立即返回，避免继续转发
             except ConnectionResetError:
                 self.logger.warning(f"发送黑名单响应到 {addr} 时连接被重置")
             except Exception as e:
                 self.logger.error(f"发送黑名单响应错误: {e}")
+                return  # 发送失败后终止处理
         else:
             # 根据查询类型获取对应版本的IP地址
             if qtype == 28:
@@ -95,6 +114,7 @@ class DNSServer:
                 response = self.build_whitelist_response(dns_msg, ips, domain)
                 try:
                     sock.sendto(response, addr)
+                    return  # 发送后立即返回，避免继续转发
                 except ConnectionResetError:
                     self.logger.warning(f"发送白名单响应到 {addr} 时连接被重置")
                 except Exception as e:
@@ -263,17 +283,25 @@ class DNSServer:
         answers = []
         for ip in ips:
             # 根据查询类型返回A记录(IPv4)或AAAA记录(IPv6)
-            if qtype == 28 and ':' in ip:  # AAAA记录且是IPv6地址
-                record_type = 28
-                rdata = socket.inet_pton(socket.AF_INET6, ip)
-            else:  # 默认A记录(IPv4)
-                record_type = 1
-                rdata = socket.inet_aton(ip)
+            try:
+                if qtype == 28:
+                    # 验证IPv6地址
+                    socket.inet_pton(socket.AF_INET6, ip)
+                    record_type = 28
+                    rdata = socket.inet_pton(socket.AF_INET6, ip)
+                else:
+                    # 验证IPv4地址
+                    socket.inet_pton(socket.AF_INET, ip)
+                    record_type = 1
+                    rdata = socket.inet_aton(ip)
+            except OSError:
+                self.logger.error(f"Invalid IP address: {ip} for domain {domain}")
+                continue
             record = {
                 'name': dns_msg.questions[0][0],  # 查询域名
                 'type': record_type,              # 记录类型
                 'class': 1,                        # IN互联网类
-                'ttl': 300,                        # 5分钟缓存时间
+                'ttl': self.default_ttl,           # 使用配置的TTL
                 'rdata': rdata                     # IP地址转换为网络字节序
             }
             answers.append(record)
@@ -283,7 +311,7 @@ class DNSServer:
         if internal_id is not None:
             txt_record = DNSMessage.build_txt_record(
                 name=dns_msg.questions[0][0],
-                ttl=300,
+                ttl=self.default_ttl,
                 text=f"internal-id:{internal_id}"
             )
             answers.append(txt_record)

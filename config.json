@@ -1,1 +1,9 @@
-{"upstream_dns": {"ip": "8.8.8.8", "port": 53}, "log_file": "logs/dns_server.log", "database_file": "database.txt", "local_port": 53, "local_ip": "10.29.216.160"}
+{
+    "upstream_dns": {"ip": "8.8.8.8", "port": 53},
+    "log_file": "logs/dns_server.log",
+    "database_file": "database.txt",
+    "local_port": 53,
+    "local_ip": "10.129.52.220",
+    "cache_size": 1000,
+    "default_ttl": 300
+}

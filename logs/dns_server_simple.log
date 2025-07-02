@@ -1,210 +1,1542 @@
-[2025-07-02 19:19:23] INFO: DNS server started on 10.29.216.160:53
-[2025-07-02 19:19:23] INFO: Received DNS query from ('10.29.216.160', 63943)
-[2025-07-02 19:19:23] INFO: Received DNS query from ('10.29.216.160', 59193)
-[2025-07-02 19:19:23] INFO: Processing query for domain: mon.zijieapi.com, type: 1
-[2025-07-02 19:19:23] INFO: Processing query for domain: mon.zijieapi.com, type: 28
-[2025-07-02 19:19:23] INFO: Domain mon.zijieapi.com not in local database or cache, forwarding to upstream server
-[2025-07-02 19:19:23] INFO: Domain mon.zijieapi.com not in local database or cache, forwarding to upstream server
-[2025-07-02 19:19:23] INFO: Added IPv4 mon.zijieapi.com -> 106.38.254.76 to cache with TTL 76s
-[2025-07-02 19:19:23] INFO: Added IPv4 mon.zijieapi.com -> 106.38.254.71 to cache with TTL 76s
-[2025-07-02 19:19:23] WARNING: No A records found for mon.zijieapi.com in upstream response
-[2025-07-02 19:19:23] INFO: Added IPv4 mon.zijieapi.com -> 106.38.254.72 to cache with TTL 76s
-[2025-07-02 19:19:23] INFO: Added IPv4 mon.zijieapi.com -> 106.38.254.70 to cache with TTL 76s
-[2025-07-02 19:19:23] INFO: Added IPv4 mon.zijieapi.com -> 106.38.254.73 to cache with TTL 76s
-[2025-07-02 19:19:23] INFO: Added IPv4 mon.zijieapi.com -> 106.38.254.74 to cache with TTL 76s
-[2025-07-02 19:19:23] INFO: Added IPv4 mon.zijieapi.com -> 106.38.254.75 to cache with TTL 76s
-[2025-07-02 19:19:23] INFO: Added IPv4 mon.zijieapi.com -> 106.38.254.69 to cache with TTL 76s
-[2025-07-02 19:19:24] INFO: Received DNS query from ('10.29.216.160', 59193)
-[2025-07-02 19:19:24] INFO: Received DNS query from ('10.29.216.160', 63943)
-[2025-07-02 19:19:24] INFO: Processing query for domain: telemetry.trae.com.cn, type: 1
-[2025-07-02 19:19:24] INFO: Processing query for domain: telemetry.trae.com.cn, type: 28
-[2025-07-02 19:19:24] INFO: Domain telemetry.trae.com.cn not in local database or cache, forwarding to upstream server
-[2025-07-02 19:19:24] INFO: Domain telemetry.trae.com.cn not in local database or cache, forwarding to upstream server
-[2025-07-02 19:19:24] INFO: Added IPv6 telemetry.trae.com.cn -> 2409:8c20:b281:1a:8000:0:b00:116 to cache with TTL 16s
-[2025-07-02 19:19:24] INFO: Added IPv4 telemetry.trae.com.cn -> 220.181.171.112 to cache with TTL 207s
-[2025-07-02 19:19:24] INFO: Added IPv6 telemetry.trae.com.cn -> 240e:978:1226:0:8000:0:b00:119 to cache with TTL 16s
-[2025-07-02 19:19:24] INFO: Added IPv4 telemetry.trae.com.cn -> 220.181.141.65 to cache with TTL 207s
-[2025-07-02 19:19:24] INFO: Added IPv6 telemetry.trae.com.cn -> 240e:978:1208:0:8000:0:b00:132 to cache with TTL 16s
-[2025-07-02 19:19:24] INFO: Added IPv4 telemetry.trae.com.cn -> 220.181.10.71 to cache with TTL 207s
-[2025-07-02 19:19:24] INFO: Added IPv6 telemetry.trae.com.cn -> 2409:8c3c:900:200:8000:0:b00:125 to cache with TTL 16s
-[2025-07-02 19:19:24] INFO: Added IPv4 telemetry.trae.com.cn -> 220.181.10.68 to cache with TTL 207s
-[2025-07-02 19:19:24] INFO: Added IPv6 telemetry.trae.com.cn -> 240e:95d:100b:10:8000:0:b00:115 to cache with TTL 16s
-[2025-07-02 19:19:24] INFO: Added IPv4 telemetry.trae.com.cn -> 140.249.108.65 to cache with TTL 207s
-[2025-07-02 19:19:24] INFO: Added IPv6 telemetry.trae.com.cn -> 2408:8719:2100:6:8000:0:b00:133 to cache with TTL 16s
-[2025-07-02 19:19:24] INFO: Added IPv4 telemetry.trae.com.cn -> 220.181.171.110 to cache with TTL 207s
-[2025-07-02 19:19:24] INFO: Added IPv6 telemetry.trae.com.cn -> 2409:8c4d:5200:38:8000:0:b00:121 to cache with TTL 16s
-[2025-07-02 19:19:24] INFO: Added IPv4 telemetry.trae.com.cn -> 220.181.10.70 to cache with TTL 207s
-[2025-07-02 19:19:24] INFO: Added IPv6 telemetry.trae.com.cn -> 2409:8c70:3a04:5:8000:0:b00:112 to cache with TTL 16s
-[2025-07-02 19:19:24] INFO: Added IPv4 telemetry.trae.com.cn -> 220.181.171.113 to cache with TTL 207s
-[2025-07-02 19:19:24] INFO: Added IPv6 telemetry.trae.com.cn -> 2409:8c3c:900:110:8000:0:b00:118 to cache with TTL 16s
-[2025-07-02 19:19:24] INFO: Added IPv4 telemetry.trae.com.cn -> 140.249.108.66 to cache with TTL 207s
-[2025-07-02 19:19:24] WARNING: No A records found for telemetry.trae.com.cn in upstream response
-[2025-07-02 19:19:24] INFO: Added IPv4 telemetry.trae.com.cn -> 140.249.108.68 to cache with TTL 207s
-[2025-07-02 19:19:24] INFO: Added IPv4 telemetry.trae.com.cn -> 220.181.10.69 to cache with TTL 207s
-[2025-07-02 19:19:24] INFO: Added IPv4 telemetry.trae.com.cn -> 220.181.141.66 to cache with TTL 207s
-[2025-07-02 19:19:24] INFO: Added IPv4 telemetry.trae.com.cn -> 220.181.141.67 to cache with TTL 207s
-[2025-07-02 19:19:24] INFO: Added IPv4 telemetry.trae.com.cn -> 220.181.141.68 to cache with TTL 207s
-[2025-07-02 19:19:24] INFO: Added IPv4 telemetry.trae.com.cn -> 140.249.108.67 to cache with TTL 207s
-[2025-07-02 19:19:24] INFO: Added IPv4 telemetry.trae.com.cn -> 220.181.171.111 to cache with TTL 207s
-[2025-07-02 19:19:25] INFO: Received DNS query from ('10.29.216.160', 63943)
-[2025-07-02 19:19:25] INFO: Processing query for domain: mon.zijieapi.com, type: 28
-[2025-07-02 19:19:25] INFO: Domain mon.zijieapi.com not in local database or cache, forwarding to upstream server
-[2025-07-02 19:19:25] WARNING: No A records found for mon.zijieapi.com in upstream response
-[2025-07-02 19:19:25] INFO: Received DNS query from ('10.29.216.160', 59193)
-[2025-07-02 19:19:25] INFO: Processing query for domain: mon.zijieapi.com, type: 28
-[2025-07-02 19:19:25] INFO: Domain mon.zijieapi.com not in local database or cache, forwarding to upstream server
-[2025-07-02 19:19:25] WARNING: No A records found for mon.zijieapi.com in upstream response
-[2025-07-02 19:19:27] INFO: Received DNS query from ('10.29.216.160', 63943)
-[2025-07-02 19:19:27] INFO: Processing query for domain: mon.zijieapi.com, type: 28
-[2025-07-02 19:19:27] INFO: Domain mon.zijieapi.com not in local database or cache, forwarding to upstream server
-[2025-07-02 19:19:27] WARNING: No A records found for mon.zijieapi.com in upstream response
-[2025-07-02 19:19:28] INFO: Received DNS query from ('10.29.216.160', 57094)
-[2025-07-02 19:19:28] INFO: Received DNS query from ('10.29.216.160', 64148)
-[2025-07-02 19:19:28] INFO: Received DNS query from ('10.29.216.160', 60588)
-[2025-07-02 19:19:28] INFO: Processing query for domain: mon.zijieapi.com, type: 28
-[2025-07-02 19:19:28] INFO: Processing query for domain: mon.zijieapi.com, type: 1
-[2025-07-02 19:19:28] INFO: Processing query for domain: mon.zijieapi.com, type: 65
-[2025-07-02 19:19:28] INFO: Domain mon.zijieapi.com not in local database or cache, forwarding to upstream server
-[2025-07-02 19:19:28] INFO: Domain mon.zijieapi.com found in cache: ['106.38.254.76', '106.38.254.71', '106.38.254.72', '106.38.254.70', '106.38.254.73', '106.38.254.74', '106.38.254.75', '106.38.254.69']
-[2025-07-02 19:19:28] INFO: Domain mon.zijieapi.com not in local database or cache, forwarding to upstream server
-[2025-07-02 19:19:28] WARNING: No A records found for mon.zijieapi.com in upstream response
-[2025-07-02 19:19:28] WARNING: No A records found for mon.zijieapi.com in upstream response
-[2025-07-02 19:19:28] INFO: Received DNS query from ('10.29.216.160', 61396)
-[2025-07-02 19:19:28] INFO: Received DNS query from ('10.29.216.160', 54394)
-[2025-07-02 19:19:28] INFO: Received DNS query from ('10.29.216.160', 62901)
-[2025-07-02 19:19:28] INFO: Processing query for domain: mcs.zijieapi.com, type: 28
-[2025-07-02 19:19:28] INFO: Processing query for domain: mcs.zijieapi.com, type: 1
-[2025-07-02 19:19:28] INFO: Processing query for domain: mcs.zijieapi.com, type: 65
-[2025-07-02 19:19:28] INFO: Domain mcs.zijieapi.com not in local database or cache, forwarding to upstream server
-[2025-07-02 19:19:28] INFO: Domain mcs.zijieapi.com not in local database or cache, forwarding to upstream server
-[2025-07-02 19:19:28] INFO: Domain mcs.zijieapi.com not in local database or cache, forwarding to upstream server
-[2025-07-02 19:19:28] WARNING: No A records found for mcs.zijieapi.com in upstream response
-[2025-07-02 19:19:28] INFO: Added IPv4 mcs.zijieapi.com -> 123.182.124.44 to cache with TTL 153s
-[2025-07-02 19:19:28] WARNING: No A records found for mcs.zijieapi.com in upstream response
-[2025-07-02 19:19:30] INFO: Received DNS query from ('10.29.216.160', 59193)
-[2025-07-02 19:19:30] INFO: Processing query for domain: mon.zijieapi.com, type: 28
-[2025-07-02 19:19:30] INFO: Domain mon.zijieapi.com not in local database or cache, forwarding to upstream server
-[2025-07-02 19:19:30] WARNING: No A records found for mon.zijieapi.com in upstream response
-[2025-07-02 19:19:30] INFO: Received DNS query from ('10.29.216.160', 63943)
-[2025-07-02 19:19:30] INFO: Received DNS query from ('10.29.216.160', 59193)
-[2025-07-02 19:19:30] INFO: Processing query for domain: mcs.ctobsnssdk.com, type: 1
-[2025-07-02 19:19:30] INFO: Processing query for domain: mcs.ctobsnssdk.com, type: 28
-[2025-07-02 19:19:30] INFO: Domain mcs.ctobsnssdk.com not in local database or cache, forwarding to upstream server
-[2025-07-02 19:19:30] INFO: Domain mcs.ctobsnssdk.com not in local database or cache, forwarding to upstream server
-[2025-07-02 19:19:30] INFO: Added IPv4 mcs.ctobsnssdk.com -> 27.185.242.148 to cache with TTL 406s
-[2025-07-02 19:19:30] INFO: Added IPv4 mcs.ctobsnssdk.com -> 124.236.104.208 to cache with TTL 406s
-[2025-07-02 19:19:30] INFO: Added IPv4 mcs.ctobsnssdk.com -> 27.185.235.162 to cache with TTL 406s
-[2025-07-02 19:19:30] INFO: Added IPv4 mcs.ctobsnssdk.com -> 27.128.209.201 to cache with TTL 406s
-[2025-07-02 19:19:30] INFO: Received DNS query from ('10.29.216.160', 63943)
-[2025-07-02 19:19:30] INFO: Processing query for domain: mon.zijieapi.com, type: 28
-[2025-07-02 19:19:30] INFO: Domain mon.zijieapi.com not in local database or cache, forwarding to upstream server
-[2025-07-02 19:19:30] WARNING: No A records found for mon.zijieapi.com in upstream response
-[2025-07-02 19:19:30] INFO: Received DNS query from ('10.29.216.160', 54398)
-[2025-07-02 19:19:30] INFO: Processing query for domain: 160.216.29.10.in-addr.arpa, type: 12
-[2025-07-02 19:19:30] INFO: Domain 160.216.29.10.in-addr.arpa not in local database or cache, forwarding to upstream server
-[2025-07-02 19:19:30] WARNING: No A records found for 160.216.29.10.in-addr.arpa in upstream response
-[2025-07-02 19:19:30] INFO: Received DNS query from ('10.29.216.160', 54400)
-[2025-07-02 19:19:30] INFO: Processing query for domain: www.baidu.com, type: 1
-[2025-07-02 19:19:30] WARNING: Domain www.baidu.com is in blacklist
-[2025-07-02 19:19:30] INFO: Received DNS query from ('10.29.216.160', 54401)
-[2025-07-02 19:19:30] INFO: Processing query for domain: www.baidu.com, type: 1
-[2025-07-02 19:19:30] WARNING: Domain www.baidu.com is in blacklist
-[2025-07-02 19:19:31] INFO: Received DNS query from ('10.29.216.160', 59193)
-[2025-07-02 19:19:31] INFO: Processing query for domain: mcs.ctobsnssdk.com, type: 28
-[2025-07-02 19:19:31] INFO: Domain mcs.ctobsnssdk.com not in local database or cache, forwarding to upstream server
-[2025-07-02 19:19:31] WARNING: No A records found for mcs.ctobsnssdk.com in upstream response
-[2025-07-02 19:19:32] INFO: Received DNS query from ('10.29.216.160', 51616)
-[2025-07-02 19:19:32] INFO: Received DNS query from ('10.29.216.160', 58930)
-[2025-07-02 19:19:32] INFO: Processing query for domain: cn.bing.com, type: 28
-[2025-07-02 19:19:32] INFO: Received DNS query from ('10.29.216.160', 62044)
-[2025-07-02 19:19:32] INFO: Processing query for domain: cn.bing.com, type: 1
-[2025-07-02 19:19:32] INFO: Domain cn.bing.com not in local database or cache, forwarding to upstream server
-[2025-07-02 19:19:32] INFO: Processing query for domain: cn.bing.com, type: 65
-[2025-07-02 19:19:32] INFO: Domain cn.bing.com not in local database or cache, forwarding to upstream server
-[2025-07-02 19:19:32] INFO: Domain cn.bing.com not in local database or cache, forwarding to upstream server
-[2025-07-02 19:19:32] WARNING: No A records found for cn.bing.com in upstream response
-[2025-07-02 19:19:32] INFO: Added IPv4 cn.bing.com -> 202.89.233.100 to cache with TTL 121s
-[2025-07-02 19:19:32] INFO: Added IPv4 cn.bing.com -> 202.89.233.101 to cache with TTL 121s
-[2025-07-02 19:19:32] WARNING: No A records found for cn.bing.com in upstream response
-[2025-07-02 19:19:33] INFO: Received DNS query from ('10.29.216.160', 63943)
-[2025-07-02 19:19:33] INFO: Processing query for domain: mcs.ctobsnssdk.com, type: 28
-[2025-07-02 19:19:33] INFO: Domain mcs.ctobsnssdk.com not in local database or cache, forwarding to upstream server
-[2025-07-02 19:19:33] WARNING: No A records found for mcs.ctobsnssdk.com in upstream response
-[2025-07-02 19:19:33] INFO: Received DNS query from ('10.29.216.160', 63943)
-[2025-07-02 19:19:33] INFO: Processing query for domain: mon.zijieapi.com, type: 28
-[2025-07-02 19:19:33] INFO: Domain mon.zijieapi.com not in local database or cache, forwarding to upstream server
-[2025-07-02 19:19:33] WARNING: No A records found for mon.zijieapi.com in upstream response
-[2025-07-02 19:19:35] WARNING: Upstream DNS server timeout, retrying 1/3
-[2025-07-02 19:19:35] INFO: Received DNS query from ('10.29.216.160', 63943)
-[2025-07-02 19:19:35] INFO: Processing query for domain: mon.zijieapi.com, type: 28
-[2025-07-02 19:19:35] INFO: Domain mon.zijieapi.com not in local database or cache, forwarding to upstream server
-[2025-07-02 19:19:35] WARNING: No A records found for mon.zijieapi.com in upstream response
-[2025-07-02 19:19:36] WARNING: No A records found for mcs.ctobsnssdk.com in upstream response
-[2025-07-02 19:19:36] WARNING: 客户端连接被重置
-[2025-07-02 19:19:36] INFO: Received DNS query from ('10.29.216.160', 54120)
-[2025-07-02 19:19:36] INFO: Processing query for domain: 160.216.29.10.in-addr.arpa, type: 12
-[2025-07-02 19:19:36] INFO: Domain 160.216.29.10.in-addr.arpa not in local database or cache, forwarding to upstream server
-[2025-07-02 19:19:36] WARNING: No A records found for 160.216.29.10.in-addr.arpa in upstream response
-[2025-07-02 19:19:36] INFO: Received DNS query from ('10.29.216.160', 54122)
-[2025-07-02 19:19:36] INFO: Processing query for domain: www.bilibili.com, type: 28
-[2025-07-02 19:19:36] INFO: Domain www.bilibili.com not in local database or cache, forwarding to upstream server
-[2025-07-02 19:19:36] INFO: Added IPv6 www.bilibili.com -> 240c:c0a9:100d::2 to cache with TTL 317s
-[2025-07-02 19:19:36] WARNING: No A records found for www.bilibili.com in upstream response
-[2025-07-02 19:19:36] INFO: Received DNS query from ('10.29.216.160', 63943)
-[2025-07-02 19:19:36] INFO: Received DNS query from ('10.29.216.160', 59975)
-[2025-07-02 19:19:36] INFO: Processing query for domain: mcs.zijieapi.com, type: 1
-[2025-07-02 19:19:36] INFO: Processing query for domain: mcs.zijieapi.com, type: 28
-[2025-07-02 19:19:36] INFO: Domain mcs.zijieapi.com found in cache: ['123.182.124.44']
-[2025-07-02 19:19:36] INFO: Domain mcs.zijieapi.com not in local database or cache, forwarding to upstream server
-[2025-07-02 19:19:36] WARNING: No A records found for mcs.zijieapi.com in upstream response
-[2025-07-02 19:19:38] INFO: Received DNS query from ('10.29.216.160', 63943)
-[2025-07-02 19:19:38] INFO: Processing query for domain: mcs.ctobsnssdk.com, type: 28
-[2025-07-02 19:19:38] INFO: Domain mcs.ctobsnssdk.com not in local database or cache, forwarding to upstream server
-[2025-07-02 19:19:38] WARNING: No A records found for mcs.ctobsnssdk.com in upstream response
-[2025-07-02 19:19:38] INFO: Received DNS query from ('10.29.216.160', 59975)
-[2025-07-02 19:19:38] INFO: Received DNS query from ('10.29.216.160', 63943)
-[2025-07-02 19:19:38] INFO: Processing query for domain: abtestvm.bytedance.com, type: 1
-[2025-07-02 19:19:38] INFO: Processing query for domain: abtestvm.bytedance.com, type: 28
-[2025-07-02 19:19:38] INFO: Domain abtestvm.bytedance.com not in local database or cache, forwarding to upstream server
-[2025-07-02 19:19:38] INFO: Domain abtestvm.bytedance.com not in local database or cache, forwarding to upstream server
-[2025-07-02 19:19:38] INFO: Added IPv4 abtestvm.bytedance.com -> 106.38.254.72 to cache with TTL 28s
-[2025-07-02 19:19:38] WARNING: No A records found for abtestvm.bytedance.com in upstream response
-[2025-07-02 19:19:38] INFO: Added IPv4 abtestvm.bytedance.com -> 106.38.254.70 to cache with TTL 28s
-[2025-07-02 19:19:38] INFO: Added IPv4 abtestvm.bytedance.com -> 106.38.254.69 to cache with TTL 28s
-[2025-07-02 19:19:38] INFO: Added IPv4 abtestvm.bytedance.com -> 106.38.254.73 to cache with TTL 28s
-[2025-07-02 19:19:38] INFO: Added IPv4 abtestvm.bytedance.com -> 106.38.254.74 to cache with TTL 28s
-[2025-07-02 19:19:38] INFO: Added IPv4 abtestvm.bytedance.com -> 106.38.254.75 to cache with TTL 28s
-[2025-07-02 19:19:38] INFO: Added IPv4 abtestvm.bytedance.com -> 106.38.254.76 to cache with TTL 28s
-[2025-07-02 19:19:38] INFO: Added IPv4 abtestvm.bytedance.com -> 106.38.254.71 to cache with TTL 28s
-[2025-07-02 19:19:38] INFO: Received DNS query from ('10.29.216.160', 63943)
-[2025-07-02 19:19:38] INFO: Processing query for domain: abtestvm.bytedance.com, type: 28
-[2025-07-02 19:19:38] INFO: Domain abtestvm.bytedance.com not in local database or cache, forwarding to upstream server
-[2025-07-02 19:19:38] WARNING: No A records found for abtestvm.bytedance.com in upstream response
-[2025-07-02 19:19:38] INFO: Received DNS query from ('10.29.216.160', 59975)
-[2025-07-02 19:19:38] INFO: Processing query for domain: mon.zijieapi.com, type: 28
-[2025-07-02 19:19:38] INFO: Domain mon.zijieapi.com not in local database or cache, forwarding to upstream server
-[2025-07-02 19:19:38] WARNING: No A records found for mon.zijieapi.com in upstream response
-[2025-07-02 19:19:40] INFO: Received DNS query from ('10.29.216.160', 63943)
-[2025-07-02 19:19:40] INFO: Received DNS query from ('10.29.216.160', 59975)
-[2025-07-02 19:19:40] INFO: Processing query for domain: v10.events.data.microsoft.com, type: 1
-[2025-07-02 19:19:40] INFO: Processing query for domain: v10.events.data.microsoft.com, type: 28
-[2025-07-02 19:19:40] INFO: Domain v10.events.data.microsoft.com not in local database or cache, forwarding to upstream server
-[2025-07-02 19:19:40] INFO: Domain v10.events.data.microsoft.com not in local database or cache, forwarding to upstream server
-[2025-07-02 19:19:40] INFO: Added IPv4 v10.events.data.microsoft.com -> 20.189.173.14 to cache with TTL 344s
-[2025-07-02 19:19:40] WARNING: No A records found for v10.events.data.microsoft.com in upstream response
-[2025-07-02 19:19:40] INFO: Received DNS query from ('10.29.216.160', 63943)
-[2025-07-02 19:19:40] INFO: Processing query for domain: mon.zijieapi.com, type: 28
-[2025-07-02 19:19:40] INFO: Domain mon.zijieapi.com not in local database or cache, forwarding to upstream server
-[2025-07-02 19:19:40] WARNING: No A records found for mon.zijieapi.com in upstream response
-[2025-07-02 19:19:41] INFO: Received DNS query from ('10.29.216.160', 59975)
-[2025-07-02 19:19:41] INFO: Received DNS query from ('10.29.216.160', 63943)
-[2025-07-02 19:19:41] INFO: Processing query for domain: v20.events.data.microsoft.com, type: 1
-[2025-07-02 19:19:41] INFO: Processing query for domain: v20.events.data.microsoft.com, type: 28
-[2025-07-02 19:19:41] INFO: Domain v20.events.data.microsoft.com not in local database or cache, forwarding to upstream server
-[2025-07-02 19:19:41] INFO: Domain v20.events.data.microsoft.com not in local database or cache, forwarding to upstream server
-[2025-07-02 19:19:41] INFO: Added IPv4 v20.events.data.microsoft.com -> 20.189.173.14 to cache with TTL 343s
-[2025-07-02 19:19:41] WARNING: No A records found for v20.events.data.microsoft.com in upstream response
-[2025-07-02 19:19:43] INFO: Received DNS query from ('10.29.216.160', 59975)
-[2025-07-02 19:19:43] INFO: Processing query for domain: mon.zijieapi.com, type: 28
-[2025-07-02 19:19:43] INFO: Domain mon.zijieapi.com not in local database or cache, forwarding to upstream server
-[2025-07-02 19:19:43] WARNING: No A records found for mon.zijieapi.com in upstream response
+[2025-07-03 04:22:26] INFO: DNS server started on 10.129.52.220:53
+[2025-07-03 04:22:26] INFO: Received DNS query from ('10.129.52.220', 53921)
+[2025-07-03 04:22:26] INFO: Received DNS query from ('10.129.52.220', 62007)
+[2025-07-03 04:22:26] INFO: Processing query for domain: mon.zijieapi.com, type: 1
+[2025-07-03 04:22:26] INFO: Processing query for domain: mon.zijieapi.com, type: 28
+[2025-07-03 04:22:26] INFO: Domain mon.zijieapi.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:22:26] INFO: Domain mon.zijieapi.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:22:26] INFO: Added IPv4 mon.zijieapi.com -> 220.181.136.250 to cache with TTL 503s
+[2025-07-03 04:22:26] WARNING: No A records found for mon.zijieapi.com in upstream response
+[2025-07-03 04:22:26] INFO: Added IPv4 mon.zijieapi.com -> 220.181.136.252 to cache with TTL 503s
+[2025-07-03 04:22:26] INFO: Added IPv4 mon.zijieapi.com -> 220.181.136.251 to cache with TTL 503s
+[2025-07-03 04:22:26] INFO: Added IPv4 mon.zijieapi.com -> 220.181.136.248 to cache with TTL 503s
+[2025-07-03 04:22:26] INFO: Added IPv4 mon.zijieapi.com -> 220.181.136.254 to cache with TTL 503s
+[2025-07-03 04:22:27] INFO: Received DNS query from ('10.129.52.220', 62007)
+[2025-07-03 04:22:27] INFO: Received DNS query from ('10.129.52.220', 53921)
+[2025-07-03 04:22:27] INFO: Processing query for domain: telemetry.trae.com.cn, type: 1
+[2025-07-03 04:22:27] INFO: Processing query for domain: telemetry.trae.com.cn, type: 28
+[2025-07-03 04:22:27] INFO: Domain telemetry.trae.com.cn not in local database or cache, forwarding to upstream server
+[2025-07-03 04:22:27] INFO: Domain telemetry.trae.com.cn not in local database or cache, forwarding to upstream server
+[2025-07-03 04:22:27] INFO: Added IPv4 telemetry.trae.com.cn -> 220.181.136.252 to cache with TTL 502s
+[2025-07-03 04:22:27] INFO: Added IPv6 telemetry.trae.com.cn -> 2409:8c20:b281:1a:8000:0:b00:116 to cache with TTL 9s
+[2025-07-03 04:22:27] INFO: Added IPv4 telemetry.trae.com.cn -> 220.181.136.254 to cache with TTL 502s
+[2025-07-03 04:22:27] INFO: Added IPv6 telemetry.trae.com.cn -> 2409:8c3c:900:200:8000:0:b00:125 to cache with TTL 9s
+[2025-07-03 04:22:27] INFO: Added IPv4 telemetry.trae.com.cn -> 220.181.136.250 to cache with TTL 502s
+[2025-07-03 04:22:27] INFO: Added IPv6 telemetry.trae.com.cn -> 2409:8c4d:5200:38:8000:0:b00:121 to cache with TTL 9s
+[2025-07-03 04:22:27] INFO: Added IPv4 telemetry.trae.com.cn -> 220.181.136.251 to cache with TTL 502s
+[2025-07-03 04:22:27] INFO: Added IPv6 telemetry.trae.com.cn -> 240e:95d:100b:10:8000:0:b00:115 to cache with TTL 9s
+[2025-07-03 04:22:27] INFO: Added IPv4 telemetry.trae.com.cn -> 220.181.136.248 to cache with TTL 502s
+[2025-07-03 04:22:27] INFO: Added IPv6 telemetry.trae.com.cn -> 240e:978:1208:0:8000:0:b00:132 to cache with TTL 9s
+[2025-07-03 04:22:27] INFO: Added IPv6 telemetry.trae.com.cn -> 2408:8719:2100:6:8000:0:b00:133 to cache with TTL 9s
+[2025-07-03 04:22:27] INFO: Added IPv6 telemetry.trae.com.cn -> 2409:8c70:3a04:5:8000:0:b00:112 to cache with TTL 9s
+[2025-07-03 04:22:27] INFO: Added IPv6 telemetry.trae.com.cn -> 2409:8c3c:900:110:8000:0:b00:118 to cache with TTL 9s
+[2025-07-03 04:22:27] INFO: Added IPv6 telemetry.trae.com.cn -> 240e:978:1226:0:8000:0:b00:119 to cache with TTL 9s
+[2025-07-03 04:22:27] WARNING: No A records found for telemetry.trae.com.cn in upstream response
+[2025-07-03 04:22:29] INFO: Received DNS query from ('10.129.52.220', 62007)
+[2025-07-03 04:22:29] INFO: Processing query for domain: mon.zijieapi.com, type: 28
+[2025-07-03 04:22:29] INFO: Domain mon.zijieapi.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:22:29] WARNING: No A records found for mon.zijieapi.com in upstream response
+[2025-07-03 04:22:30] INFO: Received DNS query from ('10.129.52.220', 57435)
+[2025-07-03 04:22:30] INFO: Received DNS query from ('10.129.52.220', 60410)
+[2025-07-03 04:22:30] INFO: Received DNS query from ('10.129.52.220', 54943)
+[2025-07-03 04:22:30] INFO: Processing query for domain: mon.zijieapi.com, type: 28
+[2025-07-03 04:22:30] INFO: Processing query for domain: mon.zijieapi.com, type: 1
+[2025-07-03 04:22:30] INFO: Processing query for domain: mon.zijieapi.com, type: 65
+[2025-07-03 04:22:30] INFO: Domain mon.zijieapi.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:22:30] INFO: Domain mon.zijieapi.com found in cache: ['220.181.136.250', '220.181.136.252', '220.181.136.251', '220.181.136.248', '220.181.136.254']
+[2025-07-03 04:22:30] INFO: Domain mon.zijieapi.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:22:30] WARNING: No A records found for mon.zijieapi.com in upstream response
+[2025-07-03 04:22:30] WARNING: No A records found for mon.zijieapi.com in upstream response
+[2025-07-03 04:22:30] INFO: Received DNS query from ('10.129.52.220', 53921)
+[2025-07-03 04:22:30] INFO: Processing query for domain: mon.zijieapi.com, type: 28
+[2025-07-03 04:22:30] INFO: Domain mon.zijieapi.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:22:30] WARNING: No A records found for mon.zijieapi.com in upstream response
+[2025-07-03 04:22:30] INFO: Received DNS query from ('10.129.52.220', 57308)
+[2025-07-03 04:22:30] INFO: Received DNS query from ('10.129.52.220', 51409)
+[2025-07-03 04:22:30] INFO: Received DNS query from ('10.129.52.220', 57476)
+[2025-07-03 04:22:30] INFO: Processing query for domain: mcs.zijieapi.com, type: 28
+[2025-07-03 04:22:30] INFO: Processing query for domain: mcs.zijieapi.com, type: 1
+[2025-07-03 04:22:30] INFO: Processing query for domain: mcs.zijieapi.com, type: 65
+[2025-07-03 04:22:30] INFO: Domain mcs.zijieapi.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:22:30] INFO: Domain mcs.zijieapi.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:22:30] INFO: Domain mcs.zijieapi.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:22:30] WARNING: No A records found for mcs.zijieapi.com in upstream response
+[2025-07-03 04:22:30] INFO: Added IPv4 mcs.zijieapi.com -> 220.181.136.252 to cache with TTL 499s
+[2025-07-03 04:22:30] WARNING: No A records found for mcs.zijieapi.com in upstream response
+[2025-07-03 04:22:30] INFO: Added IPv4 mcs.zijieapi.com -> 220.181.136.248 to cache with TTL 499s
+[2025-07-03 04:22:30] INFO: Added IPv4 mcs.zijieapi.com -> 220.181.136.254 to cache with TTL 499s
+[2025-07-03 04:22:30] INFO: Added IPv4 mcs.zijieapi.com -> 220.181.136.250 to cache with TTL 499s
+[2025-07-03 04:22:30] INFO: Added IPv4 mcs.zijieapi.com -> 220.181.136.251 to cache with TTL 499s
+[2025-07-03 04:22:30] INFO: Received DNS query from ('10.129.52.220', 62007)
+[2025-07-03 04:22:30] INFO: Received DNS query from ('10.129.52.220', 53921)
+[2025-07-03 04:22:30] INFO: Processing query for domain: mcs.zijieapi.com, type: 1
+[2025-07-03 04:22:30] INFO: Processing query for domain: mcs.zijieapi.com, type: 28
+[2025-07-03 04:22:30] INFO: Domain mcs.zijieapi.com found in cache: ['220.181.136.252', '220.181.136.248', '220.181.136.254', '220.181.136.250', '220.181.136.251']
+[2025-07-03 04:22:30] INFO: Domain mcs.zijieapi.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:22:30] WARNING: No A records found for mcs.zijieapi.com in upstream response
+[2025-07-03 04:22:36] INFO: Received DNS query from ('10.129.52.220', 62007)
+[2025-07-03 04:22:36] INFO: Processing query for domain: mon.zijieapi.com, type: 28
+[2025-07-03 04:22:36] INFO: Domain mon.zijieapi.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:22:36] WARNING: No A records found for mon.zijieapi.com in upstream response
+[2025-07-03 04:22:36] INFO: Received DNS query from ('10.129.52.220', 53921)
+[2025-07-03 04:22:36] INFO: Received DNS query from ('10.129.52.220', 62007)
+[2025-07-03 04:22:36] INFO: Processing query for domain: abtestvm.bytedance.com, type: 1
+[2025-07-03 04:22:36] INFO: Processing query for domain: abtestvm.bytedance.com, type: 28
+[2025-07-03 04:22:36] INFO: Domain abtestvm.bytedance.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:22:36] INFO: Domain abtestvm.bytedance.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:22:36] INFO: Added IPv4 abtestvm.bytedance.com -> 220.181.10.65 to cache with TTL 140s
+[2025-07-03 04:22:36] INFO: Added IPv4 abtestvm.bytedance.com -> 220.181.10.69 to cache with TTL 140s
+[2025-07-03 04:22:36] WARNING: No A records found for abtestvm.bytedance.com in upstream response
+[2025-07-03 04:22:36] INFO: Added IPv4 abtestvm.bytedance.com -> 220.181.10.70 to cache with TTL 140s
+[2025-07-03 04:22:36] INFO: Added IPv4 abtestvm.bytedance.com -> 220.181.10.67 to cache with TTL 140s
+[2025-07-03 04:22:36] INFO: Added IPv4 abtestvm.bytedance.com -> 220.181.10.72 to cache with TTL 140s
+[2025-07-03 04:22:36] INFO: Added IPv4 abtestvm.bytedance.com -> 220.181.10.68 to cache with TTL 140s
+[2025-07-03 04:22:36] INFO: Added IPv4 abtestvm.bytedance.com -> 220.181.10.66 to cache with TTL 140s
+[2025-07-03 04:22:36] INFO: Added IPv4 abtestvm.bytedance.com -> 220.181.10.71 to cache with TTL 140s
+[2025-07-03 04:22:36] INFO: Received DNS query from ('10.129.52.220', 62007)
+[2025-07-03 04:22:36] INFO: Processing query for domain: abtestvm.bytedance.com, type: 28
+[2025-07-03 04:22:36] INFO: Domain abtestvm.bytedance.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:22:36] WARNING: No A records found for abtestvm.bytedance.com in upstream response
+[2025-07-03 04:22:37] INFO: Received DNS query from ('10.129.52.220', 53921)
+[2025-07-03 04:22:37] INFO: Processing query for domain: telemetry.trae.com.cn, type: 28
+[2025-07-03 04:22:37] INFO: Domain telemetry.trae.com.cn not in local database or cache, forwarding to upstream server
+[2025-07-03 04:22:37] INFO: Added IPv6 telemetry.trae.com.cn -> 240e:978:1226:0:8000:0:b00:119 to cache with TTL 570s
+[2025-07-03 04:22:37] INFO: Added IPv6 telemetry.trae.com.cn -> 240e:95d:100b:10:8000:0:b00:115 to cache with TTL 570s
+[2025-07-03 04:22:37] INFO: Added IPv6 telemetry.trae.com.cn -> 2409:8c4d:5200:38:8000:0:b00:121 to cache with TTL 570s
+[2025-07-03 04:22:37] INFO: Added IPv6 telemetry.trae.com.cn -> 2409:8c3c:900:110:8000:0:b00:118 to cache with TTL 570s
+[2025-07-03 04:22:37] INFO: Added IPv6 telemetry.trae.com.cn -> 2409:8c70:3a04:5:8000:0:b00:112 to cache with TTL 570s
+[2025-07-03 04:22:37] INFO: Added IPv6 telemetry.trae.com.cn -> 2409:8c20:b281:1a:8000:0:b00:116 to cache with TTL 570s
+[2025-07-03 04:22:37] INFO: Added IPv6 telemetry.trae.com.cn -> 2409:8c3c:900:200:8000:0:b00:125 to cache with TTL 570s
+[2025-07-03 04:22:37] INFO: Added IPv6 telemetry.trae.com.cn -> 2408:8719:2100:6:8000:0:b00:133 to cache with TTL 570s
+[2025-07-03 04:22:37] INFO: Added IPv6 telemetry.trae.com.cn -> 240e:978:1208:0:8000:0:b00:132 to cache with TTL 570s
+[2025-07-03 04:22:37] WARNING: No A records found for telemetry.trae.com.cn in upstream response
+[2025-07-03 04:22:38] INFO: Received DNS query from ('10.129.52.220', 62007)
+[2025-07-03 04:22:38] INFO: Received DNS query from ('10.129.52.220', 53921)
+[2025-07-03 04:22:38] INFO: Processing query for domain: mobile.events.data.microsoft.com, type: 1
+[2025-07-03 04:22:38] INFO: Processing query for domain: mobile.events.data.microsoft.com, type: 28
+[2025-07-03 04:22:38] INFO: Domain mobile.events.data.microsoft.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:22:38] INFO: Domain mobile.events.data.microsoft.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:22:38] INFO: Added IPv4 mobile.events.data.microsoft.com -> 52.182.143.213 to cache with TTL 241s
+[2025-07-03 04:22:38] WARNING: No A records found for mobile.events.data.microsoft.com in upstream response
+[2025-07-03 04:22:42] INFO: Received DNS query from ('10.129.52.220', 62007)
+[2025-07-03 04:22:42] INFO: Received DNS query from ('10.129.52.220', 53921)
+[2025-07-03 04:22:42] INFO: Processing query for domain: dep477.appdump.nie.netease.com, type: 1
+[2025-07-03 04:22:42] INFO: Processing query for domain: dep477.appdump.nie.netease.com, type: 28
+[2025-07-03 04:22:42] INFO: Domain dep477.appdump.nie.netease.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:22:42] INFO: Domain dep477.appdump.nie.netease.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:22:42] INFO: Added IPv4 dep477.appdump.nie.netease.com -> 45.253.145.166 to cache with TTL 312s
+[2025-07-03 04:22:42] WARNING: No A records found for dep477.appdump.nie.netease.com in upstream response
+[2025-07-03 04:22:44] INFO: Received DNS query from ('10.129.52.220', 62270)
+[2025-07-03 04:22:44] INFO: Processing query for domain: 220.52.129.10.in-addr.arpa, type: 12
+[2025-07-03 04:22:44] INFO: Domain 220.52.129.10.in-addr.arpa not in local database or cache, forwarding to upstream server
+[2025-07-03 04:22:44] WARNING: No A records found for 220.52.129.10.in-addr.arpa in upstream response
+[2025-07-03 04:22:44] INFO: Received DNS query from ('10.129.52.220', 62272)
+[2025-07-03 04:22:44] INFO: Processing query for domain: www.baidu.com, type: 1
+[2025-07-03 04:22:44] INFO: Domain www.baidu.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:22:44] INFO: Added IPv4 www.baidu.com -> 220.181.111.232 to cache with TTL 94s
+[2025-07-03 04:22:44] INFO: Added IPv4 www.baidu.com -> 220.181.111.1 to cache with TTL 94s
+[2025-07-03 04:22:46] INFO: Received DNS query from ('10.129.52.220', 62007)
+[2025-07-03 04:22:46] INFO: Processing query for domain: mon.zijieapi.com, type: 28
+[2025-07-03 04:22:46] INFO: Domain mon.zijieapi.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:22:46] WARNING: No A records found for mon.zijieapi.com in upstream response
+[2025-07-03 04:22:46] INFO: Received DNS query from ('10.129.52.220', 53921)
+[2025-07-03 04:22:46] INFO: Processing query for domain: mon.zijieapi.com, type: 28
+[2025-07-03 04:22:46] INFO: Domain mon.zijieapi.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:22:46] WARNING: No A records found for mon.zijieapi.com in upstream response
+[2025-07-03 04:22:51] INFO: Received DNS query from ('10.129.52.220', 62007)
+[2025-07-03 04:22:51] INFO: Processing query for domain: mon.zijieapi.com, type: 28
+[2025-07-03 04:22:51] INFO: Domain mon.zijieapi.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:22:51] WARNING: No A records found for mon.zijieapi.com in upstream response
+[2025-07-03 04:22:56] INFO: Received DNS query from ('10.129.52.220', 49665)
+[2025-07-03 04:22:56] INFO: Processing query for domain: 220.52.129.10.in-addr.arpa, type: 12
+[2025-07-03 04:22:56] INFO: Domain 220.52.129.10.in-addr.arpa not in local database or cache, forwarding to upstream server
+[2025-07-03 04:22:56] WARNING: No A records found for 220.52.129.10.in-addr.arpa in upstream response
+[2025-07-03 04:22:56] INFO: Received DNS query from ('10.129.52.220', 49667)
+[2025-07-03 04:22:56] INFO: Processing query for domain: a.b, type: 1
+[2025-07-03 04:22:56] INFO: Domain a.b found in local database: ['1.2.3.4']
+[2025-07-03 04:22:56] INFO: Received DNS query from ('10.129.52.220', 53921)
+[2025-07-03 04:22:56] INFO: Processing query for domain: mon.zijieapi.com, type: 28
+[2025-07-03 04:22:56] INFO: Domain mon.zijieapi.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:22:56] WARNING: No A records found for mon.zijieapi.com in upstream response
+[2025-07-03 04:22:56] INFO: Received DNS query from ('10.129.52.220', 62007)
+[2025-07-03 04:22:56] INFO: Received DNS query from ('10.129.52.220', 53921)
+[2025-07-03 04:22:56] INFO: Processing query for domain: trae-api-cn.mchost.guru, type: 1
+[2025-07-03 04:22:56] INFO: Processing query for domain: trae-api-cn.mchost.guru, type: 28
+[2025-07-03 04:22:56] INFO: Domain trae-api-cn.mchost.guru not in local database or cache, forwarding to upstream server
+[2025-07-03 04:22:56] INFO: Domain trae-api-cn.mchost.guru not in local database or cache, forwarding to upstream server
+[2025-07-03 04:22:57] INFO: Added IPv4 trae-api-cn.mchost.guru -> 220.181.10.68 to cache with TTL 208s
+[2025-07-03 04:22:57] WARNING: No A records found for trae-api-cn.mchost.guru in upstream response
+[2025-07-03 04:22:57] INFO: Added IPv4 trae-api-cn.mchost.guru -> 220.181.141.65 to cache with TTL 208s
+[2025-07-03 04:22:57] INFO: Added IPv4 trae-api-cn.mchost.guru -> 220.181.141.63 to cache with TTL 208s
+[2025-07-03 04:22:57] INFO: Added IPv4 trae-api-cn.mchost.guru -> 220.181.141.61 to cache with TTL 208s
+[2025-07-03 04:22:57] INFO: Added IPv4 trae-api-cn.mchost.guru -> 220.181.141.68 to cache with TTL 208s
+[2025-07-03 04:22:57] INFO: Added IPv4 trae-api-cn.mchost.guru -> 220.181.10.67 to cache with TTL 208s
+[2025-07-03 04:22:57] INFO: Added IPv4 trae-api-cn.mchost.guru -> 220.181.10.65 to cache with TTL 208s
+[2025-07-03 04:22:57] INFO: Added IPv4 trae-api-cn.mchost.guru -> 220.181.141.66 to cache with TTL 208s
+[2025-07-03 04:22:57] INFO: Added IPv4 trae-api-cn.mchost.guru -> 220.181.10.71 to cache with TTL 208s
+[2025-07-03 04:22:57] INFO: Added IPv4 trae-api-cn.mchost.guru -> 220.181.10.70 to cache with TTL 208s
+[2025-07-03 04:22:57] INFO: Added IPv4 trae-api-cn.mchost.guru -> 220.181.10.66 to cache with TTL 208s
+[2025-07-03 04:22:57] INFO: Added IPv4 trae-api-cn.mchost.guru -> 220.181.141.62 to cache with TTL 208s
+[2025-07-03 04:22:57] INFO: Added IPv4 trae-api-cn.mchost.guru -> 220.181.10.72 to cache with TTL 208s
+[2025-07-03 04:22:57] INFO: Added IPv4 trae-api-cn.mchost.guru -> 220.181.10.69 to cache with TTL 208s
+[2025-07-03 04:22:57] INFO: Added IPv4 trae-api-cn.mchost.guru -> 220.181.141.67 to cache with TTL 208s
+[2025-07-03 04:22:57] INFO: Added IPv4 trae-api-cn.mchost.guru -> 220.181.141.64 to cache with TTL 208s
+[2025-07-03 04:22:58] INFO: Received DNS query from ('10.129.52.220', 53921)
+[2025-07-03 04:22:58] INFO: Received DNS query from ('10.129.52.220', 62007)
+[2025-07-03 04:22:58] INFO: Processing query for domain: tos-lf-x.snssdk.com, type: 1
+[2025-07-03 04:22:58] INFO: Processing query for domain: tos-lf-x.snssdk.com, type: 28
+[2025-07-03 04:22:58] INFO: Domain tos-lf-x.snssdk.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:22:58] INFO: Domain tos-lf-x.snssdk.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:22:58] INFO: Added IPv4 tos-lf-x.snssdk.com -> 111.32.202.229 to cache with TTL 90s
+[2025-07-03 04:22:58] WARNING: No A records found for tos-lf-x.snssdk.com in upstream response
+[2025-07-03 04:22:58] INFO: Added IPv4 tos-lf-x.snssdk.com -> 111.32.211.151 to cache with TTL 90s
+[2025-07-03 04:22:58] INFO: Added IPv4 tos-lf-x.snssdk.com -> 111.31.118.201 to cache with TTL 90s
+[2025-07-03 04:22:58] INFO: Added IPv4 tos-lf-x.snssdk.com -> 111.31.37.83 to cache with TTL 90s
+[2025-07-03 04:22:58] INFO: Added IPv4 tos-lf-x.snssdk.com -> 111.32.210.114 to cache with TTL 90s
+[2025-07-03 04:22:58] INFO: Added IPv4 tos-lf-x.snssdk.com -> 111.32.202.230 to cache with TTL 90s
+[2025-07-03 04:22:58] INFO: Added IPv4 tos-lf-x.snssdk.com -> 111.32.210.115 to cache with TTL 90s
+[2025-07-03 04:22:58] INFO: Added IPv4 tos-lf-x.snssdk.com -> 111.32.210.113 to cache with TTL 90s
+[2025-07-03 04:22:58] INFO: Added IPv4 tos-lf-x.snssdk.com -> 111.32.210.116 to cache with TTL 90s
+[2025-07-03 04:22:58] INFO: Added IPv4 tos-lf-x.snssdk.com -> 111.32.211.153 to cache with TTL 90s
+[2025-07-03 04:22:58] INFO: Added IPv4 tos-lf-x.snssdk.com -> 111.31.118.200 to cache with TTL 90s
+[2025-07-03 04:22:58] INFO: Added IPv4 tos-lf-x.snssdk.com -> 111.31.66.241 to cache with TTL 90s
+[2025-07-03 04:22:58] INFO: Added IPv4 tos-lf-x.snssdk.com -> 111.32.211.150 to cache with TTL 90s
+[2025-07-03 04:22:58] INFO: Added IPv4 tos-lf-x.snssdk.com -> 111.31.37.82 to cache with TTL 90s
+[2025-07-03 04:22:58] INFO: Added IPv4 tos-lf-x.snssdk.com -> 111.32.211.152 to cache with TTL 90s
+[2025-07-03 04:22:58] INFO: Added IPv4 tos-lf-x.snssdk.com -> 111.31.66.240 to cache with TTL 90s
+[2025-07-03 04:23:00] INFO: Received DNS query from ('10.129.52.220', 62007)
+[2025-07-03 04:23:00] INFO: Processing query for domain: mcs.zijieapi.com, type: 28
+[2025-07-03 04:23:00] INFO: Domain mcs.zijieapi.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:23:00] WARNING: No A records found for mcs.zijieapi.com in upstream response
+[2025-07-03 04:23:01] INFO: Received DNS query from ('10.129.52.220', 53921)
+[2025-07-03 04:23:01] INFO: Processing query for domain: mon.zijieapi.com, type: 28
+[2025-07-03 04:23:01] INFO: Domain mon.zijieapi.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:23:01] WARNING: No A records found for mon.zijieapi.com in upstream response
+[2025-07-03 04:23:01] INFO: Received DNS query from ('10.129.52.220', 62007)
+[2025-07-03 04:23:01] INFO: Processing query for domain: mon.zijieapi.com, type: 28
+[2025-07-03 04:23:01] INFO: Domain mon.zijieapi.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:23:01] WARNING: No A records found for mon.zijieapi.com in upstream response
+[2025-07-03 04:23:06] INFO: Received DNS query from ('10.129.52.220', 53921)
+[2025-07-03 04:23:06] INFO: Processing query for domain: mon.zijieapi.com, type: 28
+[2025-07-03 04:23:06] INFO: Domain mon.zijieapi.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:23:06] WARNING: No A records found for mon.zijieapi.com in upstream response
+[2025-07-03 04:23:11] INFO: Received DNS query from ('10.129.52.220', 62007)
+[2025-07-03 04:23:11] INFO: Processing query for domain: mon.zijieapi.com, type: 28
+[2025-07-03 04:23:11] INFO: Domain mon.zijieapi.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:23:11] WARNING: No A records found for mon.zijieapi.com in upstream response
+[2025-07-03 04:23:12] INFO: Received DNS query from ('10.129.52.220', 53921)
+[2025-07-03 04:23:12] INFO: Processing query for domain: dep477.appdump.nie.netease.com, type: 28
+[2025-07-03 04:23:12] INFO: Domain dep477.appdump.nie.netease.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:23:12] WARNING: No A records found for dep477.appdump.nie.netease.com in upstream response
+[2025-07-03 04:23:12] INFO: Received DNS query from ('10.129.52.220', 61921)
+[2025-07-03 04:23:12] INFO: Processing query for domain: 220.52.129.10.in-addr.arpa, type: 12
+[2025-07-03 04:23:12] INFO: Domain 220.52.129.10.in-addr.arpa not in local database or cache, forwarding to upstream server
+[2025-07-03 04:23:12] WARNING: No A records found for 220.52.129.10.in-addr.arpa in upstream response
+[2025-07-03 04:23:12] INFO: Received DNS query from ('10.129.52.220', 61923)
+[2025-07-03 04:23:12] INFO: Processing query for domain: a.b, type: 1
+[2025-07-03 04:23:12] INFO: Domain a.b found in local database: ['1.2.3.4']
+[2025-07-03 04:23:16] INFO: Received DNS query from ('10.129.52.220', 62007)
+[2025-07-03 04:23:16] INFO: Processing query for domain: mon.zijieapi.com, type: 28
+[2025-07-03 04:23:16] INFO: Domain mon.zijieapi.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:23:16] WARNING: No A records found for mon.zijieapi.com in upstream response
+[2025-07-03 04:23:20] INFO: Received DNS query from ('10.129.52.220', 53921)
+[2025-07-03 04:23:20] INFO: Processing query for domain: mon.zijieapi.com, type: 28
+[2025-07-03 04:23:20] INFO: Domain mon.zijieapi.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:23:20] WARNING: No A records found for mon.zijieapi.com in upstream response
+[2025-07-03 04:23:23] INFO: Received DNS query from ('10.129.52.220', 62007)
+[2025-07-03 04:23:23] INFO: Processing query for domain: s.360.cn, type: 1
+[2025-07-03 04:23:23] INFO: Domain s.360.cn not in local database or cache, forwarding to upstream server
+[2025-07-03 04:23:23] INFO: Added IPv4 s.360.cn -> 180.163.251.231 to cache with TTL 241s
+[2025-07-03 04:23:23] INFO: Added IPv4 s.360.cn -> 180.163.251.230 to cache with TTL 241s
+[2025-07-03 04:23:23] INFO: Added IPv4 s.360.cn -> 171.8.167.89 to cache with TTL 241s
+[2025-07-03 04:23:23] INFO: Added IPv4 s.360.cn -> 101.198.2.147 to cache with TTL 241s
+[2025-07-03 04:23:23] INFO: Received DNS query from ('10.129.52.220', 53921)
+[2025-07-03 04:23:23] INFO: Processing query for domain: s.f.360.cn, type: 1
+[2025-07-03 04:23:23] INFO: Domain s.f.360.cn not in local database or cache, forwarding to upstream server
+[2025-07-03 04:23:23] INFO: Added IPv4 s.f.360.cn -> 103.28.8.70 to cache with TTL 32s
+[2025-07-03 04:23:23] INFO: Added IPv4 s.f.360.cn -> 103.28.8.83 to cache with TTL 32s
+[2025-07-03 04:23:25] INFO: Received DNS query from ('10.129.52.220', 62007)
+[2025-07-03 04:23:25] INFO: Processing query for domain: mon.zijieapi.com, type: 28
+[2025-07-03 04:23:25] INFO: Domain mon.zijieapi.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:23:25] WARNING: No A records found for mon.zijieapi.com in upstream response
+[2025-07-03 04:23:26] INFO: Received DNS query from ('10.129.52.220', 53921)
+[2025-07-03 04:23:26] INFO: Processing query for domain: mon.zijieapi.com, type: 28
+[2025-07-03 04:23:26] INFO: Domain mon.zijieapi.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:23:26] WARNING: No A records found for mon.zijieapi.com in upstream response
+[2025-07-03 04:23:31] INFO: Received DNS query from ('10.129.52.220', 59273)
+[2025-07-03 04:23:31] INFO: Processing query for domain: 220.52.129.10.in-addr.arpa, type: 12
+[2025-07-03 04:23:31] INFO: Domain 220.52.129.10.in-addr.arpa not in local database or cache, forwarding to upstream server
+[2025-07-03 04:23:31] WARNING: No A records found for 220.52.129.10.in-addr.arpa in upstream response
+[2025-07-03 04:23:31] INFO: Received DNS query from ('10.129.52.220', 59275)
+[2025-07-03 04:23:31] INFO: Processing query for domain: ad.example.com, type: 1
+[2025-07-03 04:23:31] WARNING: Domain ad.example.com is in blacklist
+[2025-07-03 04:23:31] INFO: Received DNS query from ('10.129.52.220', 59276)
+[2025-07-03 04:23:31] INFO: Processing query for domain: ad.example.com, type: 1
+[2025-07-03 04:23:31] WARNING: Domain ad.example.com is in blacklist
+[2025-07-03 04:23:34] INFO: Received DNS query from ('10.129.52.220', 50579)
+[2025-07-03 04:23:34] INFO: Received DNS query from ('10.129.52.220', 57429)
+[2025-07-03 04:23:34] INFO: Received DNS query from ('10.129.52.220', 49696)
+[2025-07-03 04:23:34] INFO: Processing query for domain: mcs.zijieapi.com, type: 28
+[2025-07-03 04:23:34] INFO: Processing query for domain: mcs.zijieapi.com, type: 1
+[2025-07-03 04:23:34] INFO: Processing query for domain: mcs.zijieapi.com, type: 65
+[2025-07-03 04:23:34] INFO: Domain mcs.zijieapi.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:23:34] INFO: Domain mcs.zijieapi.com found in cache: ['220.181.136.252', '220.181.136.248', '220.181.136.254', '220.181.136.250', '220.181.136.251']
+[2025-07-03 04:23:34] INFO: Domain mcs.zijieapi.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:23:34] WARNING: No A records found for mcs.zijieapi.com in upstream response
+[2025-07-03 04:23:34] WARNING: No A records found for mcs.zijieapi.com in upstream response
+[2025-07-03 04:23:36] INFO: Received DNS query from ('10.129.52.220', 62007)
+[2025-07-03 04:23:36] INFO: Processing query for domain: mon.zijieapi.com, type: 28
+[2025-07-03 04:23:36] INFO: Domain mon.zijieapi.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:23:36] WARNING: No A records found for mon.zijieapi.com in upstream response
+[2025-07-03 04:23:39] INFO: Received DNS query from ('10.129.52.220', 53921)
+[2025-07-03 04:23:39] INFO: Processing query for domain: mon.zijieapi.com, type: 28
+[2025-07-03 04:23:39] INFO: Domain mon.zijieapi.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:23:39] WARNING: No A records found for mon.zijieapi.com in upstream response
+[2025-07-03 04:23:41] INFO: Received DNS query from ('10.129.52.220', 62007)
+[2025-07-03 04:23:41] INFO: Processing query for domain: mon.zijieapi.com, type: 28
+[2025-07-03 04:23:41] INFO: Domain mon.zijieapi.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:23:41] WARNING: No A records found for mon.zijieapi.com in upstream response
+[2025-07-03 04:23:42] INFO: Received DNS query from ('10.129.52.220', 53921)
+[2025-07-03 04:23:42] INFO: Processing query for domain: dep477.appdump.nie.netease.com, type: 28
+[2025-07-03 04:23:42] INFO: Domain dep477.appdump.nie.netease.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:23:42] WARNING: No A records found for dep477.appdump.nie.netease.com in upstream response
+[2025-07-03 04:23:42] INFO: Received DNS query from ('10.129.52.220', 62007)
+[2025-07-03 04:23:42] INFO: Received DNS query from ('10.129.52.220', 53921)
+[2025-07-03 04:23:42] INFO: Processing query for domain: hs2.166.net, type: 1
+[2025-07-03 04:23:42] INFO: Processing query for domain: hs2.166.net, type: 28
+[2025-07-03 04:23:42] INFO: Domain hs2.166.net not in local database or cache, forwarding to upstream server
+[2025-07-03 04:23:42] INFO: Domain hs2.166.net not in local database or cache, forwarding to upstream server
+[2025-07-03 04:23:42] WARNING: No A records found for hs2.166.net in upstream response
+[2025-07-03 04:23:42] INFO: Added IPv4 hs2.166.net -> 220.181.164.207 to cache with TTL 73s
+[2025-07-03 04:23:42] INFO: Added IPv4 hs2.166.net -> 220.181.164.205 to cache with TTL 73s
+[2025-07-03 04:23:42] INFO: Added IPv4 hs2.166.net -> 220.181.164.210 to cache with TTL 73s
+[2025-07-03 04:23:42] INFO: Added IPv4 hs2.166.net -> 220.181.164.206 to cache with TTL 73s
+[2025-07-03 04:23:42] INFO: Added IPv4 hs2.166.net -> 220.181.164.203 to cache with TTL 73s
+[2025-07-03 04:23:42] INFO: Added IPv4 hs2.166.net -> 220.181.164.209 to cache with TTL 73s
+[2025-07-03 04:23:42] INFO: Added IPv4 hs2.166.net -> 220.181.164.208 to cache with TTL 73s
+[2025-07-03 04:23:42] INFO: Added IPv4 hs2.166.net -> 220.181.164.204 to cache with TTL 73s
+[2025-07-03 04:23:43] INFO: Received DNS query from ('10.129.52.220', 53921)
+[2025-07-03 04:23:43] INFO: Received DNS query from ('10.129.52.220', 62007)
+[2025-07-03 04:23:43] INFO: Processing query for domain: abtestvm.bytedance.com, type: 1
+[2025-07-03 04:23:43] INFO: Processing query for domain: abtestvm.bytedance.com, type: 28
+[2025-07-03 04:23:43] INFO: Domain abtestvm.bytedance.com found in cache: ['220.181.10.65', '220.181.10.69', '220.181.10.70', '220.181.10.67', '220.181.10.72', '220.181.10.68', '220.181.10.66', '220.181.10.71']
+[2025-07-03 04:23:43] INFO: Domain abtestvm.bytedance.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:23:43] WARNING: No A records found for abtestvm.bytedance.com in upstream response
+[2025-07-03 04:23:44] INFO: Received DNS query from ('10.129.52.220', 53921)
+[2025-07-03 04:23:44] INFO: Processing query for domain: mobile.events.data.microsoft.com, type: 28
+[2025-07-03 04:23:44] INFO: Domain mobile.events.data.microsoft.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:23:44] WARNING: No A records found for mobile.events.data.microsoft.com in upstream response
+[2025-07-03 04:23:46] INFO: Received DNS query from ('10.129.52.220', 62007)
+[2025-07-03 04:23:46] INFO: Processing query for domain: mon.zijieapi.com, type: 28
+[2025-07-03 04:23:46] INFO: Domain mon.zijieapi.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:23:46] WARNING: No A records found for mon.zijieapi.com in upstream response
+[2025-07-03 04:23:50] INFO: Received DNS query from ('10.129.52.220', 56863)
+[2025-07-03 04:23:50] INFO: Received DNS query from ('10.129.52.220', 57044)
+[2025-07-03 04:23:50] INFO: Received DNS query from ('10.129.52.220', 62441)
+[2025-07-03 04:23:50] INFO: Processing query for domain: api-overmind.youdao.com, type: 28
+[2025-07-03 04:23:50] INFO: Processing query for domain: api-overmind.youdao.com, type: 1
+[2025-07-03 04:23:50] INFO: Processing query for domain: api-overmind.youdao.com, type: 65
+[2025-07-03 04:23:50] INFO: Domain api-overmind.youdao.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:23:50] INFO: Domain api-overmind.youdao.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:23:50] INFO: Domain api-overmind.youdao.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:23:50] INFO: Added IPv6 api-overmind.youdao.com -> 240e:938:a07:6:0:6:0:6 to cache with TTL 257s
+[2025-07-03 04:23:50] WARNING: No A records found for api-overmind.youdao.com in upstream response
+[2025-07-03 04:23:50] INFO: Added IPv4 api-overmind.youdao.com -> 111.124.200.101 to cache with TTL 69s
+[2025-07-03 04:23:50] WARNING: No A records found for api-overmind.youdao.com in upstream response
+[2025-07-03 04:23:50] WARNING: 客户端连接被重置
+[2025-07-03 04:23:53] INFO: Received DNS query from ('10.129.52.220', 53113)
+[2025-07-03 04:23:53] INFO: Received DNS query from ('10.129.52.220', 57236)
+[2025-07-03 04:23:53] INFO: Received DNS query from ('10.129.52.220', 63512)
+[2025-07-03 04:23:53] INFO: Processing query for domain: mon.zijieapi.com, type: 28
+[2025-07-03 04:23:53] INFO: Processing query for domain: mon.zijieapi.com, type: 1
+[2025-07-03 04:23:53] INFO: Processing query for domain: mon.zijieapi.com, type: 65
+[2025-07-03 04:23:53] INFO: Domain mon.zijieapi.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:23:53] INFO: Domain mon.zijieapi.com found in cache: ['220.181.136.250', '220.181.136.252', '220.181.136.251', '220.181.136.248', '220.181.136.254']
+[2025-07-03 04:23:53] INFO: Domain mon.zijieapi.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:23:53] WARNING: No A records found for mon.zijieapi.com in upstream response
+[2025-07-03 04:23:53] WARNING: No A records found for mon.zijieapi.com in upstream response
+[2025-07-03 04:23:56] INFO: Received DNS query from ('10.129.52.220', 53921)
+[2025-07-03 04:23:56] INFO: Received DNS query from ('10.129.52.220', 62007)
+[2025-07-03 04:23:56] INFO: Processing query for domain: mon.zijieapi.com, type: 1
+[2025-07-03 04:23:56] INFO: Processing query for domain: mon.zijieapi.com, type: 28
+[2025-07-03 04:23:56] INFO: Domain mon.zijieapi.com found in cache: ['220.181.136.250', '220.181.136.252', '220.181.136.251', '220.181.136.248', '220.181.136.254']
+[2025-07-03 04:23:56] INFO: Domain mon.zijieapi.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:23:56] WARNING: No A records found for mon.zijieapi.com in upstream response
+[2025-07-03 04:23:57] INFO: Received DNS query from ('10.129.52.220', 54432)
+[2025-07-03 04:23:57] INFO: Processing query for domain: 220.52.129.10.in-addr.arpa, type: 12
+[2025-07-03 04:23:57] INFO: Domain 220.52.129.10.in-addr.arpa not in local database or cache, forwarding to upstream server
+[2025-07-03 04:23:57] WARNING: No A records found for 220.52.129.10.in-addr.arpa in upstream response
+[2025-07-03 04:23:57] INFO: Received DNS query from ('10.129.52.220', 54434)
+[2025-07-03 04:23:57] INFO: Processing query for domain: www.baidu.com, type: 1
+[2025-07-03 04:23:57] INFO: Domain www.baidu.com found in cache: ['220.181.111.232', '220.181.111.1']
+[2025-07-03 04:24:00] INFO: Received DNS query from ('10.129.52.220', 53921)
+[2025-07-03 04:24:00] INFO: Processing query for domain: mcs.zijieapi.com, type: 28
+[2025-07-03 04:24:00] INFO: Domain mcs.zijieapi.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:24:00] WARNING: No A records found for mcs.zijieapi.com in upstream response
+[2025-07-03 04:24:01] INFO: Received DNS query from ('10.129.52.220', 62007)
+[2025-07-03 04:24:01] INFO: Processing query for domain: mon.zijieapi.com, type: 28
+[2025-07-03 04:24:01] INFO: Domain mon.zijieapi.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:24:01] WARNING: No A records found for mon.zijieapi.com in upstream response
+[2025-07-03 04:24:06] INFO: Received DNS query from ('10.129.52.220', 53921)
+[2025-07-03 04:24:06] INFO: Processing query for domain: mon.zijieapi.com, type: 28
+[2025-07-03 04:24:06] INFO: Domain mon.zijieapi.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:24:06] WARNING: No A records found for mon.zijieapi.com in upstream response
+[2025-07-03 04:24:08] INFO: Received DNS query from ('10.129.52.220', 62007)
+[2025-07-03 04:24:08] INFO: Processing query for domain: mcs.zijieapi.com, type: 28
+[2025-07-03 04:24:08] INFO: Domain mcs.zijieapi.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:24:08] WARNING: No A records found for mcs.zijieapi.com in upstream response
+[2025-07-03 04:24:11] INFO: Received DNS query from ('10.129.52.220', 53921)
+[2025-07-03 04:24:11] INFO: Processing query for domain: mon.zijieapi.com, type: 28
+[2025-07-03 04:24:11] INFO: Domain mon.zijieapi.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:24:11] WARNING: No A records found for mon.zijieapi.com in upstream response
+[2025-07-03 04:24:11] INFO: Received DNS query from ('10.129.52.220', 62007)
+[2025-07-03 04:24:11] INFO: Processing query for domain: mon.zijieapi.com, type: 28
+[2025-07-03 04:24:11] INFO: Domain mon.zijieapi.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:24:11] WARNING: No A records found for mon.zijieapi.com in upstream response
+[2025-07-03 04:24:12] INFO: Received DNS query from ('10.129.52.220', 53921)
+[2025-07-03 04:24:12] INFO: Received DNS query from ('10.129.52.220', 62007)
+[2025-07-03 04:24:12] INFO: Processing query for domain: hs-public-data.s3v2.nie.netease.com, type: 1
+[2025-07-03 04:24:12] INFO: Processing query for domain: hs-public-data.s3v2.nie.netease.com, type: 28
+[2025-07-03 04:24:12] INFO: Domain hs-public-data.s3v2.nie.netease.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:24:12] INFO: Domain hs-public-data.s3v2.nie.netease.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:24:12] INFO: Added IPv4 hs-public-data.s3v2.nie.netease.com -> 42.186.194.77 to cache with TTL 1189s
+[2025-07-03 04:24:12] WARNING: No A records found for hs-public-data.s3v2.nie.netease.com in upstream response
+[2025-07-03 04:24:12] INFO: Received DNS query from ('10.129.52.220', 53921)
+[2025-07-03 04:24:12] INFO: Processing query for domain: dep477.appdump.nie.netease.com, type: 28
+[2025-07-03 04:24:12] INFO: Domain dep477.appdump.nie.netease.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:24:12] WARNING: No A records found for dep477.appdump.nie.netease.com in upstream response
+[2025-07-03 04:24:16] INFO: Received DNS query from ('10.129.52.220', 62007)
+[2025-07-03 04:24:16] INFO: Processing query for domain: mon.zijieapi.com, type: 28
+[2025-07-03 04:24:16] INFO: Domain mon.zijieapi.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:24:16] WARNING: No A records found for mon.zijieapi.com in upstream response
+[2025-07-03 04:24:17] INFO: Received DNS query from ('10.129.52.220', 53921)
+[2025-07-03 04:24:17] INFO: Processing query for domain: mon.zijieapi.com, type: 28
+[2025-07-03 04:24:17] INFO: Domain mon.zijieapi.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:24:17] WARNING: No A records found for mon.zijieapi.com in upstream response
+[2025-07-03 04:24:20] INFO: Received DNS query from ('10.129.52.220', 62007)
+[2025-07-03 04:24:20] INFO: Processing query for domain: abtestvm.bytedance.com, type: 28
+[2025-07-03 04:24:20] INFO: Domain abtestvm.bytedance.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:24:20] WARNING: No A records found for abtestvm.bytedance.com in upstream response
+[2025-07-03 04:24:21] INFO: Received DNS query from ('10.129.52.220', 53921)
+[2025-07-03 04:24:21] INFO: Processing query for domain: mobile.events.data.microsoft.com, type: 28
+[2025-07-03 04:24:21] INFO: Domain mobile.events.data.microsoft.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:24:21] WARNING: No A records found for mobile.events.data.microsoft.com in upstream response
+[2025-07-03 04:24:26] INFO: Received DNS query from ('10.129.52.220', 62007)
+[2025-07-03 04:24:26] INFO: Processing query for domain: mon.zijieapi.com, type: 28
+[2025-07-03 04:24:26] INFO: Domain mon.zijieapi.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:24:26] WARNING: No A records found for mon.zijieapi.com in upstream response
+[2025-07-03 04:24:31] INFO: Received DNS query from ('10.129.52.220', 53921)
+[2025-07-03 04:24:31] INFO: Processing query for domain: mon.zijieapi.com, type: 28
+[2025-07-03 04:24:31] INFO: Domain mon.zijieapi.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:24:31] WARNING: No A records found for mon.zijieapi.com in upstream response
+[2025-07-03 04:24:36] INFO: Received DNS query from ('10.129.52.220', 62007)
+[2025-07-03 04:24:36] INFO: Processing query for domain: mon.zijieapi.com, type: 28
+[2025-07-03 04:24:36] INFO: Domain mon.zijieapi.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:24:36] WARNING: No A records found for mon.zijieapi.com in upstream response
+[2025-07-03 04:24:40] INFO: Received DNS query from ('10.129.52.220', 53921)
+[2025-07-03 04:24:40] INFO: Processing query for domain: mon.zijieapi.com, type: 28
+[2025-07-03 04:24:40] INFO: Domain mon.zijieapi.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:24:40] WARNING: No A records found for mon.zijieapi.com in upstream response
+[2025-07-03 04:24:42] INFO: Received DNS query from ('10.129.52.220', 62007)
+[2025-07-03 04:24:42] INFO: Processing query for domain: dep477.appdump.nie.netease.com, type: 28
+[2025-07-03 04:24:42] INFO: Domain dep477.appdump.nie.netease.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:24:42] WARNING: No A records found for dep477.appdump.nie.netease.com in upstream response
+[2025-07-03 04:24:44] INFO: Received DNS query from ('10.129.52.220', 63606)
+[2025-07-03 04:24:44] INFO: Processing query for domain: 220.52.129.10.in-addr.arpa, type: 12
+[2025-07-03 04:24:44] INFO: Domain 220.52.129.10.in-addr.arpa not in local database or cache, forwarding to upstream server
+[2025-07-03 04:24:44] WARNING: No A records found for 220.52.129.10.in-addr.arpa in upstream response
+[2025-07-03 04:24:44] INFO: Received DNS query from ('10.129.52.220', 63608)
+[2025-07-03 04:24:44] INFO: Processing query for domain: www.baidu.com, type: 1
+[2025-07-03 04:24:44] INFO: Domain www.baidu.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:24:44] INFO: Added IPv4 www.baidu.com -> 220.181.111.232 to cache with TTL 382s
+[2025-07-03 04:24:44] INFO: Added IPv4 www.baidu.com -> 220.181.111.1 to cache with TTL 382s
+[2025-07-03 04:24:44] INFO: Received DNS query from ('10.129.52.220', 53921)
+[2025-07-03 04:24:44] INFO: Processing query for domain: mon.zijieapi.com, type: 28
+[2025-07-03 04:24:44] INFO: Domain mon.zijieapi.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:24:44] WARNING: No A records found for mon.zijieapi.com in upstream response
+[2025-07-03 04:24:46] INFO: Received DNS query from ('10.129.52.220', 62007)
+[2025-07-03 04:24:46] INFO: Processing query for domain: mon.zijieapi.com, type: 28
+[2025-07-03 04:24:46] INFO: Domain mon.zijieapi.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:24:46] WARNING: No A records found for mon.zijieapi.com in upstream response
+[2025-07-03 04:24:47] INFO: Received DNS query from ('10.129.52.220', 53921)
+[2025-07-03 04:24:47] INFO: Received DNS query from ('10.129.52.220', 62007)
+[2025-07-03 04:24:47] INFO: Processing query for domain: mcs.ctobsnssdk.com, type: 1
+[2025-07-03 04:24:47] INFO: Processing query for domain: mcs.ctobsnssdk.com, type: 28
+[2025-07-03 04:24:47] INFO: Domain mcs.ctobsnssdk.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:24:47] INFO: Domain mcs.ctobsnssdk.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:24:47] WARNING: No A records found for mcs.ctobsnssdk.com in upstream response
+[2025-07-03 04:24:47] INFO: Added IPv4 mcs.ctobsnssdk.com -> 124.236.104.208 to cache with TTL 409s
+[2025-07-03 04:24:47] INFO: Added IPv4 mcs.ctobsnssdk.com -> 27.128.209.201 to cache with TTL 409s
+[2025-07-03 04:24:47] INFO: Added IPv4 mcs.ctobsnssdk.com -> 27.185.242.148 to cache with TTL 409s
+[2025-07-03 04:24:47] INFO: Added IPv4 mcs.ctobsnssdk.com -> 27.185.235.162 to cache with TTL 409s
+[2025-07-03 04:24:47] INFO: Received DNS query from ('10.129.52.220', 62007)
+[2025-07-03 04:24:47] INFO: Processing query for domain: mcs.ctobsnssdk.com, type: 28
+[2025-07-03 04:24:47] INFO: Domain mcs.ctobsnssdk.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:24:47] WARNING: No A records found for mcs.ctobsnssdk.com in upstream response
+[2025-07-03 04:24:47] INFO: Received DNS query from ('10.129.52.220', 53921)
+[2025-07-03 04:24:47] INFO: Processing query for domain: mcs.ctobsnssdk.com, type: 28
+[2025-07-03 04:24:47] INFO: Domain mcs.ctobsnssdk.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:24:47] WARNING: No A records found for mcs.ctobsnssdk.com in upstream response
+[2025-07-03 04:24:50] INFO: Received DNS query from ('10.129.52.220', 52625)
+[2025-07-03 04:24:50] INFO: Received DNS query from ('10.129.52.220', 59437)
+[2025-07-03 04:24:50] INFO: Received DNS query from ('10.129.52.220', 63563)
+[2025-07-03 04:24:50] INFO: Processing query for domain: api.trae.com.cn, type: 28
+[2025-07-03 04:24:50] INFO: Processing query for domain: api.trae.com.cn, type: 1
+[2025-07-03 04:24:50] INFO: Processing query for domain: api.trae.com.cn, type: 65
+[2025-07-03 04:24:50] INFO: Domain api.trae.com.cn not in local database or cache, forwarding to upstream server
+[2025-07-03 04:24:50] INFO: Domain api.trae.com.cn not in local database or cache, forwarding to upstream server
+[2025-07-03 04:24:50] INFO: Domain api.trae.com.cn not in local database or cache, forwarding to upstream server
+[2025-07-03 04:24:50] INFO: Added IPv6 api.trae.com.cn -> 2400:a980:ff:7:3::7f0 to cache with TTL 202s
+[2025-07-03 04:24:50] INFO: Added IPv6 api.trae.com.cn -> 2400:a980:ff:7:3::7ef to cache with TTL 202s
+[2025-07-03 04:24:50] INFO: Added IPv4 api.trae.com.cn -> 220.181.66.206 to cache with TTL 285s
+[2025-07-03 04:24:50] WARNING: No A records found for api.trae.com.cn in upstream response
+[2025-07-03 04:24:50] INFO: Added IPv4 api.trae.com.cn -> 220.181.10.67 to cache with TTL 285s
+[2025-07-03 04:24:50] INFO: Added IPv4 api.trae.com.cn -> 220.181.183.228 to cache with TTL 285s
+[2025-07-03 04:24:50] INFO: Added IPv4 api.trae.com.cn -> 220.181.66.203 to cache with TTL 285s
+[2025-07-03 04:24:50] INFO: Added IPv4 api.trae.com.cn -> 211.100.8.106 to cache with TTL 285s
+[2025-07-03 04:24:50] INFO: Added IPv4 api.trae.com.cn -> 106.38.254.73 to cache with TTL 285s
+[2025-07-03 04:24:50] INFO: Added IPv4 api.trae.com.cn -> 211.100.8.105 to cache with TTL 285s
+[2025-07-03 04:24:50] INFO: Added IPv4 api.trae.com.cn -> 220.181.141.65 to cache with TTL 285s
+[2025-07-03 04:24:50] INFO: Added IPv4 api.trae.com.cn -> 220.181.10.69 to cache with TTL 285s
+[2025-07-03 04:24:50] INFO: Added IPv4 api.trae.com.cn -> 106.38.254.75 to cache with TTL 285s
+[2025-07-03 04:24:50] INFO: Added IPv4 api.trae.com.cn -> 220.181.64.75 to cache with TTL 285s
+[2025-07-03 04:24:50] WARNING: No A records found for api.trae.com.cn in upstream response
+[2025-07-03 04:24:50] INFO: Added IPv4 api.trae.com.cn -> 220.181.141.66 to cache with TTL 285s
+[2025-07-03 04:24:55] INFO: Received DNS query from ('10.129.52.220', 61536)
+[2025-07-03 04:24:55] INFO: Received DNS query from ('10.129.52.220', 51317)
+[2025-07-03 04:24:55] INFO: Received DNS query from ('10.129.52.220', 54896)
+[2025-07-03 04:24:55] INFO: Processing query for domain: mon.zijieapi.com, type: 28
+[2025-07-03 04:24:55] INFO: Processing query for domain: mon.zijieapi.com, type: 1
+[2025-07-03 04:24:55] INFO: Processing query for domain: mon.zijieapi.com, type: 65
+[2025-07-03 04:24:55] INFO: Domain mon.zijieapi.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:24:55] INFO: Domain mon.zijieapi.com found in cache: ['220.181.136.250', '220.181.136.252', '220.181.136.251', '220.181.136.248', '220.181.136.254']
+[2025-07-03 04:24:55] INFO: Domain mon.zijieapi.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:24:55] WARNING: No A records found for mon.zijieapi.com in upstream response
+[2025-07-03 04:24:55] WARNING: No A records found for mon.zijieapi.com in upstream response
+[2025-07-03 04:24:56] INFO: Received DNS query from ('10.129.52.220', 50060)
+[2025-07-03 04:24:56] INFO: Received DNS query from ('10.129.52.220', 51851)
+[2025-07-03 04:24:56] INFO: Received DNS query from ('10.129.52.220', 57678)
+[2025-07-03 04:24:56] INFO: Processing query for domain: api.trae.com.cn, type: 28
+[2025-07-03 04:24:56] INFO: Processing query for domain: api.trae.com.cn, type: 1
+[2025-07-03 04:24:56] INFO: Processing query for domain: api.trae.com.cn, type: 65
+[2025-07-03 04:24:56] INFO: Domain api.trae.com.cn found in cache: ['2400:a980:ff:7:3::7f0', '2400:a980:ff:7:3::7ef']
+[2025-07-03 04:24:56] INFO: Domain api.trae.com.cn found in cache: ['220.181.66.206', '220.181.10.67', '220.181.183.228', '220.181.66.203', '211.100.8.106', '106.38.254.73', '211.100.8.105', '220.181.141.65', '220.181.10.69', '106.38.254.75', '220.181.64.75', '220.181.141.66']
+[2025-07-03 04:24:56] INFO: Domain api.trae.com.cn not in local database or cache, forwarding to upstream server
+[2025-07-03 04:24:56] WARNING: No A records found for api.trae.com.cn in upstream response
+[2025-07-03 04:24:56] INFO: Received DNS query from ('10.129.52.220', 56118)
+[2025-07-03 04:24:56] INFO: Processing query for domain: mon.zijieapi.com, type: 28
+[2025-07-03 04:24:56] INFO: Domain mon.zijieapi.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:24:56] WARNING: No A records found for mon.zijieapi.com in upstream response
+[2025-07-03 04:24:56] INFO: Received DNS query from ('10.129.52.220', 56118)
+[2025-07-03 04:24:56] INFO: Received DNS query from ('10.129.52.220', 59936)
+[2025-07-03 04:24:56] INFO: Processing query for domain: github.com, type: 1
+[2025-07-03 04:24:56] INFO: Processing query for domain: github.com, type: 28
+[2025-07-03 04:24:56] INFO: Domain github.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:24:56] INFO: Domain github.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:24:56] WARNING: No A records found for github.com in upstream response
+[2025-07-03 04:24:56] INFO: Added IPv4 github.com -> 20.205.243.166 to cache with TTL 364s
+[2025-07-03 04:24:57] INFO: Received DNS query from ('10.129.52.220', 59936)
+[2025-07-03 04:24:57] INFO: Processing query for domain: mon.zijieapi.com, type: 28
+[2025-07-03 04:24:57] INFO: Domain mon.zijieapi.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:24:57] WARNING: No A records found for mon.zijieapi.com in upstream response
+[2025-07-03 04:25:06] INFO: Received DNS query from ('10.129.52.220', 56118)
+[2025-07-03 04:25:06] INFO: Processing query for domain: mon.zijieapi.com, type: 28
+[2025-07-03 04:25:06] INFO: Domain mon.zijieapi.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:25:06] WARNING: No A records found for mon.zijieapi.com in upstream response
+[2025-07-03 04:25:10] INFO: Received DNS query from ('10.129.52.220', 54924)
+[2025-07-03 04:25:10] INFO: Processing query for domain: 220.52.129.10.in-addr.arpa, type: 12
+[2025-07-03 04:25:10] INFO: Domain 220.52.129.10.in-addr.arpa not in local database or cache, forwarding to upstream server
+[2025-07-03 04:25:10] WARNING: No A records found for 220.52.129.10.in-addr.arpa in upstream response
+[2025-07-03 04:25:10] INFO: Received DNS query from ('10.129.52.220', 54926)
+[2025-07-03 04:25:10] INFO: Processing query for domain: www.baidu.com, type: 1
+[2025-07-03 04:25:10] INFO: Domain www.baidu.com found in cache: ['220.181.111.232', '220.181.111.1']
+[2025-07-03 04:25:11] INFO: Received DNS query from ('10.129.52.220', 60651)
+[2025-07-03 04:25:11] INFO: Received DNS query from ('10.129.52.220', 53824)
+[2025-07-03 04:25:11] INFO: Received DNS query from ('10.129.52.220', 59053)
+[2025-07-03 04:25:11] INFO: Processing query for domain: lf3-static.bytednsdoc.com, type: 28
+[2025-07-03 04:25:11] INFO: Processing query for domain: lf3-static.bytednsdoc.com, type: 1
+[2025-07-03 04:25:11] INFO: Processing query for domain: lf3-static.bytednsdoc.com, type: 65
+[2025-07-03 04:25:11] INFO: Domain lf3-static.bytednsdoc.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:25:11] INFO: Domain lf3-static.bytednsdoc.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:25:11] INFO: Domain lf3-static.bytednsdoc.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:25:11] INFO: Added IPv6 lf3-static.bytednsdoc.com -> 240c:c0a9:1000:1::8 to cache with TTL 530s
+[2025-07-03 04:25:11] WARNING: No A records found for lf3-static.bytednsdoc.com in upstream response
+[2025-07-03 04:25:11] INFO: Added IPv4 lf3-static.bytednsdoc.com -> 1.71.12.95 to cache with TTL 302s
+[2025-07-03 04:25:11] WARNING: No A records found for lf3-static.bytednsdoc.com in upstream response
+[2025-07-03 04:25:11] INFO: Added IPv4 lf3-static.bytednsdoc.com -> 1.71.12.94 to cache with TTL 302s
+[2025-07-03 04:25:11] INFO: Added IPv4 lf3-static.bytednsdoc.com -> 1.71.12.112 to cache with TTL 302s
+[2025-07-03 04:25:11] INFO: Added IPv4 lf3-static.bytednsdoc.com -> 1.71.12.93 to cache with TTL 302s
+[2025-07-03 04:25:11] INFO: Added IPv4 lf3-static.bytednsdoc.com -> 1.71.12.113 to cache with TTL 302s
+[2025-07-03 04:25:11] INFO: Added IPv4 lf3-static.bytednsdoc.com -> 1.71.12.98 to cache with TTL 302s
+[2025-07-03 04:25:11] INFO: Added IPv4 lf3-static.bytednsdoc.com -> 1.71.12.97 to cache with TTL 302s
+[2025-07-03 04:25:11] INFO: Added IPv4 lf3-static.bytednsdoc.com -> 1.71.12.92 to cache with TTL 302s
+[2025-07-03 04:25:11] INFO: Added IPv4 lf3-static.bytednsdoc.com -> 1.71.12.96 to cache with TTL 302s
+[2025-07-03 04:25:11] INFO: Received DNS query from ('10.129.52.220', 59936)
+[2025-07-03 04:25:11] INFO: Processing query for domain: mon.zijieapi.com, type: 28
+[2025-07-03 04:25:11] INFO: Domain mon.zijieapi.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:25:11] WARNING: No A records found for mon.zijieapi.com in upstream response
+[2025-07-03 04:25:12] INFO: Received DNS query from ('10.129.52.220', 56118)
+[2025-07-03 04:25:12] INFO: Processing query for domain: dep477.appdump.nie.netease.com, type: 28
+[2025-07-03 04:25:12] INFO: Domain dep477.appdump.nie.netease.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:25:12] WARNING: No A records found for dep477.appdump.nie.netease.com in upstream response
+[2025-07-03 04:25:16] INFO: Received DNS query from ('10.129.52.220', 59936)
+[2025-07-03 04:25:16] INFO: Processing query for domain: mon.zijieapi.com, type: 28
+[2025-07-03 04:25:16] INFO: Domain mon.zijieapi.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:25:16] WARNING: No A records found for mon.zijieapi.com in upstream response
+[2025-07-03 04:25:18] INFO: Received DNS query from ('10.129.52.220', 56118)
+[2025-07-03 04:25:18] INFO: Received DNS query from ('10.129.52.220', 59936)
+[2025-07-03 04:25:18] INFO: Processing query for domain: bytegate.zijieapi.com, type: 1
+[2025-07-03 04:25:18] INFO: Processing query for domain: bytegate.zijieapi.com, type: 28
+[2025-07-03 04:25:18] INFO: Domain bytegate.zijieapi.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:25:18] INFO: Domain bytegate.zijieapi.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:25:18] INFO: Added IPv4 bytegate.zijieapi.com -> 220.181.66.206 to cache with TTL 113s
+[2025-07-03 04:25:18] WARNING: No A records found for bytegate.zijieapi.com in upstream response
+[2025-07-03 04:25:18] INFO: Added IPv4 bytegate.zijieapi.com -> 211.100.8.105 to cache with TTL 113s
+[2025-07-03 04:25:18] INFO: Added IPv4 bytegate.zijieapi.com -> 220.181.66.205 to cache with TTL 113s
+[2025-07-03 04:25:18] INFO: Added IPv4 bytegate.zijieapi.com -> 106.38.254.70 to cache with TTL 113s
+[2025-07-03 04:25:18] INFO: Added IPv4 bytegate.zijieapi.com -> 106.38.254.69 to cache with TTL 113s
+[2025-07-03 04:25:18] INFO: Added IPv4 bytegate.zijieapi.com -> 211.100.8.106 to cache with TTL 113s
+[2025-07-03 04:25:18] INFO: Added IPv4 bytegate.zijieapi.com -> 220.181.64.73 to cache with TTL 113s
+[2025-07-03 04:25:18] INFO: Added IPv4 bytegate.zijieapi.com -> 220.181.183.223 to cache with TTL 113s
+[2025-07-03 04:25:18] INFO: Received DNS query from ('10.129.52.220', 56118)
+[2025-07-03 04:25:18] INFO: Added IPv4 bytegate.zijieapi.com -> 220.181.141.66 to cache with TTL 113s
+[2025-07-03 04:25:18] INFO: Processing query for domain: bytegate.zijieapi.com, type: 1
+[2025-07-03 04:25:18] INFO: Added IPv4 bytegate.zijieapi.com -> 220.181.10.67 to cache with TTL 113s
+[2025-07-03 04:25:18] INFO: Domain bytegate.zijieapi.com found in cache: ['220.181.66.206', '211.100.8.105', '220.181.66.205', '106.38.254.70', '106.38.254.69', '211.100.8.106', '220.181.64.73', '220.181.183.223', '220.181.141.66', '220.181.10.67']
+[2025-07-03 04:25:18] INFO: Added IPv4 bytegate.zijieapi.com -> 220.181.141.67 to cache with TTL 113s
+[2025-07-03 04:25:18] INFO: Added IPv4 bytegate.zijieapi.com -> 220.181.10.66 to cache with TTL 113s
+[2025-07-03 04:25:18] WARNING: 客户端连接被重置
+[2025-07-03 04:25:18] INFO: Received DNS query from ('10.129.52.220', 59936)
+[2025-07-03 04:25:18] INFO: Processing query for domain: bytegate.zijieapi.com, type: 28
+[2025-07-03 04:25:18] INFO: Domain bytegate.zijieapi.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:25:18] WARNING: No A records found for bytegate.zijieapi.com in upstream response
+[2025-07-03 04:25:18] INFO: Received DNS query from ('10.129.52.220', 53389)
+[2025-07-03 04:25:18] INFO: Processing query for domain: trae-api-cn.mchost.guru, type: 28
+[2025-07-03 04:25:18] INFO: Domain trae-api-cn.mchost.guru not in local database or cache, forwarding to upstream server
+[2025-07-03 04:25:18] WARNING: No A records found for trae-api-cn.mchost.guru in upstream response
+[2025-07-03 04:25:18] INFO: Received DNS query from ('10.129.52.220', 59936)
+[2025-07-03 04:25:18] INFO: Processing query for domain: abtestvm.bytedance.com, type: 28
+[2025-07-03 04:25:18] INFO: Domain abtestvm.bytedance.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:25:18] WARNING: No A records found for abtestvm.bytedance.com in upstream response
+[2025-07-03 04:25:19] INFO: Received DNS query from ('10.129.52.220', 53389)
+[2025-07-03 04:25:19] INFO: Processing query for domain: mon.zijieapi.com, type: 28
+[2025-07-03 04:25:19] INFO: Domain mon.zijieapi.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:25:19] WARNING: No A records found for mon.zijieapi.com in upstream response
+[2025-07-03 04:25:21] INFO: Received DNS query from ('10.129.52.220', 59936)
+[2025-07-03 04:25:21] INFO: Processing query for domain: mon.zijieapi.com, type: 28
+[2025-07-03 04:25:21] INFO: Domain mon.zijieapi.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:25:21] WARNING: No A records found for mon.zijieapi.com in upstream response
+[2025-07-03 04:25:24] INFO: Received DNS query from ('10.129.52.220', 58243)
+[2025-07-03 04:25:24] INFO: Processing query for domain: mon.zijieapi.com, type: 28
+[2025-07-03 04:25:24] INFO: Domain mon.zijieapi.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:25:24] WARNING: No A records found for mon.zijieapi.com in upstream response
+[2025-07-03 04:25:26] INFO: Received DNS query from ('10.129.52.220', 58243)
+[2025-07-03 04:25:26] INFO: Processing query for domain: mon.zijieapi.com, type: 28
+[2025-07-03 04:25:26] INFO: Domain mon.zijieapi.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:25:26] WARNING: No A records found for mon.zijieapi.com in upstream response
+[2025-07-03 04:25:27] INFO: Received DNS query from ('10.129.52.220', 58243)
+[2025-07-03 04:25:27] INFO: Processing query for domain: abtestvm.bytedance.com, type: 28
+[2025-07-03 04:25:27] INFO: Domain abtestvm.bytedance.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:25:27] WARNING: No A records found for abtestvm.bytedance.com in upstream response
+[2025-07-03 04:25:29] INFO: Received DNS query from ('10.129.52.220', 58243)
+[2025-07-03 04:25:29] INFO: Processing query for domain: mobile.events.data.microsoft.com, type: 28
+[2025-07-03 04:25:29] INFO: Domain mobile.events.data.microsoft.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:25:29] WARNING: No A records found for mobile.events.data.microsoft.com in upstream response
+[2025-07-03 04:25:30] INFO: Received DNS query from ('10.129.52.220', 58766)
+[2025-07-03 04:25:30] INFO: Processing query for domain: 220.52.129.10.in-addr.arpa, type: 12
+[2025-07-03 04:25:30] INFO: Domain 220.52.129.10.in-addr.arpa not in local database or cache, forwarding to upstream server
+[2025-07-03 04:25:30] WARNING: No A records found for 220.52.129.10.in-addr.arpa in upstream response
+[2025-07-03 04:25:30] INFO: Received DNS query from ('10.129.52.220', 58768)
+[2025-07-03 04:25:30] INFO: Processing query for domain: www.bilibili.com, type: 1
+[2025-07-03 04:25:30] INFO: Domain www.bilibili.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:25:30] INFO: Added IPv4 www.bilibili.com -> 121.194.11.72 to cache with TTL 85s
+[2025-07-03 04:25:30] INFO: Added IPv4 www.bilibili.com -> 121.194.11.73 to cache with TTL 85s
+[2025-07-03 04:25:33] INFO: Received DNS query from ('10.129.52.220', 64269)
+[2025-07-03 04:25:33] INFO: Received DNS query from ('10.129.52.220', 62757)
+[2025-07-03 04:25:33] INFO: Received DNS query from ('10.129.52.220', 51768)
+[2025-07-03 04:25:33] INFO: Processing query for domain: mcs.zijieapi.com, type: 28
+[2025-07-03 04:25:33] INFO: Processing query for domain: mcs.zijieapi.com, type: 1
+[2025-07-03 04:25:33] INFO: Processing query for domain: mcs.zijieapi.com, type: 65
+[2025-07-03 04:25:33] INFO: Domain mcs.zijieapi.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:25:33] INFO: Domain mcs.zijieapi.com found in cache: ['220.181.136.252', '220.181.136.248', '220.181.136.254', '220.181.136.250', '220.181.136.251']
+[2025-07-03 04:25:33] INFO: Domain mcs.zijieapi.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:25:33] WARNING: No A records found for mcs.zijieapi.com in upstream response
+[2025-07-03 04:25:33] WARNING: No A records found for mcs.zijieapi.com in upstream response
+[2025-07-03 04:25:36] INFO: Received DNS query from ('10.129.52.220', 58243)
+[2025-07-03 04:25:36] INFO: Processing query for domain: mon.zijieapi.com, type: 28
+[2025-07-03 04:25:36] INFO: Domain mon.zijieapi.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:25:36] WARNING: No A records found for mon.zijieapi.com in upstream response
+[2025-07-03 04:25:41] INFO: Received DNS query from ('10.129.52.220', 58243)
+[2025-07-03 04:25:41] INFO: Processing query for domain: mon.zijieapi.com, type: 28
+[2025-07-03 04:25:41] INFO: Domain mon.zijieapi.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:25:41] WARNING: No A records found for mon.zijieapi.com in upstream response
+[2025-07-03 04:25:42] INFO: Received DNS query from ('10.129.52.220', 58243)
+[2025-07-03 04:25:42] INFO: Processing query for domain: dep477.appdump.nie.netease.com, type: 28
+[2025-07-03 04:25:42] INFO: Domain dep477.appdump.nie.netease.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:25:42] WARNING: No A records found for dep477.appdump.nie.netease.com in upstream response
+[2025-07-03 04:25:45] INFO: Received DNS query from ('10.129.52.220', 58243)
+[2025-07-03 04:25:45] INFO: Received DNS query from ('10.129.52.220', 58948)
+[2025-07-03 04:25:45] INFO: Processing query for domain: download.mcafee.com, type: 1
+[2025-07-03 04:25:45] INFO: Processing query for domain: download.mcafee.com, type: 28
+[2025-07-03 04:25:45] INFO: Domain download.mcafee.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:25:45] INFO: Domain download.mcafee.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:25:45] INFO: Received DNS query from ('10.129.52.220', 58948)
+[2025-07-03 04:25:45] INFO: Received DNS query from ('10.129.52.220', 58243)
+[2025-07-03 04:25:45] INFO: Processing query for domain: download.mcafee.com, type: 28
+[2025-07-03 04:25:45] INFO: Processing query for domain: download.mcafee.com, type: 1
+[2025-07-03 04:25:45] INFO: Domain download.mcafee.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:25:45] INFO: Domain download.mcafee.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:25:46] WARNING: No A records found for download.mcafee.com in upstream response
+[2025-07-03 04:25:46] INFO: Added IPv4 download.mcafee.com -> 23.193.186.29 to cache with TTL 371s
+[2025-07-03 04:25:46] INFO: Added IPv4 download.mcafee.com -> 23.193.186.24 to cache with TTL 371s
+[2025-07-03 04:25:46] WARNING: No A records found for download.mcafee.com in upstream response
+[2025-07-03 04:25:46] INFO: Added IPv4 download.mcafee.com -> 23.193.186.30 to cache with TTL 371s
+[2025-07-03 04:25:46] INFO: Added IPv4 download.mcafee.com -> 23.193.186.30 to cache with TTL 371s
+[2025-07-03 04:25:46] WARNING: 客户端连接被重置
+[2025-07-03 04:25:46] INFO: Added IPv4 download.mcafee.com -> 23.193.186.26 to cache with TTL 371s
+[2025-07-03 04:25:46] INFO: Added IPv4 download.mcafee.com -> 23.193.186.26 to cache with TTL 371s
+[2025-07-03 04:25:46] INFO: Added IPv4 download.mcafee.com -> 23.193.186.25 to cache with TTL 371s
+[2025-07-03 04:25:46] INFO: Added IPv4 download.mcafee.com -> 23.193.186.25 to cache with TTL 371s
+[2025-07-03 04:25:46] INFO: Added IPv4 download.mcafee.com -> 23.193.186.24 to cache with TTL 371s
+[2025-07-03 04:25:46] INFO: Added IPv4 download.mcafee.com -> 23.193.186.28 to cache with TTL 371s
+[2025-07-03 04:25:46] INFO: Added IPv4 download.mcafee.com -> 23.193.186.32 to cache with TTL 371s
+[2025-07-03 04:25:46] INFO: Added IPv4 download.mcafee.com -> 23.193.186.32 to cache with TTL 371s
+[2025-07-03 04:25:46] INFO: Added IPv4 download.mcafee.com -> 23.193.186.27 to cache with TTL 371s
+[2025-07-03 04:25:46] INFO: Added IPv4 download.mcafee.com -> 23.193.186.29 to cache with TTL 371s
+[2025-07-03 04:25:46] INFO: Added IPv4 download.mcafee.com -> 23.193.186.28 to cache with TTL 371s
+[2025-07-03 04:25:46] INFO: Added IPv4 download.mcafee.com -> 23.193.186.27 to cache with TTL 371s
+[2025-07-03 04:25:46] INFO: Added IPv4 download.mcafee.com -> 23.193.186.31 to cache with TTL 371s
+[2025-07-03 04:25:46] INFO: Added IPv4 download.mcafee.com -> 23.193.186.31 to cache with TTL 371s
+[2025-07-03 04:25:46] WARNING: 客户端连接被重置
+[2025-07-03 04:25:46] INFO: Received DNS query from ('10.129.52.220', 56967)
+[2025-07-03 04:25:46] INFO: Processing query for domain: download.mcafee.com, type: 28
+[2025-07-03 04:25:46] INFO: Domain download.mcafee.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:25:46] WARNING: No A records found for download.mcafee.com in upstream response
+[2025-07-03 04:25:46] INFO: Received DNS query from ('10.129.52.220', 56967)
+[2025-07-03 04:25:46] INFO: Processing query for domain: mon.zijieapi.com, type: 28
+[2025-07-03 04:25:46] INFO: Domain mon.zijieapi.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:25:46] WARNING: No A records found for mon.zijieapi.com in upstream response
+[2025-07-03 04:25:46] INFO: Received DNS query from ('10.129.52.220', 56970)
+[2025-07-03 04:25:46] INFO: Processing query for domain: 220.52.129.10.in-addr.arpa, type: 12
+[2025-07-03 04:25:46] INFO: Domain 220.52.129.10.in-addr.arpa not in local database or cache, forwarding to upstream server
+[2025-07-03 04:25:46] WARNING: No A records found for 220.52.129.10.in-addr.arpa in upstream response
+[2025-07-03 04:25:46] INFO: Received DNS query from ('10.129.52.220', 56972)
+[2025-07-03 04:25:46] INFO: Processing query for domain: www.bilibili.com, type: 1
+[2025-07-03 04:25:46] INFO: Domain www.bilibili.com found in cache: ['121.194.11.72', '121.194.11.73']
+[2025-07-03 04:25:49] INFO: Received DNS query from ('10.129.52.220', 56967)
+[2025-07-03 04:25:49] INFO: Received DNS query from ('10.129.52.220', 49295)
+[2025-07-03 04:25:49] INFO: Processing query for domain: analytics.apis.mcafee.com, type: 1
+[2025-07-03 04:25:49] INFO: Processing query for domain: analytics.apis.mcafee.com, type: 28
+[2025-07-03 04:25:49] INFO: Domain analytics.apis.mcafee.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:25:49] INFO: Domain analytics.apis.mcafee.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:25:49] INFO: Added IPv4 analytics.apis.mcafee.com -> 52.38.61.252 to cache with TTL 357s
+[2025-07-03 04:25:49] WARNING: No A records found for analytics.apis.mcafee.com in upstream response
+[2025-07-03 04:25:49] INFO: Added IPv4 analytics.apis.mcafee.com -> 35.83.129.133 to cache with TTL 357s
+[2025-07-03 04:25:49] INFO: Added IPv4 analytics.apis.mcafee.com -> 52.36.154.235 to cache with TTL 357s
+[2025-07-03 04:25:49] INFO: Added IPv4 analytics.apis.mcafee.com -> 54.244.50.91 to cache with TTL 357s
+[2025-07-03 04:25:49] INFO: Added IPv4 analytics.apis.mcafee.com -> 52.10.152.91 to cache with TTL 357s
+[2025-07-03 04:25:49] INFO: Added IPv4 analytics.apis.mcafee.com -> 54.149.65.226 to cache with TTL 357s
+[2025-07-03 04:25:49] INFO: Added IPv4 analytics.apis.mcafee.com -> 54.187.17.202 to cache with TTL 357s
+[2025-07-03 04:25:49] INFO: Added IPv4 analytics.apis.mcafee.com -> 44.239.129.214 to cache with TTL 357s
+[2025-07-03 04:25:49] INFO: Received DNS query from ('10.129.52.220', 56967)
+[2025-07-03 04:25:49] INFO: Processing query for domain: analytics.apis.mcafee.com, type: 1
+[2025-07-03 04:25:49] INFO: Domain analytics.apis.mcafee.com found in cache: ['52.38.61.252', '35.83.129.133', '52.36.154.235', '54.244.50.91', '52.10.152.91', '54.149.65.226', '54.187.17.202', '44.239.129.214']
+[2025-07-03 04:25:49] WARNING: 客户端连接被重置
+[2025-07-03 04:25:51] INFO: Received DNS query from ('10.129.52.220', 49295)
+[2025-07-03 04:25:51] INFO: Processing query for domain: mon.zijieapi.com, type: 28
+[2025-07-03 04:25:51] INFO: Domain mon.zijieapi.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:25:51] WARNING: No A records found for mon.zijieapi.com in upstream response
+[2025-07-03 04:25:51] INFO: Received DNS query from ('10.129.52.220', 49295)
+[2025-07-03 04:25:51] INFO: Processing query for domain: mon.zijieapi.com, type: 28
+[2025-07-03 04:25:51] INFO: Domain mon.zijieapi.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:25:51] WARNING: No A records found for mon.zijieapi.com in upstream response
+[2025-07-03 04:25:56] INFO: Received DNS query from ('10.129.52.220', 49295)
+[2025-07-03 04:25:56] INFO: Processing query for domain: mon.zijieapi.com, type: 28
+[2025-07-03 04:25:56] INFO: Domain mon.zijieapi.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:25:56] WARNING: No A records found for mon.zijieapi.com in upstream response
+[2025-07-03 04:25:57] INFO: Received DNS query from ('10.129.52.220', 50852)
+[2025-07-03 04:25:57] INFO: Received DNS query from ('10.129.52.220', 53113)
+[2025-07-03 04:25:57] INFO: Received DNS query from ('10.129.52.220', 50588)
+[2025-07-03 04:25:57] INFO: Processing query for domain: mon.zijieapi.com, type: 28
+[2025-07-03 04:25:57] INFO: Processing query for domain: mon.zijieapi.com, type: 1
+[2025-07-03 04:25:57] INFO: Processing query for domain: mon.zijieapi.com, type: 65
+[2025-07-03 04:25:57] INFO: Domain mon.zijieapi.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:25:57] INFO: Domain mon.zijieapi.com found in cache: ['220.181.136.250', '220.181.136.252', '220.181.136.251', '220.181.136.248', '220.181.136.254']
+[2025-07-03 04:25:57] INFO: Domain mon.zijieapi.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:25:57] WARNING: No A records found for mon.zijieapi.com in upstream response
+[2025-07-03 04:25:57] WARNING: No A records found for mon.zijieapi.com in upstream response
+[2025-07-03 04:26:01] INFO: Received DNS query from ('10.129.52.220', 49295)
+[2025-07-03 04:26:01] INFO: Processing query for domain: mon.zijieapi.com, type: 28
+[2025-07-03 04:26:01] INFO: Domain mon.zijieapi.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:26:01] WARNING: No A records found for mon.zijieapi.com in upstream response
+[2025-07-03 04:26:06] INFO: Received DNS query from ('10.129.52.220', 49295)
+[2025-07-03 04:26:06] INFO: Processing query for domain: mon.zijieapi.com, type: 28
+[2025-07-03 04:26:06] INFO: Domain mon.zijieapi.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:26:06] WARNING: No A records found for mon.zijieapi.com in upstream response
+[2025-07-03 04:26:11] INFO: Received DNS query from ('10.129.52.220', 49295)
+[2025-07-03 04:26:11] INFO: Processing query for domain: mon.zijieapi.com, type: 28
+[2025-07-03 04:26:11] INFO: Domain mon.zijieapi.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:26:11] WARNING: No A records found for mon.zijieapi.com in upstream response
+[2025-07-03 04:26:12] INFO: Received DNS query from ('10.129.52.220', 49295)
+[2025-07-03 04:26:12] INFO: Processing query for domain: hs-public-data.s3v2.nie.netease.com, type: 28
+[2025-07-03 04:26:12] INFO: Domain hs-public-data.s3v2.nie.netease.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:26:12] WARNING: No A records found for hs-public-data.s3v2.nie.netease.com in upstream response
+[2025-07-03 04:26:12] INFO: Received DNS query from ('10.129.52.220', 49295)
+[2025-07-03 04:26:12] INFO: Processing query for domain: dep477.appdump.nie.netease.com, type: 28
+[2025-07-03 04:26:12] INFO: Domain dep477.appdump.nie.netease.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:26:12] WARNING: No A records found for dep477.appdump.nie.netease.com in upstream response
+[2025-07-03 04:26:16] INFO: Received DNS query from ('10.129.52.220', 49295)
+[2025-07-03 04:26:16] INFO: Processing query for domain: mon.zijieapi.com, type: 28
+[2025-07-03 04:26:16] INFO: Domain mon.zijieapi.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:26:16] WARNING: No A records found for mon.zijieapi.com in upstream response
+[2025-07-03 04:26:21] INFO: Received DNS query from ('10.129.52.220', 49295)
+[2025-07-03 04:26:21] INFO: Processing query for domain: mon.zijieapi.com, type: 28
+[2025-07-03 04:26:21] INFO: Domain mon.zijieapi.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:26:21] WARNING: No A records found for mon.zijieapi.com in upstream response
+[2025-07-03 04:26:26] INFO: Received DNS query from ('10.129.52.220', 49295)
+[2025-07-03 04:26:26] INFO: Processing query for domain: mon.zijieapi.com, type: 28
+[2025-07-03 04:26:26] INFO: Domain mon.zijieapi.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:26:26] WARNING: No A records found for mon.zijieapi.com in upstream response
+[2025-07-03 04:26:31] INFO: Received DNS query from ('10.129.52.220', 49295)
+[2025-07-03 04:26:31] INFO: Processing query for domain: mon.zijieapi.com, type: 28
+[2025-07-03 04:26:31] INFO: Domain mon.zijieapi.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:26:31] WARNING: No A records found for mon.zijieapi.com in upstream response
+[2025-07-03 04:26:36] INFO: Received DNS query from ('10.129.52.220', 49295)
+[2025-07-03 04:26:36] INFO: Processing query for domain: mon.zijieapi.com, type: 28
+[2025-07-03 04:26:36] INFO: Domain mon.zijieapi.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:26:36] WARNING: No A records found for mon.zijieapi.com in upstream response
+[2025-07-03 04:26:41] INFO: Received DNS query from ('10.129.52.220', 49295)
+[2025-07-03 04:26:41] INFO: Processing query for domain: mon.zijieapi.com, type: 28
+[2025-07-03 04:26:41] INFO: Domain mon.zijieapi.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:26:41] WARNING: No A records found for mon.zijieapi.com in upstream response
+[2025-07-03 04:26:42] INFO: Received DNS query from ('10.129.52.220', 49295)
+[2025-07-03 04:26:42] INFO: Processing query for domain: dep477.appdump.nie.netease.com, type: 28
+[2025-07-03 04:26:42] INFO: Domain dep477.appdump.nie.netease.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:26:42] WARNING: No A records found for dep477.appdump.nie.netease.com in upstream response
+[2025-07-03 04:26:46] INFO: Received DNS query from ('10.129.52.220', 49295)
+[2025-07-03 04:26:46] INFO: Processing query for domain: mon.zijieapi.com, type: 28
+[2025-07-03 04:26:46] INFO: Domain mon.zijieapi.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:26:46] WARNING: No A records found for mon.zijieapi.com in upstream response
+[2025-07-03 04:26:51] INFO: Received DNS query from ('10.129.52.220', 49295)
+[2025-07-03 04:26:51] INFO: Processing query for domain: mon.zijieapi.com, type: 28
+[2025-07-03 04:26:51] INFO: Domain mon.zijieapi.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:26:51] WARNING: No A records found for mon.zijieapi.com in upstream response
+[2025-07-03 04:26:53] INFO: Received DNS query from ('10.129.52.220', 61456)
+[2025-07-03 04:26:53] INFO: Received DNS query from ('10.129.52.220', 65063)
+[2025-07-03 04:26:53] INFO: Received DNS query from ('10.129.52.220', 51854)
+[2025-07-03 04:26:53] INFO: Processing query for domain: mcs.zijieapi.com, type: 28
+[2025-07-03 04:26:53] INFO: Processing query for domain: mcs.zijieapi.com, type: 1
+[2025-07-03 04:26:53] INFO: Processing query for domain: mcs.zijieapi.com, type: 65
+[2025-07-03 04:26:53] INFO: Domain mcs.zijieapi.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:26:53] INFO: Domain mcs.zijieapi.com found in cache: ['220.181.136.252', '220.181.136.248', '220.181.136.254', '220.181.136.250', '220.181.136.251']
+[2025-07-03 04:26:53] INFO: Domain mcs.zijieapi.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:26:53] WARNING: No A records found for mcs.zijieapi.com in upstream response
+[2025-07-03 04:26:53] WARNING: No A records found for mcs.zijieapi.com in upstream response
+[2025-07-03 04:26:56] INFO: Received DNS query from ('10.129.52.220', 49295)
+[2025-07-03 04:26:56] INFO: Processing query for domain: mon.zijieapi.com, type: 28
+[2025-07-03 04:26:56] INFO: Domain mon.zijieapi.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:26:56] WARNING: No A records found for mon.zijieapi.com in upstream response
+[2025-07-03 04:26:56] INFO: Received DNS query from ('10.129.52.220', 49295)
+[2025-07-03 04:26:56] INFO: Processing query for domain: mon.zijieapi.com, type: 28
+[2025-07-03 04:26:56] INFO: Domain mon.zijieapi.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:26:56] WARNING: No A records found for mon.zijieapi.com in upstream response
+[2025-07-03 04:26:58] INFO: Received DNS query from ('10.129.52.220', 49295)
+[2025-07-03 04:26:58] INFO: Received DNS query from ('10.129.52.220', 55470)
+[2025-07-03 04:26:58] INFO: Processing query for domain: trae-api-cn.mchost.guru, type: 1
+[2025-07-03 04:26:58] INFO: Processing query for domain: trae-api-cn.mchost.guru, type: 28
+[2025-07-03 04:26:58] INFO: Domain trae-api-cn.mchost.guru not in local database or cache, forwarding to upstream server
+[2025-07-03 04:26:58] INFO: Domain trae-api-cn.mchost.guru not in local database or cache, forwarding to upstream server
+[2025-07-03 04:26:58] INFO: Added IPv4 trae-api-cn.mchost.guru -> 220.181.136.251 to cache with TTL 231s
+[2025-07-03 04:26:58] INFO: Added IPv4 trae-api-cn.mchost.guru -> 220.181.136.254 to cache with TTL 231s
+[2025-07-03 04:26:58] INFO: Added IPv4 trae-api-cn.mchost.guru -> 220.181.136.248 to cache with TTL 231s
+[2025-07-03 04:26:58] INFO: Added IPv4 trae-api-cn.mchost.guru -> 220.181.136.250 to cache with TTL 231s
+[2025-07-03 04:26:58] INFO: Added IPv4 trae-api-cn.mchost.guru -> 220.181.136.252 to cache with TTL 231s
+[2025-07-03 04:26:58] INFO: Received DNS query from ('10.129.52.220', 55470)
+[2025-07-03 04:26:58] INFO: Processing query for domain: trae-api-cn.mchost.guru, type: 28
+[2025-07-03 04:26:58] INFO: Domain trae-api-cn.mchost.guru not in local database or cache, forwarding to upstream server
+[2025-07-03 04:26:58] WARNING: No A records found for trae-api-cn.mchost.guru in upstream response
+[2025-07-03 04:27:00] INFO: Received DNS query from ('10.129.52.220', 49295)
+[2025-07-03 04:27:00] INFO: Processing query for domain: mcs.zijieapi.com, type: 28
+[2025-07-03 04:27:00] INFO: Domain mcs.zijieapi.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:27:00] WARNING: No A records found for mcs.zijieapi.com in upstream response
+[2025-07-03 04:27:01] INFO: Received DNS query from ('10.129.52.220', 49295)
+[2025-07-03 04:27:01] INFO: Processing query for domain: mon.zijieapi.com, type: 28
+[2025-07-03 04:27:01] INFO: Domain mon.zijieapi.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:27:01] WARNING: No A records found for mon.zijieapi.com in upstream response
+[2025-07-03 04:27:03] WARNING: Upstream DNS server timeout, retrying 1/3
+[2025-07-03 04:27:04] WARNING: No A records found for trae-api-cn.mchost.guru in upstream response
+[2025-07-03 04:27:04] WARNING: 客户端连接被重置
+[2025-07-03 04:27:06] INFO: Received DNS query from ('10.129.52.220', 49295)
+[2025-07-03 04:27:06] INFO: Processing query for domain: bytegate.zijieapi.com, type: 28
+[2025-07-03 04:27:06] INFO: Domain bytegate.zijieapi.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:27:06] WARNING: No A records found for bytegate.zijieapi.com in upstream response
+[2025-07-03 04:27:06] INFO: Received DNS query from ('10.129.52.220', 49295)
+[2025-07-03 04:27:06] INFO: Processing query for domain: mon.zijieapi.com, type: 28
+[2025-07-03 04:27:06] INFO: Domain mon.zijieapi.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:27:06] WARNING: No A records found for mon.zijieapi.com in upstream response
+[2025-07-03 04:27:11] INFO: Received DNS query from ('10.129.52.220', 49295)
+[2025-07-03 04:27:11] INFO: Processing query for domain: mon.zijieapi.com, type: 28
+[2025-07-03 04:27:11] INFO: Domain mon.zijieapi.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:27:11] WARNING: No A records found for mon.zijieapi.com in upstream response
+[2025-07-03 04:27:12] INFO: Received DNS query from ('10.129.52.220', 49295)
+[2025-07-03 04:27:12] INFO: Processing query for domain: dep477.appdump.nie.netease.com, type: 28
+[2025-07-03 04:27:12] INFO: Domain dep477.appdump.nie.netease.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:27:12] WARNING: No A records found for dep477.appdump.nie.netease.com in upstream response
+[2025-07-03 04:27:16] INFO: Received DNS query from ('10.129.52.220', 49295)
+[2025-07-03 04:27:16] INFO: Processing query for domain: mon.zijieapi.com, type: 28
+[2025-07-03 04:27:16] INFO: Domain mon.zijieapi.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:27:16] WARNING: No A records found for mon.zijieapi.com in upstream response
+[2025-07-03 04:27:21] INFO: Received DNS query from ('10.129.52.220', 49295)
+[2025-07-03 04:27:21] INFO: Processing query for domain: mon.zijieapi.com, type: 28
+[2025-07-03 04:27:21] INFO: Domain mon.zijieapi.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:27:21] WARNING: No A records found for mon.zijieapi.com in upstream response
+[2025-07-03 04:27:26] INFO: Received DNS query from ('10.129.52.220', 49295)
+[2025-07-03 04:27:26] INFO: Processing query for domain: mon.zijieapi.com, type: 28
+[2025-07-03 04:27:26] INFO: Domain mon.zijieapi.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:27:26] WARNING: No A records found for mon.zijieapi.com in upstream response
+[2025-07-03 04:27:31] INFO: Received DNS query from ('10.129.52.220', 49295)
+[2025-07-03 04:27:31] INFO: Processing query for domain: mon.zijieapi.com, type: 28
+[2025-07-03 04:27:31] INFO: Domain mon.zijieapi.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:27:31] WARNING: No A records found for mon.zijieapi.com in upstream response
+[2025-07-03 04:27:36] INFO: Received DNS query from ('10.129.52.220', 49295)
+[2025-07-03 04:27:36] INFO: Processing query for domain: mon.zijieapi.com, type: 28
+[2025-07-03 04:27:36] INFO: Domain mon.zijieapi.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:27:36] WARNING: No A records found for mon.zijieapi.com in upstream response
+[2025-07-03 04:27:41] INFO: Received DNS query from ('10.129.52.220', 49295)
+[2025-07-03 04:27:41] INFO: Processing query for domain: mon.zijieapi.com, type: 28
+[2025-07-03 04:27:41] INFO: Domain mon.zijieapi.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:27:41] WARNING: No A records found for mon.zijieapi.com in upstream response
+[2025-07-03 04:27:42] INFO: Received DNS query from ('10.129.52.220', 49295)
+[2025-07-03 04:27:42] INFO: Processing query for domain: dep477.appdump.nie.netease.com, type: 28
+[2025-07-03 04:27:42] INFO: Domain dep477.appdump.nie.netease.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:27:42] WARNING: No A records found for dep477.appdump.nie.netease.com in upstream response
+[2025-07-03 04:27:46] INFO: Received DNS query from ('10.129.52.220', 49295)
+[2025-07-03 04:27:46] INFO: Processing query for domain: mon.zijieapi.com, type: 28
+[2025-07-03 04:27:46] INFO: Domain mon.zijieapi.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:27:46] WARNING: No A records found for mon.zijieapi.com in upstream response
+[2025-07-03 04:27:51] INFO: Received DNS query from ('10.129.52.220', 49295)
+[2025-07-03 04:27:51] INFO: Processing query for domain: mon.zijieapi.com, type: 28
+[2025-07-03 04:27:51] INFO: Domain mon.zijieapi.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:27:51] WARNING: No A records found for mon.zijieapi.com in upstream response
+[2025-07-03 04:27:56] INFO: Received DNS query from ('10.129.52.220', 49295)
+[2025-07-03 04:27:56] INFO: Processing query for domain: s.360.cn, type: 1
+[2025-07-03 04:27:56] INFO: Domain s.360.cn not in local database or cache, forwarding to upstream server
+[2025-07-03 04:27:56] INFO: Added IPv4 s.360.cn -> 171.8.167.90 to cache with TTL 241s
+[2025-07-03 04:27:56] INFO: Added IPv4 s.360.cn -> 180.163.251.231 to cache with TTL 241s
+[2025-07-03 04:27:56] INFO: Added IPv4 s.360.cn -> 180.163.251.230 to cache with TTL 241s
+[2025-07-03 04:27:56] INFO: Added IPv4 s.360.cn -> 101.198.2.147 to cache with TTL 241s
+[2025-07-03 04:27:56] INFO: Received DNS query from ('10.129.52.220', 49295)
+[2025-07-03 04:27:56] INFO: Processing query for domain: mon.zijieapi.com, type: 28
+[2025-07-03 04:27:56] INFO: Domain mon.zijieapi.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:27:56] WARNING: No A records found for mon.zijieapi.com in upstream response
+[2025-07-03 04:27:56] INFO: Received DNS query from ('10.129.52.220', 49295)
+[2025-07-03 04:27:56] INFO: Received DNS query from ('10.129.52.220', 53448)
+[2025-07-03 04:27:56] INFO: Processing query for domain: sustainability.mcafee.com, type: 1
+[2025-07-03 04:27:56] INFO: Processing query for domain: sustainability.mcafee.com, type: 28
+[2025-07-03 04:27:56] INFO: Domain sustainability.mcafee.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:27:56] INFO: Domain sustainability.mcafee.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:27:56] INFO: Received DNS query from ('10.129.52.220', 49295)
+[2025-07-03 04:27:56] INFO: Received DNS query from ('10.129.52.220', 53448)
+[2025-07-03 04:27:56] INFO: Processing query for domain: sustainability.mcafee.com, type: 1
+[2025-07-03 04:27:56] INFO: Processing query for domain: sustainability.mcafee.com, type: 28
+[2025-07-03 04:27:56] INFO: Domain sustainability.mcafee.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:27:56] INFO: Domain sustainability.mcafee.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:27:57] INFO: Received DNS query from ('10.129.52.220', 53448)
+[2025-07-03 04:27:57] INFO: Received DNS query from ('10.129.52.220', 49295)
+[2025-07-03 04:27:57] INFO: Processing query for domain: sustainability.mcafee.com, type: 28
+[2025-07-03 04:27:57] INFO: Processing query for domain: sustainability.mcafee.com, type: 1
+[2025-07-03 04:27:57] INFO: Domain sustainability.mcafee.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:27:57] INFO: Domain sustainability.mcafee.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:27:57] WARNING: No A records found for sustainability.mcafee.com in upstream response
+[2025-07-03 04:27:58] INFO: Received DNS query from ('10.129.52.220', 56861)
+[2025-07-03 04:27:58] INFO: Processing query for domain: telemetry.trae.com.cn, type: 1
+[2025-07-03 04:27:58] INFO: Domain telemetry.trae.com.cn found in cache: ['220.181.136.252', '220.181.136.254', '220.181.136.250', '220.181.136.251', '220.181.136.248']
+[2025-07-03 04:27:58] INFO: Added IPv4 sustainability.mcafee.com -> 44.239.163.11 to cache with TTL 90s
+[2025-07-03 04:27:58] INFO: Added IPv4 sustainability.mcafee.com -> 35.155.101.140 to cache with TTL 90s
+[2025-07-03 04:27:58] INFO: Added IPv4 sustainability.mcafee.com -> 44.239.163.11 to cache with TTL 90s
+[2025-07-03 04:27:58] INFO: Added IPv4 sustainability.mcafee.com -> 35.155.101.140 to cache with TTL 90s
+[2025-07-03 04:27:58] INFO: Added IPv4 sustainability.mcafee.com -> 44.238.104.209 to cache with TTL 90s
+[2025-07-03 04:27:58] INFO: Added IPv4 sustainability.mcafee.com -> 44.238.104.209 to cache with TTL 90s
+[2025-07-03 04:27:58] INFO: Added IPv4 sustainability.mcafee.com -> 44.238.104.209 to cache with TTL 90s
+[2025-07-03 04:27:58] INFO: Added IPv4 sustainability.mcafee.com -> 44.239.163.11 to cache with TTL 90s
+[2025-07-03 04:27:58] INFO: Added IPv4 sustainability.mcafee.com -> 35.155.101.140 to cache with TTL 90s
+[2025-07-03 04:27:58] WARNING: 客户端连接被重置
+[2025-07-03 04:27:58] WARNING: 客户端连接被重置
+[2025-07-03 04:27:58] INFO: Received DNS query from ('10.129.52.220', 56862)
+[2025-07-03 04:27:58] INFO: Processing query for domain: 220.52.129.10.in-addr.arpa, type: 12
+[2025-07-03 04:27:58] INFO: Domain 220.52.129.10.in-addr.arpa not in local database or cache, forwarding to upstream server
+[2025-07-03 04:27:58] WARNING: No A records found for 220.52.129.10.in-addr.arpa in upstream response
+[2025-07-03 04:27:58] INFO: Received DNS query from ('10.129.52.220', 56864)
+[2025-07-03 04:27:58] INFO: Processing query for domain: www.baidu.com, type: 1
+[2025-07-03 04:27:58] INFO: Domain www.baidu.com found in cache: ['220.181.111.232', '220.181.111.1']
+[2025-07-03 04:27:58] INFO: Received DNS query from ('10.129.52.220', 56861)
+[2025-07-03 04:27:58] INFO: Processing query for domain: github.com, type: 28
+[2025-07-03 04:27:58] INFO: Domain github.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:27:58] WARNING: No A records found for github.com in upstream response
+[2025-07-03 04:28:00] INFO: Received DNS query from ('10.129.52.220', 56861)
+[2025-07-03 04:28:00] INFO: Processing query for domain: analytics.apis.mcafee.com, type: 28
+[2025-07-03 04:28:00] INFO: Domain analytics.apis.mcafee.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:28:00] WARNING: No A records found for analytics.apis.mcafee.com in upstream response
+[2025-07-03 04:28:00] INFO: Received DNS query from ('10.129.52.220', 56861)
+[2025-07-03 04:28:00] INFO: Processing query for domain: download.mcafee.com, type: 28
+[2025-07-03 04:28:00] INFO: Domain download.mcafee.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:28:00] INFO: Received DNS query from ('10.129.52.220', 56861)
+[2025-07-03 04:28:00] INFO: Processing query for domain: download.mcafee.com, type: 28
+[2025-07-03 04:28:00] INFO: Domain download.mcafee.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:28:00] WARNING: No A records found for download.mcafee.com in upstream response
+[2025-07-03 04:28:00] WARNING: No A records found for download.mcafee.com in upstream response
+[2025-07-03 04:28:01] INFO: Received DNS query from ('10.129.52.220', 50936)
+[2025-07-03 04:28:01] INFO: Processing query for domain: analytics.apis.mcafee.com, type: 28
+[2025-07-03 04:28:01] INFO: Domain analytics.apis.mcafee.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:28:01] WARNING: No A records found for analytics.apis.mcafee.com in upstream response
+[2025-07-03 04:28:01] INFO: Received DNS query from ('10.129.52.220', 50936)
+[2025-07-03 04:28:01] INFO: Processing query for domain: mon.zijieapi.com, type: 28
+[2025-07-03 04:28:01] INFO: Domain mon.zijieapi.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:28:01] WARNING: No A records found for mon.zijieapi.com in upstream response
+[2025-07-03 04:28:01] WARNING: Upstream DNS server timeout, retrying 1/3
+[2025-07-03 04:28:01] WARNING: Upstream DNS server timeout, retrying 1/3
+[2025-07-03 04:28:02] INFO: Received DNS query from ('10.129.52.220', 50936)
+[2025-07-03 04:28:02] INFO: Processing query for domain: analytics.apis.mcafee.com, type: 28
+[2025-07-03 04:28:02] INFO: Domain analytics.apis.mcafee.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:28:02] WARNING: No A records found for analytics.apis.mcafee.com in upstream response
+[2025-07-03 04:28:02] WARNING: No A records found for sustainability.mcafee.com in upstream response
+[2025-07-03 04:28:02] WARNING: 客户端连接被重置
+[2025-07-03 04:28:04] INFO: Received DNS query from ('10.129.52.220', 50936)
+[2025-07-03 04:28:04] INFO: Received DNS query from ('10.129.52.220', 58801)
+[2025-07-03 04:28:04] INFO: Processing query for domain: substrate.office.com, type: 1
+[2025-07-03 04:28:04] INFO: Processing query for domain: substrate.office.com, type: 28
+[2025-07-03 04:28:04] INFO: Domain substrate.office.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:28:04] INFO: Domain substrate.office.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:28:04] INFO: Added IPv6 substrate.office.com -> 2603:1046:c01:2488::2 to cache with TTL 343s
+[2025-07-03 04:28:04] INFO: Added IPv4 substrate.office.com -> 52.97.118.130 to cache with TTL 566s
+[2025-07-03 04:28:04] INFO: Added IPv6 substrate.office.com -> 2603:1046:c01:2005::2 to cache with TTL 343s
+[2025-07-03 04:28:04] INFO: Added IPv4 substrate.office.com -> 52.97.118.98 to cache with TTL 566s
+[2025-07-03 04:28:04] INFO: Added IPv6 substrate.office.com -> 2603:1046:c01:1000::2 to cache with TTL 343s
+[2025-07-03 04:28:04] INFO: Added IPv4 substrate.office.com -> 40.104.69.50 to cache with TTL 566s
+[2025-07-03 04:28:04] INFO: Added IPv6 substrate.office.com -> 2603:1046:c01:2481::2 to cache with TTL 343s
+[2025-07-03 04:28:04] INFO: Added IPv4 substrate.office.com -> 52.97.118.242 to cache with TTL 566s
+[2025-07-03 04:28:04] INFO: Added IPv6 substrate.office.com -> 2603:1046:c01:2489::2 to cache with TTL 343s
+[2025-07-03 04:28:04] INFO: Added IPv4 substrate.office.com -> 40.104.69.34 to cache with TTL 566s
+[2025-07-03 04:28:04] INFO: Added IPv6 substrate.office.com -> 2603:1046:c01:248a::2 to cache with TTL 343s
+[2025-07-03 04:28:04] INFO: Added IPv4 substrate.office.com -> 52.97.118.194 to cache with TTL 566s
+[2025-07-03 04:28:04] INFO: Added IPv6 substrate.office.com -> 2603:1046:c01:248b::2 to cache with TTL 343s
+[2025-07-03 04:28:04] INFO: Added IPv4 substrate.office.com -> 40.104.69.2 to cache with TTL 566s
+[2025-07-03 04:28:04] INFO: Added IPv6 substrate.office.com -> 2603:1046:c01:248d::2 to cache with TTL 343s
+[2025-07-03 04:28:04] INFO: Added IPv4 substrate.office.com -> 40.99.67.162 to cache with TTL 566s
+[2025-07-03 04:28:04] WARNING: No A records found for substrate.office.com in upstream response
+[2025-07-03 04:28:04] INFO: Received DNS query from ('10.129.52.220', 50936)
+[2025-07-03 04:28:04] INFO: Received DNS query from ('10.129.52.220', 58801)
+[2025-07-03 04:28:04] INFO: Processing query for domain: server.events.data.microsoft.com, type: 1
+[2025-07-03 04:28:04] INFO: Processing query for domain: server.events.data.microsoft.com, type: 28
+[2025-07-03 04:28:04] INFO: Domain server.events.data.microsoft.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:28:04] INFO: Domain server.events.data.microsoft.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:28:04] INFO: Added IPv4 server.events.data.microsoft.com -> 13.89.178.27 to cache with TTL 481s
+[2025-07-03 04:28:04] WARNING: No A records found for server.events.data.microsoft.com in upstream response
+[2025-07-03 04:28:05] INFO: Received DNS query from ('10.129.52.220', 50936)
+[2025-07-03 04:28:05] INFO: Received DNS query from ('10.129.52.220', 58801)
+[2025-07-03 04:28:05] INFO: Processing query for domain: assets.msn.com, type: 1
+[2025-07-03 04:28:05] INFO: Processing query for domain: assets.msn.com, type: 28
+[2025-07-03 04:28:05] INFO: Domain assets.msn.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:28:05] INFO: Domain assets.msn.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:28:05] INFO: Added IPv4 assets.msn.com -> 23.220.68.40 to cache with TTL 395s
+[2025-07-03 04:28:05] INFO: Added IPv6 assets.msn.com -> 2600:140b:1e00:5::1730:508 to cache with TTL 507s
+[2025-07-03 04:28:05] INFO: Added IPv4 assets.msn.com -> 23.220.68.39 to cache with TTL 395s
+[2025-07-03 04:28:05] INFO: Added IPv6 assets.msn.com -> 2600:140b:1e00:5::1730:50a to cache with TTL 507s
+[2025-07-03 04:28:05] INFO: Added IPv4 assets.msn.com -> 23.220.68.15 to cache with TTL 395s
+[2025-07-03 04:28:05] WARNING: No A records found for assets.msn.com in upstream response
+[2025-07-03 04:28:05] INFO: Added IPv4 assets.msn.com -> 23.220.68.43 to cache with TTL 395s
+[2025-07-03 04:28:05] INFO: Received DNS query from ('10.129.52.220', 58801)
+[2025-07-03 04:28:05] INFO: Received DNS query from ('10.129.52.220', 50936)
+[2025-07-03 04:28:05] INFO: Added IPv4 assets.msn.com -> 23.220.68.28 to cache with TTL 395s
+[2025-07-03 04:28:05] INFO: Processing query for domain: assets.msn.com, type: 28
+[2025-07-03 04:28:05] INFO: Processing query for domain: assets.msn.com, type: 1
+[2025-07-03 04:28:05] INFO: Added IPv4 assets.msn.com -> 23.220.68.33 to cache with TTL 395s
+[2025-07-03 04:28:05] INFO: Domain assets.msn.com found in cache: ['2600:140b:1e00:5::1730:508', '2600:140b:1e00:5::1730:50a']
+[2025-07-03 04:28:05] INFO: Domain assets.msn.com found in cache: ['23.220.68.40', '23.220.68.39', '23.220.68.15', '23.220.68.43', '23.220.68.28', '23.220.68.33']
+[2025-07-03 04:28:05] INFO: Added IPv4 assets.msn.com -> 23.220.68.11 to cache with TTL 395s
+[2025-07-03 04:28:05] WARNING: 客户端连接被重置
+[2025-07-03 04:28:05] INFO: Added IPv4 assets.msn.com -> 23.220.68.17 to cache with TTL 395s
+[2025-07-03 04:28:05] INFO: Added IPv4 assets.msn.com -> 23.220.68.37 to cache with TTL 395s
+[2025-07-03 04:28:05] WARNING: 客户端连接被重置
+[2025-07-03 04:28:05] INFO: Received DNS query from ('10.129.52.220', 64174)
+[2025-07-03 04:28:05] INFO: Received DNS query from ('10.129.52.220', 53746)
+[2025-07-03 04:28:05] INFO: Received DNS query from ('10.129.52.220', 61462)
+[2025-07-03 04:28:05] INFO: Processing query for domain: www.msn.cn, type: 28
+[2025-07-03 04:28:05] INFO: Processing query for domain: www.msn.cn, type: 1
+[2025-07-03 04:28:05] INFO: Processing query for domain: www.msn.cn, type: 65
+[2025-07-03 04:28:05] INFO: Domain www.msn.cn not in local database or cache, forwarding to upstream server
+[2025-07-03 04:28:05] INFO: Domain www.msn.cn not in local database or cache, forwarding to upstream server
+[2025-07-03 04:28:05] INFO: Domain www.msn.cn not in local database or cache, forwarding to upstream server
+[2025-07-03 04:28:05] WARNING: No A records found for www.msn.cn in upstream response
+[2025-07-03 04:28:05] INFO: Added IPv4 www.msn.cn -> 202.89.233.96 to cache with TTL 14s
+[2025-07-03 04:28:05] WARNING: No A records found for www.msn.cn in upstream response
+[2025-07-03 04:28:06] INFO: Received DNS query from ('10.129.52.220', 55255)
+[2025-07-03 04:28:06] INFO: Processing query for domain: mon.zijieapi.com, type: 28
+[2025-07-03 04:28:06] INFO: Domain mon.zijieapi.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:28:06] WARNING: No A records found for mon.zijieapi.com in upstream response
+[2025-07-03 04:28:07] INFO: Received DNS query from ('10.129.52.220', 57646)
+[2025-07-03 04:28:07] INFO: Received DNS query from ('10.129.52.220', 57022)
+[2025-07-03 04:28:07] INFO: Received DNS query from ('10.129.52.220', 59075)
+[2025-07-03 04:28:07] INFO: Processing query for domain: ts3.tc.mm.bing.net, type: 28
+[2025-07-03 04:28:07] INFO: Processing query for domain: ts3.tc.mm.bing.net, type: 1
+[2025-07-03 04:28:07] INFO: Processing query for domain: ts3.tc.mm.bing.net, type: 65
+[2025-07-03 04:28:07] INFO: Domain ts3.tc.mm.bing.net not in local database or cache, forwarding to upstream server
+[2025-07-03 04:28:07] INFO: Domain ts3.tc.mm.bing.net not in local database or cache, forwarding to upstream server
+[2025-07-03 04:28:07] INFO: Domain ts3.tc.mm.bing.net not in local database or cache, forwarding to upstream server
+[2025-07-03 04:28:07] INFO: Added IPv4 ts3.tc.mm.bing.net -> 1.194.174.170 to cache with TTL 215s
+[2025-07-03 04:28:07] WARNING: No A records found for ts3.tc.mm.bing.net in upstream response
+[2025-07-03 04:28:07] WARNING: No A records found for ts3.tc.mm.bing.net in upstream response
+[2025-07-03 04:28:07] INFO: Added IPv4 ts3.tc.mm.bing.net -> 150.139.230.233 to cache with TTL 215s
+[2025-07-03 04:28:07] INFO: Added IPv4 ts3.tc.mm.bing.net -> 123.182.162.43 to cache with TTL 215s
+[2025-07-03 04:28:07] INFO: Received DNS query from ('10.129.52.220', 59652)
+[2025-07-03 04:28:07] INFO: Received DNS query from ('10.129.52.220', 55372)
+[2025-07-03 04:28:07] INFO: Received DNS query from ('10.129.52.220', 53204)
+[2025-07-03 04:28:07] INFO: Processing query for domain: assets.msn.cn, type: 28
+[2025-07-03 04:28:07] INFO: Processing query for domain: assets.msn.cn, type: 1
+[2025-07-03 04:28:07] INFO: Processing query for domain: assets.msn.cn, type: 65
+[2025-07-03 04:28:07] INFO: Domain assets.msn.cn not in local database or cache, forwarding to upstream server
+[2025-07-03 04:28:07] INFO: Domain assets.msn.cn not in local database or cache, forwarding to upstream server
+[2025-07-03 04:28:07] INFO: Domain assets.msn.cn not in local database or cache, forwarding to upstream server
+[2025-07-03 04:28:07] WARNING: No A records found for assets.msn.cn in upstream response
+[2025-07-03 04:28:07] INFO: Added IPv4 assets.msn.cn -> 123.182.162.137 to cache with TTL 227s
+[2025-07-03 04:28:07] WARNING: No A records found for assets.msn.cn in upstream response
+[2025-07-03 04:28:07] INFO: Added IPv4 assets.msn.cn -> 150.139.230.50 to cache with TTL 227s
+[2025-07-03 04:28:07] INFO: Added IPv4 assets.msn.cn -> 1.194.174.169 to cache with TTL 227s
+[2025-07-03 04:28:07] INFO: Added IPv4 assets.msn.cn -> 1.71.87.63 to cache with TTL 227s
+[2025-07-03 04:28:07] WARNING: Upstream DNS server timeout, retrying 2/3
+[2025-07-03 04:28:11] INFO: Received DNS query from ('10.129.52.220', 55255)
+[2025-07-03 04:28:11] INFO: Processing query for domain: mon.zijieapi.com, type: 28
+[2025-07-03 04:28:11] INFO: Domain mon.zijieapi.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:28:11] WARNING: No A records found for mon.zijieapi.com in upstream response
+[2025-07-03 04:28:12] INFO: Received DNS query from ('10.129.52.220', 55255)
+[2025-07-03 04:28:12] INFO: Processing query for domain: hs-public-data.s3v2.nie.netease.com, type: 28
+[2025-07-03 04:28:12] INFO: Domain hs-public-data.s3v2.nie.netease.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:28:12] WARNING: No A records found for hs-public-data.s3v2.nie.netease.com in upstream response
+[2025-07-03 04:28:12] INFO: Received DNS query from ('10.129.52.220', 55255)
+[2025-07-03 04:28:12] INFO: Received DNS query from ('10.129.52.220', 60431)
+[2025-07-03 04:28:12] INFO: Processing query for domain: dep477.appdump.nie.netease.com, type: 1
+[2025-07-03 04:28:12] INFO: Processing query for domain: dep477.appdump.nie.netease.com, type: 28
+[2025-07-03 04:28:12] INFO: Domain dep477.appdump.nie.netease.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:28:12] INFO: Domain dep477.appdump.nie.netease.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:28:12] INFO: Added IPv4 dep477.appdump.nie.netease.com -> 45.253.145.166 to cache with TTL 72s
+[2025-07-03 04:28:12] WARNING: No A records found for dep477.appdump.nie.netease.com in upstream response
+[2025-07-03 04:28:13] WARNING: Upstream DNS server timeout, retrying 3/3
+[2025-07-03 04:28:13] ERROR: All 3 attempts failed
+[2025-07-03 04:28:13] WARNING: 客户端连接被重置
+[2025-07-03 04:28:16] INFO: Received DNS query from ('10.129.52.220', 55255)
+[2025-07-03 04:28:16] INFO: Processing query for domain: mon.zijieapi.com, type: 28
+[2025-07-03 04:28:16] INFO: Domain mon.zijieapi.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:28:16] WARNING: No A records found for mon.zijieapi.com in upstream response
+[2025-07-03 04:28:16] INFO: Received DNS query from ('10.129.52.220', 60431)
+[2025-07-03 04:28:16] INFO: Processing query for domain: mon.zijieapi.com, type: 28
+[2025-07-03 04:28:16] INFO: Domain mon.zijieapi.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:28:16] WARNING: No A records found for mon.zijieapi.com in upstream response
+[2025-07-03 04:28:21] INFO: Received DNS query from ('10.129.52.220', 55255)
+[2025-07-03 04:28:21] INFO: Processing query for domain: mon.zijieapi.com, type: 28
+[2025-07-03 04:28:21] INFO: Domain mon.zijieapi.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:28:21] WARNING: No A records found for mon.zijieapi.com in upstream response
+[2025-07-03 04:28:26] INFO: Received DNS query from ('10.129.52.220', 60431)
+[2025-07-03 04:28:26] INFO: Processing query for domain: mon.zijieapi.com, type: 28
+[2025-07-03 04:28:26] INFO: Domain mon.zijieapi.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:28:26] WARNING: No A records found for mon.zijieapi.com in upstream response
+[2025-07-03 04:28:31] INFO: Received DNS query from ('10.129.52.220', 55255)
+[2025-07-03 04:28:31] INFO: Processing query for domain: mon.zijieapi.com, type: 28
+[2025-07-03 04:28:31] INFO: Domain mon.zijieapi.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:28:31] WARNING: No A records found for mon.zijieapi.com in upstream response
+[2025-07-03 04:28:36] INFO: Received DNS query from ('10.129.52.220', 60431)
+[2025-07-03 04:28:36] INFO: Processing query for domain: mon.zijieapi.com, type: 28
+[2025-07-03 04:28:36] INFO: Domain mon.zijieapi.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:28:36] WARNING: No A records found for mon.zijieapi.com in upstream response
+[2025-07-03 04:28:41] INFO: Received DNS query from ('10.129.52.220', 55255)
+[2025-07-03 04:28:41] INFO: Processing query for domain: mon.zijieapi.com, type: 28
+[2025-07-03 04:28:41] INFO: Domain mon.zijieapi.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:28:41] WARNING: No A records found for mon.zijieapi.com in upstream response
+[2025-07-03 04:28:42] INFO: Received DNS query from ('10.129.52.220', 60431)
+[2025-07-03 04:28:42] INFO: Processing query for domain: dep477.appdump.nie.netease.com, type: 28
+[2025-07-03 04:28:42] INFO: Domain dep477.appdump.nie.netease.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:28:42] WARNING: No A records found for dep477.appdump.nie.netease.com in upstream response
+[2025-07-03 04:28:42] INFO: Received DNS query from ('10.129.52.220', 55255)
+[2025-07-03 04:28:42] INFO: Received DNS query from ('10.129.52.220', 60431)
+[2025-07-03 04:28:42] INFO: Processing query for domain: hs2.166.net, type: 1
+[2025-07-03 04:28:42] INFO: Processing query for domain: hs2.166.net, type: 28
+[2025-07-03 04:28:42] INFO: Domain hs2.166.net not in local database or cache, forwarding to upstream server
+[2025-07-03 04:28:42] INFO: Domain hs2.166.net not in local database or cache, forwarding to upstream server
+[2025-07-03 04:28:42] INFO: Received DNS query from ('10.129.52.220', 60431)
+[2025-07-03 04:28:42] INFO: Received DNS query from ('10.129.52.220', 55255)
+[2025-07-03 04:28:42] INFO: Processing query for domain: hs2.166.net, type: 28
+[2025-07-03 04:28:42] INFO: Processing query for domain: hs2.166.net, type: 1
+[2025-07-03 04:28:42] INFO: Domain hs2.166.net not in local database or cache, forwarding to upstream server
+[2025-07-03 04:28:42] INFO: Domain hs2.166.net not in local database or cache, forwarding to upstream server
+[2025-07-03 04:28:42] WARNING: No A records found for hs2.166.net in upstream response
+[2025-07-03 04:28:42] INFO: Added IPv4 hs2.166.net -> 220.181.164.210 to cache with TTL 371s
+[2025-07-03 04:28:42] WARNING: No A records found for hs2.166.net in upstream response
+[2025-07-03 04:28:42] INFO: Added IPv4 hs2.166.net -> 220.181.164.206 to cache with TTL 371s
+[2025-07-03 04:28:42] INFO: Added IPv4 hs2.166.net -> 220.181.164.206 to cache with TTL 371s
+[2025-07-03 04:28:42] WARNING: 客户端连接被重置
+[2025-07-03 04:28:42] INFO: Added IPv4 hs2.166.net -> 220.181.164.205 to cache with TTL 371s
+[2025-07-03 04:28:42] INFO: Added IPv4 hs2.166.net -> 220.181.164.204 to cache with TTL 371s
+[2025-07-03 04:28:42] INFO: Added IPv4 hs2.166.net -> 220.181.164.210 to cache with TTL 371s
+[2025-07-03 04:28:42] INFO: Added IPv4 hs2.166.net -> 220.181.164.207 to cache with TTL 371s
+[2025-07-03 04:28:42] INFO: Added IPv4 hs2.166.net -> 220.181.164.204 to cache with TTL 371s
+[2025-07-03 04:28:42] INFO: Added IPv4 hs2.166.net -> 220.181.164.203 to cache with TTL 371s
+[2025-07-03 04:28:42] INFO: Added IPv4 hs2.166.net -> 220.181.164.203 to cache with TTL 371s
+[2025-07-03 04:28:42] INFO: Added IPv4 hs2.166.net -> 220.181.164.208 to cache with TTL 371s
+[2025-07-03 04:28:42] INFO: Added IPv4 hs2.166.net -> 220.181.164.207 to cache with TTL 371s
+[2025-07-03 04:28:42] INFO: Added IPv4 hs2.166.net -> 220.181.164.205 to cache with TTL 371s
+[2025-07-03 04:28:42] INFO: Added IPv4 hs2.166.net -> 220.181.164.208 to cache with TTL 371s
+[2025-07-03 04:28:42] INFO: Added IPv4 hs2.166.net -> 220.181.164.209 to cache with TTL 371s
+[2025-07-03 04:28:42] INFO: Added IPv4 hs2.166.net -> 220.181.164.209 to cache with TTL 371s
+[2025-07-03 04:28:42] WARNING: 客户端连接被重置
+[2025-07-03 04:28:46] INFO: Received DNS query from ('10.129.52.220', 54072)
+[2025-07-03 04:28:46] INFO: Processing query for domain: mon.zijieapi.com, type: 28
+[2025-07-03 04:28:46] INFO: Domain mon.zijieapi.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:28:46] WARNING: No A records found for mon.zijieapi.com in upstream response
+[2025-07-03 04:28:51] INFO: Received DNS query from ('10.129.52.220', 54072)
+[2025-07-03 04:28:51] INFO: Processing query for domain: mon.zijieapi.com, type: 28
+[2025-07-03 04:28:51] INFO: Domain mon.zijieapi.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:28:51] WARNING: No A records found for mon.zijieapi.com in upstream response
+[2025-07-03 04:28:54] INFO: Received DNS query from ('10.129.52.220', 63017)
+[2025-07-03 04:28:54] INFO: Received DNS query from ('10.129.52.220', 49664)
+[2025-07-03 04:28:54] INFO: Received DNS query from ('10.129.52.220', 56767)
+[2025-07-03 04:28:54] INFO: Processing query for domain: mcs.zijieapi.com, type: 28
+[2025-07-03 04:28:54] INFO: Processing query for domain: mcs.zijieapi.com, type: 1
+[2025-07-03 04:28:54] INFO: Processing query for domain: mcs.zijieapi.com, type: 65
+[2025-07-03 04:28:54] INFO: Domain mcs.zijieapi.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:28:54] INFO: Domain mcs.zijieapi.com found in cache: ['220.181.136.252', '220.181.136.248', '220.181.136.254', '220.181.136.250', '220.181.136.251']
+[2025-07-03 04:28:54] INFO: Domain mcs.zijieapi.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:28:54] WARNING: No A records found for mcs.zijieapi.com in upstream response
+[2025-07-03 04:28:54] WARNING: No A records found for mcs.zijieapi.com in upstream response
+[2025-07-03 04:28:55] INFO: Received DNS query from ('10.129.52.220', 54072)
+[2025-07-03 04:28:55] INFO: Processing query for domain: mon.zijieapi.com, type: 28
+[2025-07-03 04:28:55] INFO: Domain mon.zijieapi.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:28:55] WARNING: No A records found for mon.zijieapi.com in upstream response
+[2025-07-03 04:28:56] INFO: Received DNS query from ('10.129.52.220', 54072)
+[2025-07-03 04:28:56] INFO: Received DNS query from ('10.129.52.220', 58107)
+[2025-07-03 04:28:56] INFO: Processing query for domain: mon.zijieapi.com, type: 1
+[2025-07-03 04:28:56] INFO: Processing query for domain: mon.zijieapi.com, type: 28
+[2025-07-03 04:28:56] INFO: Domain mon.zijieapi.com found in cache: ['220.181.136.250', '220.181.136.252', '220.181.136.251', '220.181.136.248', '220.181.136.254']
+[2025-07-03 04:28:56] INFO: Domain mon.zijieapi.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:28:56] WARNING: No A records found for mon.zijieapi.com in upstream response
+[2025-07-03 04:28:56] INFO: Received DNS query from ('10.129.52.220', 54072)
+[2025-07-03 04:28:56] INFO: Received DNS query from ('10.129.52.220', 58107)
+[2025-07-03 04:28:56] INFO: Processing query for domain: eqrcode.horizon.hp.com.cn, type: 1
+[2025-07-03 04:28:56] INFO: Processing query for domain: eqrcode.horizon.hp.com.cn, type: 28
+[2025-07-03 04:28:56] INFO: Domain eqrcode.horizon.hp.com.cn not in local database or cache, forwarding to upstream server
+[2025-07-03 04:28:56] INFO: Domain eqrcode.horizon.hp.com.cn not in local database or cache, forwarding to upstream server
+[2025-07-03 04:28:56] WARNING: No A records found for eqrcode.horizon.hp.com.cn in upstream response
+[2025-07-03 04:28:56] INFO: Added IPv4 eqrcode.horizon.hp.com.cn -> 52.82.83.78 to cache with TTL 588s
+[2025-07-03 04:28:56] INFO: Added IPv4 eqrcode.horizon.hp.com.cn -> 52.83.226.227 to cache with TTL 588s
+[2025-07-03 04:28:56] INFO: Received DNS query from ('10.129.52.220', 54072)
+[2025-07-03 04:28:56] INFO: Added IPv4 eqrcode.horizon.hp.com.cn -> 69.230.215.58 to cache with TTL 588s
+[2025-07-03 04:28:56] INFO: Processing query for domain: eqrcode.horizon.hp.com.cn, type: 1
+[2025-07-03 04:28:56] INFO: Domain eqrcode.horizon.hp.com.cn found in cache: ['52.82.83.78', '52.83.226.227', '69.230.215.58']
+[2025-07-03 04:28:56] WARNING: 客户端连接被重置
+[2025-07-03 04:29:01] INFO: Received DNS query from ('10.129.52.220', 58107)
+[2025-07-03 04:29:01] INFO: Processing query for domain: mon.zijieapi.com, type: 28
+[2025-07-03 04:29:01] INFO: Domain mon.zijieapi.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:29:01] WARNING: No A records found for mon.zijieapi.com in upstream response
+[2025-07-03 04:29:04] INFO: Received DNS query from ('10.129.52.220', 57632)
+[2025-07-03 04:29:04] INFO: Received DNS query from ('10.129.52.220', 58832)
+[2025-07-03 04:29:04] INFO: Received DNS query from ('10.129.52.220', 64127)
+[2025-07-03 04:29:04] INFO: Processing query for domain: mon.zijieapi.com, type: 28
+[2025-07-03 04:29:04] INFO: Processing query for domain: mon.zijieapi.com, type: 1
+[2025-07-03 04:29:04] INFO: Processing query for domain: mon.zijieapi.com, type: 65
+[2025-07-03 04:29:04] INFO: Domain mon.zijieapi.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:29:04] INFO: Domain mon.zijieapi.com found in cache: ['220.181.136.250', '220.181.136.252', '220.181.136.251', '220.181.136.248', '220.181.136.254']
+[2025-07-03 04:29:04] INFO: Domain mon.zijieapi.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:29:04] WARNING: No A records found for mon.zijieapi.com in upstream response
+[2025-07-03 04:29:04] WARNING: No A records found for mon.zijieapi.com in upstream response
+[2025-07-03 04:29:04] INFO: Received DNS query from ('10.129.52.220', 58107)
+[2025-07-03 04:29:04] INFO: Received DNS query from ('10.129.52.220', 57809)
+[2025-07-03 04:29:04] INFO: Processing query for domain: ctldl.windowsupdate.com, type: 1
+[2025-07-03 04:29:04] INFO: Processing query for domain: ctldl.windowsupdate.com, type: 28
+[2025-07-03 04:29:04] INFO: Domain ctldl.windowsupdate.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:29:04] INFO: Domain ctldl.windowsupdate.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:29:04] INFO: Added IPv4 ctldl.windowsupdate.com -> 223.100.47.36 to cache with TTL 329s
+[2025-07-03 04:29:04] WARNING: No A records found for ctldl.windowsupdate.com in upstream response
+[2025-07-03 04:29:06] INFO: Received DNS query from ('10.129.52.220', 58107)
+[2025-07-03 04:29:06] INFO: Processing query for domain: mon.zijieapi.com, type: 28
+[2025-07-03 04:29:06] INFO: Domain mon.zijieapi.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:29:06] WARNING: No A records found for mon.zijieapi.com in upstream response
+[2025-07-03 04:29:07] INFO: Received DNS query from ('10.129.52.220', 57809)
+[2025-07-03 04:29:07] INFO: Received DNS query from ('10.129.52.220', 58107)
+[2025-07-03 04:29:07] INFO: Processing query for domain: trae-api-cn.mchost.guru, type: 1
+[2025-07-03 04:29:07] INFO: Processing query for domain: trae-api-cn.mchost.guru, type: 28
+[2025-07-03 04:29:07] INFO: Domain trae-api-cn.mchost.guru found in cache: ['220.181.136.251', '220.181.136.254', '220.181.136.248', '220.181.136.250', '220.181.136.252']
+[2025-07-03 04:29:07] INFO: Domain trae-api-cn.mchost.guru not in local database or cache, forwarding to upstream server
+[2025-07-03 04:29:07] INFO: Added IPv6 trae-api-cn.mchost.guru -> 2409:8c70:3a04:5:8000:0:b00:112 to cache with TTL 180s
+[2025-07-03 04:29:07] INFO: Added IPv6 trae-api-cn.mchost.guru -> 2409:8c20:b281:1a:8000:0:b00:116 to cache with TTL 180s
+[2025-07-03 04:29:07] INFO: Added IPv6 trae-api-cn.mchost.guru -> 240e:978:1226:0:8000:0:b00:119 to cache with TTL 180s
+[2025-07-03 04:29:07] INFO: Received DNS query from ('10.129.52.220', 58107)
+[2025-07-03 04:29:07] INFO: Added IPv6 trae-api-cn.mchost.guru -> 240e:978:1208:0:8000:0:b00:132 to cache with TTL 180s
+[2025-07-03 04:29:07] INFO: Processing query for domain: trae-api-cn.mchost.guru, type: 28
+[2025-07-03 04:29:07] INFO: Added IPv6 trae-api-cn.mchost.guru -> 2409:8c3c:900:110:8000:0:b00:118 to cache with TTL 180s
+[2025-07-03 04:29:07] INFO: Domain trae-api-cn.mchost.guru found in cache: ['2409:8c70:3a04:5:8000:0:b00:112', '2409:8c20:b281:1a:8000:0:b00:116', '240e:978:1226:0:8000:0:b00:119', '240e:978:1208:0:8000:0:b00:132', '2409:8c3c:900:110:8000:0:b00:118']
+[2025-07-03 04:29:07] INFO: Added IPv6 trae-api-cn.mchost.guru -> 2409:8c4d:5200:38:8000:0:b00:121 to cache with TTL 180s
+[2025-07-03 04:29:07] INFO: Added IPv6 trae-api-cn.mchost.guru -> 2409:8c3c:900:200:8000:0:b00:125 to cache with TTL 180s
+[2025-07-03 04:29:07] INFO: Added IPv6 trae-api-cn.mchost.guru -> 240e:95d:100b:10:8000:0:b00:115 to cache with TTL 180s
+[2025-07-03 04:29:07] INFO: Added IPv6 trae-api-cn.mchost.guru -> 2408:8719:2100:6:8000:0:b00:133 to cache with TTL 180s
+[2025-07-03 04:29:07] WARNING: No A records found for trae-api-cn.mchost.guru in upstream response
+[2025-07-03 04:29:07] WARNING: 客户端连接被重置
+[2025-07-03 04:29:11] INFO: Received DNS query from ('10.129.52.220', 57809)
+[2025-07-03 04:29:11] INFO: Processing query for domain: mon.zijieapi.com, type: 28
+[2025-07-03 04:29:11] INFO: Domain mon.zijieapi.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:29:11] WARNING: No A records found for mon.zijieapi.com in upstream response
+[2025-07-03 04:29:12] INFO: Received DNS query from ('10.129.52.220', 57809)
+[2025-07-03 04:29:12] INFO: Processing query for domain: dep477.appdump.nie.netease.com, type: 28
+[2025-07-03 04:29:12] INFO: Domain dep477.appdump.nie.netease.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:29:12] WARNING: No A records found for dep477.appdump.nie.netease.com in upstream response
+[2025-07-03 04:29:16] INFO: Received DNS query from ('10.129.52.220', 57809)
+[2025-07-03 04:29:16] INFO: Processing query for domain: mon.zijieapi.com, type: 28
+[2025-07-03 04:29:16] INFO: Domain mon.zijieapi.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:29:16] WARNING: No A records found for mon.zijieapi.com in upstream response
+[2025-07-03 04:29:21] INFO: Received DNS query from ('10.129.52.220', 57809)
+[2025-07-03 04:29:21] INFO: Processing query for domain: mon.zijieapi.com, type: 28
+[2025-07-03 04:29:21] INFO: Domain mon.zijieapi.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:29:21] WARNING: No A records found for mon.zijieapi.com in upstream response
+[2025-07-03 04:29:26] INFO: Received DNS query from ('10.129.52.220', 57809)
+[2025-07-03 04:29:26] INFO: Processing query for domain: mon.zijieapi.com, type: 28
+[2025-07-03 04:29:26] INFO: Domain mon.zijieapi.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:29:26] WARNING: No A records found for mon.zijieapi.com in upstream response
+[2025-07-03 04:29:31] INFO: Received DNS query from ('10.129.52.220', 57809)
+[2025-07-03 04:29:31] INFO: Processing query for domain: mon.zijieapi.com, type: 28
+[2025-07-03 04:29:31] INFO: Domain mon.zijieapi.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:29:31] WARNING: No A records found for mon.zijieapi.com in upstream response
+[2025-07-03 04:29:36] INFO: Received DNS query from ('10.129.52.220', 57809)
+[2025-07-03 04:29:36] INFO: Processing query for domain: mon.zijieapi.com, type: 28
+[2025-07-03 04:29:36] INFO: Domain mon.zijieapi.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:29:36] WARNING: No A records found for mon.zijieapi.com in upstream response
+[2025-07-03 04:29:39] INFO: Received DNS query from ('10.129.52.220', 51900)
+[2025-07-03 04:29:39] INFO: Received DNS query from ('10.129.52.220', 57132)
+[2025-07-03 04:29:39] INFO: Received DNS query from ('10.129.52.220', 58347)
+[2025-07-03 04:29:39] INFO: Processing query for domain: mon.zijieapi.com, type: 28
+[2025-07-03 04:29:39] INFO: Processing query for domain: mon.zijieapi.com, type: 1
+[2025-07-03 04:29:39] INFO: Processing query for domain: mon.zijieapi.com, type: 65
+[2025-07-03 04:29:39] INFO: Domain mon.zijieapi.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:29:39] INFO: Domain mon.zijieapi.com found in cache: ['220.181.136.250', '220.181.136.252', '220.181.136.251', '220.181.136.248', '220.181.136.254']
+[2025-07-03 04:29:39] INFO: Domain mon.zijieapi.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:29:39] WARNING: No A records found for mon.zijieapi.com in upstream response
+[2025-07-03 04:29:39] WARNING: No A records found for mon.zijieapi.com in upstream response
+[2025-07-03 04:29:41] INFO: Received DNS query from ('10.129.52.220', 57809)
+[2025-07-03 04:29:41] INFO: Processing query for domain: mon.zijieapi.com, type: 28
+[2025-07-03 04:29:41] INFO: Domain mon.zijieapi.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:29:41] WARNING: No A records found for mon.zijieapi.com in upstream response
+[2025-07-03 04:29:41] INFO: Received DNS query from ('10.129.52.220', 57809)
+[2025-07-03 04:29:41] INFO: Processing query for domain: mon.zijieapi.com, type: 28
+[2025-07-03 04:29:41] INFO: Domain mon.zijieapi.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:29:41] WARNING: No A records found for mon.zijieapi.com in upstream response
+[2025-07-03 04:29:42] INFO: Received DNS query from ('10.129.52.220', 57809)
+[2025-07-03 04:29:42] INFO: Received DNS query from ('10.129.52.220', 56229)
+[2025-07-03 04:29:42] INFO: Processing query for domain: dep477.appdump.nie.netease.com, type: 1
+[2025-07-03 04:29:42] INFO: Processing query for domain: dep477.appdump.nie.netease.com, type: 28
+[2025-07-03 04:29:42] INFO: Domain dep477.appdump.nie.netease.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:29:42] INFO: Domain dep477.appdump.nie.netease.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:29:42] INFO: Added IPv4 dep477.appdump.nie.netease.com -> 45.253.145.166 to cache with TTL 492s
+[2025-07-03 04:29:42] WARNING: No A records found for dep477.appdump.nie.netease.com in upstream response
+[2025-07-03 04:29:45] INFO: Received DNS query from ('10.129.52.220', 51984)
+[2025-07-03 04:29:45] INFO: Received DNS query from ('10.129.52.220', 54768)
+[2025-07-03 04:29:45] INFO: Received DNS query from ('10.129.52.220', 58249)
+[2025-07-03 04:29:45] INFO: Processing query for domain: api.trae.com.cn, type: 28
+[2025-07-03 04:29:45] INFO: Processing query for domain: api.trae.com.cn, type: 1
+[2025-07-03 04:29:45] INFO: Processing query for domain: api.trae.com.cn, type: 65
+[2025-07-03 04:29:45] INFO: Domain api.trae.com.cn not in local database or cache, forwarding to upstream server
+[2025-07-03 04:29:45] INFO: Domain api.trae.com.cn not in local database or cache, forwarding to upstream server
+[2025-07-03 04:29:45] INFO: Domain api.trae.com.cn not in local database or cache, forwarding to upstream server
+[2025-07-03 04:29:45] WARNING: No A records found for api.trae.com.cn in upstream response
+[2025-07-03 04:29:45] INFO: Added IPv6 api.trae.com.cn -> 2400:a980:ff:7:3::7ef to cache with TTL 504s
+[2025-07-03 04:29:45] INFO: Added IPv4 api.trae.com.cn -> 106.38.254.70 to cache with TTL 90s
+[2025-07-03 04:29:45] INFO: Added IPv6 api.trae.com.cn -> 2400:a980:ff:7:3::7f0 to cache with TTL 504s
+[2025-07-03 04:29:45] INFO: Added IPv4 api.trae.com.cn -> 220.181.10.71 to cache with TTL 90s
+[2025-07-03 04:29:45] WARNING: No A records found for api.trae.com.cn in upstream response
+[2025-07-03 04:29:45] INFO: Added IPv4 api.trae.com.cn -> 220.181.141.63 to cache with TTL 90s
+[2025-07-03 04:29:45] INFO: Added IPv4 api.trae.com.cn -> 220.181.183.224 to cache with TTL 90s
+[2025-07-03 04:29:45] INFO: Added IPv4 api.trae.com.cn -> 220.181.10.70 to cache with TTL 90s
+[2025-07-03 04:29:45] INFO: Added IPv4 api.trae.com.cn -> 220.181.141.62 to cache with TTL 90s
+[2025-07-03 04:29:45] INFO: Added IPv4 api.trae.com.cn -> 220.181.64.71 to cache with TTL 90s
+[2025-07-03 04:29:45] INFO: Added IPv4 api.trae.com.cn -> 211.100.8.105 to cache with TTL 90s
+[2025-07-03 04:29:45] INFO: Added IPv4 api.trae.com.cn -> 220.181.66.206 to cache with TTL 90s
+[2025-07-03 04:29:45] INFO: Added IPv4 api.trae.com.cn -> 106.38.254.69 to cache with TTL 90s
+[2025-07-03 04:29:45] INFO: Added IPv4 api.trae.com.cn -> 211.100.8.106 to cache with TTL 90s
+[2025-07-03 04:29:45] INFO: Added IPv4 api.trae.com.cn -> 220.181.66.205 to cache with TTL 90s
+[2025-07-03 04:29:46] INFO: Received DNS query from ('10.129.52.220', 57809)
+[2025-07-03 04:29:46] INFO: Processing query for domain: mon.zijieapi.com, type: 28
+[2025-07-03 04:29:46] INFO: Domain mon.zijieapi.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:29:46] WARNING: No A records found for mon.zijieapi.com in upstream response
+[2025-07-03 04:29:50] INFO: Received DNS query from ('10.129.52.220', 56229)
+[2025-07-03 04:29:50] INFO: Processing query for domain: cdn-mgr.soft.360.cn, type: 1
+[2025-07-03 04:29:50] INFO: Domain cdn-mgr.soft.360.cn not in local database or cache, forwarding to upstream server
+[2025-07-03 04:29:50] INFO: Added IPv4 cdn-mgr.soft.360.cn -> 220.181.136.167 to cache with TTL 469s
+[2025-07-03 04:29:50] INFO: Added IPv4 cdn-mgr.soft.360.cn -> 220.181.136.137 to cache with TTL 469s
+[2025-07-03 04:29:51] INFO: Received DNS query from ('10.129.52.220', 57809)
+[2025-07-03 04:29:51] INFO: Processing query for domain: mon.zijieapi.com, type: 28
+[2025-07-03 04:29:51] INFO: Domain mon.zijieapi.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:29:51] WARNING: No A records found for mon.zijieapi.com in upstream response
+[2025-07-03 04:29:56] INFO: Received DNS query from ('10.129.52.220', 56229)
+[2025-07-03 04:29:56] INFO: Processing query for domain: mon.zijieapi.com, type: 28
+[2025-07-03 04:29:56] INFO: Domain mon.zijieapi.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:29:56] WARNING: No A records found for mon.zijieapi.com in upstream response
+[2025-07-03 04:29:58] INFO: Received DNS query from ('10.129.52.220', 57809)
+[2025-07-03 04:29:58] INFO: Received DNS query from ('10.129.52.220', 56229)
+[2025-07-03 04:29:58] INFO: Processing query for domain: mp.weixin.qq.com, type: 1
+[2025-07-03 04:29:58] INFO: Processing query for domain: mp.weixin.qq.com, type: 28
+[2025-07-03 04:29:58] INFO: Domain mp.weixin.qq.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:29:58] INFO: Domain mp.weixin.qq.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:29:58] INFO: Added IPv4 mp.weixin.qq.com -> 101.227.133.172 to cache with TTL 213s
+[2025-07-03 04:29:58] WARNING: No A records found for mp.weixin.qq.com in upstream response
+[2025-07-03 04:29:58] INFO: Added IPv4 mp.weixin.qq.com -> 101.89.49.42 to cache with TTL 213s
+[2025-07-03 04:29:58] INFO: Added IPv4 mp.weixin.qq.com -> 101.89.49.171 to cache with TTL 213s
+[2025-07-03 04:29:58] INFO: Added IPv4 mp.weixin.qq.com -> 101.91.40.80 to cache with TTL 213s
+[2025-07-03 04:29:58] INFO: Added IPv4 mp.weixin.qq.com -> 101.91.22.114 to cache with TTL 213s
+[2025-07-03 04:29:58] INFO: Added IPv4 mp.weixin.qq.com -> 61.151.226.28 to cache with TTL 213s
+[2025-07-03 04:29:58] INFO: Received DNS query from ('10.129.52.220', 57809)
+[2025-07-03 04:29:58] INFO: Processing query for domain: mp.weixin.qq.com, type: 1
+[2025-07-03 04:29:58] INFO: Domain mp.weixin.qq.com found in cache: ['101.227.133.172', '101.89.49.42', '101.89.49.171', '101.91.40.80', '101.91.22.114', '61.151.226.28']
+[2025-07-03 04:29:58] WARNING: 客户端连接被重置
+[2025-07-03 04:30:01] INFO: Received DNS query from ('10.129.52.220', 56229)
+[2025-07-03 04:30:01] INFO: Processing query for domain: mon.zijieapi.com, type: 28
+[2025-07-03 04:30:01] INFO: Domain mon.zijieapi.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:30:01] WARNING: No A records found for mon.zijieapi.com in upstream response
+[2025-07-03 04:30:06] INFO: Received DNS query from ('10.129.52.220', 56229)
+[2025-07-03 04:30:06] INFO: Processing query for domain: mon.zijieapi.com, type: 28
+[2025-07-03 04:30:06] INFO: Domain mon.zijieapi.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:30:06] WARNING: No A records found for mon.zijieapi.com in upstream response
+[2025-07-03 04:30:11] INFO: Received DNS query from ('10.129.52.220', 64065)
+[2025-07-03 04:30:11] INFO: Received DNS query from ('10.129.52.220', 62298)
+[2025-07-03 04:30:11] INFO: Received DNS query from ('10.129.52.220', 49672)
+[2025-07-03 04:30:11] INFO: Processing query for domain: lf3-static.bytednsdoc.com, type: 28
+[2025-07-03 04:30:11] INFO: Processing query for domain: lf3-static.bytednsdoc.com, type: 1
+[2025-07-03 04:30:11] INFO: Processing query for domain: lf3-static.bytednsdoc.com, type: 65
+[2025-07-03 04:30:11] INFO: Domain lf3-static.bytednsdoc.com found in cache: ['240c:c0a9:1000:1::8']
+[2025-07-03 04:30:11] INFO: Domain lf3-static.bytednsdoc.com found in cache: ['1.71.12.95', '1.71.12.94', '1.71.12.112', '1.71.12.93', '1.71.12.113', '1.71.12.98', '1.71.12.97', '1.71.12.92', '1.71.12.96']
+[2025-07-03 04:30:11] INFO: Domain lf3-static.bytednsdoc.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:30:11] WARNING: No A records found for lf3-static.bytednsdoc.com in upstream response
+[2025-07-03 04:30:11] WARNING: 客户端连接被重置
+[2025-07-03 04:30:11] INFO: Received DNS query from ('10.129.52.220', 56229)
+[2025-07-03 04:30:11] INFO: Processing query for domain: mon.zijieapi.com, type: 28
+[2025-07-03 04:30:11] INFO: Domain mon.zijieapi.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:30:11] WARNING: No A records found for mon.zijieapi.com in upstream response
+[2025-07-03 04:30:12] INFO: Received DNS query from ('10.129.52.220', 56229)
+[2025-07-03 04:30:12] INFO: Processing query for domain: hs-public-data.s3v2.nie.netease.com, type: 28
+[2025-07-03 04:30:12] INFO: Domain hs-public-data.s3v2.nie.netease.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:30:12] WARNING: No A records found for hs-public-data.s3v2.nie.netease.com in upstream response
+[2025-07-03 04:30:12] INFO: Received DNS query from ('10.129.52.220', 56229)
+[2025-07-03 04:30:12] INFO: Processing query for domain: dep477.appdump.nie.netease.com, type: 28
+[2025-07-03 04:30:12] INFO: Domain dep477.appdump.nie.netease.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:30:12] WARNING: No A records found for dep477.appdump.nie.netease.com in upstream response
+[2025-07-03 04:30:16] INFO: Received DNS query from ('10.129.52.220', 56229)
+[2025-07-03 04:30:16] INFO: Processing query for domain: mon.zijieapi.com, type: 28
+[2025-07-03 04:30:16] INFO: Domain mon.zijieapi.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:30:16] WARNING: No A records found for mon.zijieapi.com in upstream response
+[2025-07-03 04:30:19] INFO: Received DNS query from ('10.129.52.220', 56229)
+[2025-07-03 04:30:19] INFO: Processing query for domain: mon.zijieapi.com, type: 28
+[2025-07-03 04:30:19] INFO: Domain mon.zijieapi.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:30:19] WARNING: No A records found for mon.zijieapi.com in upstream response
+[2025-07-03 04:30:21] INFO: Received DNS query from ('10.129.52.220', 56229)
+[2025-07-03 04:30:21] INFO: Processing query for domain: mon.zijieapi.com, type: 28
+[2025-07-03 04:30:21] INFO: Domain mon.zijieapi.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:30:21] WARNING: No A records found for mon.zijieapi.com in upstream response
+[2025-07-03 04:30:26] INFO: Received DNS query from ('10.129.52.220', 56229)
+[2025-07-03 04:30:26] INFO: Processing query for domain: mon.zijieapi.com, type: 28
+[2025-07-03 04:30:26] INFO: Domain mon.zijieapi.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:30:26] WARNING: No A records found for mon.zijieapi.com in upstream response
+[2025-07-03 04:30:31] INFO: Received DNS query from ('10.129.52.220', 56229)
+[2025-07-03 04:30:31] INFO: Processing query for domain: mon.zijieapi.com, type: 28
+[2025-07-03 04:30:31] INFO: Domain mon.zijieapi.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:30:31] WARNING: No A records found for mon.zijieapi.com in upstream response
+[2025-07-03 04:30:36] INFO: Received DNS query from ('10.129.52.220', 56229)
+[2025-07-03 04:30:36] INFO: Processing query for domain: mon.zijieapi.com, type: 28
+[2025-07-03 04:30:36] INFO: Domain mon.zijieapi.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:30:36] WARNING: No A records found for mon.zijieapi.com in upstream response
+[2025-07-03 04:30:39] INFO: Received DNS query from ('10.129.52.220', 61088)
+[2025-07-03 04:30:39] INFO: Received DNS query from ('10.129.52.220', 61987)
+[2025-07-03 04:30:39] INFO: Received DNS query from ('10.129.52.220', 63642)
+[2025-07-03 04:30:39] INFO: Processing query for domain: mon.zijieapi.com, type: 28
+[2025-07-03 04:30:39] INFO: Processing query for domain: mon.zijieapi.com, type: 1
+[2025-07-03 04:30:39] INFO: Processing query for domain: mon.zijieapi.com, type: 65
+[2025-07-03 04:30:39] INFO: Domain mon.zijieapi.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:30:39] INFO: Domain mon.zijieapi.com found in cache: ['220.181.136.250', '220.181.136.252', '220.181.136.251', '220.181.136.248', '220.181.136.254']
+[2025-07-03 04:30:39] INFO: Domain mon.zijieapi.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:30:39] WARNING: No A records found for mon.zijieapi.com in upstream response
+[2025-07-03 04:30:39] WARNING: No A records found for mon.zijieapi.com in upstream response
+[2025-07-03 04:30:41] INFO: Received DNS query from ('10.129.52.220', 56229)
+[2025-07-03 04:30:41] INFO: Processing query for domain: mon.zijieapi.com, type: 28
+[2025-07-03 04:30:41] INFO: Domain mon.zijieapi.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:30:41] WARNING: No A records found for mon.zijieapi.com in upstream response
+[2025-07-03 04:30:41] INFO: Received DNS query from ('10.129.52.220', 56229)
+[2025-07-03 04:30:41] INFO: Processing query for domain: mon.zijieapi.com, type: 28
+[2025-07-03 04:30:41] INFO: Domain mon.zijieapi.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:30:41] WARNING: No A records found for mon.zijieapi.com in upstream response
+[2025-07-03 04:30:42] INFO: Received DNS query from ('10.129.52.220', 56229)
+[2025-07-03 04:30:42] INFO: Processing query for domain: dep477.appdump.nie.netease.com, type: 28
+[2025-07-03 04:30:42] INFO: Domain dep477.appdump.nie.netease.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:30:42] WARNING: No A records found for dep477.appdump.nie.netease.com in upstream response
+[2025-07-03 04:30:46] INFO: Received DNS query from ('10.129.52.220', 56229)
+[2025-07-03 04:30:46] INFO: Received DNS query from ('10.129.52.220', 49831)
+[2025-07-03 04:30:46] INFO: Processing query for domain: v10.events.data.microsoft.com, type: 1
+[2025-07-03 04:30:46] INFO: Processing query for domain: v10.events.data.microsoft.com, type: 28
+[2025-07-03 04:30:46] INFO: Domain v10.events.data.microsoft.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:30:46] INFO: Domain v10.events.data.microsoft.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:30:46] INFO: Added IPv4 v10.events.data.microsoft.com -> 40.79.141.152 to cache with TTL 64s
+[2025-07-03 04:30:46] WARNING: No A records found for v10.events.data.microsoft.com in upstream response
+[2025-07-03 04:30:46] INFO: Received DNS query from ('10.129.52.220', 56229)
+[2025-07-03 04:30:46] INFO: Processing query for domain: mon.zijieapi.com, type: 28
+[2025-07-03 04:30:46] INFO: Domain mon.zijieapi.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:30:46] WARNING: No A records found for mon.zijieapi.com in upstream response
+[2025-07-03 04:30:47] INFO: Received DNS query from ('10.129.52.220', 49831)
+[2025-07-03 04:30:47] INFO: Received DNS query from ('10.129.52.220', 56229)
+[2025-07-03 04:30:47] INFO: Processing query for domain: v20.events.data.microsoft.com, type: 1
+[2025-07-03 04:30:47] INFO: Processing query for domain: v20.events.data.microsoft.com, type: 28
+[2025-07-03 04:30:47] INFO: Domain v20.events.data.microsoft.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:30:47] INFO: Domain v20.events.data.microsoft.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:30:47] INFO: Added IPv4 v20.events.data.microsoft.com -> 40.79.141.152 to cache with TTL 63s
+[2025-07-03 04:30:47] WARNING: No A records found for v20.events.data.microsoft.com in upstream response
+[2025-07-03 04:30:50] INFO: Received DNS query from ('10.129.52.220', 60202)
+[2025-07-03 04:30:50] INFO: Received DNS query from ('10.129.52.220', 62448)
+[2025-07-03 04:30:50] INFO: Received DNS query from ('10.129.52.220', 56846)
+[2025-07-03 04:30:50] INFO: Processing query for domain: mcs.zijieapi.com, type: 28
+[2025-07-03 04:30:50] INFO: Processing query for domain: mcs.zijieapi.com, type: 1
+[2025-07-03 04:30:50] INFO: Processing query for domain: mcs.zijieapi.com, type: 65
+[2025-07-03 04:30:50] INFO: Domain mcs.zijieapi.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:30:50] INFO: Domain mcs.zijieapi.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:30:50] INFO: Domain mcs.zijieapi.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:30:50] WARNING: No A records found for mcs.zijieapi.com in upstream response
+[2025-07-03 04:30:50] INFO: Added IPv4 mcs.zijieapi.com -> 123.182.124.44 to cache with TTL 281s
+[2025-07-03 04:30:50] WARNING: No A records found for mcs.zijieapi.com in upstream response
+[2025-07-03 04:30:51] INFO: Received DNS query from ('10.129.52.220', 49831)
+[2025-07-03 04:30:51] INFO: Received DNS query from ('10.129.52.220', 56229)
+[2025-07-03 04:30:51] INFO: Processing query for domain: abtestvm.bytedance.com, type: 1
+[2025-07-03 04:30:51] INFO: Processing query for domain: abtestvm.bytedance.com, type: 28
+[2025-07-03 04:30:51] INFO: Domain abtestvm.bytedance.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:30:51] INFO: Domain abtestvm.bytedance.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:30:51] INFO: Added IPv4 abtestvm.bytedance.com -> 220.181.10.68 to cache with TTL 212s
+[2025-07-03 04:30:51] INFO: Added IPv4 abtestvm.bytedance.com -> 220.181.10.70 to cache with TTL 212s
+[2025-07-03 04:30:51] WARNING: No A records found for abtestvm.bytedance.com in upstream response
+[2025-07-03 04:30:51] INFO: Added IPv4 abtestvm.bytedance.com -> 220.181.10.65 to cache with TTL 212s
+[2025-07-03 04:30:51] INFO: Added IPv4 abtestvm.bytedance.com -> 220.181.10.67 to cache with TTL 212s
+[2025-07-03 04:30:51] INFO: Added IPv4 abtestvm.bytedance.com -> 220.181.10.66 to cache with TTL 212s
+[2025-07-03 04:30:51] INFO: Added IPv4 abtestvm.bytedance.com -> 220.181.10.69 to cache with TTL 212s
+[2025-07-03 04:30:51] INFO: Received DNS query from ('10.129.52.220', 49831)
+[2025-07-03 04:30:51] INFO: Added IPv4 abtestvm.bytedance.com -> 220.181.10.71 to cache with TTL 212s
+[2025-07-03 04:30:51] INFO: Processing query for domain: abtestvm.bytedance.com, type: 1
+[2025-07-03 04:30:51] INFO: Added IPv4 abtestvm.bytedance.com -> 220.181.10.72 to cache with TTL 212s
+[2025-07-03 04:30:51] INFO: Domain abtestvm.bytedance.com found in cache: ['220.181.10.68', '220.181.10.70', '220.181.10.65', '220.181.10.67', '220.181.10.66', '220.181.10.69', '220.181.10.71', '220.181.10.72']
+[2025-07-03 04:30:51] WARNING: 客户端连接被重置
+[2025-07-03 04:30:51] INFO: Received DNS query from ('10.129.52.220', 56229)
+[2025-07-03 04:30:51] INFO: Processing query for domain: abtestvm.bytedance.com, type: 28
+[2025-07-03 04:30:51] INFO: Domain abtestvm.bytedance.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:30:51] WARNING: No A records found for abtestvm.bytedance.com in upstream response
+[2025-07-03 04:30:53] INFO: Received DNS query from ('10.129.52.220', 56229)
+[2025-07-03 04:30:53] INFO: Processing query for domain: telemetry.trae.com.cn, type: 28
+[2025-07-03 04:30:53] INFO: Domain telemetry.trae.com.cn found in cache: ['240e:978:1226:0:8000:0:b00:119', '240e:95d:100b:10:8000:0:b00:115', '2409:8c4d:5200:38:8000:0:b00:121', '2409:8c3c:900:110:8000:0:b00:118', '2409:8c70:3a04:5:8000:0:b00:112', '2409:8c20:b281:1a:8000:0:b00:116', '2409:8c3c:900:200:8000:0:b00:125', '2408:8719:2100:6:8000:0:b00:133', '240e:978:1208:0:8000:0:b00:132']
+[2025-07-03 04:30:53] INFO: Received DNS query from ('10.129.52.220', 56229)
+[2025-07-03 04:30:53] INFO: Received DNS query from ('10.129.52.220', 62220)
+[2025-07-03 04:30:53] INFO: Processing query for domain: mobile.events.data.microsoft.com, type: 1
+[2025-07-03 04:30:53] INFO: Processing query for domain: mobile.events.data.microsoft.com, type: 28
+[2025-07-03 04:30:53] INFO: Domain mobile.events.data.microsoft.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:30:53] INFO: Domain mobile.events.data.microsoft.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:30:53] INFO: Added IPv4 mobile.events.data.microsoft.com -> 20.42.73.26 to cache with TTL 337s
+[2025-07-03 04:30:53] WARNING: No A records found for mobile.events.data.microsoft.com in upstream response
+[2025-07-03 04:30:53] INFO: Received DNS query from ('10.129.52.220', 56229)
+[2025-07-03 04:30:53] INFO: Processing query for domain: mon.zijieapi.com, type: 28
+[2025-07-03 04:30:53] INFO: Domain mon.zijieapi.com not in local database or cache, forwarding to upstream server
+[2025-07-03 04:30:53] WARNING: No A records found for mon.zijieapi.com in upstream response

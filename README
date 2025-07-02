@@ -39,3 +39,17 @@ nslookup -type=AAAA www.bilibili.com
 当用户使用python -d main.py启动本地DNS服务器时，生成较为简洁的日志，并把日志存入./logs/dns_server_simple.log里
 当用户使用python -dd main.py启动本地DNS服务器时，生成详细的日志，并把日志存入./logs/dns_server_detailed.log里
 并对其他文件涉及log的地方进行相应更改。
+
+
+www.baidu.com 0.0.0.0
+
+
+
+
+
+wireshark过滤：
+1、 ip.addr == 1.1.1.1
+2、 udp.port == 53
+3、 ip.scr == 0.0.0.0
+4、 ip.dst == 0.0.0.0
+5、 ip.addr == 10.129.52.220 and udp.port == 53 and dns.qry.name == example.test

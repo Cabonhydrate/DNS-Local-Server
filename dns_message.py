@@ -1,11 +1,6 @@
 import struct
 import socket
 
-"""
-DNS消息解析模块，遵循RFC1035标准实现DNS协议解析
-https://datatracker.ietf.org/doc/html/rfc1035
-"""
-
 class DNSHeader:
     def __init__(self):
         """初始化DNS头部字段
@@ -124,7 +119,7 @@ class DNSMessage:
         """
         self.data = data                # 原始消息数据
         self.header = None              # DNSHeader对象：已解析的头部信息
-        self.questions = []             # 问题列表：每个元素是元组(qname, qtype, qclass)
+        self.questions = []             # 问题列表：每个元素是元组(qname（域名）, qtype, qclass)
         self.answers = []               # 回答资源记录列表
         self.authority = []             # 授权资源记录列表
         self.additional = []            # 附加资源记录列表
@@ -133,7 +128,7 @@ class DNSMessage:
         """获取指定索引的问题部分的域名
 
         Args:
-            index (int): 问题索引，默认为0
+            index (int): 问题索引，默认为0，之所以会有这个index是因为一个请求可能有多个问题
 
         Returns:
             str: 问题域名，如果索引无效则返回空字符串
@@ -255,25 +250,28 @@ class DNSMessage:
             # 读取标签长度字节
             length = data[offset]
             
-            # 0字节表示域名结束
+            # 0字节表示域名结束(RFC1035 3.1节)
             if length == 0:
-                offset +=1
+                offset += 1
                 break
             
             # 检查是否是指针(最高两位为1: 0xC0 = 11000000)
+            # DNS压缩格式使用指针避免重复域名，指针占2字节，最高两位为11表示指针
             if (length & 0xC0) == 0xC0:
-                # 指针由2字节组成，后14位为偏移量
-                pointer = ((length & 0x3F) << 8) | data[offset+1]
-                offset +=2  # 指针占用2字节
+                # 指针计算：取第一个字节低6位和第二个字节组成14位偏移量
+                # 0x3F是掩码，保留低6位：00111111
+                pointer = ((length & 0x3F) << 8) | data[offset + 1]
+                offset += 2  # 指针占用2字节
                 # 递归解析指针指向的域名
                 sub_name, _ = DNSMessage._parse_name(data, pointer)
                 name_parts.append(sub_name)
                 break
             
-            # 普通标签(长度0-63)
-            offset +=1  # 跳过长度字节
-            # 读取标签内容并解码为ASCII
-            label = data[offset:offset+length].decode('ascii')
+            # 普通标签处理(长度0-63)
+            # 标签格式：[长度字节(1字节)][标签内容(n字节)]
+            offset += 1  # 跳过长度字节
+            # 读取标签内容并解码为ASCII(RFC1035要求域名使用ASCII编码)
+            label = data[offset:offset + length].decode('ascii')
             name_parts.append(label)
             offset += length  # 移动到下一个标签
         
@@ -283,12 +281,24 @@ class DNSMessage:
     def build_response(self, header, answers):
         """构建DNS响应消息
 
+        根据DNS请求消息和提供的回答资源记录，构建完整的DNS响应消息字节数据
+        响应消息结构遵循RFC1035 4.1节规范，包含头部、问题部分和回答部分
+
         Args:
-            header (DNSHeader): 响应消息头对象
-            answers (list): 回答资源记录列表
+            header (DNSHeader): 响应消息头对象，需设置正确的标志位和计数字段
+            answers (list): 回答资源记录列表，每个元素为包含以下键的字典:
+                - name (str): 域名
+                - type (int): 资源记录类型码(如1=A记录,16=TXT记录)
+                - class (int): 类别码(通常为1表示IN类)
+                - ttl (int): 生存时间(秒)
+                - rdata (bytes): 资源数据字节
 
         Returns:
-            bytes: 构建好的DNS响应字节数据
+            bytes: 构建好的DNS响应字节数据，可直接通过网络发送
+
+        Note:
+            此实现目前仅包含头部、问题部分和回答部分，未包含授权和附加部分
+            问题部分直接复用请求中的问题部分，避免重复解析和编码
         """
         # 构建响应头部
         # 头部格式: !HHHHHH (ID, 标志, QDCOUNT, ANCOUNT, NSCOUNT, ARCOUNT)
@@ -320,10 +330,13 @@ class DNSMessage:
         return response
     
     def _get_question_section_length(self):
-        """计算问题部分的长度
+        """计算问题部分的总长度
+
+        通过遍历所有问题条目，计算每个问题的DNS编码长度并求和
+        问题部分格式(RFC1035 4.1.2节): [域名][类型(2字节)][类(2字节)]
 
         Returns:
-            int: 问题部分的总字节数
+            int: 问题部分的总字节数，用于构建响应时定位回答部分的起始位置
         """
         length = 0
         for qname, qtype, qclass in self.questions:
@@ -332,13 +345,22 @@ class DNSMessage:
         return length
     
     def _encode_name(self, domain):
-        """将域名编码为DNS格式
+        """将域名编码为DNS格式(RFC1035 3.1节)
+
+        DNS域名编码规则：
+        1. 域名由多个标签组成，标签间用点分隔
+        2. 每个标签编码为[长度字节(1字节)][标签内容(n字节)]
+        3. 域名以0字节结束
+        4. 不支持域名压缩(本实现仅生成未压缩域名)
 
         Args:
-            domain (str): 域名字符串(如"example.com")
+            domain (str): 域名字符串(如"example.com")，空字符串表示根域名
 
         Returns:
             bytes: DNS格式的域名字节数据
+
+        Example:
+            domain="www.example.com" → 编码后为\x03www\x07example\x03com\x00
         """
         if not domain:
             return b'\x00'
@@ -367,15 +389,21 @@ class DNSMessage:
 
     @staticmethod
     def build_txt_record(name, ttl, text):
-        """构建TXT资源记录
+        """构建TXT资源记录(RFC1035 3.3.14节)
+
+        用于输出合规的TXT记录
 
         Args:
-            name (str): 域名
-            ttl (int): 生存时间
-            text (str): TXT记录内容
+            name (str): 域名，TXT记录关联的域名
+            ttl (int): 生存时间(秒)，表示记录在缓存中的保留时间
+            text (str): TXT记录内容，将被编码为单个字符串段
 
         Returns:
-            dict: TXT资源记录字典
+            dict: TXT资源记录字典，可直接用于build_response方法的answers参数
+
+        Note:
+            本实现仅支持单个字符串段的TXT记录，如需多段需扩展rdata生成逻辑
+            TXT记录类型码为16，类别码固定为1(IN类)
         """
         # TXT记录的rdata格式: 长度字节 + 文本内容
         rdata = bytes([len(text)]) + text.encode('ascii')

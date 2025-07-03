@@ -2,6 +2,7 @@ import unittest
 import os
 import tempfile
 from dns_db import LocalDNSDatabase
+from unittest.mock import Mock
 
 class TestLocalDNSDatabase(unittest.TestCase):
     def setUp(self):
@@ -9,6 +10,7 @@ class TestLocalDNSDatabase(unittest.TestCase):
         self.temp_dir = tempfile.TemporaryDirectory()
         self.db_path = os.path.join(self.temp_dir.name, 'database.txt')
         self.id_path = os.path.join(self.temp_dir.name, 'id_conversion_table.txt')
+        self.logger = Mock()
         
         # 创建测试数据库文件
         with open(self.db_path, 'w') as f:
@@ -16,6 +18,13 @@ class TestLocalDNSDatabase(unittest.TestCase):
             f.write('mail.example.com 192.168.1.2\n')
             f.write('blocked.com 0.0.0.0\n')  # 黑名单条目
             f.write('invalid.line\n')  # 无效格式行
+            f.write('1.bupt.vip 1.1.1.1\n')
+            f.write('4.bupt.vip 4.4.4.4\n')
+            f.write('6.bupt.vip 6:6::6:6\n')
+            f.write('46.bupt.vip 4:4::4:4\n')
+            f.write('46.bupt.vip 6.6.6.6\n')
+            f.write('44.bupt.vip 2.2.2.2\n')
+            f.write('66.bupt.vip 1:1::1:1\n')
         
         # 创建测试ID转换表
         with open(self.id_path, 'w') as f:
@@ -30,7 +39,7 @@ class TestLocalDNSDatabase(unittest.TestCase):
 
     def test_load_database(self):
         # 测试数据库加载功能
-        db = LocalDNSDatabase(self.db_path)
+        db = LocalDNSDatabase(self.db_path, self.logger)
         db.load()
         
         # 验证白名单加载
@@ -43,10 +52,18 @@ class TestLocalDNSDatabase(unittest.TestCase):
         
         # 验证无效行被忽略
         self.assertIsNone(db.get_ip('invalid.line'))
+        
+        # 测试README中的域名解析
+        self.assertEqual(db.get_ip('1.bupt.vip'), '1.1.1.1')
+        self.assertEqual(db.get_ip('4.bupt.vip'), '4.4.4.4')
+        self.assertEqual(db.get_ip('6.bupt.vip'), '6:6::6:6')
+        self.assertEqual(db.get_ip('46.bupt.vip'), '6.6.6.6')
+        self.assertEqual(db.get_ip('44.bupt.vip'), '2.2.2.2')
+        self.assertEqual(db.get_ip('66.bupt.vip'), '1:1::1:1')
 
     def test_id_mapping(self):
         # 测试ID转换表功能
-        db = LocalDNSDatabase(self.db_path)
+        db = LocalDNSDatabase(self.db_path, self.logger)
         db.load()
         
         # 验证有效ID映射
@@ -64,7 +81,7 @@ class TestLocalDNSDatabase(unittest.TestCase):
         # 删除ID文件
         os.remove(self.id_path)
         
-        db = LocalDNSDatabase(self.db_path)
+        db = LocalDNSDatabase(self.db_path, self.logger)
         db.load()  # 不应抛出异常
         self.assertEqual(len(db.id_mapping), 0)
 

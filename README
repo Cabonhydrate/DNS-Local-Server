@@ -28,7 +28,8 @@ nslookup -type=A example.test
 #可以测试ipv6的功能
 nslookup -type=AAAA www.bilibili.com
 
-现在整个项目的结构完整吗？代码有问题吗？会有哪些方法，哪些类没有用到吗？能成功起到一个DNS本地服务器的功能吗？我该如何运行
+运行测试：
+python -m unittest discover -s tests
 
 wireshark过滤：
 1、 ip.addr == 1.1.1.1

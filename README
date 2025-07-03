@@ -30,26 +30,30 @@ nslookup -type=AAAA www.bilibili.com
 
 现在整个项目的结构完整吗？代码有问题吗？会有哪些方法，哪些类没有用到吗？能成功起到一个DNS本地服务器的功能吗？我该如何运行
 
-添加功能：通过-d和-dd参数启动程序,使用 nslookup命令测试程序能分别显示普通和详细两种日志
-
-能不能帮我为整个项目添加测试代码 
-
-
-重构logger.py以添加功能：通过-d和-dd参数启动程序,使用 nslookup命令测试程序能分别显示普通和详细两种日志
-当用户使用python -d main.py启动本地DNS服务器时，生成较为简洁的日志，并把日志存入./logs/dns_server_simple.log里
-当用户使用python -dd main.py启动本地DNS服务器时，生成详细的日志，并把日志存入./logs/dns_server_detailed.log里
-并对其他文件涉及log的地方进行相应更改。
-
-
-www.baidu.com 0.0.0.0
-
-
-
-
-
 wireshark过滤：
 1、 ip.addr == 1.1.1.1
 2、 udp.port == 53
 3、 ip.scr == 0.0.0.0
 4、 ip.dst == 0.0.0.0
 5、 ip.addr == 10.129.52.220 and udp.port == 53 and dns.qry.name == example.test
+
+
+
+nslookup 1.bupt.vip
+#结果：1.1.1.1
+
+nslookup 4.bupt.vip
+#结果：4.4.4.4
+
+nslookup 6.bupt.vip
+#结果：6:6::6:6
+
+
+nslookup 46.bupt.vip
+#结果：4:4::4:4     6.6.6.6
+
+nslookup 44.bupt.vip
+#结果：3.3.3.3     2.2.2.2
+
+nslookup 66.bupt.vip
+#结果：2:2::2:2    1:1::1:1

@@ -103,8 +103,10 @@ class DNSServer:
             # 根据查询类型获取对应版本的IP地址
             if qtype == 28:
                 ips = self.db.get_ipv6(domain)
-            else:
+            elif qtype == 1:
                 ips = self.db.get_ipv4(domain)
+            else:
+                ips = []
             if ips:
                 # 如果是单个IP字符串，转换为列表
                 if isinstance(ips, str):
@@ -284,18 +286,19 @@ class DNSServer:
         for ip in ips:
             # 根据查询类型返回A记录(IPv4)或AAAA记录(IPv6)
             try:
-                if qtype == 28:
-                    # 验证IPv6地址
+                # 尝试解析为IPv4
+                socket.inet_pton(socket.AF_INET, ip)
+                record_type = 1
+                rdata = socket.inet_aton(ip)
+            except OSError:
+                try:
+                    # 尝试解析为IPv6
                     socket.inet_pton(socket.AF_INET6, ip)
                     record_type = 28
                     rdata = socket.inet_pton(socket.AF_INET6, ip)
-                else:
-                    # 验证IPv4地址
-                    socket.inet_pton(socket.AF_INET, ip)
-                    record_type = 1
-                    rdata = socket.inet_aton(ip)
-            except OSError:
-                self.logger.error(f"Invalid IP address: {ip} for domain {domain}")
+                except OSError:
+                    # 无效的IP地址
+                    self.logger.error(f"Invalid IP address: {ip} for domain {domain}")
                 continue
             record = {
                 'name': dns_msg.questions[0][0],  # 查询域名

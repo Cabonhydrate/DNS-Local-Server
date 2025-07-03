@@ -1,5 +1,5 @@
 {
-    "upstream_dns": {"ip": "8.8.8.8", "port": 53},
+    "upstream_dns": {"ip": "10.3.9.4", "port": 53},
     "log_file": "logs/dns_server.log",
     "database_file": "database.txt",
     "local_port": 53,
